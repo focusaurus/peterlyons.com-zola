@@ -59,7 +59,7 @@ docker_build() {
     cat <<'EOF'
 FROM debian:9.6-slim
 
-EXPOSE 9999
+EXPOSE 9002
 ENV PATH /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/host/bin:/host/node_modules/.bin
 WORKDIR /host
 SHELL ["/bin/bash", "-o", "pipefail", "-o", "errexit", "-u", "-c"]
@@ -74,7 +74,7 @@ RUN addgroup --gid "${GROUP_ID}" "${USER}" || true
 RUN adduser --disabled-password --gid "${GROUP_ID}" --uid "${USER_ID}" --gecos "${USER}" "${USER}" || true
 
 # debian: packages
-RUN apt-get -qq -y update; apt-get -qq -y install git less wget
+RUN apt-get -qq -y update >/dev/null; apt-get -qq -y install git less wget >/dev/null
 
 ARG ZOLA_VERSION=0.5.0
 RUN wget -q -O - \
@@ -99,7 +99,7 @@ docker_run() {
     --volume $SSH_AUTH_SOCK:/ssh-agent \
     --env SSH_AUTH_SOCK=/ssh-agent \
     --user "$(id -u)" \
-    --publish 9999:9999 \
+    --publish 9002:9002 \
     "$1" "${2-bash}"
 }
 
