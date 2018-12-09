@@ -54,50 +54,37 @@ IFS="$(printf "\n\t")"
 # "CUSTOMIZE THIS" below.
 
 docker_build() {
-  ##### CUSTOMIZE THIS: to your base docker image #####
-  from="alpine:3.8"
+  ##### CUSTOMIZE THIS! #####
+  dockerfile=$(
+    cat <<'EOF'
+FROM debian:9.6-slim
 
-# shellcheck disable=SC2034
-  user_section_alpine=$(
-    cat <<EOF
+EXPOSE 9999
+ENV PATH /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/host/bin:/host/node_modules/.bin
+WORKDIR /host
+SHELL ["/bin/bash", "-o", "pipefail", "-o", "errexit", "-u", "-c"]
+CMD ["bash"]
+
 ARG USER
 ARG USER_ID=1000
 ARG GROUP_ID=1000
-RUN addgroup -g \${GROUP_ID} \${USER} || true; \
-  group_name=\$(getent group \${GROUP_ID} | cut -d : -f 1); \
-  adduser -D -G "\${group_name}" -u "\${USER_ID}" -g "\${USER}" "\${USER}" || true;
-EOF
-  )
 
-  ##### CUSTOMIZE THIS with any additional packages you need #####
-  # shellcheck disable=SC2034
-  package_section_alpine=$(
-    cat <<'EOF'
-RUN apk -v --update add bash less curl git file;
-EOF
-  )
+# debian: userid match
+RUN addgroup --gid "${GROUP_ID}" "${USER}" || true
+RUN adduser --disabled-password --gid "${GROUP_ID}" --uid "${USER_ID}" --gecos "${USER}" "${USER}" || true
 
-  ##### CUSTOMIZE THIS! #####
-  main_section=$(
-    cat <<'EOF'
-ENV PATH /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/host/node_modules/.bin
-WORKDIR /host
-EXPOSE 9002
-CMD ["bash"]
-SHELL ["/bin/bash", "-o", "pipefail", "-o", "errexit", "-u", "-c"]
+# debian: packages
+RUN apt-get -qq -y update; apt-get -qq -y install git less wget
+
 ARG ZOLA_VERSION=0.5.0
-RUN curl --silent --location --fail \
+RUN wget -q -O - \
   "https://github.com/getzola/zola/releases/download/v${ZOLA_VERSION}/zola-v${ZOLA_VERSION}-x86_64-unknown-linux-gnu.tar.gz" \
   | tar xzf - -C /usr/local/bin \
   && chmod 755 /usr/local/bin/zola
 USER ${USER}
 EOF
   )
-
-  echo "FROM ${from}
-${user_section_alpine}
-${package_section_alpine}
-${main_section}" | docker build \
+  echo "${dockerfile}" | docker build \
     --tag "$1" \
     --build-arg "USER=${USER}" \
     --build-arg "USER_ID=$(id -u)" \
