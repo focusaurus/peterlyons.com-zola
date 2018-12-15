@@ -1,0 +1,87 @@
+// TODO @require "nib/reset"
+// TODO global-reset()
+@import "adaptive";
+@import "color";
+@import "layout";
+@import "navigation";
+@import "position";
+@import "typography";
+
+body {
+  background-color: $colorPrimaryBackground;
+  color: $colorPrimary;
+}
+button {
+  background-color: $colorCodeBackground;
+  color: $colorSiteHeader;
+  border-radius: 0.4em;
+}
+button:focus {
+  outline: none;
+}
+button:disabled {
+  color: $colorPrimaryBackground;
+  border: none;
+}
+blockquote {
+  background-color: $colorCodeBackground;
+  padding: 0.5em 1em;
+}
+a {
+  color: $colorLink;
+}
+a:hover {
+  color: $colorLinkHover;
+  text-decoration: none;
+}
+em {
+  font-style: italic;
+}
+h1,
+h2,
+h3 {
+  color: $colorHeader;
+}
+strong {
+  font-weight: bold;
+}
+li {
+  margin-left: 2em;
+}
+ul li {
+  list-style-type: disc;
+}
+ol li {
+  list-style-type: decimal;
+}
+code,
+pre {
+  background-color: $colorCodeBackground;
+  color: $colorCode;
+}
+code {
+  padding: 0 0.2em;
+}
+pre {
+  margin: 1em 0;
+  overflow: auto;
+  padding: 1em;
+}
+.clear {
+  clear: both;
+}
+.none {
+  display: none;
+}
+.content.navOpen {
+  opacity: 0.5;
+}
+
+// TODO @import "./pages/*";
+@import 'blog/blog-typography';
+@import 'blog/create-post';
+@import 'blog/post-list';
+@import 'blog/view-post';
+
+// TODO @import "./plus-party/*";
+// TODO @import "./js-debug/*";

@@ -1,0 +1,42 @@
+@import "color";
+code::-moz-selection,
+code > span::-moz-selection {
+  background-color: #f0e68c;
+}
+code::selection,
+code > span::selection {
+  background-color: #f0e68c;
+}
+.reveal h1 {
+  font-size: 1.5em;
+}
+.reveal h2 {
+  font-size: 1.2em;
+}
+.reveal h3 {
+  font-size: 1.1em;
+}
+.reveal h4 {
+  font-size: 1em;
+}
+.reveal img {
+  max-height: 50%;
+  max-width: 90%;
+}
+@media only screen and (min-width: 400px) {
+  .reveal img {
+    max-width: 500px;
+    max-height: 500px;
+  }
+}
+.reveal section img {
+  border: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.reveal figcaption {
+  font-size: 0.5em;
+}
+.reveal figcaption a {
+  color: $colorLink;
+}

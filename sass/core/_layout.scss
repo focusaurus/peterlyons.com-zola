@@ -1,0 +1,75 @@
+header {
+  margin-bottom: 2rem;
+}
+header a {
+  display: block;
+  text-decoration: none;
+}
+header a:visited {
+  color: #000;
+}
+header h1 {
+  border-bottom: 3px solid #555;
+  letter-spacing: 0.3em;
+  line-height: 1.1em;
+  padding-bottom: 0.5em;
+  margin: 0;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 6rem;
+}
+@media only screen and (min-width: 400px) {
+  header h1 {
+    font-size: 28px;
+    line-height: 28px;
+  }
+}
+.content {
+  margin: 1em;
+}
+@media only screen and (min-width: 600px) {
+  .content {
+    margin: 1em auto;
+    width: 30em;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .content {
+    width: 23em;
+  }
+}
+@media only screen and (min-width: 1050px) {
+  .content {
+    width: 30em;
+  }
+}
+.license {
+  clear: both;
+  border-top: solid 1px #ccc;
+  padding-top: 2rem;
+  color: #ccc;
+}
+.license img {
+  margin-right: 2em;
+}
+.license p {
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: 1em;
+}
+.license a {
+  color: #ccc;
+}
+footer {
+  margin-top: 4em;
+}
+footer p {
+  margin-bottom: 0;
+}
+footer > nav {
+  display: block;
+}
+@media only screen and (min-width: 800px) {
+  footer > nav {
+    display: none;
+  }
+}

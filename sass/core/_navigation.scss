@@ -1,0 +1,141 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: georgia, serif;
+  font-size: 12px;
+  line-height: 18px;
+  line-height: 1.8em;
+}
+@media only screen and (min-width: 400px) {
+  body {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+@media only screen and (min-width: 1050px) {
+  body {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+button {
+  font-size: 20px;
+  line-height: 30px;
+}
+p {
+  margin-top: 1.5em;
+  margin-bottom: 3em;
+}
+h1,
+h2,
+h3 {
+  font-family: "Julius Sans One", sans-serif;
+  margin: 1em 0;
+}
+h1 {
+  font-size: 32px;
+  line-height: 32px;
+}
+h2 {
+  font-size: 28px;
+  line-height: 28px;
+}
+h3 {
+  font-size: 24px;
+  line-height: 24px;
+}
+code,
+pre {
+  font-family: Inconsolata, monospace;
+  line-height: 1.1em;
+}
+pre {
+  font-size: 12px;
+  line-height: 18px;
+}
+@media only screen and (min-width: 400px) {
+  pre {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+nav {
+  font-size: 14px;
+  line-height: 21px;
+}
+nav h1 {
+  font-size: 20px;
+  line-height: 30px;
+}
+.navMenuButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 0.5em;
+  border: none;
+  background-color: #fff;
+  font-size: 48px;
+  padding: 0;
+  line-height: 0.8em;
+}
+.navMenuButton:hover {
+  cursor: pointer;
+}
+nav.site {
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+nav.site h1 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+nav.site a {
+  display: block;
+  line-height: 1.6em;
+  text-decoration: none;
+}
+nav.site a.current {
+  color: #c8d7e4;
+  font-weight: bold;
+}
+nav.site a.current:before {
+  content: "\232a\00a0";
+}
+nav.site .close {
+  display: none;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+nav.site section a {
+  margin-left: 1.2rem;
+}
+nav.site.open {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  margin: 0;
+  border-left: 0.2em solid #c8d7e4;
+  border-bottom: 0.2em solid #c8d7e4;
+  padding: 0 1em 1em;
+}
+nav.site.open .close {
+  display: inline-block;
+}
+.navigationHorizontal section {
+  float: left;
+  margin-right: 2rem;
+}
+.navigationHorizontal section a {
+  margin-left: 0;
+}
+.navigationHorizontal:after {
+  clear: both;
+  content: "";
+  display: block;
+}

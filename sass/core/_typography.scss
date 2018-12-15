@@ -1,0 +1,79 @@
+/*
+"
+I am not dealing with font size insanity. Here is the deal.
+The main body/content font size is zero
+Font sizes increase/decrease relative to that with simple sequential integers:
+-2, -1, 0, 1, 2, 3, 4, 5
+Each one is "a bit" larger than the previous as defined here
+I generally only need h1-h3,
+so h3 should be size 1 (just a bit larger than normal text),
+h2 should be size 2,
+and h1 should be size 3
+Use REM units for fanciness but also include pixels for unsupported browsers
+http://snook.ca/archives/html_and_css/font-size-with-rem
+
+UPDATE: 2014-03-02 rems cause glitches with Chrome. Ditching.
+"
+*/
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: georgia, serif;
+  font-size: 12px;
+  line-height: 18px;
+  line-height: 1.8em;
+}
+@media only screen and (min-width: 400px) {
+  body {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+@media only screen and (min-width: 1050px) {
+  body {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+button {
+  font-size: 20px;
+  line-height: 30px;
+}
+p {
+  margin-top: 1.5em;
+  margin-bottom: 3em;
+}
+h1,
+h2,
+h3 {
+  font-family: "Julius Sans One", sans-serif;
+  margin: 1em 0;
+}
+h1 {
+  font-size: 32px;
+  line-height: 32px;
+}
+h2 {
+  font-size: 28px;
+  line-height: 28px;
+}
+h3 {
+  font-size: 24px;
+  line-height: 24px;
+}
+code,
+pre {
+  font-family: Inconsolata, monospace;
+  line-height: 1.1em;
+}
+pre {
+  font-size: 12px;
+  line-height: 18px;
+}
+@media only screen and (min-width: 400px) {
+  pre {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
