@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block body %}
+<a class="button" id="subscribe" href="/rss.xml">
+  Subscribe
+  <img class="icon" src='/images/feed.png' height="24" alt='Subscribe to my Atom feed' title='Subscribe to my Atom Feed' />
+</a>
+<div class="posts">
+  {% for post in section.pages %}
+  <div class="post">
+    <a href="{{ post.permalink }}" class="postTitle">{{ post.title }}</a>
+    <div class="postDate">{{ post.date | date(format="%B %d, %Y") }} </div>
+  </div>
+  {% endfor %}
+</div>
+{% endblock body %}
+{#
+  {% block scripts %}
+{{super()}}
+
+{% endblock scripts %}
+#}
