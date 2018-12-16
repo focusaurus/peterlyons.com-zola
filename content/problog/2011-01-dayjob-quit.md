@@ -1,0 +1,8 @@
++++
+title = "dayJob.quit()"
+slug = "2011/01/dayjob-quit"
+date = 2011-01-28T00:01:39.000Z
++++
+I've quit my job writing data center automation software for HP. I'm striking out on my own doing independent web application development. I'll be building some information products and then hopefully a subscription based web application targeted at a small niche audience. I had been working on the same product for 6.5 years and I am ready to switch gears from the world of enterprise software to consumer-facing web applications.
+
+I've been learning ruby, rails, and jquery in my free time for the past six months or so. It's been pretty enjoyable (especially jQuery), and there is a stark contrast between the slow grind of enterprise software and the lightness and speed of web development. I'll have more time and spare brain cycles for blogging and hopefully some more open source contributions, to which I look forward. [Subscribe to this blog's feed](/problog/feed/) to see how things pan out for me in the coming weeks and months. My working plan is to give self-employment a good long try before considering outside work. I plan to work at it at least until Labor Day, which is a full 7 months away. Wish me luck!
