@@ -1,11 +1,11 @@
 // TODO @require "nib/reset"
 // TODO global-reset()
-@import "adaptive";
-@import "color";
-@import "layout";
-@import "navigation";
-@import "position";
-@import "typography";
+@import "core/adaptive";
+@import "core/color";
+@import "core/layout";
+@import "core/position";
+@import "core/navigation";
+@import "core/typography";
 
 body {
   background-color: $colorPrimaryBackground;
@@ -78,10 +78,10 @@ pre {
 }
 
 // TODO @import "./pages/*";
-@import 'blog/blog-typography';
-@import 'blog/create-post';
-@import 'blog/post-list';
-@import 'blog/view-post';
+@import 'core/blog/blog-typography';
+@import 'core/blog/create-post';
+@import 'core/blog/post-list';
+@import 'core/blog/view-post';
 
 // TODO @import "./plus-party/*";
 // TODO @import "./js-debug/*";
