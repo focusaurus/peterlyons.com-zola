@@ -1,28 +1,62 @@
+@import "font-size";
+@import "position";
+
+body > nav {
+  position: fixed;
+  display: none;
+}
+@media only screen and (min-width: 800px) {
+  body > nav {
+    display: block;
+  }
+}
+
+body > nav.open {
+  display: block;
+  @include top-right();
+  z-index: 10;
+  background-color: $colorPrimaryBackground;
+  margin: 0;
+  border-left: 1px solid $colorCodeBackground;
+}
+
+.navMenuButton {
+  display: inline;
+}
+@media only screen and (min-width: 800px) {
+  .navMenuButton {
+    display: none;
+  }
+}
+
 header {
   margin-bottom: 2rem;
-}
-header a {
-  display: block;
-  text-decoration: none;
-}
-header a:visited {
-  color: #000;
-}
-header h1 {
-  border-bottom: 3px solid #555;
-  letter-spacing: 0.3em;
-  line-height: 1.1em;
-  padding-bottom: 0.5em;
-  margin: 0;
-  font-family: "Julius Sans One", sans-serif;
-  font-size: 6rem;
+
+  a {
+    display: block;
+    text-decoration: none;
+
+    &:visited {
+      color: $colorSiteHeader;
+    }
+  }
+
+  h1 {
+    border-bottom: 3px solid $colorSiteHeaderBorder;
+    letter-spacing: 0.3em;
+    line-height: 1.1em;
+    padding-bottom: 0.5em;
+    margin: 0;
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 6rem;
+  }
 }
 @media only screen and (min-width: 400px) {
   header h1 {
-    font-size: 28px;
-    line-height: 28px;
+    @include font-size(2, 1);
   }
 }
+
 .content {
   margin: 1em;
 }
@@ -34,6 +68,7 @@ header h1 {
 }
 @media only screen and (min-width: 800px) {
   .content {
+    // This is carefully calculated to avoid overlap with side nav menu
     width: 23em;
   }
 }
@@ -42,29 +77,35 @@ header h1 {
     width: 30em;
   }
 }
+
 .license {
   clear: both;
   border-top: solid 1px #ccc;
   padding-top: 2rem;
-  color: #ccc;
+  color: #colorFooter;
+
+  img {
+    margin-right: 2em;
+  }
+
+  p {
+    @include font-size(-2);
+    margin-top: 1em;
+  }
+
+  a {
+    color: #colorFooter;
+  }
 }
-.license img {
-  margin-right: 2em;
-}
-.license p {
-  font-size: 12px;
-  line-height: 18px;
-  margin-top: 1em;
-}
-.license a {
-  color: #ccc;
-}
+
 footer {
   margin-top: 4em;
 }
+
 footer p {
   margin-bottom: 0;
 }
+
 footer > nav {
   display: block;
 }

@@ -1,10 +1,9 @@
+@import "../font-size";
 nav.blog {
-  font-size: 20px;
-  line-height: 30px;
+  @include font-size(0);
 }
 
 .createPost > textarea,
 .createPost input[name="title"] {
-  font-size: 24px;
-  line-height: 36px;
+  @include font-size(1);
 }

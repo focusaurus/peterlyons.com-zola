@@ -17,7 +17,7 @@ nav h1 {
   line-height: 0.8em;
   @include top-right();
 
-  :hover {
+  &:hover {
     cursor: pointer;
   }
 }
@@ -40,7 +40,7 @@ nav.site {
       color: #c8d7e4;
       font-weight: bold;
 
-      :before {
+      &:before {
         content: "\232a\00a0";
       }
     }
@@ -80,7 +80,7 @@ nav.site {
     margin-left: 0;
   }
 
-  :after {
+  &:after {
     clear: both;
     content: "";
     display: block;
