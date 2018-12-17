@@ -1,0 +1,6 @@
+@import "core/typography";
+
+.intro .highlight {
+  font-family: $headerFont;
+  @include font-size(2);
+}

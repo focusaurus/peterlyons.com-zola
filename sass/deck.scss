@@ -1,0 +1,47 @@
+@import "core/color";
+
+code > span::selection,
+code::selection {
+  background-color: khaki;
+}
+
+.reveal {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+  h3 {
+    font-size: 1.1em;
+  }
+
+  h4 {
+    font-size: 1.0em;
+  }
+
+  img {
+    max-height: 50%;
+    max-width: 90%;
+    max-height: 500px;
+    @media only screen and (min-width: 400px) {
+      max-width: 500px;
+    }
+  }
+
+  section img {
+    // override
+    border: 0;
+    box-shadow: none;
+  }
+
+  figcaption {
+    font-size: 0.5em;
+
+    a {
+      color: $colorLink;
+    }
+  }
+}

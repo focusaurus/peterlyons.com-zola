@@ -6,6 +6,7 @@
 @import "core/position";
 @import "core/navigation";
 @import "core/typography";
+@import "core/base-typography";
 
 body {
   background-color: $colorPrimaryBackground;
@@ -77,9 +78,12 @@ pre {
   opacity: 0.5;
 }
 
+@import "home-typography";
 // TODO @import "./pages/*";
 @import "career";
 @import "contact";
+@import "home";
+@import "talks";
 @import 'core/blog/blog-typography';
 @import 'core/blog/create-post';
 @import 'core/blog/post-list';

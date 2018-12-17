@@ -1,65 +1,33 @@
-@import "font-size";
+$headerFont: "Julius Sans One", sans-serif;
+$codeFont: Inconsolata, monospace;
 
-html {
-  /* This is a magic number that keeps 1em equal to 10px */
-  font-size: 62.5%;
-}
+/*
 
-body {
-  font-family: georgia, serif;
-  @include font-size(-2);
-  line-height: 1.8em;
-}
-@media only screen and (min-width: 400px) {
-  body {
-    @include font-size(-1);
-  }
-}
-@media only screen and (min-width: 1050px) {
-  body {
-    @include font-size(0);
-  }
-}
+I am not dealing with font size insanity. Here is the deal.
+The main body/content font size is zero
+Font sizes increase/decrease relative to that with simple sequential integers:
+-2, -1, 0, 1, 2, 3, 4, 5
+Each one is "a bit" larger than the previous as defined here
+I generally only need h1-h3,
+so h3 should be size 1 (just a bit larger than normal text),
+h2 should be size 2,
+and h1 should be size 3
+Use REM units for fanciness but also include pixels for unsupported browsers
+http://snook.ca/archives/html_and_css/font-size-with-rem
 
-button {
-  @include font-size(0);
-}
+UPDATE: 2014-03-02 rems cause glitches with Chrome. Ditching.
 
-p {
-  margin-top: 1.5em;
-  margin-bottom: 3em;
-}
-
-h1,
-h2,
-h3 {
-  font-family: "Julius Sans One", sans-serif;
-  margin: 1em 0;
-}
-
-h1 {
-  @include font-size(3, 1);
-}
-
-h2 {
-  @include font-size(2, 1);
-}
-
-h3 {
-  @include font-size(1, 1);
-}
-
-code,
-pre {
-  font-family: Inconsolata, monospace;
-  line-height: 1.1em;
-}
-
-pre {
-  @include font-size(-2);
-}
-@media only screen and (min-width: 400px) {
-  pre {
-    @include font-size(-1);
-  }
+*/
+@mixin font-size($size, $ratio: 1.5) {
+  $pixels: if($size < -1, 12px, 20px);
+  $pixels: if($size == -1, 14px, 20px);
+  $pixels: if($size == 0, 20px, 20px);
+  $pixels: if($size == 1, 24px, 20px);
+  $pixels: if($size == 2, 28px, 20px);
+  $pixels: if($size == 3, 32px, 20px);
+  $pixels: if($size == 4, 36px, 20px);
+  $pixels: if($size == 5, 48px, 20px);
+  $pixels: if($size > 5, 60px, 20px);
+  font-size: $pixels;
+  line-height: $pixels * $ratio;
 }

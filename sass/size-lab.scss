@@ -1,0 +1,3 @@
+@import "core/typography";
+
+p { @include font-size(2, 2); }

@@ -1,4 +1,4 @@
-@import "font-size";
+@import "typography";
 @import "position";
 
 body > nav {
@@ -47,7 +47,7 @@ header {
     line-height: 1.1em;
     padding-bottom: 0.5em;
     margin: 0;
-    font-family: "Julius Sans One", sans-serif;
+    font-family: $headerFont;
     font-size: 6rem;
   }
 }

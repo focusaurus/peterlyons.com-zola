@@ -1,0 +1,65 @@
+@import "typography";
+
+html {
+  /* This is a magic number that keeps 1em equal to 10px */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: georgia, serif;
+  @include font-size(-2);
+  line-height: 1.8em;
+}
+@media only screen and (min-width: 400px) {
+  body {
+    @include font-size(-1);
+  }
+}
+@media only screen and (min-width: 1050px) {
+  body {
+    @include font-size(0);
+  }
+}
+
+button {
+  @include font-size(0);
+}
+
+p {
+  margin-top: 1.5em;
+  margin-bottom: 3em;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Julius Sans One", sans-serif;
+  margin: 1em 0;
+}
+
+h1 {
+  @include font-size(3, 1);
+}
+
+h2 {
+  @include font-size(2, 1);
+}
+
+h3 {
+  @include font-size(1, 1);
+}
+
+code,
+pre {
+  font-family: Inconsolata, monospace;
+  line-height: 1.1em;
+}
+
+pre {
+  @include font-size(-2);
+}
+@media only screen and (min-width: 400px) {
+  pre {
+    @include font-size(-1);
+  }
+}
