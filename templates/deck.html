@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>{{ page.title }}</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="/reveal.js/css/reveal.css">
+  <link id="theme" rel="stylesheet" href="/reveal.js/css/theme/simple.css">
+  <!-- Code syntax highlighting-->
+  <link rel="stylesheet" href="/reveal.js/lib/css/zenburn.css">
+  <link rel="stylesheet" href="/deck.css">
+  <link href="/favicon.jpg" rel="icon">
+  <link rel="author" type="text/plain" href="/humans.txt">
+  <meta name="author" content="Peter Lyons">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body class="reveal">
+  <div class="slides">
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <section data-markdown="/decks/{{ page.slug }}.md" data-separator="^---" data-separator-vertical="^___" data-separator-notes="^Note:" data-charset="utf-8">
+    </section>
+  </div>
+  {% block scripts %}
+  <script src="/reveal.js/lib/js/head.min.js"></script>
+  <script src="/reveal.js/js/reveal.js"></script>
+  <script src="/reveal-init.js"></script>
+  {% endblock scripts %}
+</body>
+
+</html>
