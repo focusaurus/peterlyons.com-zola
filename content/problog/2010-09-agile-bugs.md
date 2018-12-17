@@ -1,5 +1,5 @@
 +++
-title = "A response to "Handling Bugs in an Agile Context""
+title = "A response to \"Handling Bugs in an Agile Context\""
 slug = "2010/09/agile-bugs"
 date = 2010-09-08T21:07:27.000Z
 +++
@@ -8,13 +8,13 @@ date = 2010-09-08T21:07:27.000Z
 So let me quote the portions of the article I find untenable in a enterprise software realm.
 
 > Let’s start with the Product Owner. Not all Agile teams use this term. So where my definition says “Product Owner,” substitute in the title or name of the person who, in your organization, is responsible for defining what the software should do. This person might be a Business Analyst, a Product Manager, or some other Business Stakeholder.
-> 
+>
 > This person is not anyone on the implementation team. Yes, the testers or programmers may have opinions about what’s a bug and what’s not. The implementation team can advise the Product Owner. But the Product Owner decides.
 
 Most of this matches my experience to some degree. Yes we have product owners that are primarily business people. We actually have about two levels of these, we have what we call "Product Managers" who set the more abstract direction for the product overall, and another role called "Functional Architect" that is a mostly technical person that deals with more detailed issues. One way to think about this is the Product Manager decides mostly WHAT the product will do, and the Functional Architect refines that and specifies HOW the product will behave in detail. Note the Functional Architect doesn't define how the IMPLEMENTATION will be done, just the more detailed behavior.
 
 > This person is also not the end user or customer. When end users or customers encounter problems in the field, we listen to them. The Product Owner takes their opinions and preferences and needs into account. But the Product Owner is the person who ultimately decides if the customer has found something that violates valid expectations of the behavior of the system.
-> 
+>
 > Yes, that does put a lot of responsibility on the shoulders of the Product Owner, but that’s where the responsibility belongs. Defining what the software should and should not do is a business decision, not a technical decision.
 
 Well, that would be great if it worked that way, but it doesn't. The product owner doesn't have enough technical skill or understanding of the details to make decisions on specific bugs. I'm talking about deep, subtle bugs. Think error handling, file encoding, network performance tuning, etc. If a customer complains that our NFS server should by default be configured for a block size of 32768, I'm sorry but the product owner is just not equipped to make a decision on that. Yes, the technical team could explain the situation to him or her in enough detail for understanding, but the decision would be a "no brainer" dictated by how the team framed the explanation. There are trade-off decisions where the tech lead for the feature needs to make a trade off between two things that are both desirable, like high throughput and low latency. And it's not like we get these once in a blue moon. They happen many times in every sprint. We live them day in and day out, and it's the job of the implementation team to independently make good decisions on them. It's a bit demeaning to the implementation team to suggest that they are mere instruments of the product owner's omniscient will. It's a TEAM. EVERYONE takes into account many factors in making decisions on designs, implementations, and bugs every day. The team needs authority and autonomy to make the set of decisions that it is appropriate for them to own, and decisions need to escalate as appropriate for their scope and impact. In my experience, 95% of all bugs are correctly resolved by the team members without any input from the product owner.

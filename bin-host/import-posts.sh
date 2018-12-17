@@ -27,6 +27,11 @@ find . -type f -name '*.json' | {
     echo $json_path
     name=$(jq -r .name <"${json_path}")
     title=$(jq -r .title <"${json_path}")
+    if [[ "${name}" == "agile-bugs" ]]; then
+      # special case data fixup for TOML
+      title="A response to \"Handling Bugs in an Agile Context\""
+    fi
+
     publish_date=$(jq -r .publish_date <"${json_path}")
     year=$(echo "${publish_date}" | cut -d - -f 1)
     month=$(echo "${publish_date}" | cut -d - -f 2)
