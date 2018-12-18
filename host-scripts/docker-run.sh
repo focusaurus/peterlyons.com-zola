@@ -60,7 +60,7 @@ docker_build() {
 FROM debian:9.6-slim
 
 EXPOSE 9002
-ENV PATH /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/host/bin:/host/node_modules/.bin
+ENV PATH /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/host/bin:/host/node_modules/.bin RUST_BACKTRACE=1
 WORKDIR /host
 SHELL ["/bin/bash", "-o", "pipefail", "-o", "errexit", "-u", "-c"]
 CMD ["bash"]
@@ -76,7 +76,7 @@ RUN adduser --disabled-password --gid "${GROUP_ID}" --uid "${USER_ID}" --gecos "
 # debian: packages
 RUN apt-get -qq -y update >/dev/null; apt-get -qq -y install git less wget >/dev/null
 
-ARG ZOLA_VERSION=0.5.0
+ARG ZOLA_VERSION=0.5.1
 RUN wget -q -O - \
   "https://github.com/getzola/zola/releases/download/v${ZOLA_VERSION}/zola-v${ZOLA_VERSION}-x86_64-unknown-linux-gnu.tar.gz" \
   | tar xzf - -C /usr/local/bin \

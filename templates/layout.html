@@ -31,7 +31,7 @@
     <header>
       <h1 role="banner"><a href="/">Peter Lyons</a></h1>
     </header>
-    {% block body %} {% endblock body %}
+    {% block body %}{% endblock body %}
 
     <footer class="navigationHorizontal" role="contentinfo">
       {%- include "navigation.html" -%}
@@ -39,13 +39,10 @@
     <footer class="license" role="contentinfo">
       <p>This work is licensed under a<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">&nbsp;Creative Commons Attribution-ShareAlike 3.0 Unported License.</a></p>
     </footer>
-    {% block scripts %}
-    <script src="/plws.js?v=7.3.0"></script>
-    {% endblock scripts %}
-    <script>
-      require('app/work/pages/home-main')()
-    </script>
   </div>
+  {% block scripts %}
+  <!-- TODO <script src="/plws.js?v=7.3.0"></script> -->
+  {% endblock scripts %}
 </body>
 
 </html>
