@@ -31,9 +31,7 @@
   &:hover {
     text-decoration: underline;
   }
-}
-@media only screen and (min-width: 600px) {
-  .postTitle {
+  @media only screen and (min-width: 600px) {
     @include font-size(0, 2);
   }
 }
