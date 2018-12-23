@@ -19,15 +19,15 @@ UPDATE: 2014-03-02 rems cause glitches with Chrome. Ditching.
 
 */
 @mixin font-size($size, $ratio: 1.5) {
-  $pixels: if($size < -1, 12px, 20px);
-  $pixels: if($size == -1, 14px, 20px);
-  $pixels: if($size == 0, 20px, 20px);
-  $pixels: if($size == 1, 24px, 20px);
-  $pixels: if($size == 2, 28px, 20px);
-  $pixels: if($size == 3, 32px, 20px);
-  $pixels: if($size == 4, 36px, 20px);
-  $pixels: if($size == 5, 48px, 20px);
-  $pixels: if($size > 5, 60px, 20px);
+  $pixels: if($size < -1, 12px, 12px);
+  $pixels: if($size == -1, 14px, $pixels);
+  $pixels: if($size == 0, 20px, $pixels);
+  $pixels: if($size == 1, 24px, $pixels);
+  $pixels: if($size == 2, 28px, $pixels);
+  $pixels: if($size == 3, 32px, $pixels);
+  $pixels: if($size == 4, 36px, $pixels);
+  $pixels: if($size == 5, 48px, $pixels);
+  $pixels: if($size > 5, 60px, $pixels);
   font-size: $pixels;
   line-height: $pixels * $ratio;
 }

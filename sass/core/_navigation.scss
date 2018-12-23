@@ -39,7 +39,7 @@ nav.site {
     text-decoration: none;
 
     &.current {
-      color: #c8d7e4;
+      color: $colorNavCurrent;
       font-weight: bold;
 
       &:before {

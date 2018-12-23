@@ -1,12 +1,8 @@
-// TODO @require "nib/reset"
-// TODO global-reset()
-@import "core/adaptive";
+@import "core/reset";
 @import "core/color";
-@import "core/layout";
-@import "core/position";
-@import "core/navigation";
 @import "core/typography";
 @import "core/base-typography";
+@import "core/layout";
 
 body {
   background-color: $colorPrimaryBackground;
@@ -78,11 +74,10 @@ pre {
   opacity: 0.5;
 }
 
+@import "home";
 @import "home-typography";
-// TODO @import "./pages/*";
 @import "career";
 @import "contact";
-@import "home";
 @import "talks";
 @import 'core/blog/blog-typography';
 @import 'core/blog/create-post';
