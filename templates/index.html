@@ -1,12 +1,13 @@
 {% extends "layout.html" %}
 {% block body %}
 <section class="intro">
-<img class="hero" src="/images/pl-avatar-slack-white.jpg", alt="Pete">
-<p class="highlight">Cyber Lumberjack.</p>
+  <img class="hero" src="/images/pl-avatar-slack-white.jpg" , alt="Pete">
+  <p class="highlight">Cyber Lumberjack.</p>
 </section>
 {{ section.content | safe }}
 {% endblock body %}
 {% block scripts %}
 {{ super() }}
 <!-- TODO <script>require('app/work/pages/home-main')()</script> -->
+<script type="module">import start from "./home.js";start();</script>
 {% endblock scripts %}

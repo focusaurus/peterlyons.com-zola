@@ -11,11 +11,13 @@ function closeNav() {
   content.classList.remove("navOpen");
 }
 
-document.querySelector(".navMenuButton").addEventListener("click", toggleNav);
-document.querySelector("nav.site .close").addEventListener("click", closeNav);
+export default function start() {
+  document.querySelector(".navMenuButton").addEventListener("click", toggleNav);
+  document.querySelector("nav.site .close").addEventListener("click", closeNav);
 
-const selector = `nav a[href='${document.location.pathname}']`;
-const navEls = document.querySelectorAll(selector);
-Array.prototype.forEach.call(navEls, el => {
-  el.classList.add("current");
-});
+  const selector = `nav a[href='${document.location.pathname}']`;
+  const navEls = document.querySelectorAll(selector);
+  Array.prototype.forEach.call(navEls, el => {
+    el.classList.add("current");
+  });
+}
