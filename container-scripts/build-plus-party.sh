@@ -18,7 +18,7 @@ main() {
   mkdir -p public
   local plus_party_temp
   plus_party_temp="$(mktemp -t plus-party-build-XXXXXX).js"
-  local out="./public/plus-party.js"
+  local out="./static/plus-party.js"
   cd code/plus-party
   elm-make --yes --output "${plus_party_temp}" PlusParty.elm
   cd - >/dev/null

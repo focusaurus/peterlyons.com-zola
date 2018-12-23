@@ -76,13 +76,12 @@ pre {
 
 @import "home";
 @import "home-typography";
-@import "career";
-@import "contact";
-@import "talks";
 @import 'core/blog/blog-typography';
 @import 'core/blog/create-post';
 @import 'core/blog/post-list';
 @import 'core/blog/view-post';
-
-// TODO @import "./plus-party/*";
+@import "career";
+@import "contact";
+@import "talks";
+@import "plus-party";
 @import "js-debug";

@@ -17,3 +17,4 @@ cd "$(dirname "${BASH_SOURCE[0]}")/.."
 npm install
 zola build
 ./container-scripts/build-plus-party.sh
+cp -r node_modules/reveal.js static

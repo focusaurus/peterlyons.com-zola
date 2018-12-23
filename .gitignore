@@ -1,2 +1,5 @@
 .env
+/node_modules
 /public
+/static/plus-party.*
+/static/reveal.js
