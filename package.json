@@ -1,0 +1,33 @@
+{
+  "name": "peterlyons.com-zola",
+  "version": "8.0.0",
+  "description": "Static web site for peterlyons.com",
+  "scripts": {
+    "test": "find code -name '*.tap.js' | xargs tap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/focusaurus/peterlyons.com-zola.git"
+  },
+  "keywords": [
+    "static",
+    "site",
+    "zola"
+  ],
+  "author": "Peter Lyons <pete@peterlyons.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/focusaurus/peterlyons.com-zola/issues"
+  },
+  "homepage": "https://github.com/focusaurus/peterlyons.com-zola#readme",
+  "devDependencies": {
+    "serve": "^10.1.1",
+    "tap": "^12.1.1"
+  },
+  "dependencies": {
+    "clipboard": "^2.0.1",
+    "elm": "^0.18.0",
+    "reveal.js": "^3.7.0",
+    "uglify-es": "^3.3.9"
+  }
+}
