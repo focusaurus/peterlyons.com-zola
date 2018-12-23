@@ -25,6 +25,11 @@ These are just some of my current favorites.
 * Configuration: [config3](https://github.com/focusaurus/config3)
 * Linting: [eslint](http://eslint.org/), [prettier](https://prettier.io/)
 
+## Streaming Applications
+
+* Confluent Platform (kafka, kafka-connect, kafka-streams)
+* clojure
+
 ## Amazon Web Services
 
 * Lambda
