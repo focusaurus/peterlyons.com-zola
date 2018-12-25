@@ -1,4 +1,5 @@
 {% extends "layout.html" %}
+{% import "macros.html" as macros %}
 {% block body %}
 <h1>{{ page.title }}</h1>
 {{ page.content | safe }}
@@ -8,7 +9,7 @@
 <button class="js-debug stepAsync">Step Over Async Code</button>
 <button class="js-debug multipleAsync">Multiple Async Operations</button>
 <h1>Screencast Demos</h1>
-<iframe src="//www.youtube.com/embed/b9KifHCZ0QM" allowfullscreen="" width="560" height="315"></iframe>
+{{ macros::youtube(id="b9KifHCZ0QM") }}
 {% endblock body %}
 {% block scripts %}
 {{ super() }}

@@ -5,7 +5,7 @@ date = 2017-12-09T01:37:35.630Z
 +++
 Last night I asked RC about whether `nom` or `untrusted` seemed like better crate choices for parsing mixed text and binary file formats. This morning I woke up super early for no reason and was ready to go so I watched RC alumnus Stefanie Schirmer's talk on parser combinators.
 
-![youtube](https://www.youtube.com/embed/oU2418-8_KI)
+{{ youtube(id="oU2418-8_KI") }}
 
 Then I was excited to dig in so after I commuted in to RC early I searched on crates for "nom pem" since the PEM format was what I needed to parse next. I found an existing crate `nom_pem` that looked promising so I gave it a whirl. I was able to get it to parse a test file but I couldn't get at the parsed data. I was getting a "that field is private" error which was odd. How was I supposed to do anything with this parser if the parser output is private? So I looked again at the crate and saw "Last updated 2 hours ago". That was not the most recent update, that was the only update ever. Someone had published a nom PEM parsing crate to crates.io while I was watching the combinator video!
 
