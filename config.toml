@@ -13,3 +13,4 @@ build_search_index = false
 
 [extra]
 # Put all your custom variables here
+version = "8.0.0"

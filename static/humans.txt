@@ -1,0 +1,15 @@
+Site by Peter Lyons. Visual Design by [Emphasis Creative](http://emphasiscreative.com).
+
+# Technology Stack
+
+* zola static site generator with tera HTTML templates and content in markdown
+* SCSS for stylesheets
+* Plus Party is coded in Elm
+
+# Deployment
+
+* Netlify for build and CDN hosting
+
+# Open Source
+
+* Source code is freely available at [https://github.com/focusaurus/peterlyons.com-zola](github.com/focusaurus/peterlyons.com-zola)
