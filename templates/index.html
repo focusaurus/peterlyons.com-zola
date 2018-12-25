@@ -8,6 +8,5 @@
 {% endblock body %}
 {% block scripts %}
 {{ super() }}
-<!-- TODO <script>require('app/work/pages/home-main')()</script> -->
 <script type="module">import start from "./home.js";start();</script>
 {% endblock scripts %}

@@ -15,7 +15,7 @@ Some notes about some of my more interesting projects are below. This is not an 
 
 ## Linkzie
 
-<a href="https://linkzie.com" target="_blank"><img src="/images/linkzie_screen_shot.png" alt="Linkzie Screen Shot"></a>
+<a href="https://linkzie.com" target="_blank"><img src="./linkzie_screen_shot.png" alt="Linkzie Screen Shot"></a>
 
 [Linkzie](https://linkzie.com) is a web-based bookmark management application. It differs from many others in that it gives you "one big wall of links" layed out in a grid that is optimized for spacially-oriented thinking/memory. It has a nice drag and drop UI and in-place editing. The stack is jQuery/JavaScript in the browser, Ruby on Rails and PostgreSQL on the server.
 
@@ -61,8 +61,8 @@ This program
 will help you quickly learn to recognize and identify common musical
 structures including intervals, scales/modes, and chords.
 
-<img src="./images/smartears_screen1.jpg" alt="SmartEars Advanced Chords Screen Shot"/>
-<img src="./images/smartears_settings.jpg" alt="SmartEars Settings Screen">
+![SmartEars Advanced Chords Screen Shot](./smartears_screen1.jpg)
+![SmartEars Settings Screen](./smartears_settings.jpg)
 
 <a href="/dist/smartears.jnlp">Start SmartEars!</a>
 

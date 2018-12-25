@@ -31,8 +31,3 @@ path = "/"
 * Tech Lead for OS Provisioning and Solaris Patching on Hewlett Packard's Server Automation product
 * 18 years experience across consumer web applications, startup MVPs, commercial enterprise software, and custom business applications
 * <a href="/career">Read more</a> about my career
-
-```
-TODO
-script require('app/work/pages/home-main')()
-```
