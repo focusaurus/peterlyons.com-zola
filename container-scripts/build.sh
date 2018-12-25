@@ -14,16 +14,17 @@ IFS="$(printf "\n\t")"
 # ---- End unofficial bash strict mode boilerplate
 
 cd "$(dirname "${BASH_SOURCE[0]}")/.."
-npm install
+export PATH="${PWD}/local/bin:${PATH}"
 ZOLA_VERSION=0.5.1
 zola_url="https://github.com/getzola/zola/releases/download/v${ZOLA_VERSION}/zola-v${ZOLA_VERSION}-x86_64-unknown-linux-gnu.tar.gz"
-version=$(zola --version 2>/dev/null)
+version=$(zola --version 2>/dev/null || /bin/true)
 if [[ ! "${version}" =~ ^zola ]]; then
   # install zola
+  mkdir -p ./local/bin
   wget -q -O - "${zola_url}" |
-    tar --extract --gzip --file - --directory /usr/local/bin
-  chmod 755 /usr/local/bin/zola
+    tar --extract --gzip --file - --directory local/bin
+  chmod 755 local/bin/zola
 fi
-zola build
+./local/bin/zola build
 ./container-scripts/build-plus-party.sh
 cp -r node_modules/reveal.js static
