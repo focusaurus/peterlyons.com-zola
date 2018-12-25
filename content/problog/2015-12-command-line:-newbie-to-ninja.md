@@ -5,7 +5,7 @@ date = 2015-12-06T17:52:52.245Z
 +++
 ## Part One: Bow to Your Sensei
 
-![Bow to your Sensei](http://static1.1.sqspcdn.com/static/f/1209144/20265241/1347563118103/RexKwonDo2.jpg?token=mU%2Beslcb3UKPj3JU%2FUTKrbccAxI%3D)
+![Bow to your Sensei](https://static1.1.sqspcdn.com/static/f/1209144/20265241/1347563118103/RexKwonDo2.jpg?token=mU%2Beslcb3UKPj3JU%2FUTKrbccAxI%3D)
 
 These tips are the dojo ground rules you must learn before even the most basic command line work can get done. If you haven't got these down, everything is going to take much longer than it needs to. These are also definitely a prerequisite to any command line activity while pair programming if you don't want your pair to pull their hair out during the session.
 
@@ -61,7 +61,7 @@ just run
 
 ## Part Two: Breaking Boards
 
-![Breaking Boards](http://www.allstaractivities.com/images/karateKatieJumpSpinningBackKick1.jpg)
+![Breaking Boards](https://l7.alamy.com/zooms/94bc81f5d797471ebc5790c8ee4d90e7/female-breaking-boards-with-bare-fist-in-a-karate-demonstration-an0nnm.jpg)
 
 Now that you've got the basics, let's add some intermediate skills and understanding that will make you more effective.
 
@@ -90,7 +90,7 @@ Here's a few examples to get you started:
 
 ## Part Three: Enter the Dragon
 
-![Enter the Dragon](http://latimesblogs.latimes.com/.a/6a00d8341c630a53ef0168e87fb4c5970c-600wi)
+![Enter the Dragon](https://latimesblogs.latimes.com/.a/6a00d8341c630a53ef0168e87fb4c5970c-600wi)
 
 Here are a few more advanced techniques.
 

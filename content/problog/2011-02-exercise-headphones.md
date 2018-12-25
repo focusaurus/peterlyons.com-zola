@@ -16,4 +16,4 @@ I believe I have now found a pair of headphones to wear while exercising and tra
 
 So to this end I think the [MEElectronics M6-BK Sport Sound-Isolating In-Ear Headphones](http://www.amazon.com/MEElectronics-M6-BK-Sport-Sound-Isolating-Headphones/dp/B0038W0K2K/ref=sr_1_2?ie=UTF8&s=electronics&qid=1297036394&sr=1-2) are pretty much perfect. The only item they lack from the above list is the woven fabric sheath. The behind the ear wire is minimal but effective and they come with both single and triple flange earpieces.
 
-![MEElectronics M6 Headphones](http://ecx.images-amazon.com/images/I/41c5QzNEcOL.jpg)
+![MEElectronics M6 Headphones](https://workoutheadphonespro.com/wp-content/uploads/2012/01/meelectronics-m6-sports-headphones.jpg)

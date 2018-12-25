@@ -12,15 +12,15 @@ ARG GROUP_ID=1000
 # debian: userid match
 RUN addgroup --gid "${GROUP_ID}" "${USER}" || true
 RUN adduser --disabled-password --gid "${GROUP_ID}" --uid "${USER_ID}" --gecos "${USER}" "${USER}" || true
-
-ARG ZOLA_VERSION=0.5.1
-RUN wget -q -O - \
-  "https://github.com/getzola/zola/releases/download/v${ZOLA_VERSION}/zola-v${ZOLA_VERSION}-x86_64-unknown-linux-gnu.tar.gz" \
-  | tar --extract --gzip --file - --directory /usr/local/bin \
-  && chmod 755 /usr/local/bin/zola
+#
+# ARG ZOLA_VERSION=0.5.1
+# RUN wget -q -O - \
+#   "https://github.com/getzola/zola/releases/download/v${ZOLA_VERSION}/zola-v${ZOLA_VERSION}-x86_64-unknown-linux-gnu.tar.gz" \
+#   | tar --extract --gzip --file - --directory /usr/local/bin \
+#   && chmod 755 /usr/local/bin/zola
 
 EXPOSE 9002
-ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/host/bin:/host/node_modules/.bin RUST_BACKTRACE=1
+ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/host/bin:/host/node_modules/.bin:/host/local/bin RUST_BACKTRACE=1
 WORKDIR /host
 CMD ["bash"]
 
