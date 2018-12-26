@@ -19,6 +19,7 @@ const pathExps = [
   ["/practices", /Craftsmanship/],
   ["/stacks", /JavaScript/],
   ["/talks", /Speaking/],
+  ["/js-debug", /\.stepSync/],
   ["/twelve-factor-nodejs", /Twelve-Factor/],
   ["/web-prog", /\/decks\/web-prog\.md/]
 ];
