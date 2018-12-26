@@ -1,5 +1,6 @@
 "use strict";
 const { promisify } = require("util");
+const cheerio = require("cheerio");
 const handler = require("serve-handler");
 const http = require("http");
 const supertest = require("supertest");
@@ -37,26 +38,32 @@ async function getUri() {
   return _uri(server);
 }
 
-tap.tearDown(async () => {
-  (await server) && server.close();
+tap.tearDown(() => {
+  server && server.close();
 });
 
-function testResponses(description, baseUri, pairs) {
-  const request = supertest(baseUri);
-  pairs.forEach(([uri, regex]) => {
-    tap.test(`${description} smoke test ${uri}`, test => {
-      request
-        .get(uri)
-        .expect(regex)
-        .expect(200)
-        .end(error => {
-          test.error(error);
-          test.end();
-        });
+async function testUri(
+  uriPath,
+  { description = "", selectors = [], match = [], code = 200 } = {}
+) {
+  tap.test(description || uriPath, async test => {
+    const baseUri = await getUri();
+    const request = supertest(baseUri);
+    const res = await request.get(uriPath).expect(code);
+    if (res.headers["content-type"].includes("text/html")) {
+      const $ = cheerio.load(res.text);
+      selectors.forEach(selector => {
+        test.ok(
+          $(selector).length > 0,
+          `Path ${uriPath} missing selector ${selector}`
+        );
+      });
+    }
+
+    match.forEach(match => {
+      test.match(res.text, match);
     });
   });
 }
-module.exports = { getUri, testResponses };
-// if (require.main === module) {
-//   getUri().then(console.log);
-// }
+
+module.exports = { testUri };

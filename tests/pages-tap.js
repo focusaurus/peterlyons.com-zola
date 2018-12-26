@@ -1,44 +1,55 @@
 "use strict";
-const { getUri, testResponses } = require("./utils");
-const request = require("supertest");
-const tap = require("tap");
+const { testUri } = require("./utils");
 
-let uri;
-
-tap.beforeEach(async () => {
-  uri = await getUri();
+testUri("/", {
+  match: [
+    "node.js",
+    "Cyber Lumberjack",
+    "Stacks",
+    "Creative Commons",
+    "Career",
+    "Projects"
+  ],
+  selectors: [
+    "section.intro",
+    "header h1",
+    "body .content",
+    "nav.site",
+    ".license"
+  ]
 });
-
-const pathExps = [
-  ["/", /node\.js/],
-  ["/career", /Opsware/],
-  ["/code-conventions", /readability/],
-  ["/contact", /pete@peterlyons.com/],
-  ["/leveling-up", /Pillar 1/],
-  ["/plus-party", /Plus Party/],
-  ["/practices", /Craftsmanship/],
-  ["/stacks", /JavaScript/],
-  ["/talks", /Speaking/],
-  ["/js-debug", /\.stepSync/],
-  ["/twelve-factor-nodejs", /Twelve-Factor/],
-  ["/web-prog", /\/decks\/web-prog\.md/]
-];
-
-tap.test("pages smoke tests", test => {
-  testResponses("Pages (pug templates)", uri, pathExps);
-  test.end();
+testUri("/career", { match: ["Opsware"] });
+testUri("/code-conventions", { match: ["readability"] });
+testUri("/contact", { match: ["pete@peterlyons.com"] });
+testUri("/js-debug", { match: [".stepSync"] });
+testUri("/leveling-up", { match: ["Pillar 1"] });
+testUri("/npm-gold", { match: ["---", "Nice Pretty Modules"] });
+testUri("/plus-party", {
+  match: ["Plus Party"],
+  selectors: [
+    "iframe[allowfullscreen]",
+    'img[alt="One plus two plus two plus one."]'
+  ]
 });
-
-tap.test("home page", test => {
-  request(uri)
-    .get("/")
-    .expect(200)
-    .expect(/Cyber Lumberjack/)
-    .expect(/Stacks/)
-    .expect(/Creative Commons/)
-    .expect(/<section .*class="intro"/i)
-    .end(error => {
-      test.error(error);
-      test.end();
-    });
+testUri("/practices", { match: ["Craftsmanship"] });
+testUri("/rapid-feedback", { match: ["Rapid Feedback Learning Tools"] });
+testUri("/rust-at-recurse", { match: ["Learning Rust at Recurse Center"] });
+testUri("/stacks", { match: ["JavaScript"] });
+testUri("/talks", { match: ["Speaking"] });
+testUri("/twelve-factor-nodejs", {
+  match: ["---", "Twelve-Factor Apps in node.js"]
 });
+testUri("/web-data", { match: ["---", "How Data Powers the Web"] });
+testUri("/web-prog", {
+  match: [
+    "---",
+    "/decks/web-prog.md",
+    "Web Programming Concepts for Non-Programmers"
+  ]
+});
+testUri("/white-glove", { match: ["---", "Finding Inconsistencies"] });
+testUri("/screen.css", { match: ["font-family", "Julius Sans One"] });
+testUri("/deck.css", { match: ["background-color"] });
+testUri("/favicon.ico");
+testUri("/favicon.png");
+testUri("/humans.txt", { match: ["Netlify"] });
