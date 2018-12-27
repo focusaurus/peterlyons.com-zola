@@ -27,4 +27,4 @@ if [[ ! "${version}" =~ ^zola ]]; then
 fi
 ./local/bin/zola build
 ./container-scripts/build-plus-party.sh
-cp -r node_modules/reveal.js static
+cp -r node_modules/reveal.js public
