@@ -1,6 +1,6 @@
 +++
 title = "Recurse Center 4: Reservoir Sampling"
-slug = "2017/11/recurse-center-4-reservoir-sampling"
+slug = "2017/11/recurse-center-4-reservoir-sampling/"
 date = 2017-11-10T23:08:36.767Z
 +++
 This morning I battled the borrow checker for a while trying to properly pass a variable through a closure to a child thread. I eventually figured out calling `.to_owned()` in the right place was needed, but it took a long time to get to that point. My normal urge is to try to understand what's happening by studying closely the compiler error message and the standard library docs, but for pragmatic reasons I need to let go of that and not wait to just google "how to X in rust" sooner rather than later.

@@ -1,6 +1,6 @@
 +++
 title = "CoffeeScript and Progress"
-slug = "2012/03/coffeescript-and-progress"
+slug = "2012/03/coffeescript-and-progress/"
 date = 2012-03-05T04:36:35.083Z
 +++
 If you like [CoffeeScript](http://jashkenas.github.com/coffee-script), you should write applications in CoffeeScript. If you prefer JavaScript, you should write applications in JavaScript. In this post I want to address the common attitude I have found among JavaScript programmers that CoffeeScript is a priori somehow wrong or inferior or a bad choice. I'll briefly recount some of the technical reasons why I like and use CoffeeScript at the end of this post, but the focus is a rejection of the attitude above on philosophical grounds. To be clear, the position I'm taking issue with is the position that JavaScript is the one and only language we should be writing in for the browser and node.js.

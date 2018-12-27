@@ -1,6 +1,6 @@
 +++
 title = "The Art of the node.js Rescue"
-slug = "2018/07/the-art-of-the-node-js-rescue"
+slug = "2018/07/the-art-of-the-node-js-rescue/"
 date = 2018-07-11T04:53:53.422Z
 +++
 I've recently been helping a client get their node.js mobile back end API server ready to launch a new service. In this post I'll outline the guidelines I use when I'm brought in to true-up a problematic node.js codebase.

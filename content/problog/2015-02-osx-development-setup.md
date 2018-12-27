@@ -1,6 +1,6 @@
 +++
 title = "OSX Development Setup"
-slug = "2015/02/osx-development-setup"
+slug = "2015/02/osx-development-setup/"
 date = 2015-02-06T20:42:03.350Z
 +++
 This post will describe my current setup for development on OS X.

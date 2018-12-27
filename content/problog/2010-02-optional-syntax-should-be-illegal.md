@@ -1,6 +1,6 @@
 +++
 title = "Optional Syntax Should Be Illegal"
-slug = "2010/02/optional-syntax-should-be-illegal"
+slug = "2010/02/optional-syntax-should-be-illegal/"
 date = 2010-02-14T03:33:31.000Z
 +++
 Why in the world do some programming languages include optional syntax? To a true type A engineer, this is incomprehensible and unacceptable. For example, in Adobe's ActionScript, statements may optionally be terminated with a semicolon. Usually this is not required, except in a few situations you need it. Evil. The statement that our number one job as software engineers is to manage complexitity really resonates with me, and willy nilly allowing of optional syntax just destroys consistency, predictability, and simplicity for no reason whatsoever. Optional syntax seems to me a bad language design smell that indicates the language authors need to rethink a bit and find something that works always and should be required.

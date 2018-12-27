@@ -1,6 +1,6 @@
 +++
 title = "Baby steps in node.js"
-slug = "2011/03/baby-steps-in-node-js"
+slug = "2011/03/baby-steps-in-node-js/"
 date = 2011-03-24T00:51:22.000Z
 +++
 So I've been working on some toy projects in [node.js](http://nodejs.org/) for a few weeks. Node is pretty hot in the tech media these days (see [this article](http://www.theregister.co.uk/2011/03/01/the_rise_and_rise_of_node_dot_js/), among many others), and I've been having fun learning it and opening my brain to the world of async and callbacks. This post will just note a handful of the interesting things I've found thus far.

@@ -1,6 +1,6 @@
 +++
 title = "npm modules: development and release versions"
-slug = "2013/02/npm-modules:-development-and-release-versions"
+slug = "2013/02/npm-modules:-development-and-release-versions/"
 date = 2013-02-01T20:17:35.407Z
 +++
 You are working on two npm modules that are both actively being developed:

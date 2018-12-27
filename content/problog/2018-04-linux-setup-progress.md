@@ -1,6 +1,6 @@
 +++
 title = "Linux Setup Progress"
-slug = "2018/04/linux-setup-progress"
+slug = "2018/04/linux-setup-progress/"
 date = 2018-04-21T22:42:02.765Z
 +++
 Here's some miscellaneous notes on what I've gotten set up on my new linux laptop so far.

@@ -1,6 +1,6 @@
 +++
 title = "Recurse Center 1: Shuffle Iterator"
-slug = "2017/11/recurse-center-1-shuffle-iterator"
+slug = "2017/11/recurse-center-1-shuffle-iterator/"
 date = 2017-11-07T23:38:20.701Z
 +++
 This post is pretty stream of consciousness.

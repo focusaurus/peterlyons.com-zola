@@ -1,6 +1,6 @@
 +++
 title = "On flash eating my key browser keyboard commands"
-slug = "2010/08/on-flash-eating-my-key-browser-keyboard-commands"
+slug = "2010/08/on-flash-eating-my-key-browser-keyboard-commands/"
 date = 2010-08-30T19:48:19.000Z
 +++
 Dear Universe,

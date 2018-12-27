@@ -1,6 +1,6 @@
 +++
 title = "On Idempotence, intention, and unix commands"
-slug = "2010/05/on-idempotence-intention-and-unix-commands"
+slug = "2010/05/on-idempotence-intention-and-unix-commands/"
 date = 2010-05-21T09:42:05.000Z
 +++
 [Idempotence](http://en.wikipedia.org/wiki/Idempotence#In_computing) means that running a command or function several times produces the same result as running it only once. This is an very important design principle that is a blessing when used appropriately and a scourge when not used where warranted.

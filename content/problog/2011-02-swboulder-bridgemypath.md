@@ -1,6 +1,6 @@
 +++
 title = "Startup Weekend Boulder: Bridge My Path"
-slug = "2011/02/swboulder-bridgemypath"
+slug = "2011/02/swboulder-bridgemypath/"
 date = 2011-02-28T03:20:21.000Z
 +++
 I spent all weekend at [Startup Weekend Boulder](http://boulder.startupweekend.org/). This is an event where people pitch their business ideas, vote on the top ideas, and then form teams and try to get the ideas from zero to launch in 54 intense hours. It was my first time participating in Startup Weekend. Overall, it was a really fun experience and I met a lot of really smart and fun people. Friday was pitch night where somewhere just shy of 40 people gave 1-minute pitches. There was good variety here from already established projects to things conceived just moments earlier. There were gaming ideas, social networking ideas, education, finance, retail, even a medical marijuana related business and an infrared steak griller. I pitched one of the ideas I have sitting around on my big long [WorkFlowy](https://workflowy.com) business idea lists: ThreeShopper, a curated shopping site to end the paradox of choice and narrow things down to exactly three choices. My idea got zero votes. :-) I think there were around 60 total attendees including folks from Nova Scotia and South Africa.

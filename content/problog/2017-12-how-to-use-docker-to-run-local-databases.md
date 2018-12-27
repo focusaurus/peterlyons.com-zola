@@ -1,6 +1,6 @@
 +++
 title = "How to use docker to run local databases"
-slug = "2017/12/how-to-use-docker-to-run-local-databases"
+slug = "2017/12/how-to-use-docker-to-run-local-databases/"
 date = 2017-12-05T23:25:41.630Z
 +++
 Here's how I run use docker to run databases for local development. I think my approach is the simplest I've seen and if something is unnecessary I skip it. You don't need data containers or port mappings, so I don't use them. The goal here is to make it very easy to run databases while developing applications or doing DB development work. It's basically the same for macOS and linux but I'm currently on macOS so that's where my instructions come from.

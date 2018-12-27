@@ -1,6 +1,6 @@
 +++
 title = "Show HN: My bookmarking app"
-slug = "2011/03/show-hn-my-bookmarking-app"
+slug = "2011/03/show-hn-my-bookmarking-app/"
 date = 2011-03-17T10:21:11.000Z
 +++
 So the [Hacker News Guidelines](http://ycombinator.com/newsguidelines.html) tell me when submitting something I should write a blog post about it and link to that. OK, here it is. I'd like to get feedback from the HN community about my simple but effective bookmarking web application: [Linkzie](https://linkzie.com). I built it mostly during nights/weekends while holding down a day job doing enterprise software. I know there are a lot of apps out there for this problem, especially in the recent months following the delicious.com leaked "sunset" presentation. I missed that boat to announce the app, but anyway here it is. I think the interface is very clean and straightforward and the functionality is simple. There's nothing here that can't be explained in a handful of words. You put in your URLs, it lets you lay them out on one big page. There's drag and drop organization and in-place editing. You can try the app using sample data right on the home page without needing to sign in (click no the "Next" link in the tour to see the edit mode).

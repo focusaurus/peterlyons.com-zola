@@ -1,6 +1,6 @@
 +++
 title = "AWS Lambda Object Mother"
-slug = "2017/04/aws-lambda-object-mother"
+slug = "2017/04/aws-lambda-object-mother/"
 date = 2017-04-24T20:41:40.712Z
 +++
 I've been coding a project build on AWS Lambda and I wanted to post a unit testing pattern that has been really helpful especially for input validation. The lambda function input starts with an "event" object which I'm sure in the first version of lambda was reasonably small and simple, but now it can get quite complex with many deeply nested properties when API Gateway authorizers and path parameters are involved. Thus I've been applying the "Object Mother" test pattern to create event objects I can pass to my lambda handler functions during unit testing.

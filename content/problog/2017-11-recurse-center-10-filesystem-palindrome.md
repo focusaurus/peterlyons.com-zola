@@ -1,6 +1,6 @@
 +++
 title = "Recurse Center 10: filesystem palindrome"
-slug = "2017/11/recurse-center-10-filesystem-palindrome"
+slug = "2017/11/recurse-center-10-filesystem-palindrome/"
 date = 2017-11-21T00:05:33.521Z
 +++
 This morning I worked on my "tealeaves" crypto diagnostic library. Just the basics of statting files but some interesting type system modeling and grokking what `#[derive(PartialOrd)]` does for enums and structs. I basically got rust to handle printing errors then warnings then OK messages via the sorting mechanisms.

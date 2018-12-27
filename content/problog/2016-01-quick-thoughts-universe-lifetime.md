@@ -1,6 +1,6 @@
 +++
 title = "Quick Thoughts: Universe Lifetime"
-slug = "2016/01/quick-thoughts-universe-lifetime"
+slug = "2016/01/quick-thoughts-universe-lifetime/"
 date = 2016-01-02T18:30:14.202Z
 +++
 ## Introducing Quick Thoughts

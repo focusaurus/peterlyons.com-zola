@@ -1,6 +1,6 @@
 +++
 title = "And the bots show up"
-slug = "2011/02/and-the-bots-show-up"
+slug = "2011/02/and-the-bots-show-up/"
 date = 2011-02-06T02:00:35.000Z
 +++
 I set up a staging server for a web app I'm working on yesterday. This morning I find this in my rails log.

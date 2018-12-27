@@ -1,6 +1,6 @@
 +++
 title = "Troubleshooting responsive layout with :after"
-slug = "2012/01/troubleshooting-media-querie"
+slug = "2012/01/troubleshooting-media-querie/"
 date = 2012-01-11T00:34:06.000Z
 +++
 So I'm working on a new design for my site and using the super-great [stylus](http://learnboost.github.com/stylus/) CSS preprocessor along with [this great gist for simple responsive layout](https://gist.github.com/1549029) (again with stylus and the [nib](https://github.com/visionmedia/nib) library).

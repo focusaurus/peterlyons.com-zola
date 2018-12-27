@@ -1,6 +1,6 @@
 +++
 title = "UNIX is broken"
-slug = "2010/09/unix-is-broken"
+slug = "2010/09/unix-is-broken/"
 date = 2010-09-04T19:40:03.000Z
 +++
 Reading [this blog post](http://factor-language.blogspot.com/2010/09/two-things-every-unix-developer-should.html) just makes me cringe. This is why I am so persistently hesitant to bother with C and low level systems programming. They are broken. They are impossible to get right. If even after numerous decades, the _cat_ program still has bugs in basic system interaction, it's not the programmers, it's the system. Thanks, but no. I'll code in a high level language that lets me focus on delivering functionality to my users, not performing sacrificial rituals to the Gods of K&R, signal processing, and bitmasks.

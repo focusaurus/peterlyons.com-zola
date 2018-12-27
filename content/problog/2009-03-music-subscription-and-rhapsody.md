@@ -1,6 +1,6 @@
 +++
 title = "Music subscription and Rhapsody"
-slug = "2009/03/music-subscription-and-rhapsody"
+slug = "2009/03/music-subscription-and-rhapsody/"
 date = 2009-03-15T02:54:03.000Z
 +++
 Flat fee music subscription service has changed my life. I wish there was some less dramatic way to put it, but it's the honest truth. I don't remember exactly when, but somewhere in late 2006 probably, after reading [this Joel on Software - The infinite music collection](http://www.joelonsoftware.com/items/2006/11/10.html) article, I was intrigued by the idea and did a little shopping. I know I looked at Napster, Virgin, Yahoo, and Rhapsody at least. I think I initially went with Rhapsody because of the Sonos integration. I experimented for a bit listening on the computer and then I think that Christmas I asked for a basic set of Sonos gear, which was and still is exorbitantly priced.

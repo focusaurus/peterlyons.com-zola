@@ -1,6 +1,6 @@
 +++
 title = "Windows Server 2008 Setup Annoyances"
-slug = "2010/07/windows-setup-annoyances"
+slug = "2010/07/windows-setup-annoyances/"
 date = 2010-07-10T07:12:54.000Z
 +++
 So I do a lot of work with automated unattended intallations of Operating Systems, including Windows. Here's some of my primary complaints about the new Windows setup program in Windows Server 2008.

@@ -43,7 +43,7 @@ find . -type f -name '*.json' | {
     cat <<EOF >"${dest_path}"
 +++
 title = "${title}"
-slug = "${year}/${month}/${name}"
+slug = "${year}/${month}/${name}/"
 date = ${publish_date}
 +++
 EOF

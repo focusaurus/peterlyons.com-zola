@@ -1,6 +1,6 @@
 +++
 title = "Recurse Center 19: ASN.1 Tagged Context"
-slug = "2017/12/recurse-center-19-asn-1-tagged-context"
+slug = "2017/12/recurse-center-19-asn-1-tagged-context/"
 date = 2017-12-06T23:22:37.242Z
 +++
 Coding on tealeaves today was mostly pulling interesting bits out of ssh keys. Misc things discovered

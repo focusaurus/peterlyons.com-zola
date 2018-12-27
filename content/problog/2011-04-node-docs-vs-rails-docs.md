@@ -1,6 +1,6 @@
 +++
 title = "Node docs vs. Rails docs"
-slug = "2011/04/node-docs-vs-rails-docs"
+slug = "2011/04/node-docs-vs-rails-docs/"
 date = 2011-04-05T21:15:51.000Z
 +++
 I've been working with [Node.js](http://nodejs.org) a lot recently and enjoying it. However, I'm not sure entirely WHY I am enjoying it. I'm writing it in [CoffeeScript](http://jashkenas.github.com/coffee-script/), which is pleasant enough, but it doesn't change the fact that javascript is lacking is basic language/library features like a Set object or hashes with non-string keys and so forth. The other day I realized part of my good feelings about node are from my experience with the docs, which normally goes as follows.

@@ -1,6 +1,6 @@
 +++
 title = "The destiny of complex languages"
-slug = "2011/12/complex-language"
+slug = "2011/12/complex-language/"
 date = 2011-12-04T01:33:01.000Z
 +++
 I had an interesting thought about programming languages and complexity yesterday.  I think of languages like Python and CoffeeScript (and even C <sup>[1](#endnote1)</sup> aim to be small and consistent as a language.  Things like Perl and Ruby are much more complex.  I have been studying both Ruby and CoffeeScript for a while  (I think about a year for Ruby and maybe 6 months for CoffeeScript guessing from unreliable memory), and I feel like my JavaScript/CoffeeScript knowledge is solid and with Ruby I'm mired in intermediate status. However, the fact is I write lots of code in each of these languages.  So what does that indicate?

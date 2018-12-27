@@ -1,6 +1,6 @@
 +++
 title = "setTimeout and Friends"
-slug = "2014/03/settimeout-and-friends"
+slug = "2014/03/settimeout-and-friends/"
 date = 2014-03-12T21:12:31.731Z
 +++
 So I was recently scheduled to do an [AirPair](http://airpair.com) pair programming session to help someone understand the various javascript functions available for asynchronous programming.

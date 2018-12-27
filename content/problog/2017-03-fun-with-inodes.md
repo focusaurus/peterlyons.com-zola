@@ -1,6 +1,6 @@
 +++
 title = "Fun with Inodes"
-slug = "2017/03/fun-with-inodes"
+slug = "2017/03/fun-with-inodes/"
 date = 2017-03-17T19:03:32.324Z
 +++
 I had an inherited client project running on an EC2 Ubuntu instance like a champ. The system had racked up nearly 900 days of uptime! Not a lot of traffic but still it was running nginx with TLS, a node/express app, and mysql with pretty much 100% uptime for over 2 years.

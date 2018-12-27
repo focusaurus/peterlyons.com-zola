@@ -1,6 +1,6 @@
 +++
 title = "Bleeding Edge and Rotting Core"
-slug = "2010/03/bleeding-edge-and-rotting-core"
+slug = "2010/03/bleeding-edge-and-rotting-core/"
 date = 2010-03-19T08:53:53.000Z
 +++
 I just wanted to post some thoughts on the topic of selecting software components with regard to the maturity thereof. I think overall the programmer community is by default gung-ho about the bleeding edge. We like the shiny new toys with the bells and whistles. Once something's been around enough to have its weaknesses well understsood, we find it very frustrating to have to continue to work with it. I'm not going to offer any specific recommendations, just some things to keep in mind. The general gist though is that it takes some hard-earned pragmatism and real production experience to understand the value of using older releases of components.

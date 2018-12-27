@@ -1,6 +1,6 @@
 +++
 title = "Home LAN fails and wins"
-slug = "2010/10/home-lan-fails-and-wins"
+slug = "2010/10/home-lan-fails-and-wins/"
 date = 2010-10-11T04:16:55.000Z
 +++
 So my trusty Linksys wireless router up and died on me a few months ago. Of course, in a geek's world, lack of Wifi at home is a stop-the-line emergency, so of course I just immediately drove to a local brick and mortar store to get a replacement. I bought a Belkin as it was the cheapest. It seems to not have the ability to remember MAC to IP mappings for any significant length of time, which meant all my laptops and VMs were constantly changing IPs. I even ended up writing a little script to update `/etc/issue` on my VMs so I could see their current IP without needing to log in. Well, after a while I was finally frustrated with this enough to go see if the [DD-WRT](http://www.dd-wrt.com) replacement firmware was available. It wasn't, so I thought I'd get a different model so I could enjoy the DHCP with static IP mappings goodness. I clicked my handy bookmark for local craigslist and bam, there's a guy in my town selling a Buffalo WHR-G126 for $25 with the latest dd-wrt already installed. w00t! After a conversation over a few emails, calls, and texts, we rendezvoused in town just an hour or so later and completed our transaction.

@@ -1,6 +1,6 @@
 +++
 title = "Cease and desist your password restrictions"
-slug = "2010/09/password-restrictions"
+slug = "2010/09/password-restrictions/"
 date = 2010-09-09T22:45:38.000Z
 +++
 I just tried to create an account at Bed Bath and Beyond. They said my password could only contain letters and numbers. Many sites impose various restrictions on the password, including

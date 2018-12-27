@@ -1,6 +1,6 @@
 +++
 title = "rust converting bytes chars and strings"
-slug = "2017/12/rust-converting-bytes-chars-and-strings"
+slug = "2017/12/rust-converting-bytes-chars-and-strings/"
 date = 2017-12-16T18:57:12.635Z
 +++
 I found converting from many representations of essentially the same data really inconsistent and hard to memorize in rust. I was doing a lot of work that frequently switched between text and binary and couldn't find a good quick reference cheat sheet, so I sat down to pair with [Jared McDonald](https://jaredmcdonald.github.io/) at Recurse Center and code one up.

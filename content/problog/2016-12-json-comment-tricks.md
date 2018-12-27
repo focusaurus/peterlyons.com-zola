@@ -1,6 +1,6 @@
 +++
 title = "JSON comment tricks"
-slug = "2016/12/json-comment-tricks"
+slug = "2016/12/json-comment-tricks/"
 date = 2016-12-10T21:18:24.497Z
 +++
 So as you have probably learnt and been frustrated by, JSON does not officially support comments. This, as I understand it, was done intentionally by JSON's creator Douglas Crockford to prevent abuse of comments for non-standard metadata. Be that as it may, and it may make sense for a data interchange format, JSON is used for configuration files commonly and the lack of comments can be frustrating. Here's some hacky tricks I sometimes use.

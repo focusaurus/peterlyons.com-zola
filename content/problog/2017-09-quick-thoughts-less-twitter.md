@@ -1,6 +1,6 @@
 +++
 title = "Quick Thoughts: Less Twitter"
-slug = "2017/09/quick-thoughts-less-twitter"
+slug = "2017/09/quick-thoughts-less-twitter/"
 date = 2017-09-01T14:43:35.421Z
 +++
 ### Less Twitter

@@ -1,6 +1,6 @@
 +++
 title = "Flickr Date Fixer"
-slug = "2013/04/flickr-date-fixer"
+slug = "2013/04/flickr-date-fixer/"
 date = 2013-04-28T04:36:41.827Z
 +++
 [Try my flickr date fixer app](http://flickrdatefixer.jit.su)!

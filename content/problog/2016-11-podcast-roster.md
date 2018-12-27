@@ -1,6 +1,6 @@
 +++
 title = "Podcast Roster"
-slug = "2016/11/podcast-roster"
+slug = "2016/11/podcast-roster/"
 date = 2016-11-08T19:53:02.757Z
 +++
 Here's a snapshot of podcasts I'm checking out these days.

@@ -1,6 +1,6 @@
 +++
 title = "jQuery and Ball World"
-slug = "2010/10/jquery-and-ball-world"
+slug = "2010/10/jquery-and-ball-world/"
 date = 2010-10-14T07:54:43.000Z
 +++
 So in my first computer science course, one of the earliest labs with [Stephen Wong](http://www.bandgap.cs.rice.edu/personal/adrice_swong/public/default.aspx) was called Ball World. Professor Wong had set up some fill-in-the-blanks java code for us that brought up a basic frame. We wrote code to add some ball sprites and we had to define their velocity and have code to detect collisions and compute new velocities after balls collided with each other or the boundaries. I still remember the first time you get everything fired up and see two balls collide and bounce off each other realistically. Keep in mind this is somewhere pretty earlier in my first semester ever programming. It was pretty powerful and pretty exciting.

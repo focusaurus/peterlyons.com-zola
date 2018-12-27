@@ -1,6 +1,6 @@
 +++
 title = "Managing Per-Project Interpreters and the PATH"
-slug = "2012/09/managing-per-project-interpreters-and-the-path"
+slug = "2012/09/managing-per-project-interpreters-and-the-path/"
 date = 2012-09-02T21:35:19.427Z
 +++
 **Updated: 2016-04-14**

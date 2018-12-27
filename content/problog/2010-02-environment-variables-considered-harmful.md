@@ -1,6 +1,6 @@
 +++
 title = "Environment Variables Considered Harmful"
-slug = "2010/02/environment-variables-considered-harmful"
+slug = "2010/02/environment-variables-considered-harmful/"
 date = 2010-02-14T03:30:14.000Z
 +++
 Many projects reference environment variables at either build time, install time, or run time to handle configuration that can't be made to work across all of the target environments.  It is better to use plain text simple configuration files for the reasons that follow.  First, let's quickly review common usage of environment variables.

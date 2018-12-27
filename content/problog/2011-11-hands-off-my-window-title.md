@@ -1,6 +1,6 @@
 +++
 title = "Hands off my window title!"
-slug = "2011/11/hands-off-my-window-title"
+slug = "2011/11/hands-off-my-window-title/"
 date = 2011-11-29T12:23:46.000Z
 +++
 So I recently ssh'ed into a shiny new Ubuntu 11.10 server on EC2 and noticed some new things.  Firstly, Ubuntu seems to have enabled the [byobu](https://help.ubuntu.com/11.10/serverguide/C/byobu.html) terminal multiplexer configuration by default.  This looks potentially handy, but just like [Oh my zsh](https://github.com/robbyrussell/oh-my-zsh) I don't feel motivated to futz with it just now.  It's easy to disable byobu with just a quick <code>byobu-disable</code>, which will, somewhat surprisingly, fully exit your shell, log you out and close your ssh session.  But next time you'll get a normal shell instead of a byobu/screen session.

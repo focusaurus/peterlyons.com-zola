@@ -1,6 +1,6 @@
 +++
 title = "Recurse Center 11: rsfs rust associated types"
-slug = "2017/11/recurse-center-11-rsfs-rust-associated-types"
+slug = "2017/11/recurse-center-11-rsfs-rust-associated-types/"
 date = 2017-11-21T23:01:17.418Z
 +++
 So I'm working on a tool that will interact heavily with the filesystem. This has always presented a unit testing problem both from a test speed perspective but as well as the perspective of simulating unusual errors.

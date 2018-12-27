@@ -1,6 +1,6 @@
 +++
 title = "Tips for MongoDB Migrations in Rails"
-slug = "2011/12/mongodb-migrations"
+slug = "2011/12/mongodb-migrations/"
 date = 2011-12-27T07:04:50.000Z
 +++
 I wanted to share a quick and easy method for testing Rails migrations when using the MongoDB database.  The flexibility of mongo and ruby makes this pretty straightforward. In this example, we'll be renaming a field in our example "books" collection from "isbn" to "book_number". This is a pretty common type of migration and once you get the hang of this simple case, more complex migrations follow the same pattern. First, lets generate our timestamped migration script boilerplate.

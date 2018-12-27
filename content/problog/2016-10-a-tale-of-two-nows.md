@@ -1,6 +1,6 @@
 +++
 title = "A Tale of Two Nows"
-slug = "2016/10/a-tale-of-two-nows"
+slug = "2016/10/a-tale-of-two-nows/"
 date = 2016-10-14T20:55:35.804Z
 +++
 I recently endeavored to use an analytics database called [pipelindb](https://www.pipelinedb.com/) to build a leaderboard type feature for a client. Pipelinedb is a fork-and-enhance project built on postgresql and most the of magic is presented to the developer in the form of a `CONTINUOUS VIEW` construct, which is similar to a regular relational table/view but has the ability to efficiently do sliding window queries on big-data data sets.

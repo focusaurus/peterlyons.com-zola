@@ -1,6 +1,6 @@
 +++
 title = "I hate electron apps"
-slug = "2017/05/i-hate-electron-apps"
+slug = "2017/05/i-hate-electron-apps/"
 date = 2017-05-17T04:15:02.820Z
 +++
 The following applications I use regularly on my mac on built on electron:

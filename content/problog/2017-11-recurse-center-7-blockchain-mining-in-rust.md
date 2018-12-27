@@ -1,6 +1,6 @@
 +++
 title = "Recurse Center 7: blockchain mining in rust"
-slug = "2017/11/recurse-center-7-blockchain-mining-in-rust"
+slug = "2017/11/recurse-center-7-blockchain-mining-in-rust/"
 date = 2017-11-16T00:01:27.192Z
 +++
 This morning I tweaked my hexagonal lambda tooling and tests. No big deal. I also started watching the "Into Rust" screencasts. The first one is great for answering the "Why Rust?" question which I got asked twice today already.

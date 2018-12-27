@@ -1,6 +1,6 @@
 +++
 title = "Denver Rust Meetup Reactivated"
-slug = "2018/03/denver-rust-meetup-reactivated"
+slug = "2018/03/denver-rust-meetup-reactivated/"
 date = 2018-03-01T06:45:50.564Z
 +++
 So I just went to my first meetup of the Denver/Boulder Rust meetup group. The group has been around a while but went inactive for over a year. I was and am really excited to get it going again. The meetup went really well! We had about 20 attendees and folks seemed pretty engaged and interested. One of our planned speakers canceled at the last minute due to a family emergency, but Joel Dice and I just did what software developers normally do: expand time spent to fill up time allocated! Just kidding (kind of)! Actually, I only went 4 minutes over my 20 minute slot which for me was a personal best as without multiple practices my default length for "talk about tech topic X" is 90 minutes before I start too realize I'm talking too long.

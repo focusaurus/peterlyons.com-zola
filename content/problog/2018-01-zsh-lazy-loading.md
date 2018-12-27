@@ -1,6 +1,6 @@
 +++
 title = "zsh lazy loading"
-slug = "2018/01/zsh-lazy-loading"
+slug = "2018/01/zsh-lazy-loading/"
 date = 2018-01-04T14:54:23.923Z
 +++
 I was getting frustrated with how long it took for a new terminal tab to start with zsh and display my prompt. I chatted with zsh wizard [Alok Singh](https://alok.github.io/) and finally bothered to dig into it and removed the glaringly-slow subprocess spawns (things like `brew --prefix openssl`) and some nvm related stuff was slow. What I came upon in my web research was [this post](https://kev.inburke.com/kevin/profiling-zsh-startup-time/) which had pretty slick lazy loading pattern for integration with third party utilities like nvm, virtualenv, rbenv, and similar.

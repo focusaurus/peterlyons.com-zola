@@ -1,6 +1,6 @@
 +++
 title = "Recurse Center 0: Rust Anagrams"
-slug = "2017/11/recurse-center-0-rust-anagrams"
+slug = "2017/11/recurse-center-0-rust-anagrams/"
 date = 2017-11-07T03:05:19.626Z
 +++
 Today was my first day at Recurse Center! I was excited. Like Christmas excited. And in fact, I woke up at 5AM due to said excitement. We weren't supposed to show up earlier than 10AM so I had a while to wait around in the morning.

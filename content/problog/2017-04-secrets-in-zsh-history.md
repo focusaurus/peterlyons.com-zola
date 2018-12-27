@@ -1,6 +1,6 @@
 +++
 title = "secrets in zsh history"
-slug = "2017/04/secrets-in-zsh-history"
+slug = "2017/04/secrets-in-zsh-history/"
 date = 2017-04-17T00:25:00.532Z
 +++
 I've been trying to get a manageable system for dealing with projects that need a lot of settings, some of which are secrets such as credentials. In general, environment variables are the most widely-supported mechanism. They have many shortcomings: they are exposed by the OS to other processes running as your user or root via the `/proc` filesystem (at least on linux), don't have data types other than strings, can't express nesting or arrays easily, etc. However, they can get the job done if you keep things simple.

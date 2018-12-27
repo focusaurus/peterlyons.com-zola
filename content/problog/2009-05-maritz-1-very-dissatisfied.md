@@ -1,6 +1,6 @@
 +++
 title = "Maritz: 1 - Very Dissatisfied"
-slug = "2009/05/maritz-1-very-dissatisfied"
+slug = "2009/05/maritz-1-very-dissatisfied/"
 date = 2009-05-17T04:27:56.000Z
 +++
 I bought a new car this fall and a few months later I got a follow-up survey in the mail from Maritz Research. Having a few pieces of feedback to give, such as the orange readout on the Bose sound system being invisible through Sunglasses, I endeavored to fill it out. Holy SAT Test, Batman! The survey is nine jam-packed, small-font pages long. There are 76 officially numbered questions, but many questions involve dozens of individual line-items. See the example below where question 58 asks you to rate 67 individual aspects of the vehicle! Sixty frigging seven! I gave up in frustration long before getting there.
