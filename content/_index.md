@@ -16,13 +16,13 @@ path = "/"
 * Linux/Unix server administration
 * AWS, Cloud, and infrastructure
 * Devops, deployment automation, security
-* <a href="/stacks">Read more</a>
+* <a href="/stacks/">Read more</a>
 
 ### Practices
 * Pragmatic craftsmanship
 * Lightweight Lean Methodology
 * Testing and automation
-* <a href="/practices">Read more</a>
+* <a href="/practices/">Read more</a>
 
 ### Experience
 * node.js consulting since 2013 for clients in the web, mobile, and industrial spaces
@@ -30,4 +30,4 @@ path = "/"
 * Lead engineer for trending.com social network
 * Tech Lead for OS Provisioning and Solaris Patching on Hewlett Packard's Server Automation product
 * 18 years experience across consumer web applications, startup MVPs, commercial enterprise software, and custom business applications
-* <a href="/career">Read more</a> about my career
+* <a href="/career/">Read more</a> about my career

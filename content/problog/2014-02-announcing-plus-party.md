@@ -12,4 +12,4 @@ So, I ended up building one. Well, first I paired with [@debrazapata](https://tw
 
 So go check it out!
 
-<h1><a href="/plusparty">Plus Party: Get Your Addition On!</a></h1>
+<h1><a href="/plus-party/">Plus Party: Get Your Addition On!</a></h1>

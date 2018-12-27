@@ -3,30 +3,3 @@ ID = "peterlyonscom-zola"
 [build]
   # Default build command.
   command = "./container-scripts/build.sh"
-[[redirects]]
-  from ="/code_conventions"
-  to = "/code-conventions"
-[[redirects]]
-  from ="/leveling_up"
-  to = "/leveling-up"
-[[redirects]]
-  from ="/npm_gold"
-  to = "/npm-gold"
-[[redirects]]
-  from ="/plusParty"
-  to = "/plus-party"
-[[redirects]]
-  from ="/rapid_feedback"
-  to = "/rapid-feedback"
-[[redirects]]
-  from ="/twelve_factor_nodejs"
-  to = "/twelve-factor-nodejs"
-[[redirects]]
-  from ="/web_data"
-  to = "/web-data"
-[[redirects]]
-  from ="/web_prog"
-  to = "/web-prog"
-[[redirects]]
-  from ="/white_glove"
-  to = "/white-glove"

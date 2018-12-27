@@ -6,7 +6,16 @@ const http = require("http");
 const supertest = require("supertest");
 const tap = require("tap");
 
+const uri = process.env.URI;
+function isValidUri(uri) {
+  return /^https?:\/\//.test(uri);
+}
+
+const testRedirects = isValidUri(uri);
 let server;
+tap.tearDown(() => {
+  server && server.close();
+});
 
 function _uri(server) {
   return `http://localhost:${server.address().port}`;
@@ -23,9 +32,8 @@ function _uri(server) {
  * to the base URI the tests should hit, and that will be used instead.
  */
 async function getUri() {
-  const uri = process.env.URI;
   /* istanbul ignore if */
-  if (/^https?:\/\//.test(uri)) {
+  if (isValidUri(uri)) {
     return uri;
   }
   if (server) {
@@ -37,10 +45,6 @@ async function getUri() {
   await listen();
   return _uri(server);
 }
-
-tap.tearDown(() => {
-  server && server.close();
-});
 
 async function testUri(
   uriPath,
@@ -66,4 +70,9 @@ async function testUri(
   });
 }
 
-module.exports = { testUri };
+async function request() {
+  const baseUri = await getUri();
+  return supertest(baseUri);
+}
+
+module.exports = { testUri, request };
