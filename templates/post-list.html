@@ -7,7 +7,7 @@
 <div class="posts">
   {% for post in section.pages %}
   <div class="post">
-    <a href="{{ post.permalink }}" class="postTitle">{{ post.title }}</a>
+    <a href="/{{ post.slug | safe }}" class="postTitle">{{ post.title }}</a>
     <div class="postDate">{{ post.date | date(format="%B %d, %Y") }} </div>
   </div>
   {% endfor %}
