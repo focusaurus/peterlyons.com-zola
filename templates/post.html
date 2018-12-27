@@ -16,7 +16,7 @@
     {% endif %}
   </ul>
 </nav>
-<button class="toggleComments">[+Show Disqus Blog Comments]</button>
+<button id="toggleComments">[+Show Disqus Blog Comments]</button>
 <section id="comments" class="none">
   <div id="disqus_thread"></div>
   <script> const disqus_shortname = "peterlyons-problog"; </script>
@@ -39,3 +39,27 @@ s.setAttribute('data-timestamp', +new Date());
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </section>
 {% endblock body %}
+{% block scripts %}
+{{ super() }}
+<script>
+  ;(function iife() {
+  function toggleComments(event) {
+    if (event) {
+      event.preventDefault();
+    }
+    const classList = document.querySelector("#comments").classList;
+    const hidden = classList.contains("none");
+    const newText = hidden ? "[- Hide Comments]" : "[+Show Disqus Blog Comments]";
+    document.querySelector("#toggleComments").textContent = newText;
+    if (hidden) {
+      classList.remove("none");
+    } else {
+      classList.add("none");
+    }
+  }
+
+  document.querySelector("#toggleComments").addEventListener(
+    "click", toggleComments);
+  })();
+</script>
+{% endblock scripts %}

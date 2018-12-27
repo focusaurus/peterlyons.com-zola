@@ -71,9 +71,9 @@ header {
 
 .license {
   clear: both;
-  border-top: solid 1px #ccc;
+  border-top: solid 1px $colorFooter;
   padding-top: 2rem;
-  color: #colorFooter;
+  color: $colorFooter;
 
   img {
     margin-right: 2em;
@@ -85,7 +85,7 @@ header {
   }
 
   a {
-    color: #colorFooter;
+    color: $colorFooter;
   }
 }
 
