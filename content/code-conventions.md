@@ -283,7 +283,7 @@ Prefer string interpolation to building up strings with operators
 # Comments
 
 This article pre-dates my blog, but you can post any comments you have on this
-article [on the corresponding entry on my technology blog](/problog/2009/03/code-conventions).
+article [on the corresponding entry on my technology blog](/problog/2009/03/code-conventions/).
 
    [2]: http://www.python.org/dev/peps/pep-0020/
    [4]: http://www.python.org/dev/peps/pep-0008/

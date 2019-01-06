@@ -18,7 +18,7 @@ title = "Practices and Values"
   - I build working software that is well-crafted
 - Components Should Be Focused, Independent, Reusable, Small & Testable ([FIRST](http://addyosmani.com/first/))
 
-See also my [code conventions](/code-conventions)
+See also my [code conventions](/code-conventions/)
 
 ## Data Modeling
 
