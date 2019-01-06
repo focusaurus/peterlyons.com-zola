@@ -8,6 +8,7 @@ async function start(port) {
   const server = http.createServer(handler);
   const listen = promisify(server.listen.bind(server));
   await listen(port);
+  console.log("HTTP server running on port", port);
   return server;
 }
 
