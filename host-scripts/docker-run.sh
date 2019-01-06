@@ -19,6 +19,7 @@ exec docker run --rm --interactive --tty \
   --attach stdin --attach stdout --attach stderr \
   --volume "${PWD}:/host" \
   --volume $SSH_AUTH_SOCK:/ssh-agent \
+  --volume $HOME/.gitconfig:/home/node/.gitconfig \
   --env-file ./.env \
   --env SSH_AUTH_SOCK=/ssh-agent \
   --user "$(id -u)" \
