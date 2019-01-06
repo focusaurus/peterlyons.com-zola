@@ -20,7 +20,7 @@ RUN adduser --disabled-password --gid "${GROUP_ID}" --uid "${USER_ID}" --gecos "
 #   && chmod 755 /usr/local/bin/zola
 
 EXPOSE 9002
-ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/host/bin:/host/node_modules/.bin:/host/local/bin RUST_BACKTRACE=1
+ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin::/host/container-scripts:/host/bin:/host/node_modules/.bin:/host/local/bin RUST_BACKTRACE=1
 WORKDIR /host
 CMD ["bash"]
 
