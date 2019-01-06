@@ -1,9 +1,11 @@
 {% extends "layout.html" %}
 {% block body %}
+<h1>Pete's Points</h1>
+<h2>A blog about web development, programming, and technology</h2>
 <a class="button" id="subscribe" href="/rss.xml">
-  Subscribe
   <img class="icon" src='/images/feed.png' height="24" alt='Subscribe to my Atom feed' title='Subscribe to my Atom Feed' />
 </a>
+<hr/>
 <div class="posts">
   {% for page in section.pages %}
   <div class="post">
