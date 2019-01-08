@@ -1,0 +1,59 @@
+==================================================================
+https://keybase.io/focusaurus
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://peterlyons.com
+  * I am focusaurus (https://keybase.io/focusaurus) on keybase.
+  * I have a public key with fingerprint 6B5E E932 7443 38B7 F12F  F706 B2C9 23F1 E205 D5C6
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "6b5ee932744338b7f12ff706b2c923f1e205d5c6",
+            "host": "keybase.io",
+            "key_id": "b2c923f1e205d5c6",
+            "uid": "f9794c460470d4a068f714896c7fa500",
+            "username": "focusaurus"
+        },
+        "service": {
+            "hostname": "peterlyons.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1396987486,
+    "expire_in": 157680000,
+    "prev": "73b2ad6795153be5ad403266b7e267c90fd4d7a4d377393efbc2b65a1b8de48c",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owFtkT1oFUEQxy9qJAb8SCPGSlbQ5hH2bvd2787Cxk47RRTU537MvizJuz3v45lH
+jK1aRdDeTrCNVboUGpC0GoV0oliKSAQr3Q2xc5thZ37//8wwT48ejKZm1t6d/fF5
+8sPmxNbGLxldvXQdlpF0eoyKZbQAe8HYcgB1VduyRQViMgXIScIpJSST3MSJMRwz
+mag8ISaGBKc6VQz10LxrgsLbSNHAnHU+5z99q332P3y3VzA5z6miDFOONRWYZYbH
+NMuZ4kakGAewgboUQwi0U10jurpr0EoP+fzIKghTh+b7TAUt1ItjVzZzyg29vqpd
+65Rb9LX5tq2KIG3HVWDvg+zvu/SlLbXf3QtGUDfWlaiIPalaG2xjkrM84zRjPQRL
+la2hbwORcpZh/0IbGHlLTmQiNON5GqdEQio0xSRhTHJIGFc5NppqLqgmnJOcgJEq
+kSwVscw00EyhsNe90qGC+jHFwFs2dlCKtqsBrUw/vnMompmKDk8eCNeLpo+c+HdT
+9mYi2jx268z36sbGwulnD35u7+wcX92K7n650Lt8fvvkxVPvP0Z/bs+CGF7B19Z+
+f3v76eHzrzdXy5frL8aPXq8/eWV2d8/9BQ==
+=DicF
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/focusaurus
+
+==================================================================
