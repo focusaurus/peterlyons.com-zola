@@ -4,7 +4,8 @@
   "description": "Static web site for peterlyons.com",
   "scripts": {
     "build": "./container-scripts/build.sh",
-    "test": "find tests -name '*-tap.js' | xargs tap"
+    "test": "find tests -name '*-tap.js' | xargs tap",
+    "lint": "eslint --format ./node_modules/eslint-tap static tests"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,12 @@
   "homepage": "https://github.com/focusaurus/peterlyons.com-zola#readme",
   "devDependencies": {
     "cheerio": "^1.0.0-rc.2",
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-tap": "^2.0.1",
     "serve-handler": "^5.0.7",
     "supertest": "^3.3.0",
     "tap": "^12.1.1"

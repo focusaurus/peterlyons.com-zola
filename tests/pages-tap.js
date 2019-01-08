@@ -1,5 +1,5 @@
 "use strict";
-const { request, testUri } = require("./utils");
+const { testUri } = require("./utils");
 
 testUri("/", {
   match: [

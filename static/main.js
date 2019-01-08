@@ -1,3 +1,3 @@
-import navigationStart from "./navigation.js";
+import navigationStart from "./navigation";
 
 navigationStart();

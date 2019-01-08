@@ -1,3 +1,4 @@
+/* global document, hljs, Reveal */
 // Full list of configuration options available at:
 // https://github.com/hakimel/reveal.js#configuration
 Reveal.initialize({
@@ -13,20 +14,20 @@ Reveal.initialize({
   dependencies: [
     {
       src: "/reveal.js/plugin/markdown/marked.js",
-      condition: function() {
+      condition() {
         return !!document.querySelector("[data-markdown]");
       }
     },
     {
       src: "/reveal.js/plugin/markdown/markdown.js",
-      condition: function() {
+      condition() {
         return !!document.querySelector("[data-markdown]");
       }
     },
     {
       src: "/reveal.js/plugin/highlight/highlight.js",
       async: true,
-      callback: function() {
+      callback() {
         hljs.initHighlightingOnLoad();
       }
     },
@@ -38,9 +39,10 @@ Reveal.initialize({
 function fragment(element) {
   element.classList.add("fragment");
 }
+// eslint-disable-next-line prefer-destructuring
 const $ = document.querySelectorAll.bind(document);
-const forEach = Array.prototype.forEach;
-Reveal.addEventListener("ready", function onReady(event) {
+const { forEach } = Array.prototype;
+Reveal.addEventListener("ready", () => {
   forEach.call($("figure"), fragment);
   forEach.call($("li"), fragment);
   forEach.call($("p"), fragment);
@@ -50,10 +52,10 @@ Reveal.addEventListener("ready", function onReady(event) {
   forEach.call($("h5"), fragment);
   forEach.call($("h6"), fragment);
   const codes = document.querySelectorAll("pre > code");
-  for (let i = 0; i < codes.length; i++) {
-    codes[i].parentElement.classList.add("fragment");
-  }
-  forEach.call($("a"), function(link) {
+  forEach.call(codes, code => {
+    code.parentElement.classList.add("fragment");
+  });
+  forEach.call($("a"), link => {
     link.target = "_blank";
   });
 });

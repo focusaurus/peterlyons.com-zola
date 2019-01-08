@@ -1,3 +1,4 @@
+/* global document */
 const nav = document.querySelector("nav.site");
 const content = document.querySelector(".content");
 

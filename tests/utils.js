@@ -7,18 +7,16 @@ const supertest = require("supertest");
 const tap = require("tap");
 
 const uri = process.env.URI;
-function isValidUri(uri) {
-  return /^https?:\/\//.test(uri);
+function isValidUri(value) {
+  return /^https?:\/\//.test(value);
 }
 
 const testRedirects = isValidUri(uri);
 let server;
-tap.tearDown(() => {
-  server && server.close();
-});
+tap.tearDown(() => server && server.close());
 
-function _uri(server) {
-  return `http://localhost:${server.address().port}`;
+function _uri(_server) {
+  return `http://localhost:${_server.address().port}`;
 }
 
 /**
@@ -46,14 +44,18 @@ async function getUri() {
   return _uri(server);
 }
 
+async function request() {
+  const baseUri = await getUri();
+  return supertest(baseUri);
+}
+
 async function testUri(
   uriPath,
   { description = "", selectors = [], match = [], code = 200 } = {}
 ) {
   tap.test(description || uriPath, async test => {
-    const baseUri = await getUri();
-    const request = supertest(baseUri);
-    const res = await request.get(uriPath).expect(code);
+    const req = await request();
+    const res = await req.get(uriPath).expect(code);
     if (res.headers["content-type"].includes("text/html")) {
       const $ = cheerio.load(res.text);
       selectors.forEach(selector => {
@@ -64,15 +66,10 @@ async function testUri(
       });
     }
 
-    match.forEach(match => {
-      test.match(res.text, match);
+    match.forEach(_match => {
+      test.match(res.text, _match);
     });
   });
 }
 
-async function request() {
-  const baseUri = await getUri();
-  return supertest(baseUri);
-}
-
-module.exports = { testUri, request };
+module.exports = { testUri, request, testRedirects };
