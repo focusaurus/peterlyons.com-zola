@@ -47,25 +47,15 @@ header {
     padding-bottom: 0.5em;
     margin: 0;
     font-family: $headerFont;
-    font-size: 6rem;
-    @media only screen and (min-width: 400px) {
-      @include font-size(2, 1);
-    }
+    @include font-size(2, 1);
   }
 }
 
 .content {
   margin: 1em;
+  width: 30em;
   @media only screen and (min-width: 600px) {
     margin: 1em auto;
-    width: 30em;
-  }
-  @media only screen and (min-width: 800px) {
-    // This is carefully calculated to avoid overlap with side nav menu
-    width: 23em;
-  }
-  @media only screen and (min-width: 1050px) {
-    width: 30em;
   }
 }
 
