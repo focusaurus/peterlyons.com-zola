@@ -53,3 +53,4 @@ testUri("/deck.css", { match: ["background-color"] });
 testUri("/favicon.ico");
 testUri("/favicon.png");
 testUri("/humans.txt", { match: ["Netlify"] });
+testUri("/rss.xml", { match: ["Pete&#x27;s Points"] });

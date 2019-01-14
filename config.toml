@@ -4,6 +4,7 @@ generate_rss = true
 compile_sass = true
 highlight_code = false
 build_search_index = false
+title = "Pete's Points"
 
 [extra]
 # Put all your custom variables here
