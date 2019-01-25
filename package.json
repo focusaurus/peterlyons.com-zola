@@ -1,6 +1,6 @@
 {
   "name": "peterlyons.com-zola",
-  "version": "8.0.0",
+  "version": "8.0.1",
   "description": "Static web site for peterlyons.com",
   "scripts": {
     "build": "./container-scripts/build.sh",
