@@ -386,5 +386,3 @@ turned out to be a key language two jobs later at Opsware.
 * Extreme Programming (XP)
 * Object-Relational Modeling (ORM)
 * Apple Core Foundation APIs
-
-<script src="career.js"></script>
