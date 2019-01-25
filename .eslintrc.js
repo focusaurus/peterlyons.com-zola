@@ -14,6 +14,7 @@ module.exports = {
       "error",
       {devDependencies: ["tests/**/*.js"]}
     ],
+    "import/extensions": "always",
     "lines-around-directive": "off",
     "max-len": [
       "warn",
