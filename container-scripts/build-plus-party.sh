@@ -23,7 +23,7 @@ main() {
   elm-make --yes --output "${plus_party_temp}" PlusParty.elm
   cd - >/dev/null
   cat node_modules/clipboard/dist/clipboard.js "${plus_party_temp}" >"${out}"
-  uglifyjs ${uglify_args} "${out}" | gzip >"${out}.gz"
+  uglifyjs "${out}" | gzip >"${out}.gz"
 }
 
 main "$@"
