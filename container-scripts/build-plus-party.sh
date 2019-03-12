@@ -15,7 +15,6 @@ IFS="$(printf "\n\t")"
 
 main() {
   cd "$(dirname "${BASH_SOURCE[0]}")/.."
-  mkdir -p public
   local plus_party_temp
   plus_party_temp="$(mktemp -t plus-party-build-XXXXXX).js"
   local out="./static/plus-party.js"
