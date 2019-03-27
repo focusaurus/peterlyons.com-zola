@@ -10,7 +10,7 @@ set -o pipefail # don't ignore exit codes when piping output
 set -o posix    # more strict failures in subshells
 # set -x          # enable debugging
 
-IFS="$(printf "\n\t")"
+IFS=$'\n\t'
 # ---- End unofficial bash strict mode boilerplate
 
 main() {
