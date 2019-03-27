@@ -7,7 +7,9 @@ Some notes about some of my more interesting projects are below. This is not an 
 
 ## mjournal
 
-[mjournal](https://mjournal.peterlyons.com) is a minimalist journaling web application. It has a simple data model with entries stored chronologically and full-text search and tags for organization. There are 2 visual themes. The stack is postgresql, express, and angularjs and it is deployed via docker.
+![mjournal screen shot](./mjournal-screenshot.png)
+
+[mjournal](https://github.com/focusaurus/mjournal) (2013-2019) is a minimalist journaling web application. It has a simple data model with entries stored chronologically and full-text search and tags for organization. There are 2 visual themes. The stack is postgresql, express, and angularjs and it is deployed via docker.
 
 ## White Glove
 
@@ -15,9 +17,9 @@ Some notes about some of my more interesting projects are below. This is not an 
 
 ## Linkzie
 
-<a href="https://linkzie.com" target="_blank"><img src="./linkzie_screen_shot.png" alt="Linkzie Screen Shot"></a>
+![linkzie screen shot](./linkzie_screen_shot.png)
 
-[Linkzie](https://linkzie.com) is a web-based bookmark management application. It differs from many others in that it gives you "one big wall of links" layed out in a grid that is optimized for spacially-oriented thinking/memory. It has a nice drag and drop UI and in-place editing. The stack is jQuery/JavaScript in the browser, Ruby on Rails and PostgreSQL on the server.
+**Linkzie** (2011-2019) is a web-based bookmark management application. It differs from many others in that it gives you "one big wall of links" layed out in a grid that is optimized for spacially-oriented thinking/memory. It has a nice drag and drop UI and in-place editing. The stack is jQuery/JavaScript in the browser, Ruby on Rails and PostgreSQL on the server.
 
 ## Commander
 
