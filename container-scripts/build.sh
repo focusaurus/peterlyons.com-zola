@@ -10,15 +10,15 @@ set -o pipefail # don't ignore exit codes when piping output
 set -o posix    # more strict failures in subshells
 # set -x          # enable debugging
 
-IFS="$(printf "\n\t")"
+IFS=$'\n\t'
 # ---- End unofficial bash strict mode boilerplate
 
 cd "$(dirname "${BASH_SOURCE[0]}")/.."
 export PATH="${PWD}/local/bin:${PATH}"
-ZOLA_VERSION=0.5.1
+ZOLA_VERSION=0.6.0
 zola_url="https://github.com/getzola/zola/releases/download/v${ZOLA_VERSION}/zola-v${ZOLA_VERSION}-x86_64-unknown-linux-gnu.tar.gz"
-version=$(zola --version 2>/dev/null || /bin/true)
-if [[ ! "${version}" =~ ^zola ]]; then
+version=$(zola --version | cut -d " " -f 2 2>/dev/null || /bin/true)
+if [[ "${version}" != "${ZOLA_VERSION}" ]]; then
   # install zola
   mkdir -p ./local/bin
   wget -q -O - "${zola_url}" |
@@ -26,5 +26,5 @@ if [[ ! "${version}" =~ ^zola ]]; then
   chmod 755 local/bin/zola
 fi
 ./container-scripts/build-plus-party.sh
-./local/bin/zola build
-cp -r node_modules/reveal.js public
+cp -r node_modules/reveal.js static
+zola build
