@@ -1,6 +1,6 @@
 {
   "name": "peterlyons.com-zola",
-  "version": "8.2.0",
+  "version": "8.2.1",
   "description": "Static web site for peterlyons.com",
   "scripts": {
     "build": "./container-scripts/build.sh",
@@ -24,20 +24,20 @@
   "homepage": "https://github.com/focusaurus/peterlyons.com-zola#readme",
   "devDependencies": {
     "cheerio": "^1.0.0-rc.2",
-    "eslint": "^5.12.0",
+    "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-config-prettier": "^3.3.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-promise": "^4.0.1",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-promise": "^4.1.1",
     "eslint-tap": "^2.0.1",
-    "serve-handler": "^5.0.7",
-    "supertest": "^3.3.0",
-    "tap": "^12.1.1"
+    "serve-handler": "^6.0.1",
+    "supertest": "^4.0.2",
+    "tap": "^14.1.11"
   },
   "dependencies": {
-    "clipboard": "^2.0.1",
+    "clipboard": "^2.0.4",
     "elm": "^0.18.0",
-    "reveal.js": "^3.7.0",
+    "reveal.js": "^3.8.0",
     "uglify-es": "^3.3.9"
   }
 }
