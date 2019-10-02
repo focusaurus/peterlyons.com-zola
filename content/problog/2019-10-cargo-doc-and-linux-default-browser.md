@@ -11,7 +11,7 @@ So I recently learned about `cargo doc --open` while attending the [Colorado Gol
 - I tried running `xdg-open target/doc/my-crate/index.html` directly on the command line and noticed it opened the wrong browser, too.
 - By editing my system-level xdg-open to add `set -x` debugging, I was able to determine that my xdg-open was eventually calling `gio open` which I had never heard of.
 - So I read a bunch of [gio docs](https://developer.gnome.org/gio/stable/gio.html) that said the configuration comes from a file called `mimeapps.list`
-  - And of coures, there's many locations where this file can live and both an old deprecated set of locations that is widely documented online and a new set of actual working locations with scant documentation
+  - And of course, there's many locations where this file can live and both an old deprecated set of locations that is widely documented online and a new set of actual working locations with scant documentation
 - I tried a bunch of wrong locations where `mimeapps.list` might need to be with no success
 - I eventually found [this Arch Wiki page](https://wiki.archlinux.org/index.php/XDG_MIME_Applications#mimeapps.list) that described the format and accurate location of mimeapps.list: `~/.config/mimeapps.list`
 - In there I found a bunch of stuff and every time I saw `google-chrome.desktop` I just preceeded it with `firefox.desktop;` and that seemed to work
