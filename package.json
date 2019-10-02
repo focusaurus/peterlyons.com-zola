@@ -24,19 +24,19 @@
   "homepage": "https://github.com/focusaurus/peterlyons.com-zola#readme",
   "devDependencies": {
     "cheerio": "^1.0.0-rc.2",
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-config-prettier": "^4.3.0",
-    "eslint-plugin-import": "^2.17.3",
-    "eslint-plugin-promise": "^4.1.1",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-promise": "^4.2.1",
     "eslint-tap": "^2.0.1",
-    "serve-handler": "^6.0.1",
+    "serve-handler": "^6.1.2",
     "supertest": "^4.0.2",
-    "tap": "^14.1.11"
+    "tap": "^14.6.9"
   },
   "dependencies": {
     "clipboard": "^2.0.4",
-    "elm": "^0.18.0",
+    "elm": "0.18.0",
     "reveal.js": "^3.8.0",
     "uglify-es": "^3.3.9"
   }
