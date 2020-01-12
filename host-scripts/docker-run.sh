@@ -16,10 +16,11 @@ IFS=$'\n\t'
 cd "$(dirname "${BASH_SOURCE[0]}")/.."
 source ./.env
 image=node:$(cat .nvmrc)
+#  --volume $SSH_AUTH_SOCK:/ssh-agent \
 exec docker run --rm --interactive --tty \
   --attach stdin --attach stdout --attach stderr \
   --volume "${PWD}:/host" \
-  --volume $SSH_AUTH_SOCK:/ssh-agent \
+  --env SSH_AUTH_SOCK \
   --env-file ./.env \
   --env PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/host/bin:/host/local/bin:/host/container-scripts:/host/node_modules/.bin \
   --workdir /host \
