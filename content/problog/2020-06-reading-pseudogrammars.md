@@ -40,8 +40,8 @@ So for the Dockerfile COPY example above, here's how I'd slowly break it down in
 - So there's a long-form option `--chown` and it takes user and group separate by colon
   - BUT because there's no example I have no idea if those need to be names or numbers
 - Then comes a required src argument which I infer must be a filesystem path
-- The `...` means there can be more than 1 `&lt;src&gt;` argument and I presume they are space separated and delivered as distinct entries in the underlying`argv` array.
-- Then comes a required `&lt;dest&gt;` which I have to infer from context (which I probably don't have if I'm just learning this command) that this is a filesystem path inside the docker image filesystem.
+- The `...` means there can be more than 1 &lt;src&gt; argument and I presume they are space separated and delivered as distinct entries in the underlying`argv` array.
+- Then comes a required &lt;dest&gt; which I have to infer from context (which I probably don't have if I'm just learning this command) that this is a filesystem path inside the docker image filesystem.
 
 So I guess I managed to grok this one, but it's pseudogrammar was pretty small. When I start to see pipe symbols. For the next few pseudogrammars I encounter, I'm going to practice reading slowly character-by-character and writing out in long form what I think each element denotes. Hopefully with a little practice I'll become more fluent in grokking these.
 
