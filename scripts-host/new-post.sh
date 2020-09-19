@@ -21,7 +21,7 @@ slug() {
   # Delete everything other than letters, numbers, dash
   # remove trailing dash
   echo "$@" |
-    tr "A-Z" "a-z" |
+    tr '[:upper:]' '[:lower:]' |
     sed -e 's/\s/-/g' -e 's/--/-/g' |
     tr -c -d "a-z0-9-" |
     sed -e 's/-$//'
@@ -46,3 +46,4 @@ slug = "${year}/${month}/${name}/"
 date = ${publish_date}
 +++
 EOF
+"${EDITOR}" "${dest_path}"
