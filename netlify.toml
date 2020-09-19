@@ -2,4 +2,4 @@
 ID = "peterlyonscom-zola"
 [build]
   # Default build command.
-  command = "./container-scripts/build.sh"
+  command = "./scripts-container/build.sh"

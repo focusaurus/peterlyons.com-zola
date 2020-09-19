@@ -15,5 +15,5 @@ IFS=$'\n\t'
 
 cd "$(dirname "${BASH_SOURCE[0]}")/.."
 export PATH="${PWD}/local/bin:${PATH}"
-./container-scripts/build.sh
+./scripts-container/build.sh
 zola serve --port "${PORT}" --interface 0.0.0.0

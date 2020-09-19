@@ -3,7 +3,7 @@
   "version": "8.2.1",
   "description": "Static web site for peterlyons.com",
   "scripts": {
-    "build": "./container-scripts/build.sh",
+    "build": "./scripts-container/build.sh",
     "test": "find tests -name '*-tap.js' | xargs tap",
     "lint": "eslint --format ./node_modules/eslint-tap static tests"
   },

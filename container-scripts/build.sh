@@ -36,7 +36,7 @@ main() {
   if [[ ! -d node_modules ]]; then
     npm install
   fi
-  ./container-scripts/build-plus-party.sh
+  ./scripts-container/build-plus-party.sh
   cp -r node_modules/reveal.js static
   # The "test" directory in reveal has some insecure mixed content
   # so remove it to avoid netlify warnings
