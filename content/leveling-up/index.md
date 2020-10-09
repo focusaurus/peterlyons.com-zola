@@ -7,6 +7,7 @@ title = "Leveling Up: Career Advancement for Software Developers"
 * [Pillar 1: Technical Competence](#pillar1)
 * [Pillar 2: Professional Communication](#pillar2)
 * [Pillar 3: Getting Credit for What You Do](#pillar3)
+* [Where to Go Next](#staffeng)
 * [Comments](/problog/2011/05/leveling-up)
 
 ## Introduction
@@ -626,6 +627,13 @@ Peter Lyons has worked as a software developer and technology consultant since 2
 If you are uncertain about the veracity or value of the tips in this article, I offer up this graph of my salary as evidence in their favor. Assuming my starting salary straight out of college as "1" and computing the rest as multiples of that, here's what the growth looked like. Thus the chart doesn't show my specific earnings, just how they grew over time. This includes both base salary and cash bonuses. This does not include any form of stock, although I earned a bunch of that as well. By 2011 when I decided to take my career in a very different direction, I was earning over 4.6 times what I earned straight out of college.
 
 ![Bar chart of salary over time](./salary_chart.png)
+
+<h1 id="staffeng">2020 Update and Where to Go from Here</h1>
+
+This article is approaching 10 years old. I still think many of the core ideas are still solid and applicable, but as one would expect most of the technical stuff is now thoroughly outdated. I spent a while thinking about what an updated version of this piece might look like, but before I started to write things down, I found an existing resource that was so on-target in terms of topic and high-quality in terms of content I'm just going to link you to it.
+
+So if you want to level beyond individual contributor roles into engineering leadership, I whole-heartedly recommend reading [staffeng.com](https://staffeng.com/), which I have been studying intently recently. As of September 2020, I was promoted to Staff Engineer at Mailchimp, and staffeng.com has been a great resource as I endeavor to do well in my new role.
+
 # Comments
 
 Please share your responses to this article on my [blog post for this article](/problog/2011/05/leveling-up).
