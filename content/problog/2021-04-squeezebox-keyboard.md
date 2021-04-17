@@ -39,7 +39,7 @@ The column spacing is designed essentially to be as tight as possible given Kaih
 The height of each column is controlled in parameterized CAD for the front/back walls so to adjust that you dial the parameters and print a new wall. Each column has a custom shelf height supporting it, essentially.
 
 For near/far adjustment, each finger column is on slots that provide about 15mm of movement 
-for each finger independently. Tweak with the bolts slighly loose until it fits perfectly then tighten the bolts and you're set.
+for each finger independently. Tweak the positions with the bolts slightly loose until it fits perfectly then tighten the bolts and you're set.
 
 The thumb cluster can be raised/lowered by printing different length standoff cylinder. It's placement left/right and near/far is adjusted by way of the grid of threaded insert holes. I've only tried 2 positions so far so I only bothered installing the threaded inserts in 2 of the holes, but in theory each of those little circular holes below the thumb cluster could house a threaded insert.
 
@@ -49,7 +49,7 @@ My goal at the outset was to make this a kit that most folks could use and tailo
 
 ## Naked Switches
 
-No keycaps! Choc switches have a perfectly fine flat top stem. The tight geometry I wanted requires an extremely small gap between the middle and bottom row switches and keycaps would get in the way. When you look at it from the side you'll notice the bottom row stem actually overlaps just above the middle row stem slightly. Keycaps could technically go on the top row and most of the thumb cluster I think but they don't really add much and I think it's kind of a cool hipster flex to not have them I think. It's like the fixie bike of the keeb world. The switches are installed rotated 90 degrees from standard to reduce the typing gap within a single finger's column.
+No keycaps! Choc switches have a perfectly fine flat-top stem. The tight geometry I wanted requires an extremely small gap between the middle and bottom row switches and keycaps would get in the way. When you look at it from the side you'll notice the bottom row stem actually overlaps just above the middle row stem slightly. Keycaps could technically go on the top row and most of the thumb cluster I think but they don't really add much and I think it's kind of a cool hipster flex to not have them I think. It's like the fixie bike of the keeb world. The switches are installed rotated 90 degrees from standard to reduce the typing gap within a single finger's column.
 
 ## Keywells below wrist rest
 
@@ -58,6 +58,8 @@ For the most comfortable geometry given the need to do a trigger pull motion to 
 ## Lap tray
 
 Somewhat accidentally while dealing with the clutter of 2 split keyboards on my desk, I set the squeezebox's tray across my lap to make room and in that process realized I could line up my chair's arm wrests with the wrist rests and get a very comfortable posture going. The chair arm wrests support my forearms and the wrist wrests are directly in front of them at the same height. The tray also affords a surface for the mouse in the middle. So for now I'm planning to use the lap tray as my primary posture. But it works well enough on the desk too. 
+
+{{ figureflickr(url="https://live.staticflickr.com/65535/51121273052_11074800d5_c.jpg" caption="Lap tray and chair arm wrests") }}
 
 ## Wiring and Soldering
 
@@ -92,9 +94,9 @@ This project took at least 2 months of substantial night/weekend attention and a
 
 ## Plans for the next revision
 
-The main thing I'm dissatisfied with in this version is the angle between top and middle row for ring and middle fingers is too steep. I can't properly type the top row with the point of my finger as intended. Instead, my fingernail side ends up scraping the keycap. This is a consequence of starting out designing for a vertical joystick style orientation, where that angle works OK. But I switched back to horizontal in the process and didn't realize that would actually affect the geometry here. It's great for index and pinky which is a bit odd but anyway in the next revision the ring and middle finger top row will be nearly flat like 170 degrees.
+The main thing I'm dissatisfied with in this version is the angle between top and middle row for ring and middle fingers is too steep. I can't properly type the top row with the point of my finger as intended. Instead, my fingernail ends up scraping the keycap. This is a consequence of starting out designing for a vertical joystick style orientation, where that angle works OK. But I switched back to horizontal in the process and didn't realize that would actually affect the geometry here. It's great for index and pinky which is a bit odd but anyway in the next revision the ring and middle finger top row will be nearly flat like 170 degrees.
 
-I've added slots for bar magnets so I can mount the keyboard and wrist rests to a steel plate which will be adhered to a 1/2" plywood board for the lap tray. I may switch to a flat RJ-9 cable so I can staple it to the board and route it along the edge leaving the center part of the tray fully clear for the mouse (or coffee when on the desk).
+I've added slots for bar magnets so I can mount the keyboard and wrist rests to a steel plate which will be adhered to a 1/2" plywood board for the lap tray. I may switch to a flat RJ-9 cable instead of coiled so I can staple it to the board and route it along the edge leaving the center part of the tray fully clear for the mouse (or coffee when on the desk).
 
 I didn't really account for a physical reset button in this design as I figured I would have a reset key in my keymap. That turned out to be quite optimistic so I just hacked one in there and it's dangling around on wires. I'll give it a proper home in the next version. I was expecting the QMK tweaking and flashing to be a fairly quick process needing just a few flashes to get it and hoo boy was I wrong. I spent several full weekends debugging weird behavior and going from things like 39 of the 42 keys work to suddenly no keys work to suddenly only the bottom row works, to everything works but it's all backward, etc. 
 
