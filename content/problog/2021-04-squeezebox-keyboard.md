@@ -16,9 +16,9 @@ I designed and built a split ergonomic keyboard with some ideas I've been wantin
 
 ## The Home Corner
 
-I think the main design element that sets this apart for other similar keebs is the shape of the middle and bottom rows. They are arranged in a steep 100-degree corner and the home position for the finger rests simultaneously with the point of the finger resting on the middle row and the pad of the finger resting on the bottom row. You can type the middle row while maintaining contact with the bottom row, and vice versa. So there's 2 separate keys that can be typed without any reaching. Additionally, because the switches are in such a tight corner, it's possible to press both of them with a single finger by poking into the corner. Both keys press and release in perfect unison. So each finger has 3 separate characters it can type without any reaching when you add a QMK combo into the keymap. There is an upper row which is positioned and angled for very small reach so when you add that it's 4 keys per finger. The upper row is so tightly spaced that if you reach for it, you'll overshoot it. You don't need to reach. Just "think up" slightly and you hit it.
-
 {{ figureflickr(url="https://live.staticflickr.com/65535/51122370815_e04f833575_c.jpg" caption="The home position resting in contact with the middle and bottom rows") }}
+
+I think the main design element that sets this apart for other similar keebs is the shape of the middle and bottom rows. They are arranged in a steep 100-degree corner and the home position for the finger rests simultaneously with the point of the finger resting on the middle row and the pad of the finger resting on the bottom row. You can type the middle row while maintaining contact with the bottom row, and vice versa. So there's 2 separate keys that can be typed without any reaching. Additionally, because the switches are in such a tight corner, it's possible to press both of them with a single finger by poking into the corner. Both keys press and release in perfect unison. So each finger has 3 separate characters it can type without any reaching when you add a QMK combo into the keymap. There is an upper row which is positioned and angled for very small reach so when you add that it's 4 keys per finger. The upper row is so tightly spaced that if you reach for it, you'll overshoot it. You don't need to reach. Just "think up" slightly and you hit it.
 
 {{ figureflickr(url="https://live.staticflickr.com/65535/51122371825_de783521e1_c.jpg" caption="Pressing the middle row") }}
 
@@ -29,6 +29,8 @@ I think the main design element that sets this apart for other similar keebs is 
 {{ figureflickr(url="https://live.staticflickr.com/65535/51121487553_72e96baf42_c.jpg" caption="Pressing the top row") }}
 
 ## Physical layout of switches
+
+{{ figureflickr(url="https://live.staticflickr.com/65535/51122426945_962f7dd28b_c.jpg" caption="Main finger grid and thumb cluster") }}
 
 So we have a 3x5 grid for the fingers plus 6 thumb keys so it's 21 keys per hand for a total of 42 (nice!). The thumb cluster has pairs of keys in a "lounge chair" arrangement with one flat and one reclined at an angle making it easy to hit them separately or to chord them. One column is the home position for the thumb and then there's one you move your thumb inward to hit and another you move outward for.
 
