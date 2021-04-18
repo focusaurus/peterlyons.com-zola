@@ -14,7 +14,7 @@ I designed and built a split ergonomic keyboard with some ideas I've been wantin
 
 {{ figureflickr(url="https://live.staticflickr.com/65535/51121273052_11074800d5_c.jpg" caption="Squeezebox split keyboard") }}
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/51122426945_962f7dd28b_c.jpg" caption="The Squeezebox Keyboard rev 21a left side") }}
+{{ figureflickr(url="https://live.staticflickr.com/65535/51122426945_962f7dd28b_c.jpg" caption="The Squeezebox Keyboard rev 21a left side top view") }}
 
 ## The Home Corner
 
@@ -95,6 +95,8 @@ I kept one reachy innermost column because I wanted to keep a dvorak base layer 
 ## Overall thought at the milestone of a working custom keyboard
 
 This has been a super fun project. I've been wanting to do this since I first described the concept of the corner key to my fellow keeb/ergonomic tinkerer [Michael Sloan](https://mgsloan.com/posts/supine-computing/) back in January 2020. My CAD and 3D printing experience was very beginner level and I had never done proper parameterized CAD prior to this, just some TinkerCAD and SketchUp. Parameterization is absolutely required for this type of project so I studied the dactyl manuform software stack a bit (clojure, openscad) but ultimately modeled this in FreeCAD with good results.
+
+{{ figureflickr(url="https://live.staticflickr.com/65535/51121916529_cfa8ca4d3c_c.jpg" caption="FreeCAD project showing spreadsheet setup and a model of the main wall") }}
 
 This project took at least 2 months of substantial night/weekend attention and a huge amount of prototyping (details on that below). I had soldered a few keyboard kits before but never done any hand wiring and never done a custom QMK firmware config. I struggled a lot trying to flash the microcontrollers and understanding how the wiring maps to the firmware. I'm grateful to many folks on discord forums and slack who answered questions for me and enabled me to overcome obstacles on a weekly basis.
 
