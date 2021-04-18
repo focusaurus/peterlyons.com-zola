@@ -60,7 +60,7 @@ My goal at the outset was to make this a kit that most folks could use and tailo
 
 ## Naked Switches
 
-No keycaps! Choc switches have a perfectly fine flat-top stem. The tight geometry I wanted requires an extremely small gap between the middle and bottom row switches and keycaps would get in the way. When you look at it from the side you'll notice the bottom row stem actually overlaps just above the middle row stem slightly. Keycaps could technically go on the top row and most of the thumb cluster I think but they don't really add much and I think it's kind of a cool hipster flex to not have them I think. It's like the fixie bike of the keeb world. The switches are installed rotated 90 degrees from standard to reduce the typing gap within a single finger's column.
+No keycaps! Choc switches have a perfectly fine flat-top stem. The tight geometry I wanted requires an extremely small gap between the middle and bottom row switches and keycaps would get in the way. When you look at it from the side you'll notice the bottom row stem actually overlaps just above the middle row stem slightly. Keycaps could technically go on the top row and most of the thumb cluster but they don't really add much and I think it's kind of a hipster flex to not have them. It's like the fixie bike of the keeb world. The switches are installed rotated 90 degrees from standard to reduce the typing gap within a single finger's column.
 
 ## Wiring and Soldering
 
