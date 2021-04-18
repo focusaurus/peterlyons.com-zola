@@ -7,16 +7,20 @@
 set -o errexit  # always exit on error
 set -o errtrace # trap errors in functions as well
 set -o pipefail # don't ignore exit codes when piping output
-set -o posix    # more strict failures in subshells
 # set -x          # enable debugging
 
 IFS=$'\n\t'
 # ---- End unofficial bash strict mode boilerplate
 
 cd "$(dirname "${BASH_SOURCE[0]}")/.."
+
+# shellcheck source=./.env
 source ./.env
 image=node:$(cat .nvmrc)
-#  --volume $SSH_AUTH_SOCK:/ssh-agent \
+command=("$@")
+if [[ "${#command}" -eq 0 ]]; then
+  command=(bash)
+fi
 exec docker run --rm --interactive --tty \
   --attach stdin --attach stdout --attach stderr \
   --volume "${PWD}:/host" \
@@ -26,4 +30,4 @@ exec docker run --rm --interactive --tty \
   --workdir /host \
   --user "$(id -u)" \
   --publish "${PORT}:${PORT}" \
-  "${image}" "${2-bash}"
+  "${image}" "${command[@]}"
