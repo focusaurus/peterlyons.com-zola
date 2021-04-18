@@ -62,16 +62,6 @@ My goal at the outset was to make this a kit that most folks could use and tailo
 
 No keycaps! Choc switches have a perfectly fine flat-top stem. The tight geometry I wanted requires an extremely small gap between the middle and bottom row switches and keycaps would get in the way. When you look at it from the side you'll notice the bottom row stem actually overlaps just above the middle row stem slightly. Keycaps could technically go on the top row and most of the thumb cluster I think but they don't really add much and I think it's kind of a cool hipster flex to not have them I think. It's like the fixie bike of the keeb world. The switches are installed rotated 90 degrees from standard to reduce the typing gap within a single finger's column.
 
-## Keywells below wrist rest
-
-For the most comfortable geometry given the need to do a trigger pull motion to type the bottom row, the squeezebox requires a tall wrist rest that allows your fingers to hang over the edge and contact the keywells in what would be a recessed area below the desk surface if this was on a desk.
-
-## Lap tray
-
-Somewhat accidentally while dealing with the clutter of 2 split keyboards on my desk, I set the squeezebox's tray across my lap to make room and in that process realized I could line up my chair's arm wrests with the wrist rests and get a very comfortable posture going. The chair arm wrests support my forearms and the wrist wrests are directly in front of them at the same height. The tray also affords a surface for the mouse in the middle. So for now I'm planning to use the lap tray as my primary posture. But it works well enough on the desk too. 
-
-{{ figureflickr(url="https://live.staticflickr.com/65535/51121273052_11074800d5_c.jpg" caption="Lap tray and chair arm wrests") }}
-
 ## Wiring and Soldering
 
 Some of my early prototypes were super exciting to me. That is until I realized there was no way to get in there with a soldering iron and actually wire them up. I had to discard several variations before landing on something that was actually possible to solder.
@@ -82,6 +72,25 @@ This design with the walls detachable from the finger columns also facilitates h
 
 {{ figureflickr(url="https://live.staticflickr.com/65535/51069403628_42055dc083_c.jpg" caption="Wiring up the finger columns with only 1 wall attached") }}
 
+## Keywells below wrist rest
+
+For the most comfortable geometry given the need to do a trigger pull motion to type the bottom row, the squeezebox requires a tall wrist rest that allows your fingers to hang over the edge and contact the keywells in what would be a recessed area below the desk surface if this was on a desk.
+
+## Lap tray
+
+Somewhat accidentally while dealing with the clutter of 2 split keyboards on my desk, I set the squeezebox's tray across my lap to make room and in that process realized I could line up my chair's arm wrests with the wrist rests and get a very comfortable posture going. The chair arm wrests support my forearms and the wrist wrests are directly in front of them at the same height. The tray also affords a surface for the mouse in the middle. So for now I'm planning to use the lap tray as my primary posture. But it works well enough on the desk too. 
+
+{{ figureflickr(url="https://live.staticflickr.com/65535/51121273052_11074800d5_c.jpg" caption="Lap tray and chair arm wrests") }}
+
+## 3D Printing
+
+This version is 6 distinct parts. I connect them up by putting holes in the surfaces where I can install a metal threaded insert and connect things up with M3 bolts. I've never used threaded inserts in 3D printing before and they work great are super easy to model and super easy to install with a soldering iron. I love them and will be incorporating them a lot in future projects.
+
+Nothing here needs supports when sliced. I print the finger columns on their sides and my Prusa Mini+ can bridge across the 13.8mm switch square just fine. There's some extra/redundant symmetry in the staggered walls such that a single part works in any of the 4 positions. I printed a little washer for the bolt that holds the Elite-C microcontroller in place so the bolt head wouldn't short circuit the PCB pads below it.
+
+The growth in my modeling skills during the project was highly noticeable. Early parts and prototypes took hours and hours in FreeCAD and many restarts and a smattering of file revisions in git. By the end I think I modeled the inner wall that has housings for the RJ-9 jack, the microcontroller, and the USB-C port in under and hour and the second print/iteration was good enough to keep and use.
+
+One thing that is super handy, and probably fairly obvious if you are clever, but I definitely did not understand at the beginning is that for a symmetric split keyboard, almost all the right/left differences can be handled by mirroring the Z axis in the slicer software. That means in the CAD program you can just model one half and you're done.
 
 ## The Learning Curve
 
