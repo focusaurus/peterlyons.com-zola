@@ -20,13 +20,18 @@ I designed and built a split ergonomic keyboard with some ideas I've been wantin
 
 {{ figureflickr(url="https://live.staticflickr.com/65535/51122370815_e04f833575_c.jpg" caption="The home position resting in contact with the middle and bottom rows") }}
 
-I think the main design element that sets this apart for other similar keebs is the shape of the middle and bottom rows. They are arranged in a steep 100-degree corner and the home position for the finger rests simultaneously with the point of the finger resting on the middle row and the pad of the finger resting on the bottom row. You can type the middle row while maintaining contact with the bottom row, and vice versa. So there's 2 separate keys that can be typed without any reaching. Additionally, because the switches are in such a tight corner, it's possible to press both of them with a single finger by poking into the corner. Both keys press and release in perfect unison. So each finger has 3 separate characters it can type without any reaching when you add a QMK combo into the keymap. There is an upper row which is positioned and angled for very small reach so when you add that it's 4 keys per finger. The upper row is so tightly spaced that if you reach for it, you'll overshoot it. You don't need to reach. Just "think up" slightly and you hit it.
+I think the main design element that sets this apart for other similar keebs is the shape of the middle and bottom rows. They are arranged in a steep 100-degree corner and the home position for the finger rests simultaneously with the point of the finger resting on the middle row and the pad of the finger resting on the bottom row. You can type the middle row while maintaining contact with the bottom row, and vice versa. So there's 2 separate keys that can be typed without any reaching.
 
 {{ figureflickr(url="https://live.staticflickr.com/65535/51122371825_de783521e1_c.jpg" caption="Pressing the middle row") }}
 
 {{ figureflickr(url="https://live.staticflickr.com/65535/51121009357_1c2a029e78_c.jpg" caption="Pressing the bottom row") }}
 
+
+Additionally, because the switches are in such a tight corner, it's possible to press both of them with a single finger by poking into the corner. Both keys press and release in perfect unison. So each finger has 3 separate characters it can type without any reaching when you add a QMK combo into the keymap.
+
 {{ figureflickr(url="https://live.staticflickr.com/65535/51121581751_c2d10767b8_c.jpg" caption="1-finger chording the middle and bottom rows") }}
+
+There is an upper row which is positioned and angled for very small reach so when you add that it's 4 keys per finger. The upper row is so tightly spaced that if you reach for it, you'll overshoot it. You don't need to reach. Just "think up" slightly and you hit it.
 
 {{ figureflickr(url="https://live.staticflickr.com/65535/51121487553_72e96baf42_c.jpg" caption="Pressing the top row") }}
 
@@ -45,7 +50,7 @@ The height of each column is controlled in parameterized CAD for the front/back 
 For near/far adjustment, each finger column is on slots that provide about 15mm of movement 
 for each finger independently. Tweak the positions with the bolts slightly loose until it fits perfectly then tighten the bolts and you're set.
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/51121905554_d1d465a9ee_c.jpg" caption="Thumb cluster standoff for height and X/Y position") }}
+{{ figureflickr(url="https://live.staticflickr.com/65535/51123733549_ae1db6b532_c.jpg" caption="Thumb cluster standoff for height and X/Y position") }}
 
 The thumb cluster can be raised/lowered by printing different length standoff cylinder. It's placement left/right and near/far is adjusted by way of the grid of threaded insert holes. I've only tried 2 positions so far so I only bothered installing the threaded inserts in 2 of the holes, but in theory each of those little circular holes below the thumb cluster could house a threaded insert.
 
