@@ -12,6 +12,8 @@ I designed and built a split ergonomic keyboard with some ideas I've been wantin
 * tailor fit per-finger vertical offsets
 * thumb cluster with 6 keys
 
+{{ figureflickr(url="https://live.staticflickr.com/65535/51121273052_11074800d5_c.jpg" caption="Squeezebox split keyboard") }}
+
 {{ figureflickr(url="https://live.staticflickr.com/65535/51122426945_962f7dd28b_c.jpg" caption="The Squeezebox Keyboard rev 21a left side") }}
 
 ## The Home Corner
@@ -42,6 +44,8 @@ The height of each column is controlled in parameterized CAD for the front/back 
 
 For near/far adjustment, each finger column is on slots that provide about 15mm of movement 
 for each finger independently. Tweak the positions with the bolts slightly loose until it fits perfectly then tighten the bolts and you're set.
+
+{{ figureflickr(url="https://live.staticflickr.com/65535/51121905554_d1d465a9ee_c.jpg" caption="Thumb cluster standoff for height and X/Y position") }}
 
 The thumb cluster can be raised/lowered by printing different length standoff cylinder. It's placement left/right and near/far is adjusted by way of the grid of threaded insert holes. I've only tried 2 positions so far so I only bothered installing the threaded inserts in 2 of the holes, but in theory each of those little circular holes below the thumb cluster could house a threaded insert.
 
