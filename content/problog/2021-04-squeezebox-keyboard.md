@@ -4,10 +4,10 @@ slug = "2021/04/squeezebox-keyboard/"
 date = 2021-04-17T01:32:05Z
 +++
 
-I designed and built a split ergonomic keyboard with some ideas I've been wanting to try for a few years. Here are the main features of the keyboard:
+I designed and built a split ergonomic keyboard with some ideas I've been wanting to try for over a year. Here are the main features of the keyboard:
 
 * Split design, obvs
-* linear columns
+* staggered linear columns
 * customizable tailor fit column offsets
 * tailor fit per-finger vertical offsets
 * thumb cluster with 6 keys
@@ -43,7 +43,7 @@ So we have a 3x5 grid for the fingers plus 6 thumb keys so it's 21 keys per hand
 
 ## Ergonomics and Custom Tailor Fitting
 
-The column spacing is designed essentially to be as tight as possible given Kaihl choc switches. I knew from the outset I wanted much denser switch spacing, and if there were smaller switches available I might even go a tiny bit smaller, but this is probably close to ideal.
+The row spacing is designed essentially to be as tight as possible given Kaihl choc switches. I knew from the outset I wanted much denser switch spacing, and if there were smaller switches available I might even go a tiny bit smaller, but this is probably close to ideal.
 
 The height of each column is controlled in parameterized CAD for the front/back walls so to adjust that you dial the parameters and print a new wall. Each column has a custom shelf height supporting it, essentially.
 
@@ -118,7 +118,7 @@ My [QMK fork](https://github.com/focusaurus/qmk_firmware/tree/focusaurus/keyboar
 
 {{ youtube(id="chsqAaH_KqI") }}
 
-## Overall thought at the milestone of a working custom keyboard
+## Overall thoughts at the milestone of a working custom keyboard
 
 This has been a super fun project. I've been wanting to do this since I first described the concept of the corner key to my fellow keeb/ergonomic tinkerer [Michael Sloan](https://mgsloan.com/posts/supine-computing/) back in January 2020. My CAD and 3D printing experience was very beginner level and I had never done proper parameterized CAD prior to this, just some TinkerCAD and SketchUp. Parameterization is absolutely required for this type of project so I studied the dactyl manuform software stack a bit (clojure, openscad) but ultimately modeled this in FreeCAD with good results.
 
