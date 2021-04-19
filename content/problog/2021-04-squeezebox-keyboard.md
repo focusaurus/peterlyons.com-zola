@@ -106,6 +106,10 @@ I've been getting RSI pains from pinky reaching to the outer column and chording
 
 I kept one reachy innermost column because I wanted to keep a dvorak base layer and not have to immediately switch to something different. So that innermost column is really only there to ease my transition but I ultimately might make a layout that doesn't require it and ditches it. To reduce the distance I need to reach sideways, the 2 innermost columns are a single plate so the gap can be quite small about 2mm.
 
+## Typing video
+
+{{ youtube(id="chsqAaH_KqI") }}
+
 ## Overall thought at the milestone of a working custom keyboard
 
 This has been a super fun project. I've been wanting to do this since I first described the concept of the corner key to my fellow keeb/ergonomic tinkerer [Michael Sloan](https://mgsloan.com/posts/supine-computing/) back in January 2020. My CAD and 3D printing experience was very beginner level and I had never done proper parameterized CAD prior to this, just some TinkerCAD and SketchUp. Parameterization is absolutely required for this type of project so I studied the dactyl manuform software stack a bit (clojure, openscad) but ultimately modeled this in FreeCAD with good results.
