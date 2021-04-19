@@ -64,9 +64,13 @@ No keycaps! Choc switches have a perfectly fine flat-top stem. The tight geometr
 
 ## Wiring and Soldering
 
-Some of my early prototypes were super exciting to me. That is until I realized there was no way to get in there with a soldering iron and actually wire them up. I had to discard several variations before landing on something that was actually possible to solder.
+Some of my early prototypes were super exciting to me. Like this one that was a vertical stack and adjusted in 2 directions with a series of aligning slots.
 
-This design with the walls detachable from the finger columns also facilitates hand wiring while keeping the frustration level manageable. I did 3 solder operations on each switch with the switch completely out of the case, and only after that did I glue them into their positions. That helps a lot. Then, wiring can proceed with only one wall bolted on at a time so the other side has plenty of clearance for the soldering iron and manipulating the wires by hand.
+{{ figureflickr(url="https://live.staticflickr.com/65535/50955233036_827d1c0f0e_c.jpg" caption="This prototype seemed great but soldering inside these housings would be a nightmare") }}
+
+That is until I realized there was no way to get in there with a soldering iron and actually wire them up. I had to discard several variations before landing on something that was actually possible to solder.
+
+The current design with the walls detachable from the finger columns also facilitates hand wiring while keeping the frustration level manageable. I did 3 solder operations on each switch with the switch completely out of the case, and only after that did I glue them into their positions. That helps a lot. Then, wiring can proceed with only one wall bolted on at a time so the other side has plenty of clearance for the soldering iron and manipulating the wires by hand.
 
 {{ figureflickr(url="https://live.staticflickr.com/65535/51000919290_9770698fa3_c.jpg" caption="Pre-assembly solder operations") }}
 
@@ -102,9 +106,13 @@ The switches are Kaihl Choc Reds which are linear, low-profile, low activation f
 
 ## Key Mappings
 
-I've been getting RSI pains from pinky reaching to the outer column and chording shift on my ergodox, so I have been very motivated to reduce use of pinky drastically and move more work to the thumb, so there's no column outward from the pinky. Shift and control/escape go to the thumb and tab goes on my navigation layer so the pinky only has basic letter duty. I'm likely to switch to a pinky-minimizing layout like BEAKL sometime soon but I didn't want to tackle that while also adjusting to the new hardware.
+I've been getting RSI pains from pinky reaching to the outer column and chording shift on my ergodox, so I have been very motivated to reduce use of pinky drastically and move more work to the thumb, so there's no column outward from the pinky. Shift and control/escape go to the thumb (and/or QMK combos. Still WIP.) and tab goes on my navigation layer so the pinky only has basic letter duty. I'm likely to switch to a pinky-minimizing layout like BEAKL sometime soon but I didn't want to tackle that while also adjusting to the new hardware.
 
 I kept one reachy innermost column because I wanted to keep a dvorak base layer and not have to immediately switch to something different. So that innermost column is really only there to ease my transition but I ultimately might make a layout that doesn't require it and ditches it. To reduce the distance I need to reach sideways, the 2 innermost columns are a single plate so the gap can be quite small about 2mm.
+
+I'm still in flux with a lot of key things including modifiers. I've tried home row mods but with dvorak they are really prone to misfires on the right hand for rolls like th and ns, so I moved them to the bottom layer on my ergodox. But on the squeezebox putting mod-taps on the bottom row makes them ineligible for combos which cancels one of the main areas of potential for this design. I think next I'll try just mod-taps for ctrl and alt on the top row so I can do 1-finger combos across the middle and bottom rows. Having so many thumb keys provides a lot of great possibilities especially for stuff that's only occasionally used.
+
+My [QMK fork](https://github.com/focusaurus/qmk_firmware/tree/focusaurus/keyboards/squeezebox) has my keymap if you want to dig into the details. There will be a lot of churn there in the coming weeks.
 
 ## Typing video
 
