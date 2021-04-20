@@ -43,7 +43,7 @@ So we have a 3x5 grid for the fingers plus 6 thumb keys so it's 21 keys per hand
 
 ## Ergonomics and Custom Tailor Fitting
 
-The row spacing is designed essentially to be as tight as possible given Kaihl choc switches. I knew from the outset I wanted much denser switch spacing, and if there were smaller switches available I might even go a tiny bit smaller, but this is probably close to ideal.
+The row spacing is designed essentially to be as tight as possible given Kailh choc switches. I knew from the outset I wanted much denser switch spacing, and if there were smaller switches available I might even go a tiny bit smaller, but this is probably close to ideal.
 
 The height of each column is controlled in parameterized CAD for the front/back walls so to adjust that you dial the parameters and print a new wall. Each column has a custom shelf height supporting it, essentially.
 
