@@ -49,6 +49,10 @@ Per night these work out to a little less than you would pay at most hotels and 
 
 Please fill out [our interest/application form](https://forms.gle/w32w8BwFdv6Nct5o6) and we'll be in touch.
 
+## Is the deposit refundable?
+
+Yes. Cancel for any reason up to Sept 1 and we'll refund your deposit in full.
+
 ## What if I have questions?
 
 Shoot Pete an email and we'll discuss.
