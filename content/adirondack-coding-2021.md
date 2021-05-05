@@ -10,7 +10,7 @@ We've rented a huge luxury rental home in upstate New York and we are gathering 
 
 ## When is it?
 
-Monday October 4, 2021 to Thursday November 11, 2021. It's 24 nights and 3 full weekends.
+Monday October 11, 2021 to Thursday November 4, 2021. It's 24 nights and 3 full weekends.
 
 ## About the house
 
@@ -47,11 +47,7 @@ Per night these work out to a little less than you would pay at most hotels and 
 
 ## What next if I'm interested?
 
-Please fill out [our interest/application form](https://forms.gle/w32w8BwFdv6Nct5o6) and we'll be in touch.
-
-## Is the deposit refundable?
-
-Yes. Cancel for any reason up to Sept 1 and we'll refund your deposit in full.
+Please fill out [our interest/application form](https://forms.gle/w32w8BwFdv6Nct5o6) and we'll be in touch. A $200 deposit will reserve you room. The deposit is refundable in full up to September 1 if your plans change. 
 
 ## What if I have questions?
 
