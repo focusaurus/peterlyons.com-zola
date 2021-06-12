@@ -118,7 +118,7 @@ Many of my existing projects have code written to my own conventions before I fo
 Oh God, it's a mess out there, folks. Things are pretty much hopelessly broken in JS land, but here are my conventions, as utterly pointless as they may ultimately be.
 
 - Prettier Formatting
-  - [https://prettier.io/]()
+  - [](https://prettier.io/)
   - Does a great job and automatically wraps long lines properly
 - unix linefeed line endings (no carriage return)
 - Declare variables one-per line each with it's own const keyword

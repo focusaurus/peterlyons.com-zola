@@ -14,7 +14,7 @@ On to the 2016 backlog...
 ### Chesterton's Fence
 
 I often think this when looking at my own code.
-[http://mcntyr.com/52-concepts-cognitive-toolkit/]()
+[](http://mcntyr.com/52-concepts-cognitive-toolkit/)
 
 ### Why babel with node
 
@@ -28,7 +28,7 @@ Promise library docs have special sections for delays/setTimeout, browsers, data
 
 TOAST stands for The Oversized-Attribute Storage Technique, probably the best acronym in the history of Computer Science.
 
-[http://rachbelaid.com/introduction-to-postgres-physical-storage/]()
+[](http://rachbelaid.com/introduction-to-postgres-physical-storage/)
 
 ### Git and WIP commits
 

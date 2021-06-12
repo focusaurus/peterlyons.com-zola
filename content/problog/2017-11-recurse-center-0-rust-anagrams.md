@@ -15,8 +15,8 @@ I was pleased that RC encourages naps and plan to nap at least once a day. There
 
 I found these two good blog posts in my search:
 
-- [http://hermanradtke.com/2015/06/22/effectively-using-iterators-in-rust.html]()
-- [http://hermanradtke.com/2015/05/06/creating-a-rust-function-that-accepts-string-or-str.html]()
+- [](http://hermanradtke.com/2015/06/22/effectively-using-iterators-in-rust.html)
+- [](http://hermanradtke.com/2015/05/06/creating-a-rust-function-that-accepts-string-or-str.html)
 
 I also learned what a Functor is in one of the lightning talks and no it's not as hard as it sounds but oh man it is nothing like I what I thought it might be. In fact, after the talk I asked a question that amounts to "Wait so which of your examples is actually the functor itself: A or B" and the answer was "neither, it's C" and that was very surprising.
 
