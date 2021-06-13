@@ -71,6 +71,10 @@ Keyboard ergonomics for me is an accommodation to reduce RSI of which I've had e
 
 {{ youtube(id="AaEdjcQJLuc") }}
 
+## DIY Keyboard Kit
+
+The files for this are posted on [prusaprinters.org](https://www.prusaprinters.org/print/68948) if you are ambitious enough to attempt this. It is not at all to the level of documentation to expect not-me people to be able to successfully build one, but have at it if you are inspired.
+
 ## Plans for next prototype
 
 Circumstances in my personal life are likely to no longer afford time to work as much on this project going forward, but if by some means I am able to work on a third prototype, here's my todo list
