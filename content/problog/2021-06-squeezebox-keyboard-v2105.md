@@ -6,6 +6,9 @@ date = 2021-06-11T21:39:11Z
 
 I've made a second prototype of the Squeezebox Keyboard. It's a huge improvement over the first working prototype.
 
+{{ figureflickr(url="https://live.staticflickr.com/65535/51243868252_a729a3af26_k_d.jpg " caption="Detail of assembled right hand side") }}
+
+
 ## Improvements included in this version
 
 * Key switches are hot swappable courtesy of Kailh hot-swap sockets
@@ -33,6 +36,8 @@ Key points from the video for the TL;DW crowd
 
 ## Mechanics, Assembly, and Adjustment
 
+
+https://live.staticflickr.com/65535/51243868252_a729a3af26_k_d.jpg
 This video demonstrates how the individual parts are assembled into a system and tailor fit for the user's hand.
 
 {{ youtube(id="yGRIldWoOo8") }}
@@ -44,9 +49,13 @@ Key points
 
 ## Ergonomics and Tenting
 
+{{ figureflickr(url="https://live.staticflickr.com/65535/51243867017_79563f3860_k_d.jpg" caption="Squeezebox Keyboard v2105 split and tented for standing use") }}
+
 There's been some dramatic back and forth on this R&D effort regarding tenting. My original vision was a truly vertical orientation (like a joystick with your hand in "tamborine position" not "bongo position" - thus the name "squeezebox" which is held in that position). Test typing on my first prototype, my fingers felt pretty good but my thumb began quickly to experience fatigue and shaking due to floating unsupported hovering over its home key on the thumb cluster. That would probably be addressable if instead of floating I was really gripping something joystick-shaped or roughly soda can shape but I didn't want to add yet another discipline like modeling clay to my curriculum and my 3D CAD skills were definitely not ready to make some organic curvy thing, so I yielded to pragmatism and changed my design to target using flat on a desk with no tenting like a standard keyboard. So the first working prototype from back in April was used flat with tall wrist rests and had a thumb cluster on the same basic plane of orientation as the main keywells.
 
 This version was completed with that same basic approach and I was either going to try to use it on my desk top or maybe mount it to the arms of my chair. But once I had the working version with the diamond-pattern metal base plate in hand, I had a eureka moment realizing I could easily and securly mount this to the camera stands I bought initially to tent my Keyboardio Model 01. That keyboard comes with a threaded insert in the base sized to match up with camera mounting gear which is absolutely brilliant. All keyboard designers take note, please. Every split keyboard should have that.
+
+{{ figureflickr(url="https://live.staticflickr.com/65535/51244167252_7e542a0922_k_d.jpg" caption="Standing desk posture with floating arms/hands") }}
 
 So I was able to mount this just by cutting a hole in the gaffer tape and running the bolt through the existing hole in the diamond plate pattern and tightening it down with a bolt and it worked great. I have nice fancy adjustable mounts (these are not at all DIY - video folks don't mess around when it comes to gear) and I can tent them anywhere from 0 degrees to full 90 if I want. Here's a video talking a little bit about this.
 
@@ -59,6 +68,8 @@ And one random ergonomic note is that the separate fingers and splay angle combi
 Ha ha, no. This is a one-of-a-kind prototype. I can sort of barely use it but I am very very slow and very very inaccurate. But at the moment I've truly only spent a few minutes even trying. This is mostly a passion project and adopting it as my daily driver would be great, but I'm many dozens of hours of practice away from seriously considering that. That said, my keymap has undergone a fairly thorough overhaul as a result of the explorations involved with this project, so even on my daily driver ergodox, my layout is better now and I'm gradually reducing pinky usage and other straining movements.
 
 Keyboard ergonomics for me is an accommodation to reduce RSI of which I've had either mild or severe on and off again for years. Hating on me for typing slowly feels to me kind of like hating on someone with crutches for not walking fast. Look for impressive WPM stats elsewhere.
+
+{{ youtube(id="AaEdjcQJLuc") }}
 
 ## Plans for next prototype
 
