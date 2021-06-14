@@ -65,9 +65,7 @@ And one random ergonomic note is that the separate fingers and splay angle combi
 
 ## So You Type Real Fast Now, Right?
 
-Ha ha, no. This is a one-of-a-kind prototype. I can sort of barely use it but I am very very slow and very very inaccurate. But at the moment I've truly only spent a few minutes even trying. This is mostly a passion project and adopting it as my daily driver would be great, but I'm many dozens of hours of practice away from seriously considering that. That said, my keymap has undergone a fairly thorough overhaul as a result of the explorations involved with this project, so even on my daily driver ergodox, my layout is better now and I'm gradually reducing pinky usage and other straining movements.
-
-Keyboard ergonomics for me is an accommodation to reduce RSI of which I've had either mild or severe on and off again for years. Hating on me for typing slowly feels to me kind of like hating on someone with crutches for not walking fast. Look for impressive WPM stats elsewhere.
+Ha ha, no. This is a one-of-a-kind prototype. I can sort of barely use it but I am very very slow and very very inaccurate. But at the moment I've truly only spent a few minutes even trying. This is mostly a passion project and adopting it as my daily driver would be great, but I'm many dozens of hours of practice away from seriously considering that. That said, my keymap has undergone a fairly thorough overhaul as a result of the explorations involved with this project, so even on my daily driver ergodox, my layout is better now and I'm gradually reducing pinky usage and other straining movements. Also even on my ergodox which I've been using primarily since 2013 I'm just not very fast or accurate or consistent. 70-90 WPM ballpark. Keyboard ergonomics for me is an accommodation to reduce RSI of which I've had either mild or severe on and off again for years. Look for impressive WPM stats elsewhere.
 
 {{ youtube(id="AaEdjcQJLuc") }}
 
