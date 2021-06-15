@@ -69,7 +69,7 @@ Ha ha, no. This is a one-of-a-kind prototype. I can sort of barely use it but I 
 
 ## DIY Keyboard Kit
 
-The files for this are posted on [prusaprinters.org](https://www.prusaprinters.org/print/69209) if you are ambitious enough to attempt this. It is not at all to the level of documentation to expect not-me people to be able to successfully build one, but have at it if you are inspired.
+The files for this are posted on [prusaprinters.org](https://www.prusaprinters.org/prints/69209-squeezebox-keyboard-v2105) if you are ambitious enough to attempt this. It is not at all to the level of documentation to expect not-me people to be able to successfully build one, but have at it if you are inspired.
 
 ## Plans for next prototype
 
