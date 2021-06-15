@@ -14,7 +14,7 @@ IFS=$'\n\t'
 # ---- End unofficial bash strict mode boilerplate
 
 install_zola() {
-  ZOLA_VERSION=0.7.0
+  ZOLA_VERSION=0.13.0
   zola_url="https://github.com/getzola/zola/releases/download/v${ZOLA_VERSION}/zola-v${ZOLA_VERSION}-x86_64-unknown-linux-gnu.tar.gz"
   # install zola
   mkdir -p ./local/bin
@@ -36,7 +36,11 @@ main() {
   if [[ ! -d node_modules ]]; then
     npm install
   fi
-  ./scripts-container/build-plus-party.sh
+  # Sigh. Disable this for now as it requires
+  # tooling for Elm 0.18.0 and older node and 
+  # it's a massive pain
+  echo WARNING TODO get plus party building again
+  # ./scripts-container/build-plus-party.sh
   cp -r node_modules/reveal.js static
   # The "test" directory in reveal has some insecure mixed content
   # so remove it to avoid netlify warnings

@@ -40,6 +40,6 @@ The nice thing about this app is given that it is all OAuth based and is basical
 
 ### Resources
 
-  * [Flickr Date Fixer](http://flickrdatefixer.jit.su) running live on nodejitsu's [http://flickrdatefixer.jit.su]()
+  * [Flickr Date Fixer](http://flickrdatefixer.jit.su) running live on nodejitsu's [](http://flickrdatefixer.jit.su)
   * [flickr-date-fixer source code on github](https://github.com/focusaurus/flickr-date-fixer)
   * [Nodejitsu](http://nodejitsu.com)

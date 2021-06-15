@@ -36,7 +36,6 @@
   },
   "dependencies": {
     "clipboard": "^2.0.4",
-    "elm": "0.18.0",
     "reveal.js": "^3.9.2",
     "uglify-es": "^3.3.9"
   }

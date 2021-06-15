@@ -2,7 +2,6 @@
 .nyc_output
 /node_modules
 /public
-/static/plus-party.*
 /static/reveal.js
 /local
 elm-stuff

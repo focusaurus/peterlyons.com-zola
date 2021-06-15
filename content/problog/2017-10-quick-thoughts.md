@@ -9,7 +9,7 @@ Organizing code so my 100% tested code is kept separate from other dev's 70% tes
 
 ### Flat UI
 
-[https://www.nngroup.com/articles/flat-ui-less-attention-cause-uncertainty/]()
+[](https://www.nngroup.com/articles/flat-ui-less-attention-cause-uncertainty)
 
 ### DynamoDB Tables
 
