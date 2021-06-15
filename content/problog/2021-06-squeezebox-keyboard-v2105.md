@@ -6,7 +6,7 @@ date = 2021-06-11T21:39:11Z
 
 I've made a second prototype of the Squeezebox Keyboard. It's a huge improvement over the first working prototype.
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/51243868252_a729a3af26_k_d.jpg " caption="Detail of assembled right hand side") }}
+{{ figureflickr(url="https://live.staticflickr.com/65535/51243868252_a729a3af26_k_d.jpg" caption="Detail of assembled right hand side") }}
 
 
 ## Improvements included in this version
@@ -36,13 +36,11 @@ Key points from the video for the TL;DW crowd
 
 ## Mechanics, Assembly, and Adjustment
 
-
-https://live.staticflickr.com/65535/51243868252_a729a3af26_k_d.jpg
 This video demonstrates how the individual parts are assembled into a system and tailor fit for the user's hand.
 
 {{ youtube(id="yGRIldWoOo8") }}
 
-Key points
+**Key points**
 
 * Heat-set threaded inserts and M3 bolts continue to be heavily used
 * This version incorporates magnets holding the base pillars to a metallic bottom plate covered in gaffer tape
