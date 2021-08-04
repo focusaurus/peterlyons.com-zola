@@ -14,7 +14,7 @@ I've made a second prototype of the Squeezebox Keyboard. It's a huge improvement
 
 ## Many More Details in the Blog Post
 
-I've written up all the details in a [blog post](https://peterlyons.com/problog/2021/06/squeezebox-keyboard-v2105) and I have posted several explanatory videos.
+I've written up all the details in a [blog post](https://peterlyons.com/problog/2021-06-squeezebox-keyboard-v2105/) and I have posted several explanatory videos.
 
 * Video [Squeezebox Electronics](https://youtu.be/HcfCOohTDrY)
 * Video [Squeezebox Mechanics](https://youtu.be/yGRIldWoOo8)
@@ -23,7 +23,7 @@ I've written up all the details in a [blog post](https://peterlyons.com/problog/
 
 ## I Can Haz .stl?
 
-I've posted all the model .stl files as well as the source FreeCAD project file [on prusaprinters here](https://www.prusaprinters.org/print/68948). This is pretty far from being a ready-to-go DIY kit so anticipate a long struggle unless you are pretty experienced with 3D printing and handwired keyboards. If anyone actually wants to try to build one of these, I'll try to help though.
+I've posted all the model .stl files as well as the source FreeCAD project file [on prusaprinters here](https://www.prusaprinters.org/prints/69209-squeezebox-keyboard-v2105). This is pretty far from being a ready-to-go DIY kit so anticipate a long struggle unless you are pretty experienced with 3D printing and handwired keyboards. If anyone actually wants to try to build one of these, I'll try to help though.
 
 ## Thanks
 
