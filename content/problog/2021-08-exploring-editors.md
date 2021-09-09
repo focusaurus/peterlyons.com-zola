@@ -23,6 +23,8 @@ My distate for emacs stems I think primarily from:
 
 So I doubled down a bit on neovim. I did find [spacemacs](https://www.spacemacs.org/) overall a breath of fresh air and am now also test driving [spacevim](https://spacevim.org/), but it's docs are also a bit of a struggle for me to use.
 
+I'm also watching [neorg](https://github.com/vhyrro/neorg) as an update on the org mode file format with a real grammar that programs other than emacs can reasonably read and manipulate. Doesn't quite look ready to try yet but hopefully soon.
+
 In my editor experimentation I was aware of [kakoune](https://kakoune.org/) and thought about taking it for a spin but...
 
 * I am very skeptical of viability of a C++ codebase these days as not being an unstable insecure nightmare
