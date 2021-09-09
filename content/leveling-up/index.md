@@ -630,11 +630,13 @@ If you are uncertain about the veracity or value of the tips in this article, I 
 
 <h1 id="staffeng">2020 Update and Where to Go from Here</h1>
 
-This article is approaching 10 years old. I still think many of the core ideas are still solid and applicable, but as one would expect most of the technical stuff is now thoroughly outdated. I spent a while thinking about what an updated version of this piece might look like, but before I started to write things down, I found two existing resources that were so on-target in terms of topic and high-quality in terms of content I'm just going to link you to them.
+This article is approaching 10 years old. I still think many of the core ideas are still solid and applicable, but as one would expect most of the technical stuff is now thoroughly outdated. I spent a while thinking about what an updated version of this piece might look like, but before I started to write things down, I found some newer existing resources that were so on-target in terms of topic and high-quality in terms of content I'm just going to link you to them.
 
 First is [Chelsea Troy's Leveling Up Series](https://chelseatroy.com/category/leveling-up/) which is great and applicable to early-career people as well as more experienced folks.
 
 Regarding advancing beyond individual contributor roles into engineering leadership, I whole-heartedly recommend reading [staffeng.com](https://staffeng.com/), which I have been studying intently recently. As of September 2020, I was promoted to Staff Engineer at Mailchimp, and staffeng.com has been a great resource as I endeavor to do well in my new role.
+
+Also excellent and worthy of study is [Dropbox Engineering's career framework](https://dropbox.github.io/dbx-career-framework/ic5_staff_software_engineer.html).
 
 # Comments
 
