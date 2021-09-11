@@ -45,9 +45,15 @@ Per night these work out to a little less than you would pay at most hotels and 
 
 **If you cannot afford this**, please complete the application form below. We hope to be able to offer partial grants as needed. 
 
+## COVID safety
+
+We still think the trip can be done safely if everyone is fully vaccinated, but we understand there still remains a lot of concern about the delta variant. I was planning to attend Strange Loop in St. Louis just prior to the trip, but active cases in that region look pretty bad so I canceled my trip and will attend remotely to reduce the likelihood of transmitting the virus. Stella and I are in a very low case count area in the north country of NY currently and will be ramping our quarantine protocols up again in the weeks leading up to the trip. We are both fully vaccinated. We're also willing to get COVID tests within 72 hours before the trip if folks would feel safer that way. There are clinics nearby that offer testing. Here's the blurb I got back from Mountain Medical that has facilities in both Lake Placid and Saranac Lake:
+
+> We offer both PCR & Rapid Antigen testing. There is no need to schedule an appointment, just give us a call when you arrive and we will set your telehealth visit up with our provider. Updated Hours & Telehealth Calls Now Available Saranac Lake, Malone and Massena locations are OPEN: Monday- Friday 9am-5pm Sat & Sun 10am-3pm We are also offering telehealth calls (audio and/or video calls) at all locations. If you are not feeling well or want to avoid coming into our office, please call us directly. We will schedule your appointment with one of our health care providers. Saranac Lake: 518-897-1000 Massena: 315-705-0700 Malone: 518-521-3322 Mountain Medical Services 1927 Saranac Ave. Lake Placid, NY 12946 Phone: (518) 523-7575 Fax: (518) 523-7577 [www.mountainmedical.net](http://www.mountainmedical.net)
+
 ## What next if I'm interested?
 
-Please fill out [our interest/application form](https://forms.gle/w32w8BwFdv6Nct5o6) and we'll be in touch. A $200 deposit will reserve you room. The deposit is refundable in full up to September 1 if your plans change. 
+Please fill out [our interest/application form](https://forms.gle/w32w8BwFdv6Nct5o6) and we'll be in touch. As we are past our cancelation window, rooms are booked when your reservation is paid in full via paypal.
 
 ## What if I have questions?
 
