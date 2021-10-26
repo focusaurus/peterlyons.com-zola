@@ -15,7 +15,7 @@ So I sampled some workflowy alternatives including roam research, nvalt, a vim o
 
 I eventually concluded [emacs org mode](https://orgmode.org/) was a suitable replacement for workflowy and fully converted my entire data set. I learned just enough spacemacs/emacs to use org mode with moderate efficiency, but it became clear to me that my go-to editor would still be neovim. I did use a vim org-mode plugin for a few weeks, but its feature set was incredibly paltry and there was no active development, so I went for the real thing.
 
-My distate for emacs stems I think primarily from:
+My distaste for emacs stems I think primarily from:
 
 * terrible chorded keyboard shortcut sequences which the community just cannot stop doubling down on every decade
 * Arcane docs and terminology which again the community cannot just admit that for every keyboard with a meta key ever built, there have been like 20,000 keyboards built without a key labeled "meta" and update their stupid confusing nonsense docs.
