@@ -14,7 +14,7 @@
 {% block scripts %}
 <script src="/plus-party.js"></script>
 <script>
-  Elm.PlusParty.embed(document.querySelector(".plus-party-container"));
+  Elm.PlusParty.init({ node: document.querySelector(".plus-party-container") });
   new ClipboardJS("#copy-total"); // eslint-disable-line no-new
 </script>
 {{ super() }}

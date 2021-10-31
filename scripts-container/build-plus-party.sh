@@ -19,7 +19,7 @@ main() {
   plus_party_temp="$(mktemp -t plus-party-build-XXXXXX).js"
   local out="./static/plus-party.js"
   cd code/plus-party
-  elm-make --yes --output "${plus_party_temp}" PlusParty.elm
+  elm make --optimize --output "${plus_party_temp}" PlusParty.elm
   cd - >/dev/null
   cat node_modules/clipboard/dist/clipboard.js "${plus_party_temp}" >"${out}"
   uglifyjs "${out}" | gzip >"${out}.gz"
