@@ -39,8 +39,7 @@ main() {
   # Sigh. Disable this for now as it requires
   # tooling for Elm 0.18.0 and older node and 
   # it's a massive pain
-  echo WARNING TODO get plus party building again
-  # ./scripts-container/build-plus-party.sh
+  ./scripts-container/build-plus-party.sh
   cp -r node_modules/reveal.js static
   # The "test" directory in reveal has some insecure mixed content
   # so remove it to avoid netlify warnings

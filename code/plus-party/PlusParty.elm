@@ -1,14 +1,15 @@
-port module PlusParty exposing (main)
+module PlusParty exposing (main)
 
+import Browser
 import Core
 import Html exposing (..)
 import Html.Attributes exposing (..)
-import Html.Events exposing (onInput, onClick)
+import Html.Events exposing (onClick, onInput)
+import Json.Encode as JE
 import Process
+import Round
 import Task
 import Time
-import Round
-import Json.Encode as JE
 
 
 type Msg
@@ -50,9 +51,9 @@ getParty model =
         total =
             List.sum numbers
     in
-        { numbers = List.map toString numbers
-        , totalFixed = fix2 total
-        }
+    { numbers = List.map String.fromFloat numbers
+    , totalFixed = fix2 total
+    }
 
 
 item : String -> Html msg
@@ -62,21 +63,21 @@ item fixed =
 
 later : msg -> Cmd msg
 later msg =
-    (Time.second * 2) |> Process.sleep |> Task.perform (\_ -> msg)
+    Process.sleep 2000 |> Task.perform (\_ -> msg)
 
 
 
 -- http://stackoverflow.com/a/41495885/266795
 
 
-buttonText : Bool -> JE.Value
+buttonText : Bool -> String
 buttonText copying =
     case copying of
         True ->
-            JE.string "Copied!"
+            "Copied!"
 
         False ->
-            JE.string "Copy Total &#x1F4CB;"
+            "Copy Total 📋"
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
@@ -107,32 +108,30 @@ view model =
         party =
             getParty model
     in
-        div [ class "plus-party" ]
-            [ textarea [ onInput ChangeInput ] [ text model.text ]
-            , button
-                [ id "copy-total"
-                , onClick (CopyTotal True)
-                , attribute "data-clipboard-text" party.totalFixed
-                , property "innerHTML" (buttonText model.copying)
-                ]
-                []
-            , ul [ class "clear" ] (List.map item party.numbers)
-            , div [ class "total" ]
-                [ text party.totalFixed
-                ]
+    div [ class "plus-party" ]
+        [ textarea [ onInput ChangeInput ] [ text model.text ]
+        , button
+            [ id "copy-total"
+            , onClick (CopyTotal True)
+            , attribute "data-clipboard-text" party.totalFixed
             ]
+            [ text (buttonText model.copying) ]
+        , ul [ class "clear" ] (List.map item party.numbers)
+        , div [ class "total" ]
+            [ text party.totalFixed
+            ]
+        ]
 
 
-init : ( Model, Cmd Msg )
-init =
+init : () -> ( Model, Cmd Msg )
+init _ =
     ( { text = initialText, copying = False }
     , Cmd.none
     )
 
 
-main : Program Never Model Msg
 main =
-    Html.program
+    Browser.element
         { init = init
         , view = view
         , update = update

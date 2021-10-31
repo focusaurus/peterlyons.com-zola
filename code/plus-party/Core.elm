@@ -1,35 +1,40 @@
 module Core exposing (parseNumbers)
 
+import Regex
 import String
-import Regex exposing (regex)
 
 
 commaRe : Regex.Regex
 commaRe =
-    regex ","
+    Maybe.withDefault Regex.never <|
+        Regex.fromString ","
 
 
 dateRe : Regex.Regex
 dateRe =
-    regex "\\b\\d{1,2}\\/\\d{1,2}\\/(\\d{2}|\\d{4})\\b"
+    Maybe.withDefault Regex.never <|
+        Regex.fromString "\\b\\d{1,2}\\/\\d{1,2}\\/(\\d{2}|\\d{4})\\b"
 
 
 numberRe : Regex.Regex
 numberRe =
-    regex "\\b-?(\\d{1,3}(,\\d{3})*|\\d+)(\\.\\d+)?\\b"
+    Maybe.withDefault Regex.never <|
+        Regex.fromString "\\b-?(\\d{1,3}(,\\d{3})*|\\d+)(\\.\\d+)?\\b"
 
 
 parseFloat : Regex.Match -> Maybe Float
 parseFloat match =
-    Result.toMaybe (String.toFloat match.match)
+    String.toFloat match.match
 
 
 parseNumbers : String -> List Float
 parseNumbers rawText =
     let
         noDates =
-            Regex.replace Regex.All dateRe (always "") rawText
-        noCommas = Regex.replace Regex.All commaRe (always "") noDates
+            Regex.replace dateRe (always "") rawText
+
+        noCommas =
+            Regex.replace commaRe (always "") noDates
     in
-        Regex.find Regex.All numberRe noCommas
-            |> List.filterMap parseFloat
+    Regex.find numberRe noCommas
+        |> List.filterMap parseFloat
