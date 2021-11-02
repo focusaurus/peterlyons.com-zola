@@ -1,11 +1,15 @@
 +++
 title = "My Career"
 +++
-This page has lots of details about my career. I also have a [standard resume available](/peter-lyons-resume.pdf).
+This page has lots of details about my career. It is usually out of date.
 
-# Phase 6: Senior Software Engineer at Reaction Commerce
+# Phase 6: Ecommerce
 
 In September 2018 I join Reaction Commerce to work on their open source commerce platform.
+
+In April 2020, Reaction Commerce was acquired by Mailchimp.
+
+In November 2021, Mailchimp was acquired by Intuit.
 
 # Phase 5: Web Development Consultant and node.js Expert
 

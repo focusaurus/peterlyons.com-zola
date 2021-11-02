@@ -1,6 +1,7 @@
 # The URL the site will be built for
 base_url = "https://peterlyons.com"
-generate_rss = true
+generate_feed = true
+feed_filename = "rss.xml"
 compile_sass = true
 highlight_code = false
 build_search_index = false
