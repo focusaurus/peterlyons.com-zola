@@ -85,6 +85,10 @@ I switched back to Kailh choc reds for this and decided to print it in red and b
 
 My current daily driver is a [TBK Mini](https://bastardkb.com/tbk-mini/) which has 6 columns for the fingers, and although I'm trying to not use the pinky very much, that extra row does come in really handy and simplify layouts, so I added an extra column for the pinky to reach to. This also gives me better hope of switching to make the Squeezebox my daily driver since now it has exactly the same number of finger keys and the same thumb cluster arrangement as the TBK mini so all I have to deal with is the form factor switch itself but my keymap setup can be identical. So each hand now has a pair of 6-key double wide units (pinky and index), and a pair of 3-key units (middle and index) and a 3-key thumb cluster.
 
+## Files for 3D Printing
+
+If you want to print one of these I have uploaded the files and instructions to [prusaprinters here](https://www.prusaprinters.org/prints/112655-squeezebox-keyboard-v2112).
+
 ## Notes and Learnings
 
 I had a huge struggle and delay this time due to adhesive issues. I started out using Gorilla Glue brand Superglue Gel (cyanoacrylate or "CA glue"). The gel makes it reasonably achievable to get glue where it needs to go to hold the Kailh hot swap sockets onto the PLA part, but it takes way longer to cure than advertised and I don't really want to use accelerant from a spritzer bottle and get it over way too large an area when I really only want it on like a single square millimeter. I guess I could try like spraying accelerant onto a Q-Tip and then applying to the socket then putting it into place on the gel, but it's already a tedious process. Once cured, the superglue does not hold well. The sockets were popping off like mad, especially if the key column flexed at all. I probably had to re-glue at least 10 of them.
