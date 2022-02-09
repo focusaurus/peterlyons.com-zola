@@ -11,6 +11,8 @@ Just a quick post to point out some fantastic web applications to help you craft
 
 ## Honorable Mention
 
+[Olaf Neumann Regex-Generator](https://regex-generator.olafneumann.org) is a brilliant tool that starts with your input text, autosuggests common patterns, and guides you through building your regex.
+
 [RegExplained](http://www.regexplained.co.uk/) has a great railroad diagram visualization of your regular expression.
 
 [regexr](http://www.regexr.com/) is also handy although not as polished as RegEx 101.
