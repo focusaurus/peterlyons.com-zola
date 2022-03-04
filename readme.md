@@ -6,6 +6,7 @@
 - tera templates
 - node/npm for some client side javascript apps and bundling
 - reveal.js for slides in markdown
+- elm-lang for plus party app
 
 ## How to run locally: 1-time setup
 
