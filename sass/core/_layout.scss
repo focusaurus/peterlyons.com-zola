@@ -52,10 +52,11 @@ header {
 }
 
 .content {
-  margin: 1em;
-  width: 40em;
-  @media only screen and (min-width: 600px) {
-    margin: 1em auto;
+  margin: 1vw auto;
+  max-width: 95vw;
+  @media only screen and (min-width: 800px) {
+    margin: 5px auto;
+    max-width: 40em;
   }
 }
 

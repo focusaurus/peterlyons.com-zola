@@ -12,7 +12,7 @@ nav {
 
 .navMenuButton {
   @include top-right();
-  margin-right: 0.5em;
+  margin-right: 5px;
   border: none;
   background-color: $colorPrimaryBackground;
   font-size: 48px;
@@ -25,13 +25,8 @@ nav {
 }
 
 nav.site {
-  margin-left: 1rem;
-  margin-top: 2rem;
-
-  h1 {
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
-  }
+  margin-left: 1vw;
+  margin-top: 2vw;
 
   a {
     display: block;
