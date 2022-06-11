@@ -30,7 +30,7 @@
   {%- include "navigation.html" -%}
   <div class="content">
     <header>
-      <h1 role="banner"><a href="/">Peter Lyons</a></h1>
+      <h1><a href="/">Peter Lyons</a></h1>
     </header>
     {% block body %}{% endblock body %}
     <footer class="navigationHorizontal" role="contentinfo">
@@ -41,7 +41,7 @@
     </footer>
   </div>
   {% block scripts %}
-  <script type="module" src="/main.js" async=true></script>
+  <script type="module" src="/main.js" async></script>
   {% endblock scripts %}
 </body>
 </html>
