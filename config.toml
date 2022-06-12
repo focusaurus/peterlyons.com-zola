@@ -6,6 +6,7 @@ compile_sass = true
 highlight_code = false
 build_search_index = false
 title = "Pete's Points"
+smart_punctuation = false
 
 [extra]
 # Put all your custom variables here
