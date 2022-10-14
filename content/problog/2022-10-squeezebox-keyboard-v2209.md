@@ -88,7 +88,7 @@ Using v2112, I got tired of the camera z-stands wanting to slide around on the d
 
 To help reduce the handwiring spaghetti situation, I wanted to try to make an actual circuit board. If the main switch matrix circuitry could go there, and the diodes could live there instead of by the switches on the keywells, that would tidy things up a lot. I would just need a max of 5 wires coming out of each keywell and going only to the PCB. In v2112 the keywells have to daisy chain to their neighbors so there's a cable for incoming and another one for outgoing which is a fiddly mess.
 
-I didn't know anything about PCB design or KiCAD. As I sat down to learn and started discussing my plans on the Absolem Club discord, Petr Viktori ([encukou on github](https://github.com/encukou)) saw that a small form factor PCB could be useful for many keyboard builds that were too heavily 3D to put the switches directly onto the PCB, and created an absolutely brilliant and compact PCB design he calls the [matrixbar](https://github.com/encukou/selfish/tree/c975633adc153e1b267ada8de5742252208aacc2/pcb/matrixbar). Aside: it was originally called the squeezebar which I preferred for obvious reasons.
+I didn't know anything about PCB design or KiCAD. As I sat down to learn and started discussing my plans on the Absolem Club discord, Petr Viktorin ([encukou on github](https://github.com/encukou)) saw that a small form factor PCB could be useful for many keyboard builds that were too heavily 3D to put the switches directly onto the PCB, and created an absolutely brilliant and compact PCB design he calls the [matrixbar](https://github.com/encukou/selfish/tree/c975633adc153e1b267ada8de5742252208aacc2/pcb/matrixbar). Aside: it was originally called the squeezebar which I preferred for obvious reasons.
 
 With just a few exchanges on discord, we found a layout that would fit comfortably in the Squeezebox case and account for clearances we need for the adjustment bolts, cables connecting to the PCB, etc. Petr was also able to make it such that each keywell could connect to single row of pin headers meaning the cables would be so tidy and a standard DuPont jumper wire housing would easily fit through the slot to get to the interior of the case.
 
@@ -103,7 +103,7 @@ This was such an exciting and fun development! It saved me months of learning an
 
 [PCBWay](https://www.pcbway.com/) reached out to me to offer to fabricate a PCB for the squeezebox at no cost. So I took the files that Petr created and uploaded them to PCBWay's online shopping tool. In a few minutes, I had submitted an order for 10 PCBs (enough for 5 split keyboards). Ten days later, the PCBs had been fabricated and shipped across the world to me. It was so exciting to have something with an air of legitimacy giving the project a lot of polish instead of just an embarrassing pile of wires.
 
-Thanks PCBWay and Petr Viktori! The boards look great, fit in the case perfectly, and work great.
+Thanks PCBWay and Petr Viktorin! The boards look great, fit in the case perfectly, and work great.
 
 {{ figureflickr(url="https://live.staticflickr.com/65535/52424619192_8bf0c340fe_c_d.jpg" caption="Custom MatrixBar PCB with pin headers, diodes, and MCU sockets") }}
 
