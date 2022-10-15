@@ -137,6 +137,14 @@ After some discussion in discord, I was encouraged to swap q and z out to combos
 
 As I did this build, I posted smaller build logs for almost each session over on [Hackaday](https://hackaday.io/project/187158-squeezebox-keyboard-v2209). Feel free to read through those for more blow-by-blow commentary and thoughts.
 
+## STL Files to 3D Print This
+
+[Squeezebox v2209 on printables.com](https://www.printables.com/model/294609-squeezebox-keyboard-v2209)
+
+## Reddit Discussion
+
+Discussed on [/r/ergomechkeyboards here](https://www.reddit.com/r/ErgoMechKeyboards/comments/y38ebu/squeezebox_v2209/).
+
 ## Thoughts and Learnings at the Moment
 
 I still can't type on v2209 and am slowly learing one key at a time on keybr.com. I think I'll need to practice a lot and get fluent and then maybe in a few months I'll try to use v2209 as my daily driver. We'll see. Here's some thoughts on the overall project.
