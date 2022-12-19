@@ -10,7 +10,7 @@ For my entire time as a web developer, front end web layout has been a kludgey m
 
 Anyway, when flexbox turned out to be complex and bad and front end devs seemed to still be doing bootstrap or various terrible grid systems, I noped out again to focus on back end concerns and continue my wait-25-years-if-thats-what-it-takes approach to wanting semantic HTML with no extra wrapper divs and expressive CSS that matches how we think about layout.
 
-For the late 2022 round of this self-flaggelation, I'm taking a look at CSS grid in hopes that I can 1. Not use a 3rd party grid system and 2. be rid of non-semantic wrapper row/column grids. I watched some great tutorials by Jen Simmons on CSS grid, and I think I'm ready to declare the project a success. There's still a handful of nuisance issues, but most of my modest layout desires are straightforward to implement with CSS grid and other core features both old and new.
+For the late 2022 round of this self-flagellation, I'm taking a look at CSS grid in hopes that I can 1. Not use a 3rd party grid system and 2. be rid of non-semantic wrapper row/column grids. I watched some great tutorials by Jen Simmons on CSS grid, and I think I'm ready to declare the project a success. There's still a handful of nuisance issues, but most of my modest layout desires are straightforward to implement with CSS grid and other core features both old and new.
 
 ## Tidy Site
 
