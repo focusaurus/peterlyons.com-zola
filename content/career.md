@@ -3,6 +3,10 @@ title = "My Career"
 +++
 This page has lots of details about my career. It is usually out of date.
 
+# Phase 7: Focus Retreat Center
+
+In May 2022 my partner Christella and I had a ribbon cutting ceremony celebrating the opening of our new business [Focus Retreat Center](https://focusretreatcenter.com). I serve as President handling business development, breakfast cooking, and dish washing.
+
 # Phase 6: Ecommerce
 
 In September 2018 I join Reaction Commerce to work on their open source commerce platform.
