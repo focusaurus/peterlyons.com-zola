@@ -13,11 +13,9 @@ function expand(event) {
   });
 }
 
-function init() {
+export default function init() {
   const expandControls = document.querySelectorAll(".expand-control");
   nodeListEach(expandControls, element => {
     element.addEventListener("click", expand);
   });
 }
-
-init();
