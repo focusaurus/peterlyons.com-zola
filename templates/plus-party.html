@@ -16,6 +16,7 @@
 <script>
   Elm.PlusParty.init({ node: document.querySelector(".plus-party-container") });
   new ClipboardJS("#copy-total"); // eslint-disable-line no-new
+  document.querySelector(".plus-party textarea").select();
 </script>
 {{ super() }}
 {% endblock scripts %}
