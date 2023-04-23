@@ -6,7 +6,7 @@ date = 2023-04-23T15:14:56Z
 
 ## Motivation for this project
 
-So back in November 2022 there was a [giveaway contest run by kbd.news](https://kbd.news/giveaway). I entered and won and requested a discount over at [bastardkb](https://bastardkb.com/). I was very curious about the flexible PCBs Quentin uses in his low-profile dactyl-inspired builds. I had already made a DIY  TBK Mini which is his 3x6+3 flavor. I 3D printed the case, glued in kailh choc brown tactile low-profile switches, hand wired the matrix, and used a pair of elite-c microcontrollers. I realize now that I never even blogged about that build. I forget exactly when I did it, but the pertinent takeaway is that it is a pretty great form factor and it was my daily driver for a while just prior to the [squeezebox v2112](/problog/2022/01/squeezebox-keyboard-v2112/) being ready for action.
+So back in November 2022 there was a [giveaway contest run by kbd.news](https://kbd.news/giveaway). I entered and was one of the winners and we got a choice of various discount coupons, so I requested a discount over at [bastardkb](https://bastardkb.com/). I was very curious about the flexible PCBs Quentin uses in his low-profile dactyl-inspired builds. I had already made a DIY  TBK Mini which is his 3x6+3 flavor. I 3D printed the case, glued in kailh choc brown tactile low-profile switches, hand wired the matrix, and used a pair of elite-c microcontrollers. I realize now that I never even blogged about that build. I forget exactly when I did it, but the pertinent takeaway is that it is a pretty great form factor and it was my daily driver for a while just prior to the [squeezebox v2112](/problog/2022/01/squeezebox-keyboard-v2112/) being ready for action.
 
 After daily driving my [Keyboardio Model 100](https://shop.keyboard.io/products/model-100) while traveling this winter, when I got back home I was really missing QMK's combo support and the lower travel of choc switches, so I busted out the tbkmini again. It's very pleasant to type on. My only real issue with this one is I would now prefer linear switches as opposed to the brown tactiles which are in there. They are feeling quite sticky and inconsistent. The other janky part of my tbkmini is I 3D printed a small MCU holder but did not have the modeling skills to make it mount properly to the threaded inserts in the case, so instead I cut out a slot for it and glued in some terrible hacky adapters. It works fine but it's a hack job for sure.
 
@@ -42,13 +42,9 @@ I've never truly grokked the mechanism by which folks claim o-rings work and the
 
 So the build gets paused for a week or so then I proceed with experimental modding to reduce travel.
 
-While experimenting with different size ball bearing mods to reduce travel, we didn't have a great test rig set up. I guess ideally you'd have a hotswap MX keyboard at hand and swap in your modded key to do some careful quality control tests. Being low-profile enthusiasts, we have little to no MX gear around here, so our test rig consisted of holding the modded switch in the skeletyl PCB and trying to rotate it where both switch pins would make good contact with the PCB through holes then while not letting that wiggle out of place, try to type. We basically got "it never types" or "it probably types OK" result accuracy.
-
-We got a nice shot of the travel reduction of each mod by removing the springs so gravity would leave the stem in the lowest position for the photo. The rightmost switch isn't fully seated into the plate. Sorry about that. I didn't notice until I had already torn down the rig. But the 1.5mm ball bearing and 1.5mm hunk of PLA filament both do exactly the same thing to the stem travel.
-
-
 {{ figureflickr(url="https://live.staticflickr.com/65535/52818888082_c304d242fb_k_d.jpg" caption="Very small ball bearings") }}
 
+While experimenting with different size ball bearing mods to reduce travel, we didn't have a great test rig set up. I guess ideally you'd have a hotswap MX keyboard at hand and swap in your modded key to do some careful quality control tests. Being low-profile enthusiasts, we have little to no MX gear around here, so our test rig consisted of holding the modded switch in the skeletyl PCB and trying to rotate it where both switch pins would make good contact with the PCB through holes then while not letting that wiggle out of place, try to type. We basically got "it never types" or "it probably types OK" result accuracy.
 
 {{ figureflickr(url="https://live.staticflickr.com/65535/52819452846_e082095b0f_k_d.jpg" caption="Opening the switch and studying the hollow stem post where the ball bearing will get dropped") }}
 
@@ -58,11 +54,14 @@ We got a nice shot of the travel reduction of each mod by removing the springs s
 
 We discovered you can put as many as 8 0.8mm ball bearings in the switch post and still have the switch activate. We tried all the basics and some weird things like combinations of ball bearings of different sizes. The main learning from the first session was that 1.2mm still activated the switch (* footnote spoiler read ahead), so we decided to proceed and order 1.5mm ball bearings even though the original post we were studying said it was too large. Maybe because these akko CS silver switches have a high activation point our were still activating?
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/52822750310_e5802a9d8e_k_d.jpg" caption="Display of our experimental specimens") }}
-
 We didn't have any 1.8mm ball bearings, but we found the little brass spheres from a keychain were about that size so we tried that and found the switch wouldn't activate. So that was our upper bound.
 
+{{ figureflickr(url="https://live.staticflickr.com/65535/52822750310_e5802a9d8e_k_d.jpg" caption="Display of our experimental specimens") }}
+
+We got a nice shot of the travel reduction of each mod by removing the springs so gravity would leave the stem in the lowest position for the photo. The rightmost switch isn't fully seated into the plate. Sorry about that. I didn't notice until I had already torn down the rig. But the 1.5mm ball bearing and 1.5mm hunk of PLA filament both do exactly the same thing to the stem travel.
+
 {{ figureflickr(url="https://live.staticflickr.com/65535/52840177808_de383d5949_k_d.jpg" caption="Here's how the mods affected bottom out position") }}
+
 {{ figureflickr(url="https://live.staticflickr.com/65535/52839921909_407adffe11_k_d.jpg" caption="We got this shot by removing the springs so gravity would leave the stem at the bottom for the photo") }}
 
 ## Build modded switches into the PCB?
@@ -85,12 +84,21 @@ Getting the switches installed, clicked into the "flexible" PCBs and soldered on
 Eventually I found solutions combining helping hands clamped to the case, and either a tweezer wedged in holding the PCB down or a spring clamp if there is access from the side to place it.
 
 {{ figureflickr(url="https://live.staticflickr.com/65535/52840141985_97da6d97c6_k_d.jpg" caption="Tweezer wedged against the case holding the PCB in position so I can solder the switch pins") }}
-{{ figureflickr(url="https://live.staticflickr.com/65535/52839921954_c5a12de905_k_d.jpg" caption="Realizing I soldered the ribbon cables to the wrong side of the MCU holder") }}
 
 When I got one side finished, I mounted the MCU holder PCB to the case. This was also very tricky to get both ports fully aligned with their holes in the case and both of the threaded inserts exactly below the through holes so the screws can thread in. I eventually got it to work, but this could easily have been 15 minutes of futzing.
 
 When I went to attach the bottom plate, I had another sad trombone moment when I realized I had soldered the ribbon cables to the wrong side of the MCU PCB. I think the electronic connections are still right because the legends lined up, but there's also a chance that the wiring matrix is now messed up and I'll have to adjust the firmware to compensate for that. But in the end, I just bent the ribbon cables a bit closer to the PCB and a bit sharper of an angle than is probably ideal, but the case does now fit and doesn't bulge out at that spot. I could try to fix this before finishing the other half but I think it'll be easier to manage if both halves are symmetric. Plus, I did probably my best ever soldering job on this project and I don't want to mess that up with a bunch of desoldering and resoldering on the ribbon cables.
 
-{{ figureflickr(url="" caption="") }}
-{{ figureflickr(url="" caption="") }}
+{{ figureflickr(url="https://live.staticflickr.com/65535/52839921954_c5a12de905_k_d.jpg" caption="Realizing I soldered the ribbon cables to the wrong side of the MCU holder") }}
 
+I went through and finished soldering all of the switches into both halves. When that was done I tested them and of course found that my home row index finger switch was busted, and of course accessing the underside of that one to desolder it requires removing the MCU holder again. So I undid all those bolts, managed to get the switch desoldered and slurp off the excess solder, find a switch from our stack of experiments that I could restore to unmodded operable state, and solder that into place.
+
+----
+
+OK so I'm now typing on the new skeletyl build. I threw some MX DSA keycaps on it that we had lying around from the early days when we were trying to build dactyl manuforms. I put some rubber bumper feet on it and connected it to my laptop. I have not used Vial before this and it's very awesome. The keyboard was recognized and kind of to my surprise both halves worked with nothing about the matrix busted (at least if I connect USB to the right hand half).
+
+So I very quickly set up my layers and keymaps and Vial applies them in real time with no flashing which is amazing.
+
+So I've already done 88 WPM on monkeytype. How loud these switches are is going to take some adjustment, but I think it'll be fun to wade into the world of MX true mechanical keyboards for a while at least.
+
+{{ figureflickr(url="https://live.staticflickr.com/65535/52840975319_582e51320d_k_d.jpg" caption="skeletyl set up and working") }}
