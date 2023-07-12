@@ -5,7 +5,6 @@ testUri("/", {
   match: [
     "node.js",
     "Cyber Lumberjack",
-    "Stacks",
     "Creative Commons",
     "Career",
     "Projects"
@@ -34,7 +33,6 @@ testUri("/plus-party/", {
 testUri("/practices/", { match: ["Craftsmanship"] });
 testUri("/rapid-feedback/", { match: ["Rapid Feedback Learning Tools"] });
 testUri("/rust-at-recurse/", { match: ["Learning Rust at Recurse Center"] });
-testUri("/stacks/", { match: ["JavaScript"] });
 testUri("/talks/", { match: ["Speaking"] });
 testUri("/twelve-factor-nodejs/", {
   match: ["---", "Twelve-Factor Apps in node.js"]
