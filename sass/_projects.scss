@@ -1,0 +1,19 @@
+@import "core/color";
+
+section.project {
+  padding: 10px 10px;
+  margin-bottom: 10px;
+  h2 {
+    margin-top: 0;
+  }
+  &:nth-child(even) {
+    background-color: $colorEvenRow;
+  }
+  &:nth-child(odd) {
+    background-color: $colorOddRow;
+  }
+}
+
+img.screenshot {
+  border: 2px dashed black;
+}
