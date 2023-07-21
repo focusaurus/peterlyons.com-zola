@@ -32,7 +32,7 @@ Here's some technologies:
 - mozilla sops
 - kustomize
 
-Is that list everything I've used in my 20 years in the industry? No! That's just tech I had to learn and use in my 18 months at Reaction Commerce! That's more than one each month.Alomst every one of these represents "probably should read at least 1 whole book on this" depth.
+Is that list everything I've used in my 20 years in the industry? No! That's just tech I had to learn and use in my 18 months at Reaction Commerce! That's more than one each month. Alomst every one of these represents "probably should read at least 1 whole book on this" depth.
 
 Then of course we go through an acquisition and our tech stack changes pretty much completely. 2 new programming languages, 2 new databases, a new public cloud, a new RPC system, in-house frameworks and libraries, and so on.
 
