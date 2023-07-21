@@ -14,8 +14,6 @@
   grid-template-columns: 100%;
   justify-items: center;
   border-bottom: 1px dashed $colorPrimary;
-  white-space: nowrap;
-  text-overflow: ellipsis;
   padding-top: 1em;
 
   &:last-child {
