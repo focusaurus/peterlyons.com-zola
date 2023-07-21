@@ -1,24 +1,12 @@
 @import "typography";
 
 html {
-  /* This is a magic number that keeps 1em equal to 10px */
-  font-size: 62.5%;
+  font-size: 18px;
 }
 
 body {
   font-family: georgia, serif;
-  @include font-size(-2);
   line-height: 1.8em;
-  @media only screen and (min-width: 400px) {
-    @include font-size(-1);
-  }
-  @media only screen and (min-width: 1050px) {
-    @include font-size(0);
-  }
-}
-
-button {
-  @include font-size(0);
 }
 
 p {
@@ -31,29 +19,23 @@ h2,
 h3 {
   font-family: $headerFont;
   margin: 1em 0;
+  font-weight: bold;
 }
 
 h1 {
-  @include font-size(3, 1);
+  font-size: 120%;
 }
 
 h2 {
-  @include font-size(2, 1);
+  font-size: 110%;
 }
 
 h3 {
-  @include font-size(1, 1);
+  font-size: 105%;
 }
 
 code,
 pre {
-  font-family: Inconsolata, monospace;
+  font-family: $codeFont;
   line-height: 1.1em;
-}
-
-pre {
-  @include font-size(-2);
-  @media only screen and (min-width: 400px) {
-    @include font-size(-1);
-  }
 }

@@ -3,11 +3,7 @@
 @import "typography";
 
 nav {
-  @include font-size(-1);
-
-  h1 {
-    @include font-size(0);
-  }
+  font-size: 90%;
 }
 
 .navMenuButton {
@@ -66,6 +62,7 @@ nav.site {
 
     .close {
       display: inline-block;
+      font-size: 25px;
     }
   }
 }

@@ -1,9 +1,0 @@
-@import "../typography";
-nav.blog {
-  @include font-size(0);
-}
-
-.createPost > textarea,
-.createPost input[name="title"] {
-  @include font-size(1);
-}

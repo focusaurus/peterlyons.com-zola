@@ -5,12 +5,11 @@
 <a class="button" id="subscribe" href="/rss.xml">
   <img class="icon" src='/images/feed.png' height="24" alt='Subscribe to my Atom feed' title='Subscribe to my Atom Feed' />
 </a>
-<hr/>
 <div class="posts">
   {% for page in section.pages %}
   <div class="post">
     <a href="/{{ page.components[0] | safe }}/{{ page.slug | safe }}" class="postTitle">{{ page.title }}</a>
-    <div class="postDate">{{ page.date | date(format="%B %d, %Y") }} </div>
+    <span class="postDate">{{ page.date | date(format="%B %d, %Y") }} </span>
   </div>
   {% endfor %}
 </div>
