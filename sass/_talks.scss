@@ -1,10 +1,9 @@
-.talks {
-  dt {
-    margin-bottom: 1em;
+article.talk {
+  h2 {
+    margin-bottom: 0;
   }
-
-  dd {
-    margin-left: 2em;
-    margin-bottom: 2em;
+  p {
+    margin-bottom: 1em;
+    margin-top: 0;
   }
 }
