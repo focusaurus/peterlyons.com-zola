@@ -32,7 +32,7 @@
     "eslint-tap": "^2.0.1",
     "serve-handler": "^6.1.2",
     "supertest": "^4.0.2",
-    "tap": "^14.10.5"
+    "tap": "^16.3.8"
   },
   "dependencies": {
     "clipboard": "^2.0.4",
