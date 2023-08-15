@@ -1,7 +1,7 @@
 const tap = require("tap");
 const plusParty = require("./plus-party.ts");
 
-tap.test("parseNumbers", (t) => {
+tap.test("parseNumbers", (t: any) => {
   const p = plusParty.parseNumbers;
   t.same(p(""), [], "empty string");
   t.same(p("1 2 3 4"), [1, 2, 3, 4], "Basic integers");

@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "lib": [
+      "DOM",
+      "es2015"
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "static/plus-party-ts",
+    "strict": true,
+    "strictNullChecks": true,
+    "target": "es2015"
+  },
+  "exclude": [
+    "**/*.test.ts"
+  ],
+  "include": [
+    "**/*.ts"
+  ]
+}
