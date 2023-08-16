@@ -1,8 +1,7 @@
-const tap = require("tap");
-const plusParty = require("./plus-party.ts");
+import tap from "tap";
+import p from "./parse.js";
 
-tap.test("parseNumbers", (t: any) => {
-  const p = plusParty.parseNumbers;
+tap.test("parseNumbers", (t: Tap.Test) => {
   t.same(p(""), [], "empty string");
   t.same(p("1 2 3 4"), [1, 2, 3, 4], "Basic integers");
   t.same(p("-7 -3"), [-7, -3], "negative integers");

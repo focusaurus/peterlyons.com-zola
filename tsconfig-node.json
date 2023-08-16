@@ -2,18 +2,16 @@
   "compilerOptions": {
     "esModuleInterop": true,
     "lib": [
-      "DOM",
       "es2015"
     ],
-    "module": "es2015",
-    "moduleResolution": "node",
-    "outDir": "static/plus-party-ts",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
     "strict": true,
     "strictNullChecks": true,
     "target": "es2015"
   },
   "exclude": [
-    "**/*.test.ts"
+    "code/plus-party/main.ts"
   ],
   "include": [
     "**/*.ts"

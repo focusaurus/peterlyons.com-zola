@@ -2,6 +2,7 @@
   "name": "peterlyons.com-zola",
   "version": "8.2.1",
   "description": "Static web site for peterlyons.com",
+  "type": "module",
   "scripts": {
     "build": "./scripts-container/build.sh",
     "test": "find tests -name '*-tap.js' | xargs tap",
@@ -23,6 +24,7 @@
   },
   "homepage": "https://github.com/focusaurus/peterlyons.com-zola#readme",
   "devDependencies": {
+    "@types/tap": "15.0.8",
     "cheerio": "^1.0.0-rc.3",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
