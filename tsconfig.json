@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "esModuleInterop": true,
+    "isolatedModules": true,
     "lib": [
       "DOM",
       "es2015"

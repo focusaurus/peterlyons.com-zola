@@ -14,4 +14,5 @@ IFS=$'\n\t'
 # ---- End unofficial bash strict mode boilerplate
 
 cd "$(dirname "${BASH_SOURCE[0]}")/.."
-tsc
+tsc --noEmit
+esbuild code/plus-party/web.ts --bundle --outfile=static/plus-party-ts/bundle.js

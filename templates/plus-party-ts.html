@@ -13,9 +13,7 @@
 
 For example: 1 plus 2 plus 2 plus 1
   </textarea>
-  <button id="copy-total" onclick="copyTotal" data-clipboard-text="">
-      Copy Total 📋
-  </button>
+  <button id="copy-total" data-clipboard-target=".plus-party .total">Copy Total 📋 </button>
   <ul class="clear"></ul>
   <div class="total"></div>
 </div>
@@ -23,11 +21,6 @@ For example: 1 plus 2 plus 2 plus 1
 {{ macros::youtube(id="O5ROhf5Soqs") }}
 {% endblock body %}
 {% block scripts %}
-<script type="module" src="/plus-party-ts/main.js"></script>
-<script>
-  //Elm.PlusParty.init({ node: document.querySelector(".plus-party-container") });
-  //new ClipboardJS("#copy-total"); // eslint-disable-line no-new
-  //document.querySelector(".plus-party textarea").select();
-</script>
+<script type="module" src="/plus-party-ts/bundle.js"></script>
 {{ super() }}
 {% endblock scripts %}
