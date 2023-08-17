@@ -1,7 +1,6 @@
 import parse from "./parse.js";
 import ClipboardJS from "clipboard";
 
-
 function selectDOM(selector: string): HTMLElement | null {
   return document.querySelector(".plus-party " + selector);
 }
@@ -33,10 +32,10 @@ function main() {
   textArea.select();
   textArea.addEventListener("input", (e) => {
     const numbers = parse(textArea.value);
-    // console.log(numbers);
     render(numbers);
     return true;
   });
+  textArea.dispatchEvent(new Event("input"));
   const copyButton = selectDOM("#copy-total");
   if (copyButton) {
     copyButton.addEventListener("click", () => {

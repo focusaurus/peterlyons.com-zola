@@ -3,6 +3,7 @@
 /node_modules
 /public
 /static/reveal.js
+/static/plus-party-ts
 /local
 elm-stuff
 /code/plus-party/*.js
