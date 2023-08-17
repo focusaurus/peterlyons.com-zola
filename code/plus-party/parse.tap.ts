@@ -11,6 +11,9 @@ tap.test("parseNumbers", (t: Tap.Test) => {
   t.same(p("word 42, hey $14.42 on 02/14/2019"), [42, 14.42], "base");
   t.same(p("1/1/2020"), [], "ignore date m/d/yyyy");
   t.same(p("Party 10/31/1984"), [], "ignore date mm/dd/yyyy");
+  t.same(p("Party 1/2"), [], "ignore date m/d");
+  t.same(p("Party 11/22"), [], "ignore date mm/dd");
+  t.same(p("anything with slashes 7/2/1234/555/999999"), [], "ignore any numbers with slashes");
   t.same(p("Party 10/31/1984\nword 1/1/1234 disco"), [], "ignore dates");
   t.same(p("1.2.3"), [], "only one decimal point per number");
   t.same(p("1 - 2"), [1, 2], "What do you think this is? A subtraction party?");

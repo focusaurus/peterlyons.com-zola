@@ -1,5 +1,5 @@
 const commaRegex = /,/g;
-const dateRegex = /\b\d{1,2}\/\d{1,2}\/(\d{2}|\d{4})\b/g;
+const dateRegex = /\b\d+\/\d+(\/\d+)*\b/g;
 const doubleDecimal = /\b.+\..*\..*\b/g;
 const numberRegex = /-?(?:\d+)(?:\.\d+)?\b/g;
 
