@@ -7,7 +7,12 @@ function toggleNav() {
   content.classList.toggle("navOpen");
 }
 
-function closeNav() {
+function closeNav(event) {
+  if (event.target.classList.contains("navMenuButton")) {
+    // this is the click of the nav menu button to open it.
+    // Disregard.
+    return;
+  }
   nav.classList.remove("open");
   content.classList.remove("navOpen");
 }
@@ -15,10 +20,11 @@ function closeNav() {
 export default function start() {
   document.querySelector(".navMenuButton").addEventListener("click", toggleNav);
   document.querySelector("nav.site .close").addEventListener("click", closeNav);
+  document.addEventListener("click", closeNav);
 
   const selector = `nav a[href='${document.location.pathname}']`;
   const navEls = document.querySelectorAll(selector);
-  Array.prototype.forEach.call(navEls, el => {
+  Array.prototype.forEach.call(navEls, (el) => {
     el.classList.add("current");
   });
 }
