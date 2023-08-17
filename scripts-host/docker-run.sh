@@ -26,7 +26,8 @@ exec docker run --rm --interactive --tty \
   --volume "${PWD}:/host" \
   --env SSH_AUTH_SOCK \
   --env-file ./.env \
-  --env PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/host/bin:/host/local/bin:/host/scripts-container:/host/node_modules/.bin \
+  --env PATH=/usr/local/bin:/usr/bin:/bin:/host/bin:/host/local/bin:/host/node_modules/.bin \
+  --env IP=0.0.0.0 \
   --workdir /host \
   --user "$(id -u)" \
   --publish "${PORT}:${PORT}" \

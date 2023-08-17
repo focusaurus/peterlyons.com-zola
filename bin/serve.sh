@@ -19,5 +19,4 @@ export PATH="${PWD}/local/bin:${PATH}"
 if [[ -z "${PORT}" ]] && [[ -e .env ]]; then
   source ./.env
 fi
-zola serve --port "${PORT}"
-#--interface 0.0.0.0
+zola serve --port "${PORT}" --interface "${IP:-127.0.0.1}"
