@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "strict": true,
+    "strictNullChecks": true,
+    "target": "es2015"
+  },
+  "exclude": [
+    "code/plus-party/web.ts"
+  ],
+  "extends": "@tsconfig/node20/tsconfig.json",
+  "include": [
+    "**/*.ts"
+  ]
+}

@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+{% import "macros.html" as macros %}
+{% block style %}
+{{ super() }}
+{% endblock style %}
+{% block body %}
+<h1>{{ page.title }}</h1>
+{{ page.content | safe }}
+<p>Paste some numbers into the box. It's OK if they have other text around them. All the numbers will be parsed out and totaled up for you.</p>
+<div class="plus-party">
+  <textarea>Paste some numbers in here and we'll total them up even if there's some words and junk, too.
+
+For example: 1 plus 2 plus 2 plus 1</textarea>
+  <button id="copy-total" data-clipboard-target=".plus-party .total">Copy Total 📋 </button>
+  <ul class="clear"></ul>
+  <div class="total"></div>
+</div>
+<img src='/images/clue_bullets.png' alt='One plus two plus two plus one.' />
+{{ macros::youtube(id="O5ROhf5Soqs") }}
+{% endblock body %}
+{% block scripts %}
+<script type="module" src="/plus-party-ts/bundle.js"></script>
+{{ super() }}
+{% endblock scripts %}

@@ -23,8 +23,24 @@ install_zola() {
   chmod 755 local/bin/zola
 }
 
+build_js() {
+  # compile typescript using config in tsconfig.json
+  tsc
+
+  # bundle javascript for the browser
+  esbuild code/plus-party/web.ts --minify --bundle --outfile=static/plus-party-ts/bundle.js
+
+  # reveal.js for slides. Kinda hacky. Might switch to esbuild for this.
+  cp -r node_modules/reveal.js static
+  # The "test" directory in reveal has some insecure mixed content
+  # so remove it to avoid netlify warnings
+  rm -rf static/reveal.js/test
+}
+
 main() {
   cd "$(dirname "${BASH_SOURCE[0]}")/.."
+
+  # prereq: zola static site generator
   export PATH="${PWD}/local/bin:${PATH}"
   if ! command -v zola &>/dev/null; then
     install_zola
@@ -33,17 +49,15 @@ main() {
   if [[ "${version}" != "${ZOLA_VERSION}" ]]; then
     install_zola
   fi
+
+  # prereq: node/npm dependencies
   if [[ ! -d node_modules ]]; then
     npm install
   fi
-  # Sigh. Disable this for now as it requires
-  # tooling for Elm 0.18.0 and older node and 
-  # it's a massive pain
-  ./scripts-container/build-plus-party.sh
-  cp -r node_modules/reveal.js static
-  # The "test" directory in reveal has some insecure mixed content
-  # so remove it to avoid netlify warnings
-  rm -rf static/reveal.js/test
+
+  build_js
+
+  # generate the static site
   zola build
 }
 

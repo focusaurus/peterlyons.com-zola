@@ -3,33 +3,51 @@
 **Tech stack**
 
 - zola static site generator
-- tera templates
+  - tera templates
 - node/npm for some client side javascript apps and bundling
 - reveal.js for slides in markdown
-- elm-lang for plus party app
+- typescript for plus party app
 
-## How to run locally: 1-time setup
+## How to run locally: initial setup
 
 - Install the prerequisites
-  - git
   - bash
-  - docker
+  - git
+  - node
+    - (see .nvmrc for correct version)
 - `git clone` the repo
+- `cp .env.example .env`. Edit `.env` if necessary but usually it's fine as is.
+- Run `bin/build.sh`
+  - This will install zola and run npm if needed
+- Run `bin/serve.sh` for normal development
+  - Site opens to http://localhost:3333 by default
 
-## How to develop locally
+## How to run unit tests
 
-- Do the 1-time setup as documented above
-- (host) `./host-scripts/docker-run.sh` to get into the docker image
-- (container) `./scripts-container/serve.sh`
-- open [http://0.0.0.0:9002]() in a browser to preview
+- `bin/test.sh`
 
+## How to stub out a new blog post
+
+- `bin/new-post.sh "Post Title Goes Here"`
+
+## How to develop using docker
+
+- Install the prerequisites
+  - bash
+  - git
+  - docker
+- run `./bin/docker-run.sh bin/serve.sh`
+- Site is at [http://localhost:3333]() by default
+- For all the other development tasks, the docker version starts with `bin/docker-run.sh` then the script you would run locally.
+  - `bin/docker-run.sh bin/test.sh` for example
+  - 
 ## How to run javascript tests
 
 (container) `./scripts-container/build.sh && npm test`
 
 ## How to update dependencies: npm
 
-(container) `npx npm-check-updates -u`
+`npx npm-check-updates -u`
 
 ## How to update zola
 

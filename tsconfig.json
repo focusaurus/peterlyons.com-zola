@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "isolatedModules": true,
+    "lib": [
+      "DOM",
+      "es2015"
+    ],
+    "module": "es2015",
+    "moduleResolution": "bundler",
+    "noEmit": true,
+    "strict": true,
+    "strictNullChecks": true
+  },
+  "exclude": [
+    "**/*.test.ts"
+  ],
+  "include": [
+    "**/*.ts"
+  ],
+  "ts-node": {
+    "esm": true
+  }
+}
