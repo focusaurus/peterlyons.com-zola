@@ -26,6 +26,22 @@
 
 - `bin/test.sh`
 
+## How to run content tests
+
+We have some content smoke tests (using node-tap framework) that:
+
+- build the static site
+- start a transient web server to serve the files
+- load lots of pages, parse HTML, and check for particular content keywords or CSSselectors being present in the HTML
+
+`bin/test-content.sh`
+
+## How to run redirect integration tests
+
+- These should be run against a working server, which could be local development server, a netlify deploy preview, or production
+- `URI=http://localhost:3333 tap tests/redirects-tap.js`
+- or `bin/test-redirects.sh` for local development
+
 ## How to stub out a new blog post
 
 - `bin/new-post.sh "Post Title Goes Here"`

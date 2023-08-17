@@ -1,7 +1,6 @@
-"use strict";
-const { promisify } = require("util");
-const handler = require("serve-handler");
-const http = require("http");
+import { promisify } = from "./util.js";
+import handler from "serve-handler";
+import http from "http";
 
 async function start(port) {
   process.chdir(`${__dirname}/../public`);
@@ -13,6 +12,6 @@ async function start(port) {
   return server;
 }
 
-if (require.main === module) {
+// if (require.main === module) {
   start(Number(process.env.PORT));
-}
+// }

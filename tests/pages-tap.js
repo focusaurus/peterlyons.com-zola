@@ -1,21 +1,19 @@
-"use strict";
-const { testUri } = require("./utils");
+import { testUri } from "./utils.js";
 
 testUri("/", {
   match: [
     "node.js",
     "Cyber Lumberjack",
     "Creative Commons",
-    "Career",
-    "Projects"
+    "Projects",
   ],
   selectors: [
     "section.intro",
     "header h1",
     "body .content",
     "nav.site",
-    ".license"
-  ]
+    ".license",
+  ],
 });
 testUri("/career/", { match: ["Opsware"] });
 testUri("/code-conventions/", { match: ["readability"] });
@@ -27,23 +25,23 @@ testUri("/plus-party/", {
   match: ["Plus Party"],
   selectors: [
     "iframe[allowfullscreen]",
-    'img[alt="One plus two plus two plus one."]'
-  ]
+    'img[alt="One plus two plus two plus one."]',
+  ],
 });
 testUri("/practices/", { match: ["Craftsmanship"] });
 testUri("/rapid-feedback/", { match: ["Rapid Feedback Learning Tools"] });
 testUri("/rust-at-recurse/", { match: ["Learning Rust at Recurse Center"] });
 testUri("/talks/", { match: ["Speaking"] });
 testUri("/twelve-factor-nodejs/", {
-  match: ["---", "Twelve-Factor Apps in node.js"]
+  match: ["---", "Twelve-Factor Apps in node.js"],
 });
 testUri("/web-data/", { match: ["---", "How Data Powers the Web"] });
 testUri("/web-prog/", {
   match: [
     "---",
     "/decks/web-prog.md",
-    "Web Programming Concepts for Non-Programmers"
-  ]
+    "Web Programming Concepts for Non-Programmers",
+  ],
 });
 testUri("/white-glove/", { match: ["---", "Finding Inconsistencies"] });
 testUri("/screen.css", { match: ["font-family", "Julius Sans One"] });

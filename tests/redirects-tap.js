@@ -1,13 +1,14 @@
-const fs = require("fs");
-const tap = require("tap");
-const { request, testRedirects } = require("./utils");
+import fs from "fs";
+import tap from "tap";
+import { request, testRedirects } from "./utils.js";
 
 function setup() {
   // eslint-disable-next-line no-sync
   const redirects = fs.readFileSync(
-    `${__dirname}/../static/_redirects`,
+    `static/_redirects`,
     "utf-8"
   );
+  console.log("setup running");
   redirects.split("\n").forEach(line => {
     if (line.startsWith("#")) {
       return;
@@ -21,7 +22,7 @@ function setup() {
     });
   });
 }
-
+console.log("redirects", testRedirects);
 if (testRedirects) {
   setup();
 }

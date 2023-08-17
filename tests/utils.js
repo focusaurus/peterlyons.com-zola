@@ -1,19 +1,18 @@
-"use strict";
-const { promisify } = require("util");
-const cheerio = require("cheerio");
-const handler = require("serve-handler");
-const http = require("http");
-const supertest = require("supertest");
-const tap = require("tap");
+import { promisify } from 'util';
+import cheerio from 'cheerio';
+import handler from 'serve-handler';
+import http from 'http';
+import supertest from 'supertest';
+import tap from 'tap';
 
 const uri = process.env.URI;
 function isValidUri(value) {
   return /^https?:\/\//.test(value);
 }
 
-const testRedirects = isValidUri(uri);
+export const testRedirects = isValidUri(uri);
 let server;
-tap.tearDown(() => server && server.close());
+tap.teardown(() => server && server.close());
 
 function _uri(_server) {
   return `http://localhost:${_server.address().port}`;
@@ -37,19 +36,21 @@ async function getUri() {
   if (server) {
     return _uri(server);
   }
-  process.chdir(`${__dirname}/../public`);
+  // process.chdir(`${__dirname}/../public`);
+  // @TODO: port __dirname
+  process.chdir(`public`);
   server = http.createServer(handler);
   const listen = promisify(server.listen.bind(server));
   await listen();
   return _uri(server);
 }
 
-async function request() {
+export async function request() {
   const baseUri = await getUri();
   return supertest(baseUri);
 }
 
-async function testUri(
+export async function testUri(
   uriPath,
   { description = "", selectors = [], match = [], code = 200 } = {}
 ) {
@@ -71,5 +72,3 @@ async function testUri(
     });
   });
 }
-
-module.exports = { testUri, request, testRedirects };
