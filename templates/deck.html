@@ -4,10 +4,10 @@
 <head>
   <title>{{ page.title }}</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="/reveal.js/css/reveal.css">
-  <link id="theme" rel="stylesheet" href="/reveal.js/css/theme/simple.css">
+  <link rel="stylesheet" href="/reveal.js/dist/reveal.css">
+  <link id="theme" rel="stylesheet" href="/reveal.js/dist/theme/simple.css">
   <!-- Code syntax highlighting-->
-  <link rel="stylesheet" href="/reveal.js/lib/css/zenburn.css">
+  <link rel="stylesheet" href="/reveal.js/plugin/highlight/zenburn.css">
   <link rel="stylesheet" href="/deck.css">
   <link href="/favicon.jpg" rel="icon">
   <link rel="author" type="text/plain" href="/humans.txt">
@@ -22,9 +22,7 @@
     </section>
   </div>
   {% block scripts %}
-  <script src="/reveal.js/lib/js/head.min.js"></script>
-  <script src="/reveal.js/js/reveal.js"></script>
-  <script src="/reveal-init.js"></script>
+  <script src="/reveal-bundle.js"></script>
   {% endblock scripts %}
 </body>
 

@@ -29,12 +29,8 @@ build_js() {
 
   # bundle javascript for the browser
   esbuild code/plus-party/web.ts --minify --bundle --outfile=static/plus-party-ts/bundle.js
-
-  # reveal.js for slides. Kinda hacky. Might switch to esbuild for this.
+  esbuild code/reveal-init.js --minify --bundle --outfile=static/reveal-bundle.js
   cp -r node_modules/reveal.js static
-  # The "test" directory in reveal has some insecure mixed content
-  # so remove it to avoid netlify warnings
-  rm -rf static/reveal.js/test
 }
 
 main() {

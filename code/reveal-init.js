@@ -1,4 +1,8 @@
 /* global document, hljs, Reveal */
+import Reveal from "reveal.js";
+import Markdown from "reveal.js/plugin/markdown/markdown.esm.js";
+import Highlight from "reveal.js/plugin/highlight/highlight.esm.js";
+import Notes from "reveal.js/plugin/notes/notes.esm.js";
 // Full list of configuration options available at:
 // https://github.com/hakimel/reveal.js#configuration
 Reveal.initialize({
@@ -7,32 +11,8 @@ Reveal.initialize({
   history: true,
   center: false,
   mouseWheel: true,
-
+  plugins: [Markdown, Highlight, Notes],
   transition: "none", // none/fade/slide/convex/concave/zoom
-
-  // Optional reveal.js plugins
-  dependencies: [
-    {
-      src: "/reveal.js/plugin/markdown/marked.js",
-      condition() {
-        return !!document.querySelector("[data-markdown]");
-      }
-    },
-    {
-      src: "/reveal.js/plugin/markdown/markdown.js",
-      condition() {
-        return !!document.querySelector("[data-markdown]");
-      }
-    },
-    {
-      src: "/reveal.js/plugin/highlight/highlight.js",
-      async: true,
-      callback() {
-        hljs.initHighlightingOnLoad();
-      }
-    },
-    { src: "/reveal.js/plugin/notes/notes.js", async: true }
-  ]
 });
 // This is a focusaurus customization.
 // Want many elements to be fragments.
