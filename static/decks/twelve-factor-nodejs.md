@@ -19,8 +19,8 @@
 
 ## What is Twelve-Factor?
 
-<figure>![](https://farm6.staticflickr.com/5613/15358706278_5a28094fdc_z_d.jpg)
-
+<figure>
+<img src="https://farm6.staticflickr.com/5613/15358706278_5a28094fdc_z_d.jpg">
 <figcaption>Photo by [InvernoDreaming](https://www.flickr.com/photos/invernodreaming/) [(CC BY-ND 2.0)](https://creativecommons.org/licenses/by-nd/2.0/)</figcaption>
 </figure>
 
@@ -42,8 +42,8 @@
 
 ## Pre-PaaS Genisis of Twelve-Factor
 
-<figure>![](https://farm1.staticflickr.com/33/43131875_c0314382a2_z_d.jpg)
-
+<figure>
+<img src="https://farm1.staticflickr.com/33/43131875_c0314382a2_z_d.jpg">
 <figcaption>Photo by [Phil Hollenback](https://www.flickr.com/photos/phrenologist/) [(CC BY-NC 2.0)](https://creativecommons.org/licenses/by-nc/2.0/)</figcaption>
 </figure>
 
@@ -66,8 +66,8 @@
 
 ## Platform as a Service (PaaS)
 
-<figure>![](https://farm8.staticflickr.com/7474/15447707963_9f80204190_z_d.jpg)
-
+<figure>
+<img src="https://farm8.staticflickr.com/7474/15447707963_9f80204190_z_d.jpg">
 <figcaption>Photo by [Dennis Skley](https://www.flickr.com/photos/dskley/) [(CC BY-ND 2.0)](https://creativecommons.org/licenses/by-nd/2.0/)</figcaption>
 </figure>
 
@@ -92,8 +92,8 @@
 
 ## 1. Codebase
 
-<figure>![](https://farm4.staticflickr.com/3050/2960047774_6e39a980dc_z_d.jpg)
-
+<figure>
+<img src="https://farm4.staticflickr.com/3050/2960047774_6e39a980dc_z_d.jpg">
 <figcaption>Photo by [Nick Quaranto](https://www.flickr.com/photos/qrush/) [(CC BY-SA 2.0)](https://creativecommons.org/licenses/by-sa/2.0/)</figcaption>
 </figure>
 
@@ -117,8 +117,8 @@
 
 ## 2. Dependencies
 
-<figure>![](https://pbs.twimg.com/media/B-HNKodCcAATQbS.jpg:large)
-
+<figure>
+<img src="https://pbs.twimg.com/media/B-HNKodCcAATQbS.jpg:large">
 <figcaption>Photo by [@funniesJS](https://twitter.com/funniesJS) [(CC BY-SA)](https://creativecommons.org/licenses/by-sa/2.0/)</figcaption>
 </figure>
 
@@ -148,8 +148,8 @@
 
 ## 3. Config
 
-<figure>![](https://farm5.staticflickr.com/4117/4764881882_de0ebb806a_z_d.jpg)
-
+<figure>
+<img src="https://farm5.staticflickr.com/4117/4764881882_de0ebb806a_z_d.jpg">
 <figcaption>Photo by [Ronan](https://www.flickr.com/photos/ronancantwell/) [(CC BY-NC-ND 2.0)](https://creativecommons.org/licenses/by-nc-nd/2.0/)</figcaption>
 </figure>
 
@@ -204,8 +204,8 @@ ___
 
 ## 6. Processes
 
-<figure>![](https://farm2.staticflickr.com/1096/1237061197_6c7039a681_z_d.jpg)
-
+<figure>
+<img src="https://farm2.staticflickr.com/1096/1237061197_6c7039a681_z_d.jpg">
 <figcaption>Photo by [█ Slices of Light █▀ ▀ ▀](https://www.flickr.com/photos/justaslice/) [(CC BY-NC-ND 2.0)](https://creativecommons.org/licenses/by-nc-nd/2.0/)</figcaption>
 </figure>
 
@@ -271,8 +271,8 @@ exec app/server.js
 
 ## 8. Concurrency
 
-<figure>![](https://farm1.staticflickr.com/233/447698435_fface3ece8_z_d.jpg?zz=1)
-
+<figure>
+<img src="https://farm1.staticflickr.com/233/447698435_fface3ece8_z_d.jpg?zz=1">
 <figcaption>Photo by [Nguyen-Anh Le](https://www.flickr.com/photos/discopalace/) [(CC BY-NC-ND 2.0)](https://creativecommons.org/licenses/by-nc-nd/2.0/)</figcaption>
 </figure>
 
@@ -307,7 +307,7 @@ exec app/server.js
 - bole, bunyan, winston
 - newline-delimited JSON to stdout
 - let the environment deal with rotation, centralization
-- systemd/journald` handle it automatically
+- `systemd/journald` handle it automatically
 - upstart "console log" handles it
 - `svlogd` from runit
 - `multilog` from daemontools
