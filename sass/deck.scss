@@ -1,4 +1,8 @@
 @import "core/color";
+// override reveal.js/dist/theme/simple.scss variable since it's too big
+:root {
+  --r-main-font-size: 32px;
+}
 
 code > span::selection,
 code::selection {

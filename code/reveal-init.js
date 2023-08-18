@@ -25,8 +25,8 @@ const { forEach } = Array.prototype;
 Reveal.addEventListener("ready", () => {
   forEach.call($("figure"), fragment);
   forEach.call($("li"), fragment);
-  forEach.call($("p"), fragment);
-  forEach.call($("h2"), fragment);
+  // forEach.call($("p"), fragment);
+  // forEach.call($("h2"), fragment);
   forEach.call($("h3"), fragment);
   forEach.call($("h4"), fragment);
   forEach.call($("h5"), fragment);
