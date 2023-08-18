@@ -18,10 +18,13 @@
 ---
 
 ## What is Twelve-Factor?
-
+<!-- Original photo URL: https://www.flickr.com/photos/xmex/24059317672/sizes/l/ -->
 <figure>
-<img src="https://farm6.staticflickr.com/5613/15358706278_5a28094fdc_z_d.jpg">
-<figcaption>Photo by [InvernoDreaming](https://www.flickr.com/photos/invernodreaming/) [(CC BY-ND 2.0)](https://creativecommons.org/licenses/by-nd/2.0/)</figcaption>
+<img src="https://live.staticflickr.com/1489/24059317672_d9987c7c16_c_d.jpg">
+<figcaption>
+  Photo by <a href="https://www.flickr.com/photos/xmex/">XoMEo</a>
+  <a href="https://creativecommons.org/licenses/by-nc/2.0/">CC BY-NC 2.0</a>
+</figcaption>
 </figure>
 
 ---
@@ -34,7 +37,6 @@
 - Optimized for the cloud era: IaaS, SaaS, PaaS, scale out
 - Embodies opinions and best practices
 - Addresses "systemic problems"
-
 - not the only valid approach
 - not appropriate for all applications or organizations
 
@@ -43,8 +45,12 @@
 ## Pre-PaaS Genisis of Twelve-Factor
 
 <figure>
-<img src="https://farm1.staticflickr.com/33/43131875_c0314382a2_z_d.jpg">
-<figcaption>Photo by [Phil Hollenback](https://www.flickr.com/photos/phrenologist/) [(CC BY-NC 2.0)](https://creativecommons.org/licenses/by-nc/2.0/)</figcaption>
+  <img src="https://farm1.staticflickr.com/33/43131875_c0314382a2_z_d.jpg" />
+  <figcaption>
+    Photo by
+    <a href="https://www.flickr.com/photos/phrenologist/">Phil Hollenback</a>
+    <a href="https://creativecommons.org/licenses/by-nc/2.0/">CC BY-N, 2.0</a>
+  </figcaption>
 </figure>
 
 ---
@@ -68,7 +74,10 @@
 
 <figure>
 <img src="https://farm8.staticflickr.com/7474/15447707963_9f80204190_z_d.jpg">
-<figcaption>Photo by [Dennis Skley](https://www.flickr.com/photos/dskley/) [(CC BY-ND 2.0)](https://creativecommons.org/licenses/by-nd/2.0/)</figcaption>
+<figcaption>
+  Photo by <a href="https://www.flickr.com/photos/dskley/">Dennis Skley</a>
+  <a href="https://creativecommons.org/licenses/by-nd/2.0/">CC BY-ND 2.0</a>
+</figcaption>
 </figure>
 
 - takes off around 2008 (Google App Engine)
@@ -94,7 +103,10 @@
 
 <figure>
 <img src="https://farm4.staticflickr.com/3050/2960047774_6e39a980dc_z_d.jpg">
-<figcaption>Photo by [Nick Quaranto](https://www.flickr.com/photos/qrush/) [(CC BY-SA 2.0)](https://creativecommons.org/licenses/by-sa/2.0/)</figcaption>
+<figcaption>
+  Photo by <a href="https://www.flickr.com/photos/qrush/">Nick Quaranto</a>
+  <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>
+</figcaption>
 </figure>
 
 ---
@@ -116,10 +128,10 @@
 ---
 
 ## 2. Dependencies
-
+<!-- original picture URL: https://www.flickr.com/photos/nicksieger/280662871/sizes/l/ -->
 <figure>
-<img src="https://pbs.twimg.com/media/B-HNKodCcAATQbS.jpg:large">
-<figcaption>Photo by [@funniesJS](https://twitter.com/funniesJS) [(CC BY-SA)](https://creativecommons.org/licenses/by-sa/2.0/)</figcaption>
+<img src="https://live.staticflickr.com/109/280662871_a53a2680ce_c_d.jpg">
+<figcaption>Photo by <a href="https://www.flickr.com/photos/nicksieger/">nicksieger</a> (<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA</a>)</figcaption>
 </figure>
 
 ---
@@ -150,7 +162,12 @@
 
 <figure>
 <img src="https://farm5.staticflickr.com/4117/4764881882_de0ebb806a_z_d.jpg">
-<figcaption>Photo by [Ronan](https://www.flickr.com/photos/ronancantwell/) [(CC BY-NC-ND 2.0)](https://creativecommons.org/licenses/by-nc-nd/2.0/)</figcaption>
+<figcaption>
+  Photo by <a href="https://www.flickr.com/photos/ronancantwell/">Ronan</a>
+  <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/"
+    >CC BY-NC-ND 2.0</a
+  >
+</figcaption>
 </figure>
 
 ---
@@ -204,16 +221,20 @@ ___
 
 ## 6. Processes
 
+<!-- original image URL: https://www.flickr.com/photos/johnmaddin/3661448960/sizes/c/ -->
 <figure>
-<img src="https://farm2.staticflickr.com/1096/1237061197_6c7039a681_z_d.jpg">
-<figcaption>Photo by [█ Slices of Light █▀ ▀ ▀](https://www.flickr.com/photos/justaslice/) [(CC BY-NC-ND 2.0)](https://creativecommons.org/licenses/by-nc-nd/2.0/)</figcaption>
+<img src="https://live.staticflickr.com/2466/3661448960_d5d5181184_c_d.jpg">
+<figcaption>
+  Photo by <a href="https://www.flickr.com/photos/johnmaddin">John Maddin</a>
+  <a href="https://creativecommons.org/licenses/by-nd/2.0/">CC BY-ND 2.0</a>
+</figcaption>
 </figure>
 
 ---
 
 ## systemd service config file
 
-Install to `/etc/systemd/system/mynodejsapp.service`
+- Install to `/etc/systemd/system/mynodejsapp.service`
 
 ```ini
 [Unit]
@@ -235,7 +256,7 @@ WantedBy=multi-user.target
 
 ## upstart config file (Debian/Ubuntu before 15.04)
 
-Install to `/etc/init/mynodejsapp.conf`
+- Install to `/etc/init/mynodejsapp.conf`
 
 ```txt
 description "mynodejsapp"
@@ -272,10 +293,17 @@ exec app/server.js
 ## 8. Concurrency
 
 <figure>
-<img src="https://farm1.staticflickr.com/233/447698435_fface3ece8_z_d.jpg?zz=1">
-<figcaption>Photo by [Nguyen-Anh Le](https://www.flickr.com/photos/discopalace/) [(CC BY-NC-ND 2.0)](https://creativecommons.org/licenses/by-nc-nd/2.0/)</figcaption>
+  <img
+    src="https://farm1.staticflickr.com/233/447698435_fface3ece8_z_d.jpg?zz=1"
+  />
+  <figcaption>
+    Photo by
+    <a href="https://www.flickr.com/photos/discopalace/">Nguyen-Anh Le</a>
+    <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/"
+      >CC BY-NC-ND 2.0</a
+    >
+  </figcaption>
 </figure>
-
 ---
 
 ## 8. Concurrency
