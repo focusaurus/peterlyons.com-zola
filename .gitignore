@@ -2,7 +2,7 @@
 .nyc_output
 /node_modules
 /public
-/static/plus-party-ts
+/static/plus-party
 /static/*-bundle.js
 /static/reveal.js
 /local

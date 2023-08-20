@@ -28,7 +28,7 @@ build_js() {
   tsc
 
   # bundle javascript for the browser
-  esbuild code/plus-party/web.ts --minify --bundle --outfile=static/plus-party-ts/bundle.js
+  esbuild code/plus-party/web.ts --minify --bundle --outfile=static/plus-party/bundle.js
   esbuild code/reveal-init.js --minify --bundle --outfile=static/reveal-bundle.js
   cp -r node_modules/reveal.js static
 }
