@@ -42,6 +42,7 @@ function main() {
       copyButton.innerHTML = "Copied!";
       setTimeout(() => {
         copyButton.innerHTML = "Copy Total 📋";
+        textArea.focus();
       }, 2000);
     });
   }
