@@ -2,6 +2,12 @@
 title = "Speaking Presentations"
 +++
 <article class="talk">
+  <h2>Design a Custom Keyboard with Ergogen</h2>
+  <a href="/ergogen/">Slides</a>
+  <p>Presented at <a href="https://www.meetup.com/software-crafters-montreal/">Software Crafters Montreal</a> October 4, 2023</p>
+</article>
+
+<article class="talk">
   <h2>Oxidation of the Command Line</h2>
   <a href="/rust-cli-2019/">Slides</a>
   <p>Presented at the <a href="https://www.meetup.com/Rust-Boulder-Denver/">Denver Rust Meetup</a> February 19, 2019</p>
