@@ -9,7 +9,10 @@
   "exclude": [
     "code/plus-party/web.ts"
   ],
-  "extends": "@tsconfig/node20/tsconfig.json",
+  "extends": [
+    "./tsconfig-common.json",
+    "@tsconfig/node20/tsconfig.json"
+  ],
   "include": [
     "**/*.ts"
   ]
