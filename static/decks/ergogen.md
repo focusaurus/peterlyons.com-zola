@@ -32,22 +32,18 @@ October 2023
         ref: fingers_inner_one
         shift: [0, -40]
         rotate: -10
-      rows.one.row_net: P09
       columns:
         outer:
           rows.one.rotate: -10
           rows.one.bind: [5,2,0,2]
-          key.column_net: P14
         home:
           rows.one.rotate: -20
           rows.one.shift: [1, -5.5]
           rows.one.bind: [5,2,0,3.5]
-          key.column_net: P15
         inner:
           rows.one.rotate: -30
           rows.one.shift: [1, -14]
           rows.one.bind: [4.5,2,0,4]
-          key.column_net: P18
 ```
 
 ---
