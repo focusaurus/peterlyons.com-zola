@@ -51,10 +51,10 @@ October 2023
 ```
 
 ---
-![KiCAD PCB preview](/decks/ergogen/kicad-pcb.png)
+![KiCAD PCB preview](/ergogen/kicad-pcb.png)
 
 ---
-![KiCAD PCB 3D render](/decks/ergogen/kicad-3d.png)
+![KiCAD PCB 3D render](/ergogen/kicad-3d.png)
 
 ---
 # Demo
