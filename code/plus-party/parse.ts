@@ -1,11 +1,13 @@
 const commaRegex = /,/g;
-const dateRegex = /\b\d+\/\d+(\/\d+)*\b/g;
+const dateSlashRegex = /\b\d+\/\d+(\/\d+)*\b/g;
+const dateDashRegex = /\b\d+-\d+(-\d+)*\b/g;
 const doubleDecimal = /\b.+\..*\..*\b/g;
 const numberRegex = /-?(?:\d+)(?:\.\d+)?\b/g;
 
 export default function parseNumbers(rawText: string) {
   let parsed = rawText
-    .replace(dateRegex, "")
+    .replace(dateSlashRegex, "")
+    .replace(dateDashRegex, "")
     .replace(commaRegex, "")
     .replace(doubleDecimal, "");
   const result: number[] = [];

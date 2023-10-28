@@ -10,6 +10,7 @@ tap.test("parseNumbers", (t: Tap.Test) => {
   t.same(p("words, and, commas, don't, count,"), [], "disregard commas");
   t.same(p("word 42, hey $14.42 on 02/14/2019"), [42, 14.42], "base");
   t.same(p("1/1/2020"), [], "ignore date m/d/yyyy");
+  t.same(p("2020-01-01"), [], "ignore date yyyy-mm-dd");
   t.same(p("Party 10/31/1984"), [], "ignore date mm/dd/yyyy");
   t.same(p("Party 1/2"), [], "ignore date m/d");
   t.same(p("Party 11/22"), [], "ignore date mm/dd");
