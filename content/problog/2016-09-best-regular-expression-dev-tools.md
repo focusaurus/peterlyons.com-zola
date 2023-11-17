@@ -21,6 +21,8 @@ Just a quick post to point out some fantastic web applications to help you craft
 
 [debuggex](https://www.debuggex.com) Neat but no one wants to log into a utility site like this (needed to add unit tests)
 
+[Simple Regex](https://simple-regex.com/) is kind of like literate programming for regex. It's a different language you write with clearer expressions like `any of (digit, letter, one of ".-") once or more` and it compiles to regex is several mainstream programming languages.
+
 ## Happy Matching!
 
 Get out there and be glad you may be able to get away without staring at the pages of this book for hours on end.
