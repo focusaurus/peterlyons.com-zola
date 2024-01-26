@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% block style %}
+{{ super() }}
+{% endblock style %}
+{% block body %}
+<h1>{{ page.title }}</h1>
+{{ page.content | safe }}
+<section class="profile-photos">
+{% for asset in page.assets | sort -%}
+  {% if asset is matching("[.](jpg|png)$") -%}
+    {% set image = resize_image(path=asset, width=800, height=800, op="fit") -%}
+    {% set caption = load_data(path=asset ~ ".txt", required=false) -%}
+    {% if caption is not string %}{% set caption="" -%}{% endif%}
+    <figure class="photo">
+      <img src="{{ asset }}" alt="Peter Lyons" />
+    </figure>
+    <span class="url-{{ loop.index }}">{{ get_url(path=asset) }}</span>
+    <button class="copy-url" data-clipboard-target=".profile-photos .url-{{ loop.index }}">Copy URL 📋 </button>
+    {%- endif %}
+{%- endfor %}
+</section>
+{% endblock body %}
+{% block scripts %}
+{{ super() }}
+<script type="module" src="/profile-photos-bundle.js"></script>
+{% endblock scripts %}

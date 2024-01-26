@@ -5,5 +5,6 @@
 /static/plus-party
 /static/*-bundle.js
 /static/reveal.js
+/static/processed_images
 /local
 /code/plus-party/*.js

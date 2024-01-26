@@ -30,6 +30,7 @@ build_js() {
   # bundle javascript for the browser
   esbuild code/plus-party/web.ts --minify --bundle --outfile=static/plus-party/bundle.js
   esbuild code/reveal-init.js --minify --bundle --outfile=static/reveal-bundle.js
+  esbuild code/profile-photos.js --minify --bundle --outfile=static/profile-photos-bundle.js
   cp -r node_modules/reveal.js static
 }
 
