@@ -4,21 +4,33 @@ slug = "2024/04/kipra-keyboard/"
 date = 2024-04-28T13:00:10Z
 +++
 
+## TL;DR
+
+I made a split ergonomic keyboard called the kipra v1 using a generator tool called [ergogen](https://ergogen.cache.works).
+
+## Introduction
+
 I've built a new split ergonomic mechanical keyboard called the "kipra". My daily driver for most of the past year has been a sofle choc, which is overall quite good and adequate for my current needs. However, I wanted to make something even more tailored to my specific preferences in terms of features and hand shape. The sofle was kind of bought on a whim when the vendor had a business closing sale so it had a bunch of stuff I wouldn't choose starting from scratch.
 
 ## Requirements
 
-After going pretty far toward the end of the distribution for [custom scooped and tented split keyboards](https://peterlyons.com/problog/2021/06/squeezebox-keyboard-v2105/), I was in the mood for something much more portable, durable, replaceable, and generally pragmatic. Tenting is a real pain for this, and I have been using my sofle flat for a year with no RSI pain, so I felt confident I could abandon tenting at least for now and hope I stay pain-free.
+After going pretty far toward the end of the distribution for [custom scooped and tented split keyboards](https://peterlyons.com/problog/2021/06/squeezebox-keyboard-v2105/), I was in the mood for something much more **portable, durable, replaceable, and generally pragmatic**. Tenting is a real pain for this, and I have been using my sofle flat for a year with no RSI pain, so I felt confident I could abandon tenting at least for now and hope I stay pain-free.
 
-I also wanted the thumb arc way lower and further inward than almost any other keyboard I have seen. I find tucking my thumb under my palm quite uncomfortable and I don't understand why so many designs put thumb keys under the palm. So I wanted my innermost thumb key just at the edge of my palm and an arc away from there. I also like to thwack my thumb keys with my thumb knuckle, not the tip, so positioned the thumb arc accordingly.
+I also wanted the **thumb arc way lower and further inward** than almost any other keyboard I have seen. I find tucking my thumb under my palm quite uncomfortable and I don't understand why so many designs put thumb keys under the palm. So I wanted my innermost thumb key just at the edge of my palm and an arc away from there. I also like to thwack my thumb keys with my thumb knuckle, not the tip, so positioned the thumb arc accordingly.
 
-I wanted dedicated modifier keys. I have tried home row mods and all the tweaking to try to make them work and I don't like them. I type dvorak which has tons of rolls on the home row and that makes home row mods even trickier. So 4 dedicated modifier keys per hand. I also wanted to try putting the modifier row at the bottom vs my sofle layout which has them on the top row. Mods on the top row requires shifting my whole arm and losing home row, but I can  curl my fingers enough to reach the bottom row without a full reposition so I think it will be better, but time will tell.
+I wanted **dedicated modifier** keys. I have tried home row mods and all the tweaking to try to make them work and I don't like them. I type dvorak which has tons of rolls on the home row and that makes home row mods even trickier. So 4 dedicated modifier keys per hand. I also wanted to try putting the modifier row at the bottom vs my sofle layout which has them on the top row. Mods on the top row requires shifting my whole arm and losing home row, but I can  curl my fingers enough to reach the bottom row without a full reposition so I think it will be better, but time will tell.
 
 I don't want a pinky reach column as it's an RSI risk, so I eliminated that column entirely in comparison to my sofle.
 
 I didn't want anything fancy or fragile. Just the basics. No rotary encoders, no LEDs, no screens, no pointing devices, etc. Just a basic keyboard I could rely on and toss in a bag without snapping any parts off.
 
 Thus I introduce to you **The Kipra Keyboard: It's kinda [pragmatic.**](pragmatic.**.md)
+
+- Use a PCB and have the keys on a flat plane
+- Nothing but switches
+- Don't bother with any tenting
+- Add a few extra keys to solve the modifier problem
+- Make it wired so it's reliable
 
 So in summary:
 
@@ -27,6 +39,16 @@ So in summary:
 - main finger grid is 5 rows by 3 columns
 - below that are 4 dedicated modifier keys
 - 3-key thumb arc
+- PCB needs only 3 distinct electronic footprints: switches, MCU, and TRRS
+
+
+## Preliminary physical physical prototyping
+
+I printed up some 1x4 columns of switch housings and a thumb arc so I could test my column stagger positions and figure out exactly where I wanted my thumb arc. This will give me some confidence before I get PCBs manufactured, but it's never a guarantee. Things feel different when your actually typing on a working keyboard. But since this is mostly small tweaks to my daily driver sofle choc, I feel pretty confident this will be at the very least as usable as that is.
+
+![Prototype rig with calipers measuring thumb arc offset](https://live.staticflickr.com/65535/52928062216_3c65272b6e_k_d.jpg)
+
+![Prototype rig showing housings where switches fit](https://live.staticflickr.com/65535/52928213979_1d443cdc82_k_d.jpg)
 
 ## Designing with Ergogen
 
@@ -38,6 +60,47 @@ I used [ergogen](https://ergogen.cache.works/) for this build. It's really fun t
 - Load that into FreeCAD, process it into a wire then a sketch
 - Extrude the sketch up about 6mm so the switch posts clear the desk surface
 - Print it out and pop some switches in to test
+
+Here's where I was after the first session in ergogen.
+
+![screenshot of ergogen for the kipra after the first day](https://live.staticflickr.com/65535/52933622397_e23daae52c_b_d.jpg)
+
+## Printing accurate fit test prototypes
+
+
+In ergogen's `outlines` sections if you combine the PCB outline and switch footprint rectangles, you can 3D print a rig that will hold real choc switches in their final location and you can type on a dummy keyboard and make sure you like the ergonomics. The ergogen bit looks like this:
+
+```yaml
+outlines:
+  plate_shape:
+    main:
+      what: rectangle
+      where: true
+      size: kx
+      bound: true
+      fillet: 2
+  switch_cutouts:
+    main:
+      what: rectangle
+      where: true
+      size: 13.8
+  test_print:
+    - name: plate_shape
+    - name: switch_cutouts
+      operation: subtract
+```
+Then to model this in FreeCAD and print out a jig
+
+- run ergogen to output `build/outlines/test_print.dxf`
+- In freecad, start a new file and use Draft workbench
+- Import the .dxf file. It will create many shapes.
+- Select them all and hit the blue up arrow to upgrade them to wires
+- Select them all and click the squiggly icon to convert to sketch
+- Switch to Part Design Workbench
+- Make a new body
+- put the sketch in the body
+- select the sketch and pad up 6mm
+    - 6mm is enough for the switch posts to clear the desk surface so the rig sits flat
 
 ## My first printed circuit board
 
@@ -62,15 +125,17 @@ I got a lot of help and checking, but eventually the Design Rules Checker in KiC
 
 My friends at PCBWay offered to support this project so big thanks to them! I uploaded my gerber zip file, followed their documentation about using settings that would work properly, chose blue for my PCB color and white text set in Hack Nerd Font. Then I fired off an order for 10 reversible PCBs which can make 5 split keyboards. In short order I had a package on my doorstep with a bundle of beautiful circuit boards!
 
-## Soldering and the cycle
+## Soldering and the oh fuck cycle
 
 Soldering the diodes, hot swap, and TRRS were familiar to me so I was pretty confident all that would work out correctly. But for this reversible MCU I needed to solder across pairs of jumper pads on the correct side, and due to wanting both MCUs facing up, I ended up having to do exactly the opposite of what the instructions on the PCB  silkscreen said. So this contributed to many rounds of what I call the "oh fuck...whew cycle". This starts with me soldering something and then either thinking or being told on discord that I just fucked it up. Typically this kind of thing is all or nothing. You get all the MCU pins wired correctly and you have a keyboard, or you make one mistake and you have a drink coaster. But each time within a few minutes and with posting KiCAD files or screenshots or photos, eventually we hit the "whew" phase of the cycle where we figure out actually it's fine and correct. Keep in mind this is a custom one-off project. It's not a kit that dozens (dozens of us!) have built before. So asking for help requires friendly folks on discord to go the extra mile to learn your custom design and provide guidance.
 
 I went through a few rounds of "of fuck...whew" on the PCB jumpers, a few rounds on the MCU mounting, a few rounds on the MCU pinout, a round about whether I had been referencing the wrong pinout for the entire project (I had), and a few rounds on the TRRS QMK firmware stuff. Exciting times!
 
-Mounting the MCU revealed that my MCU had one extra through hole per side compared to the footprint on my PCB. So I had to figure out if the extra empty hole was supposed to be the one closest to the USB connector or the one furthest away. I studied the pinout a bunch and tried to reason that reset should map to reset, etc, but it's tricky because my MCU footprint is reversible and has jumpers so everything is like "this is reset, unless you soldered one of these jumper pads, in which case it is no longer reset, but exactly how all that cleverness works out is really hard to reason about". This was extra fun because the microscopic hole labels on the MCU are mostly between the through holes and it's not clear if the label applies to the hole above or below, and even studying the ends of the row don't really clear it up. But in the end I was pretty sure I needed my rows and columns starting on the holes farthest from USB, so I mounted it that way, and it ended up being correct.
+## MCU mounting footgun
 
-I also chose to **NOT** socket my MCU, flouting all the advice online. I've socketed a lot of MCUs and it's extra fiddly work and hard to prevent the headers from bending. These days MCUs and PCBs are cheap, so I'm comfortable just using regular pin headers and not futzing with socketing.
+Mounting the MCU revealed that my MCU had one extra through hole per side compared to the footprint on my PCB. So I had to figure out if the extra empty hole was supposed to be the one closest to the USB connector or the one furthest away. I also had to snip one of my pin headers off to make it match the PCB footprint. I studied the pinout a bunch and tried to reason that reset should map to reset, etc, but it's tricky because my MCU footprint is reversible and has jumpers so everything is like "this is reset, unless you soldered one of these jumper pads, in which case it is no longer reset, but exactly how all that cleverness works out is really tricky to keep track of". This was extra fun because the microscopic hole labels on the MCU are mostly between the through holes and it's not clear if the label applies to the hole above or below the label, and even studying the ends of the row don't really clear it up. But in the end I was pretty sure I needed my rows and columns starting on the holes farthest from USB, so I mounted it that way, and it ended up being correct.
+
+I also chose to **NOT** socket my MCU, flouting all the advice online. I've socketed a lot of MCUs and it's extra fiddly work and difficult to prevent the headers from bending. These days MCUs and PCBs are cheap, so I'm comfortable just using regular pin headers and not futzing with socketing.
 
 **BUT** in the end it all worked out. No mistakes. No parts wasted. The first 2 kits I have built are fully working.
 
@@ -94,7 +159,7 @@ In contrast, these RP2040s are amazing. Hold the bootloader button while pluggin
 
 I got both halves of the keyboard working when directly plugged into the computer via USB fine basically on the first try with no errors. But I couldn't get the TRRS connection to work so the secondary half would type. I spent a day reading QMK's extremely-confusing docs about serial, i2c, uart, usart, pio and flailing around until clutch help on discord arrived to guide me through the exact right settings for `config.h`, `rules.mk`, etc. There were dozens of rounds of recompiling and reflashing both halves then carefully recabling and seeing yet again the right side did nothing. TRRS comes with the risk of short circuits so care must be taken to always disconnect USB before working with the TRRS cable.
 
-I got some clutch help on discord from someone who actually understands what the RP2040 has built in and that most of the QMK docs are for older, less capable chips, and most of what I needed was default. Oh and ALSO there was a super confusing MCU pinout off by one error. Sadly, the way this build works out, my MCUs have 1 more through hole per side than the footprint on the PCB has. So that means that I need to snip a pin header off my pin header strip AND be sure that I mount the MCU with the correct hole empty and disconnected from the PCB. I actually didn't get any confirmation from discord on this. I studied the pinout (spoiler alert, I later learned that I was studying a slightly incorrect pinout because my assumption that the product detail page on aliexpress is for one exact product, the same page in fact sells several different MCUs with different pinouts).
+I got some clutch help on discord from someone who actually understands what the RP2040 has built in and that most of the QMK docs are for older, less capable chips, and most of what I needed was default. Oh and ALSO there was a super confusing MCU pinout off by one error. As discussed above during mounting and soldering, my MCUs have 1 more through hole per side than the PCB footprint has through holes, so that casts doubt into every "count the holes" step in the docs and creates confusion between the MCU and footprint docs. I later learned that I was studying a slightly incorrect pinout because my assumption that the product detail page on aliexpress is for one exact product, the same page in fact sells several different MCUs with different pinouts. So for the entire project I had been referencing a pinout that was similar enough to correct to not be obviously wrong, but was in fact not correct for the exact MCU part number I bought. So the better part of a day's flailing ended with incrementing to pin numbers by 1 in the firmware and both halves started working together properly!
 
 ## Vial configuration GUI for real-time remapping
 
@@ -113,15 +178,19 @@ As I understand it presently, ergogen doesn't provide that much to help with cre
 - Extrude that up 12mm. We now have a wall our PCB will fit beautifully into, but no floor
 - Upgrade the first offset (where the floor should meet the interior wall) to a face and extrude it up 2mm
 - We now have walls and a floor
-- Use some standard geometry cubes and boolean difference to make cutouts for the USB and TRRS cables
+- Use some standard geometry cubes and boolean difference in the Part workbench to make cutouts for the USB and TRRS cables
     - I did this very crudely so far
-- Ideally I would make 4 12mm by 2mm cylindrical cutouts in the bottom for rubber bumpers at this point, but
+- Ideally I would make 4 13mm diameter (not radius!) by 2mm depth cylindrical cutouts in the bottom for rubber bumpers at this point, but
   I was mostly winging this and so excited when I got something working that I ended up doing those in Prusa Slicer instead.
 - Combine those shapes into a mesh and export to an STL you can print
 
 The case is essentially exactly what I hoped for but it's a bit janky because I'm just eyeballing the MCU and TRRS positions since I have no reference geometry from ergogen available in this toolchain.
 
 I would also ideally model the support posts exactly underneath the mounting holes in the PCB. These will get m2 threaded inserts. But I don't have a good process for this from ergogen, so I have decided to model individual posts, print them individually as distinct objects, screw them to the PCB, then just glue them to the floor of the case. I've tried to 3D model these without exact positioning information before and there's no fudging it. If you're off by a fraction of a millimeter, the bolt won't thread into the insert.
+
+I did several attempts using threaded inserts with no success. The 3mm thickness is not enough material to properly bottom out the heat-set insert and not warp the entire thing so it won't sit flat. It's super easy for the threads to fill with molten PLA during inserting so the bolt won't thread. I did about 4 attempts before pivoting.
+
+The next version I made little 3mmx7mm rectangles with a cutout to hold an m2 hex nut. So I just threaded the stack of bolt, PCB, printed standoff, and hex nut. Then I put a dab of superglue on each side of the bottom of the standoffs and set the keyboard in the case with some weight to hold it down while the glue cured. There's 5 standoffs and not much force so I think it'll be fine to keep the PCB in the case and also not have it resting on the hotswap sockets.
 
 ## Hoping for firmware bliss
 
@@ -131,9 +200,9 @@ My sofle has some nuisances that I suspect are either firmware or MCU issues. Th
 
 When I built the second keeb, I took photos throughout the process so I could create a detailed build guide. This is probably mostly going to be for me to reference, but if anyone else ends up ordering some PCBs, this will help them get it soldered up correctly.
 
-- Some custom text added in KiCAD
-    - 
-    - It's silly, but I am solidly at the place where having a PCB with silkscreen text I added in my hands still feels special and awesome.
+## Some custom text added in KiCAD
+   
+It's silly, but I am solidly at the place where having a PCB with silkscreen text I added in my hands still feels special and awesome. The charm will likely wear off in a few more builds, but I'm enjoying this moment.
 
 ## Thanks to my internet heros
 
@@ -142,9 +211,8 @@ When I built the second keeb, I took photos throughout the process so I could cr
 - flatfootfox who wrote this amazing in-depth ergogen guide which I studied constantly throughout this project
 - hand_le for expert guidance and troubleshooting help
 - mrzealot who is the lead on ergogen and moderates the Absolem Club discord
-- outline
-    - flatfootfox tutorial
-    - getting help from RC
-    - "oh fuck/whew" cycle
-    - ceoloide MCU footprint
-    - photos
+
+
+# TODO
+- hyperlinks to helpers and resources
+- photos
