@@ -155,7 +155,7 @@ Even the stemcell MCUs I bought recently for the sofles were a giant confusing p
 
 In contrast, these RP2040s are amazing. Hold the bootloader button while plugging in USB then release it. They show up immediately in your OS as a mounted thumb drive. To flash them you copy a `.uf2` file to the root directory and that's it. They are fantastic.
 
-## The struggle to TRRS split
+## The =truggle to TRRS split
 
 I got both halves of the keyboard working when directly plugged into the computer via USB fine basically on the first try with no errors. But I couldn't get the TRRS connection to work so the secondary half would type. I spent a day reading QMK's extremely-confusing docs about serial, i2c, uart, usart, pio and flailing around until clutch help on discord arrived to guide me through the exact right settings for `config.h`, `rules.mk`, etc. There were dozens of rounds of recompiling and reflashing both halves then carefully recabling and seeing yet again the right side did nothing. TRRS comes with the risk of short circuits so care must be taken to always disconnect USB before working with the TRRS cable.
 
@@ -192,6 +192,12 @@ I did several attempts using threaded inserts with no success. The 3mm thickness
 
 The next version I made little 3mmx7mm rectangles with a cutout to hold an m2 hex nut. So I just threaded the stack of bolt, PCB, printed standoff, and hex nut. Then I put a dab of superglue on each side of the bottom of the standoffs and set the keyboard in the case with some weight to hold it down while the glue cured. There's 5 standoffs and not much force so I think it'll be fine to keep the PCB in the case and also not have it resting on the hotswap sockets.
 
+## Adding Palm Rests
+
+I have been using my sofle without palm rests comfortably, but the novelty of the kipra and the very different placement of the thumb arc made me feel like palm rests might be ergonomically necessary. I have some store bought cushy ones that actually fit nicely, but I don't like how they can slide around independently from the keyboard. Since I had a FreeCAD sketch of the case outline, I modeled some palm rests to mate up exactly to the edge of the case. I put some clips on them so the easily clip on then won't drift away from the keyboard.
+
+I did 2 iterations so far and there's still more tweaking to do. The shape is still not quite ideal and I'd like to maybe add magnets, but these are workable for the moment.
+
 ## Hoping for firmware bliss
 
 My sofle has some nuisances that I suspect are either firmware or MCU issues. The one-shot shift key has a bug that makes it a 2-shot if you roll 2 letters quickly, which I do constantly starting sentences with "The" and it's a nuisance. Also the right half goes comatose somewhat regularly and needs a reset. Also my one-shot layer key stops working for 2 specific keys after a while which is bizarre. Actually debugging those I think would be pretty tricky, so I'm hopefully these new kipras don't have those issues. So far the evidence is that they are all good.
@@ -201,7 +207,7 @@ My sofle has some nuisances that I suspect are either firmware or MCU issues. Th
 When I built the second keeb, I took photos throughout the process so I could create a detailed build guide. This is probably mostly going to be for me to reference, but if anyone else ends up ordering some PCBs, this will help them get it soldered up correctly.
 
 ## Some custom text added in KiCAD
-   
+
 It's silly, but I am solidly at the place where having a PCB with silkscreen text I added in my hands still feels special and awesome. The charm will likely wear off in a few more builds, but I'm enjoying this moment.
 
 ## Thanks to my internet heros
