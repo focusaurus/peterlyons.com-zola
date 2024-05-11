@@ -4,9 +4,11 @@ slug = "2024/05/kipra-keyboard/"
 date = 2024-05-11T13:00:10Z
 +++
 
-## TL;DR
+## TL;DR (This post is over 4500 words. Sorry. Not sorry.)
 
 I made a split ergonomic keyboard called the kipra v1 using a generator tool called [ergogen](https://ergogen.cache.works).
+
+{{ figureflickr(url="https://live.staticflickr.com/65535/53671442490_b2321fd711_k_d.jpg" caption="kipra. It's kinda pragmatic.") }}
 
 ## Introduction
 
@@ -24,7 +26,7 @@ I don't want a pinky reach column as it's an RSI risk, so I eliminated that colu
 
 I didn't want anything fancy or fragile. Just the basics. No rotary encoders, no LEDs, no screens, no pointing devices, etc. Just a basic keyboard I could rely on and toss in a bag without snapping any parts off.
 
-Thus I introduce to you **The Kipra Keyboard: It's kinda [pragmatic.**](pragmatic.**.md)
+Thus I introduce to you **The kipra keyboard: It's kinda pragmatic.**
 
 - Use a PCB and have the keys on a flat plane
 - Nothing but switches
@@ -133,7 +135,7 @@ I got a lot of help and checking, but eventually the Design Rules Checker in KiC
 
 ## Fabrication with PCBWay
 
-My friends at [PCBWay](https://www.pcbway.com/) offered to support this project so big thanks to them! I uploaded my gerber zip file, followed their documentation about using settings that would work properly, chose blue for my PCB color and white text set in Hack Nerd Font. Then I fired off an order for 10 reversible PCBs which can make 5 split keyboards. In short order I had a package on my doorstep with a bundle of beautiful circuit boards!
+My friends at [PCBWay](https://www.pcbway.com/) offered to support this project so big thanks to them! I uploaded my gerber zip file, followed their documentation about using settings that would work properly, chose blue for my PCB color and white text set in Hack Nerd Font. Then I fired off an order for 10 reversible PCBs which can make 5 split keyboards. About 10 days later I had a package on my doorstep with a bundle of beautiful circuit boards!
 
 {{ figureflickr(url="https://live.staticflickr.com/65535/53647091704_9df970e771_k_d.jpg" caption="PCBWay order arrived with 10 reversible circuit boards") }}
 
@@ -155,7 +157,7 @@ I went through a few rounds of "of fuck...whew" on the PCB jumpers, a few rounds
 
 ## MCU mounting footgun
 
-Mounting the MCU revealed that my MCU had one extra through hole per side compared to the footprint on my PCB. So I had to figure out if the extra empty hole was supposed to be the one closest to the USB connector or the one furthest away. I also had to snip one of my pin headers off to make it match the PCB footprint. I studied the pinout a bunch and tried to reason that reset should map to reset, etc, but it's tricky because my MCU footprint is reversible and has jumpers so everything is like "this is reset, unless you soldered one of these jumper pads, in which case it is no longer reset, but exactly how all that cleverness works out is really tricky to keep track of". This was extra fun because the microscopic hole labels on the MCU are mostly between the through holes and it's not clear if the label applies to the hole above or below the label, and even studying the ends of the row don't really clear it up. But in the end I was pretty sure I needed my rows and columns starting on the holes farthest from USB, so I mounted it that way, and it ended up being correct.
+Mounting the MCU revealed that my MCU had one extra through hole per side compared to the footprint on my PCB. So I had to figure out if the extra empty hole was supposed to be the one closest to the USB connector or the one furthest away. I also had to snip one of my pin headers off to make it match the PCB footprint. I studied the pinout a bunch and tried to reason that reset should map to reset, etc, but it's tricky because my MCU footprint is reversible and has jumpers so everything is like "this is reset, unless you soldered one of these jumper pads, in which case it is no longer reset", but exactly how all that cleverness works out is really tricky to keep track of. This was extra fun because the microscopic hole labels on the MCU are mostly between the through holes and it's not clear if the label applies to the hole above or below the label, and even studying the ends of the row don't really clear it up. But in the end I was pretty sure I needed my rows and columns starting on the holes farthest from USB, so I mounted it that way, and it ended up being correct.
 
 {{ figureflickr(url="https://live.staticflickr.com/65535/53713640443_e8cdbe9efe_o_d.jpg" caption="Planing the details and getting confirmation before soldering the MCUs to the PCBs") }}
 
@@ -191,13 +193,16 @@ In contrast, these RP2040s are amazing. Hold the bootloader button while pluggin
 
 I got both halves of the keyboard working when directly plugged into the computer via USB fine basically on the first try with no errors. But I couldn't get the TRRS connection to work so the secondary half would type. I spent a day reading QMK's extremely-confusing docs about serial, i2c, uart, usart, pio and flailing around until clutch help on discord arrived to guide me through the exact right settings for `config.h`, `rules.mk`, etc. There were dozens of rounds of recompiling and reflashing both halves then carefully recabling and seeing yet again the right side did nothing. TRRS comes with the risk of short circuits so care must be taken to always disconnect USB before working with the TRRS cable.
 
-I got some clutch help on discord from someone who actually understands what the RP2040 has built in and that most of the QMK docs are for older, less capable chips, and most of what I needed was default. Shout out to casuanoob! Oh and ALSO there was a super confusing MCU pinout off by one error. As discussed above during mounting and soldering, my MCUs have 1 more through hole per side than the PCB footprint has through holes, so that casts doubt into every "count the holes" step in the docs and creates confusion between the MCU and footprint docs. I later learned that I was studying a slightly incorrect pinout because my assumption that the product detail page on aliexpress is for one exact product, the same page in fact sells several different MCUs with different pinouts. So for the entire project I had been referencing a pinout that was similar enough to correct to not be obviously wrong, but was in fact not correct for the exact MCU part number I bought. So the better part of a day's flailing ended with incrementing pin numbers by 1 in the firmware and both halves started working together properly!
+I got some clutch help on discord from someone who actually understands what the RP2040 has built in and that most of the QMK docs are for older, less capable chips, and most of what I needed was default. Shout out to casuanoob! Oh and ALSO there was a super confusing MCU pinout off by one error. As discussed above during mounting and soldering, my MCUs have 1 more through hole per side than the PCB footprint has through holes, so that casts doubt into every "count the holes" step in the docs and creates confusion between the MCU and footprint docs. I later learned that I was studying a slightly incorrect pinout because my assumption that the product detail page on aliexpress is for one exact product. In actual fact, the exact same page sells several different MCUs with different pinouts. So for the entire project I had been referencing a pinout that was similar enough to correct to not be obviously wrong, but was in fact not correct for the exact MCU part number I bought. So the better part of a day's flailing ended with incrementing pin numbers by 1 in the firmware and both halves started working together properly!
 
 ## Vial configuration GUI for real-time remapping
 
-While waiting for PCB fabrication, I got a head start on configuring QMK firmware and flashing my RP2040 MCUs. My goal was to have this board supported in [Vial](https://get.vial.today) which is a nice GUI that allows real-time changes to your keymap without reflashing. As per the Vial docs, I started by making sure I had a stock QMK firware compiling, flashing, and working as a keyboard. I confirmed this by just shorting a row hole to a column hole with a jumper wire and seeing a letter get typed. Then I ported my keyboard into Vial. This is fairly straightforward using the online keyboard layout editor GUI to specify your switch positions and mapping the matrix is mostly trial and error that's clear enough when you have things reversed by mistake. This is an approach I actually recommend for newcomers to the custom keyboard hobby: as soon as your MCU arrives, try to get it flashed and working as a keyboard by just dangling it off a USB cable and shorting a row to a column pin with a jumper wire. Much better to have this part sorted early. If things become difficult, this can require a level of patience and perseverence that are easier to muster at the start of a project.
+While waiting for PCB fabrication, I got a head start on configuring QMK firmware and flashing my RP2040 MCUs. My goal was to have this board supported in [Vial](https://get.vial.today) which is a nice GUI that allows real-time changes to your keymap without reflashing. As per the Vial docs, I started by making sure I had a stock QMK firware compiling, flashing, and working as a keyboard. I confirmed this by just shorting a row hole to a column hole with a jumper wire and seeing a letter get typed. 
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/focusaurus/53627111813/" title="Untitled"><img src="https://live.staticflickr.com/31337/53627111813_b093305be0_b.jpg" width="1024" height="576" alt="Untitled"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/focusaurus/53627111813/" title="Typing on a raw MCU"><img src="https://live.staticflickr.com/31337/53627111813_b093305be0_b.jpg" width="1024" height="576" alt="Typing on a raw MCU"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+Then I ported my keyboard into Vial. This is fairly straightforward using the online keyboard layout editor GUI to specify your switch positions and mapping the matrix is mostly trial and error that's clear enough when you have things reversed by mistake. This is an approach I actually recommend for newcomers to the custom keyboard hobby: as soon as your MCU arrives, try to get it flashed and working as a keyboard by just dangling it off a USB cable and shorting a row to a column pin with a jumper wire. Much better to have this part sorted early. If things become difficult, this can require a level of patience and perseverence that are easier to muster at the start of a project.
 
 So now I can change my keymap on the fly using the Vial WYSIWYG GUI which is great.
 
@@ -210,7 +215,7 @@ As I understand it presently, ergogen doesn't provide that much to help with cre
 - start with the PCB outline from ergogen, imported into FreeCAD Draft workbench as a `.dxf` file
 - Create a 2D offset from that allowing roughly 0.4mm for clearance so the PCB fits inside
 - Then do another 2D offset at 2.4mm for wall thickness (4 perimeters with my 0.6mm nozzle installed)
-    - Set this one be `fill the offset` so you get a face
+    - Select the `fill the offset` option on this one so you get a face
 - Extrude that up 12mm. We now have a wall our PCB will fit beautifully into, but no floor
 - Upgrade the first offset (where the floor should meet the interior wall) to a face and extrude it up 2mm
 - We now have walls and a floor
@@ -230,6 +235,8 @@ I did several attempts using threaded inserts with no success. The 3mm thickness
 
 The next version I made little 3mmx7mm rectangles with a cutout to hold an m2 hex nut. So I just threaded the stack of bolt, PCB, printed standoff, and hex nut. Then I put a dab of superglue on each side of the bottom of the standoffs and set the keyboard in the case with some weight to hold it down while the glue cured. There's 5 standoffs and not much force so I think it'll be fine to keep the PCB in the case and also not have it resting on the hotswap sockets.
 
+{{ figureflickr(url="https://live.staticflickr.com/65535/53693148235_6a351e83af_k_d.jpg" caption="Standoffs for 3mm height with a captured m2 hex nut") }}
+
 ## Adding Palm Rests
 
 I have been using my sofle without palm rests comfortably, but the novelty of the kipra and the very different placement of the thumb arc made me feel like palm rests might be ergonomically necessary. I have some store bought cushy ones that actually fit nicely, but I don't like how they can slide around independently from the keyboard. Since I had a FreeCAD sketch of the case outline, I modeled some palm rests to mate up exactly to the edge of the case. I put some clips on them so the easily clip on then won't drift away from the keyboard.
@@ -244,7 +251,9 @@ After a few days of trying some variations, I thought I might be able to get awa
 
 I love that this is very low profile, provides some shielding for the contacts on the PCB, and provides enough friction to keep the keyboard steady on the desktop. I'm still testing but I think this approach might be OK, or possibly with a fairly low palm rest.
 
-I'll still need to make a travel case but all I need to figure out is some kind of lid mechanism.
+{{ figureflickr(url="https://live.staticflickr.com/65535/53707561179_33950c2be8_k_d.jpg" caption="shelf liners glued to the bottom") }}
+
+I later covered the exposed contacts with some electrical tape. I'll still need to make a travel case but all I need to figure out is some kind of lid mechanism.
 
 ## Hoping for firmware bliss
 
@@ -254,7 +263,9 @@ My sofle has some nuisances that I suspect are either firmware or MCU issues. Th
 
 For these builds I ordered mostly enough choc pro red linear 35g switches to build 5 split keyboards. This was on April 5, 2024. On April 23, a branch new flavor of choc switches engineered to be silent went on sale for the first time over at [lowprokb.ca](https://lowprokb.ca/products/ambients-silent-choc-switches?variant=44873446391972). Of course I found out about this project just a few days after placing my order. Sad trombone.
 
-But anyway, I ordered enough ambient nocturnal (20g linear silent) and ambient twilight (35g linear silent) for a keyboard each and they are AMAZING! Absolutely the nocturnals are my favorite switch by a wide margin. They are even quiter than my thinkpad or macbook laptop switches. I commented on `/r/ergomechkeyboards` that typing on them feels like whispering and like my brain thinks a word and my fingers create it automatically. With louder switches it feels like I have to strain to enunciate my typing "speech" to be heard. I love this intimate feeling they have and the silent operation feels almost magical.
+{{ figureflickr(url="https://live.staticflickr.com/65535/53650287177_1003cbfff0_k_d.jpg" caption="Oops a huge quantity of what very recently transitioned from my favorite switches to my 3rd favorite switches") }}
+
+But anyway, I ordered enough ambient nocturnal (20g linear silent) and ambient twilight (35g linear silent) for a keyboard each and they are **amazing**! Absolutely the nocturnals are my favorite switch by a wide margin. They are even quieter than my thinkpad or macbook laptop switches. I commented on `/r/ergomechkeyboards` that typing on them feels like whispering and like my brain thinks a word and my fingers create it automatically. With louder switches it feels like I have to strain to enunciate my typing "speech" to be heard. I love this intimate feeling they have and the silent operation feels almost magical.
 
 ## Build guide coming soon
 
