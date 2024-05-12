@@ -284,3 +284,4 @@ Special thanks and shout outs to my buds:
 - hand_le for expert guidance and troubleshooting help
 - [Jessie Grosen](https://github.com/jmgrosen) and [Charles Eckman](https://github.com/cceckman) for the KiCAD tutorial and pairing
 - All the [QMK contributors](https://github.com/qmk/qmk_firmware/graphs/contributors)
+- All the [Vial contributors](https://github.com/vial-kb/vial-qmk/graphs/contributors)
