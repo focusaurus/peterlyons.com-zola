@@ -8,7 +8,7 @@ date = 2024-05-11T13:00:10Z
 
 I made a split ergonomic keyboard called the kipra v1 using a generator tool called [ergogen](https://ergogen.cache.works).
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/53671442490_b2321fd711_k_d.jpg" caption="kipra. It's kinda pragmatic.") }}
+{{ figureflickr(url="https://live.staticflickr.com/65535/53715068120_7b864e2188_k_d.jpg" caption="kipra. It's kinda pragmatic.") }}
 
 ## Introduction
 
