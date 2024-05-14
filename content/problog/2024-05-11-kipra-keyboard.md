@@ -267,6 +267,10 @@ For these builds I ordered mostly enough choc pro red linear 35g switches to bui
 
 But anyway, I ordered enough ambient nocturnal (20g linear silent) and ambient twilight (35g linear silent) for a keyboard each and they are **amazing**! Absolutely the nocturnals are my favorite switch by a wide margin. They are even quieter than my thinkpad or macbook laptop switches. I commented on `/r/ergomechkeyboards` that typing on them feels like whispering and like my brain thinks a word and my fingers create it automatically. With louder switches it feels like I have to strain to enunciate my typing "speech" to be heard. I love this intimate feeling they have and the silent operation feels almost magical.
 
+## Source files repo
+
+See [focusaurus/kipra-keyboard](https://github.com/focusaurus/kipra-keyboard) on github for all the files you need for ergogen, kicad, freecad, and PCBWay if you want to make a variation of this.
+
 ## Build guide coming soon
 
 When I built the second kipra, I took photos throughout the process so I could create a detailed build guide. This is probably mostly going to be for me to reference, but if anyone else ends up ordering some PCBs, this will help them get it soldered up correctly.
