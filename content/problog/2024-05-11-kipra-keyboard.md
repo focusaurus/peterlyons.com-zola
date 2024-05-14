@@ -261,7 +261,7 @@ My sofle has some nuisances that I suspect are either firmware or MCU issues. Th
 
 ## Ambient choc switches a few days too late
 
-For these builds I ordered mostly enough choc pro red linear 35g switches to build 5 split keyboards. This was on April 5, 2024. On April 23, a branch new flavor of choc switches engineered to be silent went on sale for the first time over at [lowprokb.ca](https://lowprokb.ca/products/ambients-silent-choc-switches?variant=44873446391972). Of course I found out about this project just a few days after placing my order. Sad trombone.
+For these builds I ordered mostly enough choc pro red linear 35g switches to build 5 split keyboards. This was on April 5, 2024. On April 23, a brand new flavor of choc switches engineered to be silent went on sale for the first time over at [lowprokb.ca](https://lowprokb.ca/products/ambients-silent-choc-switches?variant=44873446391972). Of course I found out about this project just a few days after placing my order. Sad trombone.
 
 {{ figureflickr(url="https://live.staticflickr.com/65535/53650287177_1003cbfff0_k_d.jpg" caption="Oops a huge quantity of what very recently transitioned from my favorite switches to my 3rd favorite switches") }}
 
