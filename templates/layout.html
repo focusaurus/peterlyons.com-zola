@@ -4,8 +4,10 @@
 <head>
   <meta charset="utf-8">
   <title>
-    {%- if page.title is defined -%}{{ page.title }}{%- endif -%}
-    {%- if section.title is defined -%}{{ section.title }}{%- endif -%} | Peter Lyons
+    {% set title = "Peter Lyons" %}
+    {% if page.title is defined and page.title -%}{% set title = page.title %}{%- endif -%}
+    {% if section.title is defined and section.title -%}{% set title = section.title %}{%- endif -%}
+    {{ title }} | Peter Lyons
   </title>
   <meta name="description" content="Peter Lyons: Cyber Lumberjack">
   <meta name="keywords" content="peter lyons, pete lyons, web development, node.js, developer, coder, freelance, consultant, boulder, colorado, startups, saxophone, oberlin">
@@ -22,6 +24,32 @@
     <link rel="openid2.provider openid.server" href="https://open.login.yahooapis.com/openid/op/auth">
     <link rel="openid2.local_id openid.delegate" href="https://me.yahoo.com/myusername">
   #}
+  {% block opengraph -%}
+  {# fallback default description #}
+  {% set description = "Staff Engineer, Back End" %}
+  {% if page.description is defined and page.description -%}{% set description = page.description %}{%- endif -%}
+  {% if section.description is defined and section.description -%}{% set description = section.description %}{%- endif -%}
+
+  {# fallback default image #}
+  {% set image = "https://live.staticflickr.com/65535/53715068120_7b864e2188_k_d.jpg" %}
+  {% if page.extra.image is defined and page.extra.image -%}{% set image = page.extra.image %}{%- endif -%}
+  {% if section.extra.image is defined and section.extra.image -%}{% set image = section.extra.image %}{%- endif -%}
+  <!-- Twitter -->
+  <meta name="twitter:site" content="@focusaurus">
+  <meta name="twitter:creator" content="@focusaurus">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ title }}">
+  <meta name="twitter:description" content="{{description}}">
+  <meta name="twitter:image" content="{{image|safe}}">
+  <meta name="twitter:site" content="@focusaurus">
+
+  <!-- Facebook -->
+  <meta property="og:url" content="{{current_url|safe}}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:description" content="{{description}}">
+  <meta property="og:image" content="{{image|safe}}">
+  {% endblock opengraph -%}
 </head>
 
 <body>

@@ -2,6 +2,8 @@
 title = "Kipra Keyboard"
 slug = "2024/05/kipra-keyboard/"
 date = 2024-05-11T13:00:10Z
+[extra]
+image = "https://live.staticflickr.com/65535/53668493145_28c1af6216_k_d.jpg"
 +++
 
 ## TL;DR (This post is over 4500 words. Sorry. Not sorry.)
