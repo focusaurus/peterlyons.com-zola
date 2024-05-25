@@ -7,7 +7,8 @@
     {% set title = "Peter Lyons" %}
     {% if page.title is defined and page.title -%}{% set title = page.title %}{%- endif -%}
     {% if section.title is defined and section.title -%}{% set title = section.title %}{%- endif -%}
-    {{ title }} | Peter Lyons
+    {% set title = title ~ " | Peter Lyons" %}
+    {{ title }}
   </title>
   <meta name="description" content="Peter Lyons: Cyber Lumberjack">
   <meta name="keywords" content="peter lyons, pete lyons, web development, node.js, developer, coder, freelance, consultant, boulder, colorado, startups, saxophone, oberlin">
