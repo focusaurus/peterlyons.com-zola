@@ -2,6 +2,8 @@
 title = "Kipra Keyboard Build Guide"
 slug = "2024/05/kipra-keyboard-build-guide/"
 date = 2024-05-18T12:33:41Z
+[extra]
+image = "https://live.staticflickr.com/65535/53666786956_8bc2cec88f_k_d.jpg"
 +++
 
 This guide will walk you through the process of building a kipra keybord.
@@ -227,3 +229,4 @@ I cut my liners just a few mm smaller than the PCB shape and used some gorilla g
 
 May your thumbs forever be untucked and your switches be silent!
 
+https://www.flickr.com/photos/focusaurus/53627111813/" title="Typing on the bare MCU"><img src="https://live.staticflickr.com/31337/53627111813_b093305be0_b.jpg

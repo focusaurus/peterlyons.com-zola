@@ -2,6 +2,8 @@
 title = "Squeezebox Keyboard v2209"
 slug = "2022/10/squeezebox-keyboard-v2209/"
 date = 2022-10-13T13:33:05Z
+[extra]
+image = "https://live.staticflickr.com/65535/52425839899_cec326592e_c_d.jpg"
 +++
 
 I have completed a new revision of the Squeezebox Keyboard - v2209.
