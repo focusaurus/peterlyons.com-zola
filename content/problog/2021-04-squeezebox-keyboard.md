@@ -2,6 +2,8 @@
 title = "Squeezebox Keyboard"
 slug = "2021/04/squeezebox-keyboard/"
 date = 2021-04-17T01:32:05Z
+[extra]
+image = "https://live.staticflickr.com/65535/51121273052_11074800d5_c.jpg"
 +++
 
 I designed and built a split ergonomic keyboard with some ideas I've been wanting to try for over a year. Here are the main features of the keyboard:

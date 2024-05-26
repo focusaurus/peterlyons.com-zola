@@ -2,6 +2,8 @@
 title = "Skeletyl Keyboard Build"
 slug = "2023/04/skeletyl-keyboard-build/"
 date = 2023-04-23T15:14:56Z
+[extra]
+image = "https://live.staticflickr.com/65535/52840975319_582e51320d_k_d.jpg"
 +++
 
 ## Motivation for this project
