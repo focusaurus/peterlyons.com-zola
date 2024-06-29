@@ -1,11 +1,13 @@
 # The URL the site will be built for
 base_url = "https://peterlyons.com"
-generate_feed = true
-feed_filename = "rss.xml"
+generate_feeds = true
+feed_filenames = ["rss.xml", "atom.xml"]
 compile_sass = true
-highlight_code = false
 build_search_index = false
 title = "Pete's Points"
+
+[markdown]
+highlight_code = false
 smart_punctuation = false
 
 [extra]

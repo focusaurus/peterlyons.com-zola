@@ -14,11 +14,11 @@ IFS=$'\n\t'
 # ---- End unofficial bash strict mode boilerplate
 
 install_zola() {
-  ZOLA_VERSION=0.16.1
+  ZOLA_VERSION=0.19.1
   zola_url="https://github.com/getzola/zola/releases/download/v${ZOLA_VERSION}/zola-v${ZOLA_VERSION}-x86_64-unknown-linux-gnu.tar.gz"
   # install zola
   mkdir -p ./local/bin
-  wget -q -O - "${zola_url}" |
+  curl --silent --location --show-error --output - "${zola_url}" |
     tar --extract --gzip --file - --directory local/bin
   chmod 755 local/bin/zola
 }
