@@ -96,21 +96,17 @@ Othenticate (2011-2012) was an prototype I built for a SaaS product to provide a
 
 Back in the summer of 2001 I wrote an ear training (musical pitch recognition) program in Java Swing.
 
-This program
-will help you quickly learn to recognize and identify common musical
+This program will help you quickly learn to recognize and identify common musical
 structures including intervals, scales/modes, and chords.
 
 <img class="screenshot" src="./smartears_screen1.jpg" alt="SmartEars Advanced Chords Screen Shot">
 
 <img class="screenshot" src="./smartears_settings.jpg" alt="SmartEars Settings Screen">
 
-<a href="/dist/smartears.jnlp">Start SmartEars!</a>
-
-My java friends who don't want to mess around with Java Web Start can
-download <a href="/dist/smartears.jar">smartears.jar</a> and launch the
+You can download <a href="https://github.com/focusaurus/peterlyons.com_old_v4.2/raw/master/public/dist/smartears.jar">smartears.jar</a> and launch the
 application by typing:
 
-<code>java -jar smartears.jar</code>
+`java -jar smartears.jar`
 
 Using SmartEars should be (I hope!) largely self-explanatory and easy.
 
@@ -121,15 +117,14 @@ Two quick tips:
 * To hear sounds played simultaneously (as a chord) instead of arpeggiated,
     click into the Settings Tab and set the Note Delay to 0
 
+
+Note that as of July 2024 this program does still kind of work on modern java virtual machines but it's a little glitchy. Try changing the settings for note delay and note duration and it eventually still mostly works some 23 years later!
 </section>
 <section class="project">
 
 ## BigClock
 
-BigClock (2001) is a simple desktop clock utility that fills up the entire window with a clock, so you can get a clock of any size. It allows you to choose your own colors and time format. You can launch it through Java Web Start with the link below, or [download the jar file directly](/dist/bigclock.jar) and run it with the command 'java -jar bigclock.jar'using JRE 1.3 or newer.
+BigClock (2001) is a simple desktop clock utility that fills up the entire window with a clock, so you can get a clock of any size. It allows you to choose your own colors and time format. You can [download bigclock.jar here](https://github.com/focusaurus/peterlyons.com_old_v4.2/raw/master/public/dist/bigclock.jar) and run it with the command `java -jar bigclock.jar` using JRE 1.3 or newer.
 
-[Download bigclock.jar](/dist/bigclock.jar)
-
-Run it with <code>java -jar bigclock.jar</code>
-
+Note that as of July 2024 this program still runs perfectly some 23 years later!
 </section>
