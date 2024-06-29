@@ -23,6 +23,7 @@ Key points here, more details below.
   - Anyone who has given a talk at Strangeloop or !!Con is probably worth following at least for a while to sample
   - Some thought leaders have come over from twitter and I managed to find them
 - I pay a fair amount of attention to [Rands Leadership Slack](https://randsinrepose.com/welcome-to-rands-leadership-slack/)
+- I subscribe to the [Golang Weekly](https://golangweekly.com/) email newsletter
 - I have a kind of roundabout way of tracking blog posts coming out of [Recurse Center](https://www.recurse.com/) and their internal community Zulip chat surfaces good links and interesting discussions regularly. I don't track it very closely as it's too active to stay on top of.
 - I subscribe to some tech podcasts. Mostly long-form interviews but some news bulletin types.
   - [Software Unscripted](https://pca.st/podcast/1f1720a0-5ab3-013a-d70c-0acc26574db2) with Richard Feldman is my current favorite.
