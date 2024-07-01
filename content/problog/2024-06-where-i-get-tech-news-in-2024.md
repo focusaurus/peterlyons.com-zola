@@ -50,7 +50,7 @@ I went to conferences more regularly including 4 trips to Strangeloop, a couple 
 
 Elon ruined it. Twitter kind of imploded and the ads are now intolerable and it's way too much politics and arguing. I still have my account but very rarely read it and basically stopped posting. Several people I love reading still seem to only post to twitter and I'm basically waiting and hoping to find a better way to get their writing.
 
-Reddit also had a meltdown right around the same time. I didn't really use reddit for tech stuff though. I know about a few subreddits but they were kind of a last resort for me, usually on very niche projects like awesomewm or hammerspoon. I did use it a ton for maker stuff and specifically /r/ergomechanicalkeyboards. It went away when reddit leadership screwed with moderators/API leading up to the IPO circa 2023 and I never migrated to any of the proposed alternatives. It's kind of back to normal now but feels slightly less active.
+Reddit also had a meltdown right around the same time. I didn't really use reddit for tech stuff though. I know about a few subreddits but they were kind of a last resort for me, usually on very niche projects like awesomewm or hammerspoon. I did use it a ton for maker stuff and specifically /r/ergomechkeyboards. It went away when reddit leadership screwed with moderators/API leading up to the IPO circa 2023 and I never migrated to any of the proposed alternatives. It's kind of back to normal now but feels slightly less active.
 
 Stackoverflow is kinda done and LLMs are mostly replacing it for coding work. It's still a useful repository knowledge base but I think it's mostly a read-only archive at this point.
 
