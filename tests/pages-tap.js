@@ -39,12 +39,12 @@ testUri("/web-data/", { match: ["---", "How Data Powers the Web"] });
 testUri("/web-prog/", {
   match: [
     "---",
-    "/decks/web-prog.md",
+    "/web-prog/web-prog.md.deck",
     "Web Programming Concepts for Non-Programmers",
   ],
 });
 testUri("/white-glove/", { match: ["---", "Finding Inconsistencies"] });
-testUri("/screen.css", { match: ["font-family", "Julius Sans One"] });
+testUri("/screen.css", { match: ["font-family", "Noto Sans", "Noto Serif", "Inconsolata"] });
 testUri("/deck.css", { match: ["background-color"] });
 testUri("/favicon.ico");
 testUri("/favicon.png");

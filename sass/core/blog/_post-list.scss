@@ -24,7 +24,8 @@
 .postTitle {
   text-decoration: none;
   font-weight: bold;
-  font-size: 110%;
+  font-size: 120%;
+  font-family: $headerFont;
 
   &:hover {
     text-decoration: underline;
