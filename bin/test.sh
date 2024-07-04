@@ -13,5 +13,4 @@ IFS=$'\n\t'
 # ---- End unofficial bash strict mode boilerplate
 
 cd "$(dirname "${BASH_SOURCE[0]}")/.."
-tsc --project tsconfig-node.json
-tap code/plus-party/parse.tap.js
+tap code/plus-party/parse.tap.ts
