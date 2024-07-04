@@ -62,7 +62,7 @@ So with ES2017 the combination of await, implicit promises, and try/catch for er
 
 At the moment, I'm not sure how this is going to play out. I'm sticking to ES5 and callbacks for now. I think exceptions should represent programmer errors and never be used for control flow nor for operational errors. That's why they have stack traces, and that should be their sole purpose. But I'd love to hear your thoughts and suggestions, so post a comment here via disqus (click "Show Comments" below) if that's your thing or take it to twitter or hackernews etc.
 
-**Update 2017-11-04**: Eran Hammer is proposing [Bounce](https://medium.com/@eranhammer/learning-to-throw-again-79b498504d28) as a solution to this problem, and it looks promising.
+**Update 2017-11-04**: Eran Hammer is proposing [Bounce](https://hapi.dev/module/bounce/) as a solution to this problem, and it looks promising.
 
 ### See Also
 
