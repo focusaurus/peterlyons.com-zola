@@ -1,4 +1,4 @@
-import { promisify } = from "./util.js";
+import { promisify } from "./util.js";
 import handler from "serve-handler";
 import http from "http";
 
@@ -7,7 +7,6 @@ async function start(port) {
   const server = http.createServer(handler);
   const listen = promisify(server.listen.bind(server));
   await listen(port);
-  // eslint-disable-next-line no-console
   console.log("HTTP server running on port", port);
   return server;
 }

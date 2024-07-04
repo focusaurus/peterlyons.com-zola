@@ -19,7 +19,6 @@ Reveal.initialize({
 function fragment(element) {
   element.classList.add("fragment");
 }
-// eslint-disable-next-line prefer-destructuring
 const $ = document.querySelectorAll.bind(document);
 const { forEach } = Array.prototype;
 Reveal.addEventListener("ready", () => {

@@ -3,7 +3,6 @@ import tap from "tap";
 import { request, testRedirects } from "./utils.js";
 
 function setup() {
-  // eslint-disable-next-line no-sync
   const redirects = fs.readFileSync(
     `static/_redirects`,
     "utf-8"
