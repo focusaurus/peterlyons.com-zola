@@ -10,7 +10,7 @@
     "noEmit": true
   },
   "exclude": [
-    "**/*.test.ts"
+    "**/*.tap.ts"
   ],
   "extends": [
     "./tsconfig-common.json"

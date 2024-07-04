@@ -12,8 +12,5 @@
   "extends": [
     "./tsconfig-common.json",
     "@tsconfig/node20/tsconfig.json"
-  ],
-  "include": [
-    "**/*.ts"
   ]
 }
