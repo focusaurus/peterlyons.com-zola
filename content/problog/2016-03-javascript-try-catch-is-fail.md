@@ -15,7 +15,7 @@ It is possible to write solid javascript code almost entirely without using try/
 
 ### Error-first callbacks and ES5 Are OK
 
-This, while contributing to JavaScript's "WAT" factor, is actually a good situation, all things considered. It is good because it leaves exceptions to represent ONLY programmer errors and never operational errors. Operational errors are problems with the environment such as invalid user input, failed network communication, no disk space left, etc. They can be resolved without changing the program code itself. Programmer errors on the other hand indicate a flaw in the program code that can only be fixed by correcting the source code. For further information on this distinction I highly recommend Dave Pacheco's authoritative [Error Handling in Node.js](https://www.joyent.com/developers/node/design/errors).
+This, while contributing to JavaScript's "WAT" factor, is actually a good situation, all things considered. It is good because it leaves exceptions to represent ONLY programmer errors and never operational errors. Operational errors are problems with the environment such as invalid user input, failed network communication, no disk space left, etc. They can be resolved without changing the program code itself. Programmer errors on the other hand indicate a flaw in the program code that can only be fixed by correcting the source code. For further information on this distinction, I highly recommend this archived version of a Joyent blog post on [Error Handling in Node.js](https://web.archive.org/web/20140401155055/https://www.joyent.com/developers/node/design/errors).
 
 In the vast majority of node code I've written, which uses the node error-first callback convention, I end up with the following properties
 
