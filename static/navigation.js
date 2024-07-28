@@ -22,7 +22,12 @@ export default function start() {
   document.querySelector("nav.site .close").addEventListener("click", closeNav);
   document.addEventListener("click", closeNav);
 
-  const selector = `nav a[href='${document.location.pathname}']`;
+  let path = document.location.pathname;
+  const problog = "/problog/";
+  if (path.startsWith(problog)) {
+    path = path.substring(0, problog.length);
+  }
+  const selector = `nav a[href='${path}']`;
   const navEls = document.querySelectorAll(selector);
   Array.prototype.forEach.call(navEls, (el) => {
     el.classList.add("current");
