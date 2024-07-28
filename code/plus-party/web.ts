@@ -10,7 +10,7 @@ function numberToItem(number: number) {
 }
 
 function sum(numbers: number[]) {
-  return numbers.reduce((a, v) => a + v);
+  return numbers.reduce((a, v) => a + v, 0);
 }
 
 function render(numbers: number[]) {
