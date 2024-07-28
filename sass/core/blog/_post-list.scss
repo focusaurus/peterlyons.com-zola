@@ -13,12 +13,13 @@
   display: grid;
   grid-template-columns: 100%;
   justify-items: center;
-  border-bottom: 1px dashed $colorPrimary;
-  padding-top: 1em;
-
-  &:last-child {
-    border-bottom: none;
+  &:nth-child(even) {
+    background-color: $colorEvenRow;
   }
+  &:nth-child(odd) {
+    background-color: $colorOddRow;
+  }
+  margin-bottom: 1em;
 }
 
 .postTitle {

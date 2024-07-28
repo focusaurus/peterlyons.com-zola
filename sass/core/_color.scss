@@ -1,14 +1,17 @@
-$colorPrimaryBackground: #fff;
-$colorPrimary: #000000;
+// theme inspired by random color contrasts
+// https://botsin.space/@randomColorContrasts/112856275726324410
+$colorPrimaryBackground: #3d95d6; // curious blue
+$colorPrimary: #0a1122; // black pearl
 $colorLink: $colorPrimary;
-$colorLinkHover: #555;
+$colorLinkHover: lighten($colorPrimary, 25%);
 $colorLinkHoverBackground: $colorPrimaryBackground;
-$colorCodeBackground: #c8d7e4;
-$colorHeader: #000000;
-$colorCode: #000000;
-$colorSiteHeader: #000000;
-$colorSiteHeaderBorder: $colorLinkHover;
-$colorEvenRow: #ddd;
-$colorOddRow: #efefef;
-$colorNavCurrent: $colorCodeBackground;
-$colorFooter: #cccccc;
+$colorCode: $colorPrimaryBackground;
+$colorCodeBackground: $colorPrimary;
+$colorHeader: $colorPrimary;
+$colorSiteHeader: $colorPrimary;
+$colorSiteHeaderBorder: $colorPrimary;
+$colorOddRow: lighten($colorPrimaryBackground, 30%);
+$colorEvenRow: lighten($colorPrimaryBackground, 10%);
+$colorNavCurrent: lighten($colorPrimaryBackground, 40%);
+$colorNavButton: $colorPrimary;
+$colorFooter: lighten($colorPrimaryBackground, 30%);

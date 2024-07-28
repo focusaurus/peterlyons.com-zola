@@ -1,3 +1,5 @@
+@import "core/color";
+
 article.talk {
   h2 {
     margin-bottom: 0;
@@ -5,5 +7,11 @@ article.talk {
   p {
     margin-bottom: 1em;
     margin-top: 0;
+  }
+  &:nth-child(even) {
+    background-color: $colorEvenRow;
+  }
+  &:nth-child(odd) {
+    background-color: $colorOddRow;
   }
 }

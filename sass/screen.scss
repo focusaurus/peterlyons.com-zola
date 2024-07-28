@@ -10,8 +10,11 @@ body {
 }
 button {
   background-color: $colorCodeBackground;
-  color: $colorSiteHeader;
+  color: $colorCode;
+  border-color: $colorCode;
   border-radius: 0.4em;
+  font-weight: bold;
+  border: 4px;
 }
 button:focus {
   outline: none;
