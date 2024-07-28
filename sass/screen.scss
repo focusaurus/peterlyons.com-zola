@@ -59,10 +59,13 @@ ul li {
 ol li {
   list-style-type: decimal;
 }
-code,
-pre {
-  background-color: $colorCodeBackground;
+pre:has(code), pre:has(code) code {
+  color: $colorCodeBlock;
+  background-color: $colorCodeBlockBackground;
+}
+code, pre {
   color: $colorCode;
+  background-color: $colorCodeBackground;
 }
 pre {
   margin: 1em 0;

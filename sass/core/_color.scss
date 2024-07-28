@@ -5,8 +5,10 @@ $colorPrimary: #0a1122; // black pearl
 $colorLink: $colorPrimary;
 $colorLinkHover: lighten($colorPrimary, 25%);
 $colorLinkHoverBackground: $colorPrimaryBackground;
-$colorCode: $colorPrimaryBackground;
-$colorCodeBackground: $colorPrimary;
+$colorCode: lighten($colorPrimary, 20%);
+$colorCodeBackground: $colorPrimaryBackground;
+$colorCodeBlock: $colorPrimaryBackground;
+$colorCodeBlockBackground: $colorPrimary;
 $colorHeader: $colorPrimary;
 $colorSiteHeader: $colorPrimary;
 $colorSiteHeaderBorder: $colorPrimary;
