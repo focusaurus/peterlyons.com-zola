@@ -228,5 +228,3 @@ I cut my liners just a few mm smaller than the PCB shape and used some gorilla g
 {{ figureflickr(url="https://live.staticflickr.com/65535/53715068120_7b864e2188_k_d.jpg" caption="Here's a build in 3D printed case with palm rests clipped on") }}
 
 May your thumbs forever be untucked and your switches be silent!
-
-https://www.flickr.com/photos/focusaurus/53627111813/" title="Typing on the bare MCU"><img src="https://live.staticflickr.com/31337/53627111813_b093305be0_b.jpg
