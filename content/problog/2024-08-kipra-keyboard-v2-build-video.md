@@ -2,6 +2,8 @@
 title = "Kipra Keyboard v2 Build Video"
 slug = "2024/08/kipra-keyboard-v2-build-video/"
 date = 2024-08-25T16:38:55Z
+[extra]
+image = "https://live.staticflickr.com/65535/53950431666_5a165696fd_c_d.jpg"
 +++
 
 I made another version of the kipra "kinda pragmatic" split ergonomic keyboard. It's a minor incremental evolution of the first version. Key changes are:
