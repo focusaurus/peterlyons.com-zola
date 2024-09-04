@@ -1,6 +1,6 @@
 +++
 template = "index.html"
-title = "Peter Lyons: Cyber Lumberjack"
+title = "Peter Lyons: Pragmatism on tap"
 +++
 
 # Staff Engineer

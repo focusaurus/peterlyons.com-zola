@@ -3,7 +3,7 @@ import { testUri } from "./utils.js";
 testUri("/", {
   match: [
     "node.js",
-    "Cyber Lumberjack",
+    "Pragmastism on tap",
     "Creative Commons",
     "Projects",
   ],
