@@ -85,7 +85,7 @@ I switched back to Kailh choc reds for this and decided to print it in red and b
 
 ### One more pinky column
 
-My current daily driver is a [TBK Mini](https://bastardkb.com/tbk-mini/) which has 6 columns for the fingers, and although I'm trying to not use the pinky very much, that extra row does come in really handy and simplify layouts, so I added an extra column for the pinky to reach to. This also gives me better hope of switching to make the Squeezebox my daily driver since now it has exactly the same number of finger keys and the same thumb cluster arrangement as the TBK mini so all I have to deal with is the form factor switch itself but my keymap setup can be identical. So each hand now has a pair of 6-key double wide units (pinky and index), and a pair of 3-key units (middle and index) and a 3-key thumb cluster.
+My current daily driver is a [TBK Mini](https://bastardkb.com/product/tbk-mini-kit/) which has 6 columns for the fingers, and although I'm trying to not use the pinky very much, that extra row does come in really handy and simplify layouts, so I added an extra column for the pinky to reach to. This also gives me better hope of switching to make the Squeezebox my daily driver since now it has exactly the same number of finger keys and the same thumb cluster arrangement as the TBK mini so all I have to deal with is the form factor switch itself but my keymap setup can be identical. So each hand now has a pair of 6-key double wide units (pinky and index), and a pair of 3-key units (middle and index) and a 3-key thumb cluster.
 
 ## Files for 3D Printing
 
