@@ -13,23 +13,10 @@ set -o posix    # more strict failures in subshells
 IFS="$(printf "\n\t")"
 # ---- End unofficial bash strict mode boilerplate
 
-slug() {
-
-  # lowercase
-  # spaces to dashes
-  # collapse double dashes
-  # Delete everything other than letters, numbers, dash
-  # remove trailing dash
-  echo "$@" |
-    tr '[:upper:]' '[:lower:]' |
-    sed -e 's/\s/-/g' -e 's/--/-/g' |
-    tr -c -d "a-z0-9-" |
-    sed -e 's/-$//'
-}
-
 cd "$(dirname "${BASH_SOURCE[0]}")/.."
 title="$*"
 # read -r -p "Title: " title
+# We expect the slug CLI command to be the npm slug package
 name=$(slug "${title}")
 dest_dir="content/problog"
 mkdir -p "${dest_dir}"
