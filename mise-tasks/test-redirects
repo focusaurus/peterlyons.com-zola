@@ -13,7 +13,4 @@ IFS=$'\n\t'
 # ---- End unofficial bash strict mode boilerplate
 
 cd "$(dirname "${BASH_SOURCE[0]}")/.."
-if [[ -z "${URI}" ]]; then
-  export URI='http://localhost:3333'
-fi
-tap tests/redirects-tap.js
+tap --disable-coverage tests/redirects-tap.js
