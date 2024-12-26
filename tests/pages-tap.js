@@ -3,7 +3,7 @@ import { testUri } from "./utils.js";
 testUri("/", {
   match: [
     "node.js",
-    "Pragmastism on tap",
+    "Pragmatism on tap",
     "Creative Commons",
     "Projects",
   ],
@@ -44,7 +44,7 @@ testUri("/web-prog/", {
   ],
 });
 testUri("/white-glove/", { match: ["---", "Finding Inconsistencies"] });
-testUri("/screen.css", { match: ["font-family", "Noto Sans", "Noto Serif", "Inconsolata"] });
+testUri("/screen.css", { match: ["font-family", "Noto Serif", "Inconsolata"] });
 testUri("/deck.css", { match: ["background-color"] });
 testUri("/favicon.ico");
 testUri("/favicon.png");

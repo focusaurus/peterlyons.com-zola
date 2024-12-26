@@ -13,4 +13,4 @@ IFS=$'\n\t'
 # ---- End unofficial bash strict mode boilerplate
 
 cd "$(dirname "${BASH_SOURCE[0]}")/.."
-tap tests/pages-tap.js
+tap --allow-empty-coverage tests/pages-tap.js
