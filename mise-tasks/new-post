@@ -28,7 +28,7 @@ slug() {
 }
 
 cd "$(dirname "${BASH_SOURCE[0]}")/.."
-title="$@"
+title="$*"
 # read -r -p "Title: " title
 name=$(slug "${title}")
 dest_dir="content/problog"

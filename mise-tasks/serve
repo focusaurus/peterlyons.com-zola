@@ -14,8 +14,7 @@ IFS=$'\n\t'
 # ---- End unofficial bash strict mode boilerplate
 
 cd "$(dirname "${BASH_SOURCE[0]}")/.."
-export PATH="${PWD}/local/bin:${PATH}"
-./bin/build.sh
+#MISE depends=["build"]
 if [[ -z "${PORT}" ]] && [[ -e .env ]]; then
   source ./.env
 fi
