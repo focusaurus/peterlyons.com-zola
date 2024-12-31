@@ -1,0 +1,36 @@
+#!/usr/bin/env bash
+
+# Please Use Google Shell Style: https://google.github.io/styleguide/shell.xml
+
+# ---- Start unofficial bash strict mode boilerplate
+# http://redsymbol.net/articles/unofficial-bash-strict-mode/
+set -o errexit  # always exit on error
+set -o errtrace # trap errors in functions as well
+set -o pipefail # don't ignore exit codes when piping output
+set -o posix    # more strict failures in subshells
+# set -x          # enable debugging
+
+IFS=$'\n\t'
+# ---- End unofficial bash strict mode boilerplate
+
+build_js() {
+  # compile typescript using config in tsconfig.json
+  tsc
+
+  # bundle javascript for the browser
+  esbuild code/plus-party/web.ts --minify --bundle --outfile=static/plus-party/bundle.js
+  esbuild code/reveal-init.js --minify --bundle --outfile=static/reveal-bundle.js
+  esbuild code/profile-photos.js --minify --bundle --outfile=static/profile-photos-bundle.js
+  cp -r node_modules/reveal.js static
+}
+
+main() {
+  cd "$(dirname "${BASH_SOURCE[0]}")/.."
+
+  build_js
+
+  # generate the static site
+  zola build
+}
+
+main "$@"
