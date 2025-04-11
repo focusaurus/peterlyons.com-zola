@@ -13,3 +13,4 @@ This page is a list of links to articles I have found to be excellent or profoun
   - A powerhouse series of articles I'm happy to point software developers to in lieu of my now dated [article also called Leveling Up](/leveling-up).
 - [Center Stage](https://increment.com/development/center-stage-best-practices-for-staging-environments/) by Alice Goldfuss
   - Best practices for staging environments
+- [Colacation](https://kentcdodds.com/blog/colocation) by Kent C. Dodds
