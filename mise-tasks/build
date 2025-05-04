@@ -26,7 +26,7 @@ build_js() {
 
 main() {
   cd "$(dirname "${BASH_SOURCE[0]}")/.."
-
+  export PATH="${PATH}:${PWD}/node_modules/.bin"
   build_js
 
   # generate the static site
