@@ -6,24 +6,13 @@ title = "Email and profiles around the web"
 
 # Get in touch
 
-<!-- Note the image file names and alt attributes are named
-as they are to avoid content blocking browser plugins (uBlock et al)
--->
-
-<a class="email" href="mailto:pete@peterlyons.com">pete@peterlyons.com</a>
-
-<a href="https://www.linkedin.com/in/peterlyons1"><img class="icon" src="/images/logo_l_i.png" alt="in links" title="in links"></a>
-
-<a href="https://github.com/focusaurus"><img class="icon" src="/images/logo_g_h.png" alt="github" title="github"></a>
-
-<a href="http://stackoverflow.com/users/266795/peter-lyons"><img class="icon" src="/images/logo_s_o.png" alt="stackoverflow" title="stackoverflow"></a>
-
-<a href="https://stackoverflow.com/users/266795/peter-lyons"><img src="https://stackoverflow.com/users/flair/266795.png?theme=clean" alt="profile for Peter Lyons at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Peter Lyons at Stack Overflow, Q&amp;A for professional and enthusiast programmers" width="208" height="58"></a>
-
-<a href="https://recurse.social/@focusaurus"><img class="icon" src="/images/logo_m_a.png" alt="mastodon" title="mastodon (recurse.social)"></a>
-
-<a href="https://twitter.com/focusaurus"><img class="icon" src="/images/logo_t_w.png" alt="tweets" title="tweets"></a>
-
-<a href="https://www.facebook.com/focusaurus"><img class="icon" src="/images/logo_f_b.png" alt="social network" title="social network"></a></div>
+| Platform | Link |
+| --- | --- |
+| Email | <a href="mailto:pete@peterlyons.com">pete@peterlyons.com</a>|
+| LinkedIn | <a href="https://www.linkedin.com/in/peterlyons1">peterlyons1</a> |
+| Bluesky | <a href="https://bsky.app/profile/peterlyons.com">@peterlyons.com</a> |
+| Github | <a href="https://github.com/focusaurus">focusaurus</a> |
+| Stackoverflow | <a href="http://stackoverflow.com/users/266795/peter-lyons">peter-lyons</a> |
+| Mastodon | <a href="https://recurse.social/@focusaurus">@focusaurus</a> (on recurse.social |
 
 </div>
