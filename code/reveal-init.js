@@ -30,6 +30,7 @@ Reveal.addEventListener("ready", () => {
   forEach.call($("h4"), fragment);
   forEach.call($("h5"), fragment);
   forEach.call($("h6"), fragment);
+  forEach.call($("img"), fragment);
   const codes = document.querySelectorAll("pre > code");
   forEach.call(codes, code => {
     code.parentElement.classList.add("fragment");
