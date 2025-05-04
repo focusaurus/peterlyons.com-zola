@@ -1,9 +1,23 @@
+@import "./core/color";
+
 .contact a {
-  display: block;
+  /* display: block; */
   margin-bottom: 3rem;
 
   &.email {
     font-size: 3rem;
     text-decoration: none;
+  }
+}
+
+.contact {
+  th, td {
+    border: 1px solid $colorPrimary;
+    padding: 0 1em;
+    line-height: 2em;
+  }
+  
+  a {
+    color: $colorContactLink;
   }
 }
