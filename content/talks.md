@@ -1,6 +1,13 @@
 +++
 title = "Speaking Presentations"
 +++
+
+<article class="talk">
+  <h2>go testing with f-tests</h2>
+  <a href="/f-tests/">Slides</a>
+  <p>Presented at <a href="https://www.meetup.com/denver-go-language-user-group/">Mile High Gophers</a> May 5, 2025</p>
+</article>
+
 <article class="talk">
   <h2>Design a Custom Keyboard with Ergogen</h2>
   <a href="/ergogen/">Slides</a>

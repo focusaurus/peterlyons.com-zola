@@ -1,0 +1,274 @@
+# go testing with f-tests
+
+Mile High Gophers
+
+May 2025
+
+---
+# Too Long; Didn't Watch
+
+
+Blog post
+
+[f-tests as a replacement for table-driver tests in Go](https://itnext.io/f-tests-as-a-replacement-for-table-driven-tests-in-go-8814a8b19e9e)
+
+by Aliaksandr Valialkin
+
+---
+# Who's this?
+
+![](gophercon.png)
+
+---
+# table-driven tests
+
+* a widely-used pattern in the go community
+* documented on the go wiki
+* used in the standard library
+* blogged about by [Dave Cheney](https://dave.cheney.net/2019/05/07/prefer-table-driven-tests)
+
+---
+# table-driven test example (stdlib slices)
+
+```go
+
+var indexTests = []struct {
+	s    []int
+	v    int
+	want int
+}{
+	{
+		nil,
+		0,
+		-1,
+	},
+	{
+		[]int{},
+		0,
+		-1,
+	},
+	{
+		[]int{1, 2, 3},
+		2,
+		1,
+	},
+	{
+		[]int{1, 2, 2, 3},
+		2,
+		1,
+	},
+	{
+		[]int{1, 2, 3, 2},
+		2,
+		1,
+	},
+}
+
+func TestIndex(t *testing.T) {
+	for _, test := range indexTests {
+		if got := Index(test.s, test.v); got != test.want {
+			t.Errorf("Index(%v, %v) = %d, want %d", test.s, test.v, got, test.want)
+		}
+	}
+}
+```
+
+---
+# f-test example
+
+```go
+func TestLogfmtParser(t *testing.T) {
+	f := func(s, resultExpected string) {
+		t.Helper()
+
+		p := getLogfmtParser()
+		defer putLogfmtParser(p)
+
+		p.parse(s)
+		result := MarshalFieldsToJSON(nil, p.fields)
+		if string(result) != resultExpected {
+			t.Fatalf("unexpected result when parsing [%s]; got\n%s\nwant\n%s\n", s, result, resultExpected)
+		}
+	}
+
+	f(``, `{}`)
+	f(`foo=bar`, `{"foo":"bar"}`)
+	f(`foo="bar=baz x=y"`, `{"foo":"bar=baz x=y"}`)
+	f(`foo=`, `{"foo":""}`)
+	f(`foo bar`, `{"foo":"","bar":""}`)
+}
+```
+
+---
+# testing workflows
+
+### CLI
+
+* `go test ./...` for everything
+* or filter using package names and test name substrings
+
+```bash
+go test ./... -run="MyTest/my subtest"`
+```
+### IDE inline buttons
+
+* VS Code: "Run Test" & "Debug Test"
+
+### What do you do?
+
+---
+
+![](vscode-run-test.png)
+
+---
+# my struggles with table-driven tests
+
+* yo-yo reading
+* defeats breakpoint
+* often brings in anonymous structs
+* failure line number is always inside the loop
+  * not the line with the unexpected data
+
+---
+# things I don't really want in my tests
+
+* anonymous structs
+  * especially before I've read the code that uses them
+* maps with names as keys
+* big inline data structures
+* loops
+* extra nesting
+
+![](https://c.tenor.com/chaKmzhiPBMAAAAC/no-thank.gif)
+
+---
+# table-driven: can't breakpoint the broken case
+
+```go
+for _, tc := range tests {
+    t.Run(tc.name, func(t *testing.T) {
+      got := strings.Index(tc.s, tc.substr) // BREAKPOINT here sucks
+      if got != tc.want {
+        t.Fatalf("unexepcted n; got %d; want %d", got, tc.want)
+      }
+  }
+```
+
+* can run a single case by name with CLI though!
+
+---
+# f-tests breakpoint a particular case
+
+```go
+	f(`foo=bar`, `{"foo":"bar"}`)
+	f(`foo="bar=baz x=y"`, `{"foo":"bar=baz x=y"}`)
+	f(`foo=`, `{"foo":""}`) // BREAKPOINT here is fine
+	f(`foo`, `{"foo":""}`)
+```
+---
+# f-test basic pattern
+
+* `f := func(arg)...` at top
+* inside `f()` call `t.Helper()`
+* do arg preparation, call real code, assert results
+* each case is a call to `f()`
+* separate tests for success cases & failure cases
+
+---
+# f-test nicities
+
+* test code comes before suite of cases
+* `t.Helper()` used properly to indicate correct line number on failure
+
+---
+# f-tests meh
+
+* separate top-level test functions for success vs error cases
+* can't run a single case by name with CLI
+
+---
+# test code should be clear and easy
+
+* we are by definition surprised or confused when tests are failing
+* it's hard enough to understand the code itself
+
+---
+# both meh
+
+* commenting out code temporarily sometimes seems unavoidable
+
+---
+# meta: don't defeat the tooling
+
+---
+# The End
+
+peterlyons.com
+
+bluesky: @peterlyons.com
+
+---
+# Backup Bonus Slides
+
+
+---
+# SQL Update 1
+
+```sql
+UPDATE user SET
+    first_name = "Bob",
+    last_name = "Roberts",
+    eye_color = "blue",
+    shoe_size = 10.5,
+    tag_line = "Ziggity Zoop"
+WHERE id = 777;
+```
+---
+# SQL Update 2
+
+```sql
+UPDATE user SET
+    tag_line = "Bim Bam Boom"
+WHERE id = 777;
+```
+
+---
+# Relational DBs
+
+- support `NULL` and use it heavily in practice
+- support partial updates and that's the dominant data edit pattern
+
+---
+# JSON
+
+- supports `null`
+- dynamically typed
+- supports omitting properties
+
+---
+# go structs
+
+- fixed set of fields
+- no way to express subsets of fields
+- can't express both "set this field to nil" and "do not alter this field"
+
+---
+# full update paradigm is 👎
+
+- likely to cause accidental overwrites of new data with old data
+
+---
+What are the semantics behind the "age" property in each message below?
+
+* `{"age": 27}`
+* `{"age": null}`
+* `{"name": "Betty"}`
+
+---
+# solution is wrapper struct
+
+[aarondl/opt On Correctness](https://github.com/aarondl/opt/tree/master?tab=readme-ov-file#on-correctness)
+
+---
+
+> This becomes a problem when interoperating with languages that have an explicit way to have a struct or object value be undefined or unset. Go maps have this property, a key either exists or it does not exist in the map, but a Go struct field always exists. Despite this problem in order to avoid completely unstructured data, gain a modicum of type safety and minimal validation it's generally still recommended to use a struct when writing in Go.
