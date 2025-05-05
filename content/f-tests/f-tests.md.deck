@@ -108,7 +108,7 @@ func TestLogfmtParser(t *testing.T) {
 * or filter using package names and test name substrings
 
 ```bash
-go test ./... -run="MyTest/my subtest"`
+go test ./... -run="MyTest/my subtest"
 ```
 ### IDE inline buttons
 
