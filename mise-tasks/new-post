@@ -17,7 +17,7 @@ cd "$(dirname "${BASH_SOURCE[0]}")/.."
 title="$*"
 # read -r -p "Title: " title
 # We expect the slug CLI command to be the npm slug package
-name=$(slug "${title}")
+name=$(npx slug "${title}")
 dest_dir="content/problog"
 mkdir -p "${dest_dir}"
 
