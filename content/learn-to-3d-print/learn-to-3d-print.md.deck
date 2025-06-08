@@ -1,0 +1,110 @@
+# Learn to 3D Print
+
+Solid State Depot
+
+June 2025
+
+---
+
+# Get Printing ASAP
+
+- Find a model online to print
+  - start small and simple
+- download the .stl file
+- slice for printing using [Creality Print](https://www.creality.com/pages/download-software?spm=..page_11657537.creality_print_1.1)
+- Print by sending .gcode to the printer
+- Start with PLA Filament
+
+---
+
+# How to get quick wins
+
+- start with models that can print well with default settings
+- smaller models print faster
+- scale things smaller with the slicer
+- plenty of surface area on the print bed
+
+---
+
+# 3D Printer Components
+
+- print bed
+  - heated
+  - motorized to move along the Y axis
+    - front to back
+- print head
+  - motorized to move along the X axis
+    - left to right
+- Z axis motorized to lift print head up
+- nozzle melts filament
+- extruder pushes filament through the nozzle
+- many sensors help with auto-calibration
+
+---
+# More about Filament
+
+- generally start with PLA
+  - polylactic acid
+- Comes in 1kg spools of 1.75mm diameter wire
+- Low Cost
+- Does not need an enclosure
+- Strong enough for a lot of applications
+- Low melting point
+- UV exposure will degrade it
+
+---
+# Other Filament Materials
+
+- PETG
+  - stronger
+- TPU
+  - flexible
+- ABS
+  - very durable but requires enclosure and harder to print
+
+---
+
+# Intermediate Slicer Settings
+
+- adjusting layer height for speed or detail
+- supports to allow bridges and cantilevered areas
+- brims to help with bed adhesion
+- split model into small parts and test print key areas for fit
+
+---
+# Safety
+
+- nozzle is hot and will stay hot a bit
+- filament is hot when just extruded
+- don't reach into the printer while it's working
+- Printers emit microplastics. Don't site there next to it breathing them in for hours on end.
+- Generally 3D prints are **NOT** food safe so don't plan on doing food projects. It is possible but needs proper materials and techniques.
+
+---
+# Finding & Sharing Models Online
+
+- [printables.com](https://www.printables.com/)
+  - associated with hardware vendor Prusa Research
+  - my personal favorite
+- [thangs](https://thangs.com/)
+- [thingiverse](https://www.thingiverse.com/)
+  - The "OG" site
+  - Was slow for many years
+  - Better now
+- [Cults 3D](https://cults3d.com/)
+  - includes complex commercial models for sale
+- [Maker World](https://makerworld.com)
+  - associated with hardware vendor Bambu Lab
+
+---
+
+# Some Personal Tips
+
+- Bambu Lab A1 Mini is an awesome and affordable first personal printer
+- My favorite PLA is [Polymaker Panchroma Matte](https://us.polymaker.com/products/panchroma-matte)
+  - Formerly known as PolyTerra
+- 
+---
+# Resources
+
+- [CAD Tips by Billie Reuben](https://blog.adafruit.com/2020/01/24/a-poster-of-cad-design-tips-for-3dprinting-cad-billierubenmake/)
