@@ -5,7 +5,14 @@ Solid State Depot
 June 2025
 
 ---
+# Class Agenda
 
+- quick demo of starting a small print
+- student starts a print
+- lecture on details while machines work
+- if prints finish, another student can start next print
+
+---
 # Get Printing ASAP
 
 - Find a model online to print
@@ -16,7 +23,6 @@ June 2025
 - Start with PLA Filament
 
 ---
-
 # How to get quick wins
 
 - start with models that can print well with default settings
@@ -25,20 +31,40 @@ June 2025
 - plenty of surface area on the print bed
 
 ---
+# Good First Prints
 
+[My collection on printables](https://www.printables.com/@focusaurus_121068/collections/2428312)
+
+---
 # 3D Printer Components
 
 - print bed
   - heated
-  - motorized to move along the Y axis
-    - front to back
+  - moves along 1 axis tyically either Y or Z
+- print plate
+  - magnetic
+  - flexible
+  - smooth or textured
 - print head
+  - moves along 2 axes typically
   - motorized to move along the X axis
-    - left to right
-- Z axis motorized to lift print head up
 - nozzle melts filament
 - extruder pushes filament through the nozzle
+- tubing guides filament from spool to nozzle
+- spool holder allows spoll to roll out filament
+- enclosure limits dust & wind variables and retains heat
 - many sensors help with auto-calibration
+
+---
+# 2 Common Broad Types
+
+- Core XY
+    - print bed stationary except moving down 1 layer at a time
+    - The SSD Creality printers are Core XY design
+- bed slinger
+    - bed moves forward and back (Y-Axis)
+    - hot end moves left and right (X-Axis)
+    - hot end moves up (Z-Axis) for each new layer
 
 ---
 # More about Filament
@@ -46,7 +72,7 @@ June 2025
 - generally start with PLA
   - polylactic acid
 - Comes in 1kg spools of 1.75mm diameter wire
-- Low Cost
+- Low Cost ($20 per 1kg spool)
 - Does not need an enclosure
 - Strong enough for a lot of applications
 - Low melting point
@@ -63,13 +89,31 @@ June 2025
   - very durable but requires enclosure and harder to print
 
 ---
-
 # Intermediate Slicer Settings
 
 - adjusting layer height for speed or detail
 - supports to allow bridges and cantilevered areas
 - brims to help with bed adhesion
 - split model into small parts and test print key areas for fit
+- more walls for strength
+  - denser infill helps strength less than you might think
+
+---
+# Layer Height
+
+- thicker layer prints faster, looks coarse
+- thin layers look smoother, take longer to print
+
+---
+Print time: 0.12mm (14 hours) vs 0.6mm (2 hours) layer height
+
+[Reddit](https://www.reddit.com/r/ender3/comments/hs67f6/012mm_vs_06mm_layer_height_the_first_one_took/)
+
+![](./layer-height.jpg)
+
+---
+# Exercise: Split Test Print
+
 
 ---
 # Safety
@@ -78,7 +122,8 @@ June 2025
 - filament is hot when just extruded
 - don't reach into the printer while it's working
 - Printers emit microplastics. Don't site there next to it breathing them in for hours on end.
-- Generally 3D prints are **NOT** food safe so don't plan on doing food projects. It is possible but needs proper materials and techniques.
+- Generally 3D prints are **NOT** food safe so don't plan on doing food projects.
+  - It is possible but needs proper materials and techniques.
 
 ---
 # Finding & Sharing Models Online
@@ -97,7 +142,36 @@ June 2025
   - associated with hardware vendor Bambu Lab
 
 ---
+# Common Print Failures
 
+- adhesion failure
+  - first layer to bed
+  - between print layers
+
+![](./spaghetti.jpg)
+
+---
+# Bad Adhesion?
+
+- clean the print bed
+- add a brim in the slicer settings
+- textured plate may help
+- last resorts
+    - masking tape on bed
+    - elmer's glue on bed
+    - hairspray on bed
+---
+# Nozzle Clogs
+
+![](./clog.jpg)
+
+- heat nozzle, clean & probe
+- try setting higher temperature in slicer configuration
+- switch to fresh filament
+- dry filament in filament dryer
+- replace with a new nozzle
+
+---
 # Some Personal Tips
 
 - Bambu Lab A1 Mini is an awesome and affordable first personal printer
@@ -108,3 +182,11 @@ June 2025
 # Resources
 
 - [CAD Tips by Billie Reuben](https://blog.adafruit.com/2020/01/24/a-poster-of-cad-design-tips-for-3dprinting-cad-billierubenmake/)
+
+---
+# Solid State Depot
+
+- 5013C Non-profit
+- volunter run
+- membership $85/month
+- https://www.ssdmakerspace.org/

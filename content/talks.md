@@ -3,6 +3,12 @@ title = "Speaking Presentations"
 +++
 
 <article class="talk">
+  <h2>Learn to 3D Print</h2>
+  <a href="/learn-to-3d-print/">Slides</a>
+  <p>Presented at <a href="https://www.ssdmakerspace.org">Solid State Depot</a> June 27, 2025</p>
+</article>
+
+<article class="talk">
   <h2>go testing with f-tests</h2>
   <a href="/f-tests/">Slides</a>
   <p>Presented at <a href="https://www.meetup.com/denver-go-language-user-group/">Mile High Gophers</a> May 5, 2025</p>
