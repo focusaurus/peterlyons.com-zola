@@ -4,6 +4,8 @@ Solid State Depot
 
 June 2025
 
+![](./qr-code-slides.png)
+
 ---
 # Class Agenda
 
@@ -36,7 +38,7 @@ June 2025
 [My collection on printables](https://www.printables.com/@focusaurus_121068/collections/2428312)
 
 ---
-# 3D Printer Components
+# 3D Printer Components & Glossary
 
 - print bed
   - heated
@@ -48,6 +50,14 @@ June 2025
 - print head
   - moves along 2 axes typically
   - motorized to move along the X axis
+
+---
+# Creality K-1 Max
+
+![](./k1.jpg)
+
+---
+# 3D Printer Components
 - nozzle melts filament
 - extruder pushes filament through the nozzle
 - tubing guides filament from spool to nozzle
@@ -65,6 +75,10 @@ June 2025
     - bed moves forward and back (Y-Axis)
     - hot end moves left and right (X-Axis)
     - hot end moves up (Z-Axis) for each new layer
+---
+# CoreXY vs Bed Slinger
+
+![](./corexy.jpg)
 
 ---
 # More about Filament
@@ -121,7 +135,7 @@ Print time: 0.12mm (14 hours) vs 0.6mm (2 hours) layer height
 - nozzle is hot and will stay hot a bit
 - filament is hot when just extruded
 - don't reach into the printer while it's working
-- Printers emit microplastics. Don't site there next to it breathing them in for hours on end.
+- Printers emit microplastics. Don't sit there next to it breathing them in for hours on end.
 - Generally 3D prints are **NOT** food safe so don't plan on doing food projects.
   - It is possible but needs proper materials and techniques.
 
@@ -148,7 +162,8 @@ Print time: 0.12mm (14 hours) vs 0.6mm (2 hours) layer height
   - first layer to bed
   - between print layers
 
-![](./spaghetti.jpg)
+---
+![](./spaghetti2.jpg)
 
 ---
 # Bad Adhesion?
@@ -160,6 +175,12 @@ Print time: 0.12mm (14 hours) vs 0.6mm (2 hours) layer height
     - masking tape on bed
     - elmer's glue on bed
     - hairspray on bed
+
+---
+# Outer Brim
+
+![](./brim.jpg)
+
 ---
 # Nozzle Clogs
 
