@@ -48,6 +48,7 @@ Feel free to comment, share, upvote, engage your little hearts out!
 
 - [Reddit /r/ergomechkeyboards](https://www.reddit.com/r/ErgoMechKeyboards/comments/1micni6/split_keyboard_recessed_into_custom_cnc_desktop/)
 - [Bluesky](https://bsky.app/profile/peterlyons.com/post/3lvo6s454rk27)
+- [Mastodon](https://recurse.social/@focusaurus/114977320565550400)
 
 ## Full Photo Gallery of Build Process
 
