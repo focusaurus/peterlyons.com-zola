@@ -42,6 +42,13 @@ I also made a coffee holder for my favorite coffee mug. And before you point out
 
 {{ figureflickr(url="https://live.staticflickr.com/65535/54697779857_a609fa0436_b.jpg" caption="my old setup with stock parts") }}
 
+## Social Media Posts
+
+Feel free to comment, share, upvote, engage your little hearts out!
+
+- [Reddit /r/ergomechkeyboards](https://www.reddit.com/r/ErgoMechKeyboards/comments/1micni6/split_keyboard_recessed_into_custom_cnc_desktop/)
+- [Bluesky](https://bsky.app/profile/peterlyons.com/post/3lvo6s454rk27)
+
 ## Full Photo Gallery of Build Process
 
 {{ flickr(user="focusaurus" set="72177720328157156" title="Desktop CNC") }}
