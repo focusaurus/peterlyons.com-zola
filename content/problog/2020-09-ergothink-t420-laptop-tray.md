@@ -62,7 +62,6 @@ I'm planning a writing retreat later this month so this setup should get a lot o
 
 The icing on this cake was sort of a surprise. I can leave the whole tray/rig set up, place it on my desk, and it works fine there too. So this will replace the custom stand I built earlier and all I do to "undock" from the desk is disconnect the power cable and carry the tray away.
 
-
 ## Build Photo Gallery
 
-{{ flickr(user="88096431@N00", set="72157715909104048") }}
+{{ flickr(user="focusaurus" set="72157715909104048" title="ErgoThink Build") }}
