@@ -26,7 +26,7 @@ The easiest data I have at hand is my git repo of .FCStd FreeCAD project files. 
   - sun umbrella housing
   - bed frame bolt spacer replacement
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/53781052165_5070499340_b.jpg" caption="antique wash basin lplug I duplicated") }}
+{{ figureflickr(url="https://live.staticflickr.com/65535/53781052165_5070499340_b.jpg" caption="antique wash basin plug I duplicated") }}
 
 ## earliest projects
 
