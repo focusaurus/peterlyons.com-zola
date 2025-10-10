@@ -2,7 +2,7 @@
 title = "Catalog of Custom 3D Prints"
 slug = "2025/10/catalog-of-custom-3d-prints/"
 date = 2025-10-10T18:27:36Z
-draft = false
+image = "https://live.staticflickr.com/65535/53781052165_5070499340_b.jpg"
 +++
 
 I felt a need to review all the custom CAD projects I've done and write up something about them. Many of them are trivial and don't warrant any online posts or even sharing the models. But I knew I had done many, many of these and I wanted to survey them and look at patterns, skill building, actual utility, etc.
