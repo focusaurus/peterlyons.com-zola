@@ -2,6 +2,7 @@
 title = "Catalog of Custom 3D Prints"
 slug = "2025/10/catalog-of-custom-3d-prints/"
 date = 2025-10-10T18:27:36Z
+[extra]
 image = "https://live.staticflickr.com/65535/53781052165_5070499340_b.jpg"
 +++
 
