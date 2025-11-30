@@ -17,4 +17,5 @@ cd "$(dirname "${BASH_SOURCE[0]}")/.."
 if  ! command -v mise >/dev/null; then
   curl https://mise.run | sh
 fi
+mise install
 mise run build
