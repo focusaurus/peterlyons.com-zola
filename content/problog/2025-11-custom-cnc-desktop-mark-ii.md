@@ -34,6 +34,12 @@ I did a roundover on the edge to hopefully make it a bit more durable against di
 
 Even though the desktop overall is thinner, I had a bigger depth to work with for the keyboard recess, so they are recessed quite a bit deeper such that most of the keycaps are below the desktop surface. Only the tilted angle keycaps stick out of the recess by a tiny bit at their tips.
 
+## Ergonomics and typing video
+
+Here's videos of me typing at the desk both seated and standing.
+
+{{ youtube(id="ZYG5xPfSfRE") }}
+
 ## Failures
 
 I did a CNC attempt with 1/2" plywood. It did not cut well due to layers wanting to chip and splinter. That model had the cable channels too deep and the bottom of them too thin, so there was huge chunks that just exploded out entirely during CNC and it was an irrecoverable failure. After that I decided to go back to MDF which mills very consistently and nicely.
