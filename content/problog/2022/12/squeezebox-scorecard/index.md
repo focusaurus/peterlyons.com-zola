@@ -3,7 +3,7 @@ title = "Squeezebox Scorecard"
 slug = "2022/12/squeezebox-scorecard/"
 date = 2022-12-03T16:03:27Z
 [extra]
-image = "https://live.staticflickr.com/65535/51794829056_c6ba224f61_c_d.jpg"
+image = "https://photos.peterlyons.com/2022/2022-01-02-01FRDM8WYG13R9WRF9REBXNM67.2048.jpg"
 +++
 
 This article was written for the [Keyboard Builder's Digest Advent Calendar](https://kbd.news/Squeezebox-Scorecard-1763.html). I'm posting it to my blog below as well.

@@ -3,7 +3,7 @@ title = "ErgoThink T420 Laptop Tray"
 slug = "2020/09/ergothink-t420-laptop-tray/"
 date = 2020-09-10T01:23:21Z
 [extra]
-image = "https://live.staticflickr.com/65535/50321483183_211095416a_c.jpg"
+image = "https://photos.peterlyons.com/2020/2020-09-08-01EHQSTED8R68CKYDMQJG0P5A9.2048.jpg"
 +++
 
 Last weekend I built a custom laptop tray design to fit my ThinkPad T480 laptop, my ergodox split keyboard, and my vertical mouse comfortably on my lap. We did 3 rounds of build/prototypes and I'm really happy with the one we have.
