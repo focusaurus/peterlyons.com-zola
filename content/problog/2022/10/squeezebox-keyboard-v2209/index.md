@@ -3,14 +3,14 @@ title = "Squeezebox Keyboard v2209"
 slug = "2022/10/squeezebox-keyboard-v2209/"
 date = 2022-10-13T13:33:05Z
 [extra]
-image = "https://live.staticflickr.com/65535/52425839899_cec326592e_c_d.jpg"
+image = "https://photos.peterlyons.com/2022/2022-10-13-01GF8ZHBARS1ASF66RKJV9NS7S.2048.jpg"
 +++
 
 I have completed a new revision of the Squeezebox Keyboard - v2209.
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/52425839899_cec326592e_c_d.jpg" caption="Side view of Squeezebox v2209") }}
+{{ figureplop(url="https://photos.peterlyons.com/2022/2022-10-13-01GF8ZHBARS1ASF66RKJV9NS7S.2048.jpg" caption="Side view of Squeezebox v2209") }}
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/52425839999_bcbcd35d8e_c_d.jpg" caption="Top view") }}
+{{ figureplop(url="https://photos.peterlyons.com/2022/2022-10-13-01GF8ZJX4GTE0H8RV1BE3V7CAA.2048.jpg" caption="Top view") }}
 
 ## Some quick project history checkpoints
 
@@ -42,7 +42,7 @@ The previous build, v2112, has been my daily driver since February 2022. The bui
 
 Below I'll outline the various goals I had for the v2209 revision.
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/52215574173_4c6e59d525_c_d.jpg" caption="Full set of 3D printed parts prior to assembly") }}
+{{ figureplop(url="https://photos.peterlyons.com/2022/2022-07-13-01G7WMERKGG9Y7KR208A7BX0AC.2048.jpg" caption="Full set of 3D printed parts prior to assembly") }}
 
 ### No inner reach column for index fingers
 
@@ -56,15 +56,15 @@ I noticed a similar issue when I had to reach for the top switch on my pinky col
 
 Now that I had experience successfully slicing about 1/3 of the material off of a Kailh Choc switch (the bits dealing with LEDs), I wanted to incorporate that into the main keywell so I could fit 4 keys under a finger and have them be easy to reach.
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/52334301890_06d67c7d76_c_d.jpg" caption="Chopping a choc mini with a rotary tool") }}
+{{ figureplop(url="https://photos.peterlyons.com/2022/2022-09-04-01GC477TNGNM0H4Y3QS3R6MPE8.2048.jpg" caption="Chopping a choc mini with a rotary tool") }}
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/52332918557_80925ababb_c_d.jpg" caption="Chopped choc showing the cut") }}
+{{ figureplop(url="https://photos.peterlyons.com/2022/2022-09-04-01GC47DP5GB9S4N4PG1ASFWVWE.2048.jpg" caption="Chopped choc showing the cut") }}
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/52333871531_935f86facd_c_d.jpg" caption="Mounted in a 1x4 keywell") }}
+{{ figureplop(url="https://photos.peterlyons.com/2022/2022-09-04-01GC488GJ860KBWVZAYVJZ8RQR.2048.jpg" caption="Mounted in a 1x4 keywell") }}
 
 (Dearest Internet Commenters: Safety Goggles were worn during the operation of this power tool. Chill.)
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/focusaurus/52347171567/in/datetaken/" title="Chopping a Choc Mini keyboard switch"><img src="https://live.staticflickr.com/31337/52347171567_655306a25f_c.jpg" width="800" height="450" alt="Chopping a Choc Mini keyboard switch"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+{{ figureplop(url="https://photos.peterlyons.com/2022/2022-09-10-01GCM02368VXFYZW6E2F902RD8.2048.mov" caption="Chopping a Choc Mini keyboard switch") }}
 
 ### Choc Minis for shorter actuation travel
 
@@ -74,17 +74,17 @@ I still am searching for the shortest available actuation travel. The discord co
 
 I added some simple bolted strain relief bars to the keywells. These actually work great despite being dead simple. Pulling on the wires won't break the solder joints. Really pleased with these.
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/52335971002_172e3ddef5_c_d.jpg" caption="Strain relief bar on the wiring") }}
+{{ figureplop(url="https://photos.peterlyons.com/2022/2022-09-05-01GC7310X0NBYGS02F3ZVQ38SP.2048.jpg" caption="Strain relief bar on the wiring") }}
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/52348366623_8c75b4eb29_c_d.jpg" caption="Wires running through strain relief and heatshrink tubing terminating in a DuPont jumper connector") }}
+{{ figureplop(url="https://photos.peterlyons.com/2022/2022-09-10-01GCKYBWT82BDE1QJBS2C9KWR6.2048.jpg" caption="Wires running through strain relief and heatshrink tubing terminating in a DuPont jumper connector") }}
 
 ### New Tenting Mount
 
 Using v2112, I got tired of the camera z-stands wanting to slide around on the desk, so I built a wooden stand for them. I carried this idea forward but I wanted to 3D print more of it and just have a single flat board be the bulky wood part. So I designed some 80° tenting mounts and assembly such that they can screw onto the stand and the Squeezebox bottom case can bolt onto them with 1/4-20 bolts. I also printed some bolt hex handles so the bolts can be tightened by hand without a wrench.
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/52337229519_1a5ab5e2e3_c_d.jpg" caption="Bottom box with mounting bolts and magnets") }}
+{{ figureplop(url="https://photos.peterlyons.com/2022/2022-09-05-01GC6QQNDRPP75K40WHKRG34QA.2048.jpg" caption="Bottom box with mounting bolts and magnets") }}
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/52337355595_6e88a465ff_c_d.jpg" caption="Mounted onto the stand") }}
+{{ figureplop(url="https://photos.peterlyons.com/2022/2022-09-05-01GC6TGM3GZFMAWPNDPVFQR0TM.2048.jpg" caption="Mounted onto the stand") }}
 
 ### Printed Circuit Board
 
@@ -94,7 +94,7 @@ I didn't know anything about PCB design or KiCAD. As I sat down to learn and sta
 
 With just a few exchanges on discord, we found a layout that would fit comfortably in the Squeezebox case and account for clearances we need for the adjustment bolts, cables connecting to the PCB, etc. Petr was also able to make it such that each keywell could connect to single row of pin headers meaning the cables would be so tidy and a standard DuPont jumper wire housing would easily fit through the slot to get to the interior of the case.
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/52371219394_9d16bca79e_c_d.jpg" caption="4 keywells plus the thumb cluster mounted to the slot box with cables routed to inside the case") }}
+{{ figureplop(url="https://photos.peterlyons.com/2022/2022-09-18-01GD8Y9QD8R71K52R2RD6VPPAM.2048.jpg" caption="4 keywells plus the thumb cluster mounted to the slot box with cables routed to inside the case") }}
 
 This was such an exciting and fun development! It saved me months of learning and skill building. And from there I got another unexpected and very pleasant gift from other enthusiasts on the Internet...
 
@@ -107,7 +107,7 @@ This was such an exciting and fun development! It saved me months of learning an
 
 Thanks PCBWay and Petr Viktorin! The boards look great, fit in the case perfectly, and work great.
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/52424619192_8bf0c340fe_c_d.jpg" caption="Custom MatrixBar PCB with pin headers, diodes, and MCU sockets") }}
+{{ figureplop(url="https://photos.peterlyons.com/2022/2022-10-13-01GF8K4G3R0PXPR6J9EYDGX5PA.2048.jpg" caption="Custom MatrixBar PCB with pin headers, diodes, and MCU sockets") }}
 
 ### New Case Approach
 
@@ -115,7 +115,7 @@ The PCB enabled me to put all the electronics into the top case, which I call th
 
 The main driver for this was v2112 had a box w/ lid design where the lid bolts to the box with 4 m3 bolts. This is somewhat tedious to remove all the bolts to make an adjustment, so I wanted something easier. The new design is way easier: I can just grab it and remove it without undoing any fasteners, but it is noticeably jankier where the bolts were rock solid. I'm not convinced this is an improvement overall and probably need another iteration to find something that really delivers here.
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/52425585405_3b2e4ea088_c_d.jpg" caption="Case halves show open") }}
+{{ figureplop(url="https://photos.peterlyons.com/2022/2022-10-13-01GF8KBBV01409GR1KTYMRN1SC.2048.jpg" caption="Case halves show open") }}
 
 ## What about keymaps? (engram)
 
