@@ -1,0 +1,111 @@
+{% set page_dir = page.relative_path | replace(from="index.md", to="") | trim_end_matches(pat="/") %}
+{% set full_path = "content/" ~ page_dir ~ "/" ~ path %}
+{% set photos = load_data(path=full_path) %}
+<div class="plop-album">
+  <figure class="album-viewer">
+    <img class="album-photo" src="" alt="">
+  </figure>
+  <div class="album-controls">
+    <button class="album-btn album-prev" aria-label="Previous photo">&larr; Prev</button>
+    <span class="album-counter"></span>
+    <button class="album-btn album-next" aria-label="Next photo">Next &rarr;</button>
+  </div>
+  <figcaption class="album-caption"></figcaption>
+
+  <script>
+    (function() {
+      // Load photos from JSON data
+      const photos = {{ photos | json_encode() | safe }};
+
+      // Get the current script's parent album container to scope queries
+      const currentScript = document.currentScript;
+      const albumContainer = currentScript.closest('.plop-album');
+
+      let currentIndex = 0;
+      const imgEl = albumContainer.querySelector('.album-photo');
+      const captionEl = albumContainer.querySelector('.album-caption');
+      const counterEl = albumContainer.querySelector('.album-counter');
+      const prevBtn = albumContainer.querySelector('.album-prev');
+      const nextBtn = albumContainer.querySelector('.album-next');
+
+      function showPhoto(index) {
+        const photo = photos[index];
+        imgEl.src = photo.url;
+        imgEl.alt = photo.caption || '';
+
+        if (photo.caption) {
+          captionEl.textContent = photo.caption;
+          captionEl.style.display = 'block';
+        } else {
+          captionEl.style.display = 'none';
+        }
+
+        counterEl.textContent = `${index + 1} / ${photos.length}`;
+
+        prevBtn.disabled = index === 0;
+        nextBtn.disabled = index === photos.length - 1;
+      }
+
+      prevBtn.addEventListener('click', function() {
+        if (currentIndex > 0) {
+          currentIndex--;
+          showPhoto(currentIndex);
+        }
+      });
+
+      nextBtn.addEventListener('click', function() {
+        if (currentIndex < photos.length - 1) {
+          currentIndex++;
+          showPhoto(currentIndex);
+        }
+      });
+
+      // Keyboard navigation only works when this album is focused/hovered
+      let isActive = false;
+
+      albumContainer.addEventListener('mouseenter', function() {
+        isActive = true;
+      });
+
+      albumContainer.addEventListener('mouseleave', function() {
+        isActive = false;
+      });
+
+      document.addEventListener('keydown', function(e) {
+        if (!isActive) return;
+
+        if (e.key === 'ArrowLeft' && currentIndex > 0) {
+          currentIndex--;
+          showPhoto(currentIndex);
+        } else if (e.key === 'ArrowRight' && currentIndex < photos.length - 1) {
+          currentIndex++;
+          showPhoto(currentIndex);
+        }
+      });
+
+      imgEl.addEventListener('click', function(e) {
+        const rect = imgEl.getBoundingClientRect();
+        const clickY = e.clientY - rect.top;
+        const midpoint = rect.height / 2;
+
+        if (clickY < midpoint) {
+          // Clicked top half - go to next
+          if (currentIndex < photos.length - 1) {
+            currentIndex++;
+            showPhoto(currentIndex);
+          }
+        } else {
+          // Clicked bottom half - go to previous
+          if (currentIndex > 0) {
+            currentIndex--;
+            showPhoto(currentIndex);
+          }
+        }
+      });
+
+      if (photos.length > 0) {
+        showPhoto(0);
+      }
+    })();
+  </script>
+</div>

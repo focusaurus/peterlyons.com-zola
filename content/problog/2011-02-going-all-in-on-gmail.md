@@ -1,6 +1,0 @@
-+++
-title = "Going all in on gmail"
-slug = "2011/02/going-all-in-on-gmail/"
-date = 2011-02-10T13:13:50.000Z
-+++
-So somewhere in college around 2000 I started running my own IMAP mail server and storing my own mail. Around 2007 I got tired of fighting the spam battle and switched to gmail. I migrated some of my current messages into gmail using IMAP, but I didn't want to dump everything in there. Today I realized I no longer have convenient access to those messages sitting in mbox format files on the linux laptop I rarely use anymore, so I hooked Thunderbird up to gmail and dragged my mail archives into gmail. That was about 12,000 messages between 2000 and 2007\. Now it's all in one happy, searchable, spam-free place. As long as Google doesn't spontaneously disappear gmail, I should be in good shape.

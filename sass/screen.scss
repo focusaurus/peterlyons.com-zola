@@ -9,7 +9,7 @@ body {
   color: $colorPrimary;
 }
 button {
-  background-color: $colorCodeBackground;
+  background-color: $colorOddRow;
   color: $colorCode;
   border-color: $colorCode;
   border-radius: 0.4em;
@@ -93,3 +93,4 @@ pre {
 @import "projects";
 @import "js-debug";
 @import "youtube";
+@import "plopalbum";
