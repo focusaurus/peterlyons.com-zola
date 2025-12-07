@@ -176,11 +176,6 @@ No surprises here.
 
 {{ figureplop(url="https://photos.peterlyons.com/2024/2024-04-20-01HVY58K8R9N0Q53DSS4BP1BBB.2048.jpg" caption="right side bottom with diodes and hotswap sockets soldered") }}
 
-## Right side MCU pin headers
-
-No surprises here. Buttons face up.
-
-{{ figureflickr(url="" caption="") }}
 ## Right side MCU jumper pads
 
 You will solder the MCU footprint jumper pads on the TOP RIGHT side. This is essentially "the same" as the left side, but it's tricky so I want to be clear about this.
