@@ -166,4 +166,4 @@ Getting the main finger columns laid out right was really tricky. I was just lea
 
 Uh, there are over 150 photos here. If you want to scan them more easily click through to open the gallery on a full flickr gallery page.
 
-{{ flickr(set="72157718972223577" user="focusaurus" title="Squeezebox Keyboard Full Build") }}
+{{ plopalbum(path="index-72157718972223577.pa.json") }}
