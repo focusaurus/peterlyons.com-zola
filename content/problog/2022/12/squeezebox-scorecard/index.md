@@ -14,7 +14,7 @@ In this article I'll review some of the design experiments I've conducted in my 
 
 ## The scooped column: 3 switches at 100° & 160° angles
 
-![](https://live.staticflickr.com/65535/51794829056_c6ba224f61_c_d.jpg)
+![](https://photos.peterlyons.com/2022/2022-01-02-01FRDM8WYG13R9WRF9REBXNM67.2048.jpg)
 
 This is probably the most fundamental idea that drove me to build the squeezebox. I played saxophone most of my life and it can be played very fast and accurately using primarily the pads of the fingers in a trigger motion, not the points of the fingers in a typing motion. I thought these should be combined with the pad resting on one "home corner" switch and the point resting on another switch, either of which could be pressed without moving the hand or the base knuckle.
 
@@ -22,7 +22,7 @@ This is probably the most fundamental idea that drove me to build the squeezebox
 
 ## The home corner 1-finger chord
 
-![Chording the pinkie corner on v2104](https://live.staticflickr.com/65535/51121581751_c2d10767b8_c_d.jpg)
+![Chording the pinkie corner on v2104](https://photos.peterlyons.com/2021/2021-04-17-01F3FY53HGBS7XN9Q87F94MBX1.2048.jpg)
 
 By poking at the corner between row 1 and 2, both keys could be chorded down with a single finger.
 
@@ -30,7 +30,7 @@ By poking at the corner between row 1 and 2, both keys could be chorded down wit
 
 ## Type directly on choc stems without keycaps
 
-![v2112 with capless choc red switches](https://live.staticflickr.com/65535/51793880727_cb0dcb5314_c_d.jpg)
+![v2112 with capless choc red switches](https://photos.peterlyons.com/2022/2022-01-02-01FRDKZK38WS6FDSGM3HNCJ9Q8.2048.jpg)
 
 This was not really a design intention, it was just a kludge/shrug that fell out of early prototyping of the scooped column where tight spacing made it impossible to fit keycaps in and get the corner mechanics that I wanted.
 
@@ -38,7 +38,7 @@ This was not really a design intention, it was just a kludge/shrug that fell out
 
 ## Mechanical adjustments with slots and bolts for tailor fit
 
-![prototype with slots for adjustment](https://live.staticflickr.com/65535/51775200038_e0f23ff550_c_d.jpg)
+![prototype with slots for adjustment](https://photos.peterlyons.com/2021/2021-12-25-01FQRVCCA8YR0GR971N30XVSWS.2048.jpg)
 
 I wanted to adjust the column offset near/far on a per-finger basis and be able to adjust fit without reprinting any parts or rebuilding any wiring. Early prototypes had the slots on the keywells and later slots were moved to the base plate instead.
 
@@ -52,7 +52,7 @@ Hypothesis was that each column should be adjusted with fine granularity to fit 
 
 ## Custom column height for each finger
 
-![Posts for custom height on a prototype](https://live.staticflickr.com/65535/51752891243_e9a684ab53_c_d.jpg)
+![Posts for custom height on a prototype](https://photos.peterlyons.com/2021/2021-12-17-01FQ3VM6CGFBSS9NHPES2ARK0C.2048.jpg)
 
 The hypothesis was that each column should have a finely tuned height to exactly fit each finger's natural resting position.
 
@@ -60,7 +60,7 @@ The hypothesis was that each column should have a finely tuned height to exactly
 
 ## Height adjustment with threaded bolt
 
-![Post with threaded bolt and captured nut](https://live.staticflickr.com/65535/51987395008_755ba197b2_c_d.jpg)
+![Post with threaded bolt and captured nut](https://photos.peterlyons.com/2022/2022-04-06-01FZZ88HK0375WXWYHDGSFGF63.2048.jpg)
 
 The hypothesis was each keywell could sit atop a post incorporating a nut and bolt such that by twisting the post you could easily adjust the height.
 
@@ -68,7 +68,7 @@ The hypothesis was each keywell could sit atop a post incorporating a nut and bo
  
 ## Per-finger granular splay tailor fit
 
-![Side view showing splay angles](https://live.staticflickr.com/65535/51795562065_6330352227_c_d.jpg)
+![Side view showing splay angles](https://photos.peterlyons.com/2022/2022-01-02-01FRDJ60AGX3RVXRN40HMNREAP.2048.jpg)
 
 The hypothesis was as the fingers extend, each column should closely follow the natural splay angle.
 
@@ -82,7 +82,7 @@ The hypothesis was iteration will be faster and cheaper and easier to motivate w
 
 ## Mechanical adjustments with magnets on a steel plate
 
-![The prototype with magnets and steel base plate](https://live.staticflickr.com/65535/51220842258_4898c6ce4a_c_d.jpg)
+![The prototype with magnets and steel base plate](https://photos.peterlyons.com/2021/2021-06-02-01F75PW0JREN5A3RFN4KP017TA.2048.jpg)
 
 The hypothesis was granular adjustment of keywell position across both axes of a base plate can be achieved by each keywell having strong magnets in the base and mounting them on a steel base plate.
 
@@ -90,7 +90,7 @@ The hypothesis was granular adjustment of keywell position across both axes of a
 
 ## Chopped chocs for tighter spacing
 
-![2x3 column with chopped chocs for tight spacing side to side](https://live.staticflickr.com/65535/52006321464_2bbc001d2d_c_d.jpg)
+![2x3 column with chopped chocs for tight spacing side to side](https://photos.peterlyons.com/2022/2022-04-14-01G0N048Z8520RYBEX4G6J8MQ9.2048.jpg)
 
 I observed that even the smallest commercially-available switches seemed too far apart for my aspirations. I learned on discord that at least 30% of the area of a choc is non-essential space for housing a LED. That section of the switch can be cut off and the switch will still work fine. I did not invent this approach and probably never would have thought to do so. I learned about this on discord from others who had already pioneered it.
 
@@ -100,7 +100,7 @@ The hypothesis was to adopt this technique to pack switches closer together. Thi
 
 ## Wide split (shoulder width)
 
-![v2209 with wide split stand](https://live.staticflickr.com/65535/52425745766_2075bdffa8_c_d.jpg)
+![v2209 with wide split stand](https://photos.peterlyons.com/2022/2022-10-13-01GF95JGZ8W92CG3JEAQWNG1AK.2048.jpg)
  
 The hypothesis of split keyboards: put them further apart.
 
@@ -108,7 +108,7 @@ The hypothesis of split keyboards: put them further apart.
 
 ## Steep tent (80°)
 
-![v2112 with steep tenting on Z camera stands](https://live.staticflickr.com/65535/51795197039_71c6052eb0_c_d.jpg)
+![v2112 with steep tenting on Z camera stands](https://photos.peterlyons.com/2022/2022-01-02-01FRDM0AH8FCXK7Y0XF856JP05.2048.jpg)
 
 The hypothesis is that hands should be turned with palms facing inward, similar to how they are when resting at your side while standing and relaxing. This reduces ulnar rotation and is a straighter path for muscles and tendons when compared to traditional position with palms down facing the desktop surface.
 
@@ -126,7 +126,7 @@ I'm thinking about trying to go back to flat on the desk as long as the ulnar ro
 
 ## Low activation distance
 
-![A prototype with mouse switches](https://live.staticflickr.com/65535/52059852816_85b179150b_c_d.jpg)
+![A prototype with mouse switches](https://photos.peterlyons.com/2022/2022-05-07-01G2G1NVD8EZFS76N2C7NG5Q10.2048.jpg)
 
 Hypothesis is that (warning: keeb heresy) laptop keyboards with their low activation distance and solid bottom out are better for me to type on. Chocs are better than MX, and choc minis are a teensy bit better than that even, but I still want even lower. On choc minis I still push the switch thinking it typed, but didn't press down far enough and it doesn't actuate.
 
@@ -134,7 +134,7 @@ I did some prototyping with mouse switches and plan to continue some more in the
 
 ## The scooped column: 4 switches at 100° & 160° angles
 
-![A 1x4 scooped column prototype](https://live.staticflickr.com/65535/52166222291_22608936c7_c_d.jpg)
+![A 1x4 scooped column prototype](https://photos.peterlyons.com/2022/2022-06-22-01G666S8XR6RYX44RY20DQSPRP.2048.jpg)
 
 The motivation came out of daily driver work on v2112 noticing my index reaching for the innermost column was throwing my hand off position and causing de-homing and typos. The hypothesis is that each finger should stay in exactly one column and never reach across to a neighbor column. I've eliminated the outermost pinky reach column from my builds since just after v2112, but the innermost index column remains on my daily driver setup still.
 
@@ -142,14 +142,14 @@ The challenge is once you remove that column, you get deep into obscure layout l
 
 I have a prototype build and mapped with a variation on the [engram layout](https://engram.dev).
 
-![v2209 key layout](https://live.staticflickr.com/65535/52426072108_4e8c51871b_c_d.jpg)
+![v2209 key layout](https://photos.peterlyons.com/2022/2022-10-13-01GF8ZG85RM2HVAB52VC82EMZY.2048.jpg)
 
 **Results**: I am still practicing and learning the engram layout, so no true results yet, but likely will be fine for index and middle but not ring nor pinky. 
 
 
 ## Hand wiring on columns to PCB inside the case
 
-![Inside of case with column cables wired to the PCB](https://live.staticflickr.com/65535/52401298334_2677008e7e_c_d.jpg)
+![Inside of case with column cables wired to the PCB](https://photos.peterlyons.com/2022/2022-10-02-01GECWB4XG1SV6JWBY2K882CCG.2048.jpg)
 
 The challenge here is the scooped columns don't really work with flat PCBs. They make flexible PCBs which BastardKB incorporates nicely, but I'm mostly at too early stages of prototyping to wait for flexible PCB iterations, so I have gotten by with hand wiring so far. Early builds were wired straight to the MCU and only recently have I added a small PCB to help tidy things up.
 

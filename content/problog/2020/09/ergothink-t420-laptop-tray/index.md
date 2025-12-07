@@ -36,7 +36,7 @@ So Saturday we did another version this time out of 1/2" plywood for everything.
 - Cut that in half
 - On the table saw sled with the blade quite high, hog out the interior of the "C" shape and do test fits until sneaking up on a nice fit for the laptop.
 
-![v1 prototype](https://live.staticflickr.com/65535/50307335547_15edf769cf_c.jpg)
+![v1 prototype](https://photos.peterlyons.com/2020/2020-09-03-01EHAV7T60C3X2ZPF2NJ9YAYS5.2048.jpg)
 
 We didn't get the construction fully dialed until v3 but once we did it's a good balance of easy to put the laptop in and take it out, but it's stable in use and also if you are walking around carrying the tray with you.
 
@@ -44,7 +44,7 @@ We didn't get the construction fully dialed until v3 but once we did it's a good
 
 v2 was much better but I wanted another crack at the laptop slots and a much smoother mouse area, so the next day we made v3 out of nice baltic birch plywood and sanded most surfaces at 80, 120, and 240 grit to get really smooth surfaces.
 
-![v2 prototype](https://live.staticflickr.com/65535/50319075411_dc737b0b52_c.jpg)
+![v2 prototype](https://photos.peterlyons.com/2020/2020-09-06-01EHHK9EGG739N9SRK424J61AR.2048.jpg)
 
 I bought the smallest hinges they sell at Lowe's and made some collapsible keyboard tenting supports. These ended up feeling really stable and solid.
 
@@ -52,7 +52,7 @@ I bought the smallest hinges they sell at Lowe's and made some collapsible keybo
 
 The gap between the ergodox and the laptop is small. Not even 2", so with the TRRS and USB cables coming out of the ergodox in that direction, they were feeling and looking cramped. I found a 9" TRRS cable with 90 degree connectors that fit the space perfectly and also a 6" mini USB to USB A 90-degree cable so now everything has just a tiny bit of slack so they can be comfortably connected and disconnected but are so well-sized that they don't dangle down onto the tray at all and have no need for coiling or cable management of any kind.
 
-![over shoulder view](https://live.staticflickr.com/65535/50321483183_211095416a_c.jpg)
+![over shoulder view](https://photos.peterlyons.com/2020/2020-09-08-01EHQSTED8R68CKYDMQJG0P5A9.2048.jpg)
 
 ## Putting it to Use
 
