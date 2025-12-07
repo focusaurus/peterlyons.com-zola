@@ -52,4 +52,4 @@ Feel free to comment, share, upvote, engage your little hearts out!
 
 ## Full Photo Gallery of Build Process
 
-{{ flickr(user="focusaurus" set="72177720328157156" title="Desktop CNC") }}
+{{ plopalbum(path="index-72177720328157156.pa.json") }}

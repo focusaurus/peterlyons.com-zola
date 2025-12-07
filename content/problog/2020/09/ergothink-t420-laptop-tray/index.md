@@ -64,4 +64,4 @@ The icing on this cake was sort of a surprise. I can leave the whole tray/rig se
 
 ## Build Photo Gallery
 
-{{ flickr(user="focusaurus" set="72157715909104048" title="ErgoThink Build") }}
+{{ plopalbum(path="index-72157715909104048.pa.json") }}
