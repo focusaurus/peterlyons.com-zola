@@ -8,7 +8,7 @@
 <div class="posts">
   {% for page in section.pages %}
   <div class="post">
-    <a href="/{{ page.components[0] | safe }}/{{ page.slug | safe }}" class="postTitle">{{ page.title }}</a>
+    <a href="{{ page.path | safe }}" class="postTitle">{{ page.title }}</a>
     <span class="postDate">{{ page.date | date(format="%B %d, %Y") }} </span>
   </div>
   {% endfor %}
