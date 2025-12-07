@@ -1,6 +1,5 @@
 +++
 title = "Focus Retreat Center Programming Retreat"
-slug = "2022/06/focus-retreat-center-programming-retreat/"
 date = 2022-06-28T00:00:00Z
 +++
 

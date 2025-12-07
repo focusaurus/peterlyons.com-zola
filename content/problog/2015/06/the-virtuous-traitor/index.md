@@ -1,6 +1,5 @@
 +++
 title = "The Virtuous Traitor"
-slug = "2015/06/the-virtuous-traitor/"
 date = 2015-06-29T02:38:19.317Z
 +++
 I was just reading some articles and comment threads debating the issue of `git merge` verses `git rebase`. I think it's a good case study for a decision-making methodology of actually trying both sides. I think outside of software development, the cost of trying both sides of a debate can be high in terms of time, effort, and money. Let's say hypothetically there are several competing theories of long-term crop management for farmers. It would take many years, lots of technical know-how, and lots of dedication to split a large farm into portions, each serving as a guinea pig for a particular crop management technique. However, in software development, many of these techniques can easily be tried on some small/fast basis like a side project, a particular feature, etc.

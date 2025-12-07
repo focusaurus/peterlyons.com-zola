@@ -1,6 +1,5 @@
 +++
 title = "Staff Engineer Solver Archetype"
-slug = "2021/03/staff-engineer-solver-archetype/"
 date = 2021-03-23T01:12:49Z
 +++
 

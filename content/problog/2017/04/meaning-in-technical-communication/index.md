@@ -1,6 +1,5 @@
 +++
 title = "Meaning in Technical Communication"
-slug = "2017/04/meaning-in-technical-communication/"
 date = 2017-04-25T15:59:59.249Z
 +++
 Just a quick tip to be on the lookout for commonly-used words in technical discussions that are problematic due to being low on meaning and high on emotional weight. Watch out for:

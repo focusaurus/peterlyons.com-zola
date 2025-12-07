@@ -1,6 +1,5 @@
 +++
 title = "Web Framework Woes"
-slug = "2011/07/web-framework-woes/"
 date = 2011-07-05T23:10:46.000Z
 +++
 So my attitude for most of this year has been one of reserving judgement in favor of direct experience. As part of this, I have been trying all the latest "Kool-Aid" web development technologies even if at first glance they didn't sit right with me. So I started building the [Othenticate](http://othenticate.com) infrastructure on a shiny stack of mongodb, node.js, express, mongoose, jade, and stylus. For the most part, I love this stack. However, after I while I have come to the conclusion that for a micropreneur project such as mine, traditional RDBMS (PostgreSQL) is going to be more appropriate than dealing with the trade-offs that NoSQL is making. I won't need to scale to millions of objects, and I want ACID, a schema, and mature tools at the data layer. So I've decided I want to use PostgreSQL instead of MongoDB. However, along with this came the realization that it seems that there is no mature Object-Relational Mapper (ORM) on the node stack for PostgreSQL. There also does not seem to be a mature schema migration framework. Basically all of the other elements of the node stack are fantastic to work with, but these two might just be deal breakers for me.

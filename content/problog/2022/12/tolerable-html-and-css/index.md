@@ -1,6 +1,5 @@
 +++
 title = "Tolerable HTML and CSS"
-slug = "2022/12/tolerable-html-and-css/"
 date = 2022-12-07T01:17:26Z
 +++
 

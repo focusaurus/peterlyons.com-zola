@@ -1,6 +1,5 @@
 +++
 title = "versiona non grata"
-slug = "2025/06/versiona-non-grata/"
 date = 2025-06-06T01:28:31Z
 +++
 

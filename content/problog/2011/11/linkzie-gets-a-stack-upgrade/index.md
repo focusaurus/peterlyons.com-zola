@@ -1,6 +1,5 @@
 +++
 title = "Linkzie gets a stack upgrade"
-slug = "2011/11/linkzie-gets-a-stack-upgrade/"
 date = 2011-11-24T08:17:08.000Z
 +++
 So [Linkzie](https://linkzie.com) has had a nice series of updates to the underlying software that runs it.  It's now pretty much bleeding edge latest and greatest.

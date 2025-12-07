@@ -1,6 +1,5 @@
 +++
 title = "Tips for Switching from Linux to Mac"
-slug = "2024/07/tips-for-switching-from-linux-to-mac/"
 date = 2024-07-20T13:51:11Z
 +++
 

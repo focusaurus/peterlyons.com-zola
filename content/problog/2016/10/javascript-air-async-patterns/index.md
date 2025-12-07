@@ -1,6 +1,5 @@
 +++
 title = "JavaScript Air Async Patterns"
-slug = "2016/10/javascript-air-async-patterns/"
 date = 2016-10-12T18:47:16.966Z
 +++
 I just had the pleasure of being a guest on the [JavaScript Air](https://javascriptair.com/episodes/2016-10-12/) podcast/screencast. It's episode 044 "Async Patterns in JavaScript".

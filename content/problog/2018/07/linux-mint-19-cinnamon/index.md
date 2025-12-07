@@ -1,6 +1,5 @@
 +++
 title = "Linux Mint 19 Cinnamon"
-slug = "2018/07/linux-mint-19-cinnamon/"
 date = 2018-07-04T19:48:31.862Z
 +++
 ## xfce4 problems

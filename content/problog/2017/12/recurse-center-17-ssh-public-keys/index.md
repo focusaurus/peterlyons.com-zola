@@ -1,6 +1,5 @@
 +++
 title = "Recurse Center 17: ssh public keys"
-slug = "2017/12/recurse-center-17-ssh-public-keys/"
 date = 2017-12-05T01:48:47.759Z
 +++
 This morning I paired on figuring out the structure of rsa private keys which was much easier since someone already wrote [detailed documentation](https://etherhack.co.uk/asymmetric/docs/rsa_key_breakdown.html) with fabulous color-coded binary structures. So mostly we just needed to figure out specifically what is meant when someone says "this is a 1024-bit rsa key". The answer is it's the size of the *modulus* field.

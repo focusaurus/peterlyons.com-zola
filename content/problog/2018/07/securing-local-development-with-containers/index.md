@@ -1,6 +1,5 @@
 +++
 title = "Securing local development with containers"
-slug = "2018/07/securing-local-development-with-containers/"
 date = 2018-07-13T08:36:01.017Z
 +++
 Starting this Spring when I changed OSes from mac to linux, I decided to experiment with using docker containers to isolate dangerous development tools from my local system. Given the npm malware attack yesterday, this seems like a good time to write up my results so far.

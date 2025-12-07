@@ -1,6 +1,5 @@
 +++
 title = "Available for Consulting"
-slug = "2018/01/available-for-consulting/"
 date = 2018-01-03T17:32:11.280Z
 +++
 I have availability for new consulting engagements this year. 

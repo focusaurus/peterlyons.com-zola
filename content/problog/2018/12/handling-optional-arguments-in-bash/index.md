@@ -1,6 +1,5 @@
 +++
 title = "Handling optional arguments in bash"
-slug = "2018/12/handling-optional-arguments-in-bash/"
 date = 2018-12-19T22:31:37.558Z
 +++
 I learned a nice way of using bash arrays to hold command line arguments that are conditional or will be computed before passing as arguments to a separate program. 

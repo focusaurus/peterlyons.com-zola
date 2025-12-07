@@ -1,6 +1,5 @@
 +++
 title = "Web Site Overhaul"
-slug = "2014/02/web-site-overhaul/"
 date = 2014-02-20T15:24:48.429Z
 +++
 I'm back in consulting mode these days, so I went and spruced up the web site a bit. You'll find mostly the same content, but there's a new design featuring improved typography and a slicker adaptive design for those small screens we tote around everywhere.

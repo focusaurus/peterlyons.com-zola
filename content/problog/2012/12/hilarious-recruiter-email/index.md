@@ -1,6 +1,5 @@
 +++
 title = "Hilarious Recruiter Email"
-slug = "2012/12/hilarious-recruiter-email/"
 date = 2012-12-12T21:49:52.792Z
 +++
 Here is the full text of a recruiter email I received today.

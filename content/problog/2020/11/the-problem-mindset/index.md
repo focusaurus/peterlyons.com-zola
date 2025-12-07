@@ -1,6 +1,5 @@
 +++
 title = "The Problem Mindset"
-slug = "2020/11/the-problem-mindset/"
 date = 2020-11-28T18:32:03Z
 +++
 

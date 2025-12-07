@@ -1,6 +1,5 @@
 +++
 title = "OpenSSH ed25519 private key file format"
-slug = "2017/12/openssh-ed25519-private-key-file-format/"
 date = 2017-12-01T16:46:17.518Z
 +++
 Today I finished understanding the openssh private key format for ed25519 keys. Yesterday's analysis had a few remaining mysteries that a fellow RCer helped me solve plus a pair of mistakes that threw off some fields. So here for the record is a "complete" byte-by-byte analysis of what's inside an openssh ed25519 private key (both with and without a passphrase). This was done with OpenSSH_7.5p1, LibreSSL 2.5.4 on macOS 10.13. I say "complete" in quotes because you could go one layer deeper into the actual key payloads but for our purposes those details don't have specific meaning.

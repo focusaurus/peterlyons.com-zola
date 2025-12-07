@@ -1,6 +1,5 @@
 +++
 title = "Paginaton for Product Managers"
-slug = "2024/07/paginaton-for-product-managers/"
 date = 2024-07-27T12:26:06Z
 +++
 

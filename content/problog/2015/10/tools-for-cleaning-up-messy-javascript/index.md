@@ -1,6 +1,5 @@
 +++
 title = "Tools for Cleaning Up Messy JavaScript"
-slug = "2015/10/tools-for-cleaning-up-messy-javascript/"
 date = 2015-10-22T16:38:52.770Z
 +++
 In my consulting work, I encounter a pretty high quantity and diversity of codebases as client projects flow in and out. For many reasons, it is very common for a project to get increasingly messy with time, and often by the time it drops in my lap, it's a certifiable mess.

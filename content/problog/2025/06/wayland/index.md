@@ -1,6 +1,5 @@
 +++
 title = "Year of Wayland on the Desktop"
-slug = "2025/06/wayland/"
 date = 2025-06-22T05:00:24Z
 draft = true
 +++

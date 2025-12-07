@@ -1,6 +1,5 @@
 +++
 title = "How to zip a directory in python"
-slug = "2009/04/zip-dir-python/"
 date = 2009-04-27T10:04:03.000Z
 +++
 I came across this problem at work and also over on [this www.stackoverflow.com thread](http://stackoverflow.com/questions/458436/adding-folders-to-a-zip-file-using-python/792199#792199). You have a directory and you want to recursively zip it up. Simple, right? The equivalent of the unix command "zip myDir.zip myDir". Should be like 5 lines of code? Python even has a built in zipfile module, sweet! Well, as is often the case (see urllib and friends), python's "batteries included" slogan is more like "enough batteries for 36 seconds included". Anyway, it's more like 23 lines of functional code, which is still pretty good, but I would have expected the zipfile module to have this included and not have to use os.walk() to do this.

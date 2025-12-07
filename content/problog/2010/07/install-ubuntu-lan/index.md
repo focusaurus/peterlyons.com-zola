@@ -1,6 +1,5 @@
 +++
 title = "How to Install Ubuntu 10.04 over a LAN"
-slug = "2010/07/install-ubuntu-lan/"
 date = 2010-07-17T04:40:24.000Z
 +++
 # Overview and Requirements

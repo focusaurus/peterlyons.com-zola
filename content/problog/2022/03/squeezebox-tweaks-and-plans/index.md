@@ -1,6 +1,5 @@
 +++
 title = "Squeezebox Tweaks and Plans"
-slug = "2022/03/squeezebox-tweaks-and-plans/"
 date = 2022-03-12T13:23:06Z
 +++
 

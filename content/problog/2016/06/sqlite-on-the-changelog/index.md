@@ -1,6 +1,5 @@
 +++
 title = "SQLite on The Changelog"
-slug = "2016/06/sqlite-on-the-changelog/"
 date = 2016-06-03T14:55:13.354Z
 +++
 I just listened to [The Changelog Episode 201](https://changelog.com/201/) on [SQLite](https://sqlite.org/) with Richard Hipp. Completely fascinating. This project is completely on outlier on so many different facets.

@@ -1,6 +1,5 @@
 +++
 title = "Recurse Center 23: SQL window functions"
-slug = "2017/12/recurse-center-23-sql-window-functions/"
 date = 2017-12-12T23:01:30.330Z
 +++
 Today was the first day where I focused primarily on my SQL project, which was my second priority overall. I did most of the pgexercises on aggregation. There were quite a few of them and by the end they were really challenging. I learned bit about common table expressions which seem awesome and windowing functions which seem great for the business rollup type reports which are otherwise frustrating in regular SQL. I met with the study group today and we lamented the lack of good material that actually teaches this stuff clearly. We are looking at 3-4 books to potentially select.

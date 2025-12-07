@@ -1,6 +1,5 @@
 +++
 title = "Using lambdas with Bluebird.map"
-slug = "2016/07/using-lambdas-with-bluebird-map/"
 date = 2016-07-26T01:52:48.981Z
 +++
 # Using lambdas with Bluebird.map

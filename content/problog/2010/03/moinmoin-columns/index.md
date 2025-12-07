@@ -1,6 +1,5 @@
 +++
 title = "MoinMoin Columns Macro"
-slug = "2010/03/moinmoin-columns/"
 date = 2010-03-08T00:43:31.000Z
 +++
 I just updated the "Columns" macro for the [MoinMoin](http://moinmo.in/) wiki. This allows you to lay out a wiki page in two to ten columns. This makes it easier to get lots of info on one page in certain situations and I've used it to great benefit on my personal wiki where I organize my stuff.

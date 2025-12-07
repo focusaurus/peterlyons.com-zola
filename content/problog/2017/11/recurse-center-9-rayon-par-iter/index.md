@@ -1,6 +1,5 @@
 +++
 title = "Recurse Center 9: rayon par iter"
-slug = "2017/11/recurse-center-9-rayon-par-iter/"
 date = 2017-11-17T22:05:44.747Z
 +++
 Today I refactored my little rust blockchain miner to divide the mining work across multiple CPUs. The rayon crate's `par_iter()` provides the magic for this. Before coding that, I was imagining how I'd handle that given I'm searching a 32-bit integer space where each number is equally likely to be a "golden nonce" (meaning a successful block mine). The most straightforward approach I could think of would be to break the single range into equal-sized partial ranges and ask the OS to distribute the load across cores. So instead of trying 0 then 1 then 2 in serial, you'd have 4 workers starting at (using 100 for obviousness) 0, 25, 50, 75 for the first round then each would advance so you'd have 1, 26, 51, 76 and so on.

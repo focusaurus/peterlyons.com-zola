@@ -1,6 +1,5 @@
 +++
 title = "ErgoThink T420 Laptop Tray"
-slug = "2020/09/ergothink-t420-laptop-tray/"
 date = 2020-09-10T01:23:21Z
 [extra]
 image = "https://photos.peterlyons.com/2020/2020-09-08-01EHQSTED8R68CKYDMQJG0P5A9.2048.jpg"

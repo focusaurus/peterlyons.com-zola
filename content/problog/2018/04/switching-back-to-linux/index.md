@@ -1,6 +1,5 @@
 +++
 title = "Switching Back to Linux"
-slug = "2018/04/switching-back-to-linux/"
 date = 2018-04-16T03:31:48.841Z
 +++
 So I bought a laptop from System76 with linux and I'm slowly getting my tools and environment going. I've been using macos on macbook for a while, maybe 8 years or so, not sure. I'm pretty dang adjusted to it, and so far the shift back to linux has been pretty jarring. If I wait too long to write down thoughts, I'll skip them, so here's some stream-of-consciousness notes so far.

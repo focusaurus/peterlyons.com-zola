@@ -1,6 +1,5 @@
 +++
 title = "Recurse Center 3: Box"
-slug = "2017/11/recurse-center-3-box/"
 date = 2017-11-10T04:58:32.374Z
 +++
 Today I wrote a little unix utility to ensure a given line is present in a file. It's not that much longer than I would expect in a scripting language (60 lines vs probably ~10 for python), but the number of machinations I had to go through was vastly larger. To get basename of `argv[0]` I had to make a `Path` struct which brings lots of `Option`/`Result` handling into things. I'm getting less terrible at reading the standard library reference documentation. I continue to be frustrated that the expandable sections for each method are all expanded by default. Maybe I'll work on a PR for that later assuming it's not baked into the tool they use to generate the docs.

@@ -1,6 +1,5 @@
 +++
 title = "Level 1 Web Development"
-slug = "2017/01/level-1-web-development/"
 date = 2017-01-26T20:19:46.609Z
 +++
 Recently I've been thinking about the scope of web development and the lack of clear boundaries. So much of being a "web developer" is a giant unbounded field of deep topics. JavaScript has become a very large language in terms of syntax, semantics, and features in addition to the 20 years of legacy quirks and inconsistencies we never remove. HTML again gets complex fast once you start building realistic applications and trying to balance semantics, accessibility, SEO, etc. CSS3 also has a tremendous scope including transforms, animations, etc.

@@ -1,6 +1,5 @@
 +++
 title = "rust dependency hell with features"
-slug = "2017/12/rust-dependency-hell-with-features/"
 date = 2017-12-20T00:00:37.304Z
 +++
 I've encountered my first bit of rust dependency hell. I'm trying to use a combination of nom v3.2.1 (a parsing combinator framework) plus nom_pem v1.0.3 (which uses nom to parse the PEM file format) plus der-parser v0.4.4 (which uses nom to parse DER data). This would almost work EXCEPT der-parser has the following line in it's `Cargo.toml`:

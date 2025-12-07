@@ -1,6 +1,5 @@
 +++
 title = "Squeezebox Keyboard"
-slug = "2021/04/squeezebox-keyboard/"
 date = 2021-04-17T01:32:05Z
 [extra]
 image = "https://photos.peterlyons.com/2021/2021-04-17-01F3G77AN0CB6SGVNNMVM65J4A.2048.jpg"

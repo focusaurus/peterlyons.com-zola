@@ -1,6 +1,5 @@
 +++
 title = "Never Graduate"
-slug = "2017/11/never-graduate/"
 date = 2017-11-17T21:11:59.746Z
 +++
 **Neo**: Whoa. Déjà vu. Déjà vu.

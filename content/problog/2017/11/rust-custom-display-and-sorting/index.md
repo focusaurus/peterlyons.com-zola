@@ -1,6 +1,5 @@
 +++
 title = "rust custom Display and sorting"
-slug = "2017/11/rust-custom-display-and-sorting/"
 date = 2017-11-28T21:16:34.323Z
 +++
 So as an exercise I wanted to make a rust struct with custom order and blog the process. I did this in my tealeaves project to get some data to group/sort by severity (errors then warnings then infos) and it worked nicely but it was mostly the derived implementations and I wanted to review. So let's make a basic Person struct (very similar to the example in the official rust docs, but we'll get fancier).

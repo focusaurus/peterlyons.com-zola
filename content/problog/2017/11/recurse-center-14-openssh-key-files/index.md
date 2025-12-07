@@ -1,6 +1,5 @@
 +++
 title = "Recurse Center 14: OpenSSH key files"
-slug = "2017/11/recurse-center-14-openssh-key-files/"
 date = 2017-11-30T01:05:34.882Z
 +++
 So today (my 15th day of RC sabbatical) was where the rubber was supposed to hit the road. I was working on actually digging into the meaty bits of the OpenSSH private key PEM files and starting to peek into the base64 encoded data.

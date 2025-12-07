@@ -1,6 +1,5 @@
 +++
 title = "settimeout and nanoseconds"
-slug = "2016/07/settimeout-and-nanoseconds/"
 date = 2016-07-30T14:37:28.624Z
 +++
 Just a quick "today I learned" that if you pass a number < 1 as the delay argument to `setTimeout` node.js will attempt to run your callback at that time even if it's less than 1ms in the future.

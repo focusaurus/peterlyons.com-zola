@@ -1,6 +1,5 @@
 +++
 title = "Which files do they edit"
-slug = "2020/06/which-files-do-they-edit/"
 date = 2020-06-05T02:02:45Z
 +++
 

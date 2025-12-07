@@ -1,6 +1,5 @@
 +++
 title = "Kipra Keyboard"
-slug = "2024/05/kipra-keyboard/"
 date = 2024-05-11T13:00:10Z
 [extra]
 image = "https://photos.peterlyons.com/2024/2024-04-20-01HVYMEVT8JTHAK7RZ5Y6F0MAM.2048.jpg"

@@ -1,6 +1,5 @@
 +++
 title = "Novelty Makes Novices"
-slug = "2020/09/novelty-makes-novices/"
 date = 2020-09-19T16:07:15Z
 +++
 

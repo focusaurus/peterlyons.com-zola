@@ -1,6 +1,5 @@
 +++
 title = "How to disable wpautop in WordPress blogs"
-slug = "2009/05/disable-wpautop/"
 date = 2009-05-23T19:53:19.000Z
 +++
 So, when creating a [WordPress](http://wordpress.org) blog, even if you are editing in HTML mode, WordPress includes a feature called "wpautop" that will replace any pair of line feed characters in your post markup with a <p> tag. This is helpful I think in general for people who blog mostly paragraphs with some links and images. However, if you blog with more complex markup, this can invalidate your HTML. I run my HTML through the [W3C HTML Validator](http://validator.w3.org) to check it and wpautop can cause validation to fail. I hunted around online for an easy way to disable this and didn't see one, so I made the changes described below.

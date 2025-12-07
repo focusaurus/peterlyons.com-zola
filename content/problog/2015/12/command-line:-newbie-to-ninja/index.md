@@ -1,6 +1,5 @@
 +++
 title = "Command Line: Newbie to Ninja"
-slug = "2015/12/command-line:-newbie-to-ninja/"
 date = 2015-12-06T17:52:52.245Z
 +++
 ## Part One: Bow to Your Sensei

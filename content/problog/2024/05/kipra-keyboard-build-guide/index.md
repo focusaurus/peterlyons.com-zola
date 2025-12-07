@@ -1,6 +1,5 @@
 +++
 title = "Kipra Keyboard Build Guide"
-slug = "2024/05/kipra-keyboard-build-guide/"
 date = 2024-05-18T12:33:41Z
 [extra]
 image = "https://photos.peterlyons.com/2024/2024-04-20-01HVXZMEM0RA07KRTNCM9V7Z9P.2048.jpg"

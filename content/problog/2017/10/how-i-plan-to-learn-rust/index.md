@@ -1,6 +1,5 @@
 +++
 title = "How I Plan to Learn Rust"
-slug = "2017/10/how-i-plan-to-learn-rust/"
 date = 2017-10-25T16:04:24.841Z
 +++
 So the week after next I start the Winter 1 2017 half-batch of [the Recurse Center](https://www.recurse.com/). My primary project will be learning rust and systems programming. My secondary project will be some SQL modeling and reporting stuff.

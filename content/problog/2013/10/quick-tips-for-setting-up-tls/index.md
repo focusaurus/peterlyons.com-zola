@@ -1,6 +1,5 @@
 +++
 title = "Quick Tips for Setting Up TLS"
-slug = "2013/10/quick-tips-for-setting-up-tls/"
 date = 2013-10-17T18:46:14.775Z
 +++
 Here's a few quick links that I found really helpful setting up an nginx web site to use a TLS certificate.

@@ -1,6 +1,5 @@
 +++
 title = "keeping npm dependencies up to date"
-slug = "2016/03/keeping-npm-dependencies-up-to-date/"
 date = 2016-03-15T02:16:37.749Z
 +++
 I've recently tried a few tools to help me keep the dependencies of my node/npm projects up to date. Here's a quick report on my experience, but first a few notes.

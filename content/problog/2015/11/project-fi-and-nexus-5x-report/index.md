@@ -1,6 +1,5 @@
 +++
 title = "Project Fi and Nexus 5X report"
-slug = "2015/11/project-fi-and-nexus-5x-report/"
 date = 2015-11-11T00:30:08.655Z
 +++
 So after having a Google Nexus 5 smartphone for the last 2+ years, when I saw that [Project Fi](https://fi.google.com/about/) had the potential to give me better coverage and a higher data limit for lower cost than T-Mobile, I decided to go for it.

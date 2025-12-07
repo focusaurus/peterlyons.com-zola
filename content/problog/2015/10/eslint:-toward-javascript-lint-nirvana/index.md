@@ -1,6 +1,5 @@
 +++
 title = "eslint: toward javascript lint nirvana"
-slug = "2015/10/eslint:-toward-javascript-lint-nirvana/"
 date = 2015-10-22T15:42:56.241Z
 +++
 The world of javascript code linters is a fertile breeding ground for vociferous debate over unimportant details. It's easy to stray into the bad patterns of arguing with colleagues, playing "curly brace police", and other variants. However, used well with the right mindset and team communication, good code linters and autoformatters can be truly valuable additions to your development workflow and tool chain.

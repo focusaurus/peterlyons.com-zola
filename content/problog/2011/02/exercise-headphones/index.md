@@ -1,6 +1,5 @@
 +++
 title = "The Perfect Exercise Headphones"
-slug = "2011/02/exercise-headphones/"
 date = 2011-02-07T07:00:11.000Z
 +++
 I believe I have now found a pair of headphones to wear while exercising and traveling that is optimal. I've gone through a lot of headphones over the years as I'm sure many of you have. I've tried both the extreme low end of the price spectrum (less than $10) and the costs-more-than-your-mp3-player range (I owned some $180 Shure E2C earbuds back when they were $180 instead of $90). Of course I have learned some lessons the hard way. The following list starts out with weightier arguments and then decays into personal preference

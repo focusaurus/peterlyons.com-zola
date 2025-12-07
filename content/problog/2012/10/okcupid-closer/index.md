@@ -1,6 +1,5 @@
 +++
 title = "Find closer OKCupid matches with this bookmarklet"
-slug = "2012/10/okcupid-closer/"
 date = 2012-10-23T03:15:05.735Z
 +++
 I have written a little bookmarklet that will allow you to filter your [OKCupid](http://okcupid.com) matches by a smaller geographic region. By default, their search filters allow no smaller than a 25-mile radius. Drag the bookmarklet link below onto your bookmarks toolbar, then click it when you are on the OKC search page, and voilà, you will have the options for 5 and 10-mile searches. 10-mile radius will be selected, so just click "search" and you will have your results.

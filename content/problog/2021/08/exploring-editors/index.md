@@ -1,6 +1,5 @@
 +++
 title = "Exploring Editors"
-slug = "2021/08/exploring-editors/"
 date = 2021-08-30T23:36:08Z
 +++
 

@@ -1,6 +1,5 @@
 +++
 title = "Airpair"
-slug = "2013/02/airpair/"
 date = 2013-02-23T22:26:52.624Z
 +++
 So I've just been one of the earliest progragrammers to get involved with [AirPair](http://codereview.airpair.co/). It's a service that pairs entrepreneurs with technology experts for code review and pair programming sessions to help them with their coding projects.

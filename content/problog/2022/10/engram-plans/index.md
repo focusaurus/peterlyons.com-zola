@@ -1,6 +1,5 @@
 +++
 title = "Engram Plans"
-slug = "2022/10/engram-plans/"
 date = 2022-10-22T19:40:36Z
 +++
 

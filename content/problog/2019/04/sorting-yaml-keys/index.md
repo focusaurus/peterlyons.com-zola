@@ -1,6 +1,5 @@
 +++
 title = "Sorting YAML keys"
-slug = "2019/04/sorting-yaml-keys/"
 date = 2019-04-10T15:17:20Z
 +++
 

@@ -1,6 +1,5 @@
 +++
 title = "No Need for npm -g"
-slug = "2011/12/no-need-for-npm-g/"
 date = 2011-12-22T21:14:45.000Z
 +++
 **UPDATE:** please see my new article on [Managing Per-project Interpreters and the PATH](/problog/2012/09/managing-per-project-interpreters-and-the-path) for a new and improved take on this topic.

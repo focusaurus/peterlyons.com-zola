@@ -1,6 +1,5 @@
 +++
 title = "Remove your SCM system from your job postings"
-slug = "2010/07/no-scm-in-job-postings/"
 date = 2010-07-07T04:54:58.000Z
 +++
 Most job postings will list one or more source code management (SCM) tools in their laundry list of required skills and buzzwords. This seems to both be unnecessary and also to miss the point. As an employer, your concern shouldn't be whether or not your candidate is intimately familiar with subversion, git, perforce, starteam, mercurial, CVS, sourcesafe, or whatever system your code happens to reside within at this point in time. Why not? Because it just doesn't matter and it doesn't help you distinguish good candidates from bad. This in my mind seems akin to asking potential postal employees "Do you have experience driving from the right hand side of a boxy little truck?". It's just not something that's going to be a stumbling block. If you can drive, you'll get the hang of the postal delivery truck soon enough. It's the same with SCM. If you have worked successfully on a few sizeable projects in one or two of them, you'll be fine. I've never heard this story: "Oh yeah, we hired this woman Sandra and she wrote this fantastic code for us, but she just could not figure out how to commit it to subversion, so we had to let her go." It's just not going to be the issue. Well, what is going to be the issue?

@@ -1,6 +1,5 @@
 +++
 title = "Reading Pseudogrammars"
-slug = "2020/06/reading-pseudogrammars/"
 date = 2020-06-12T15:57:21Z
 +++
 

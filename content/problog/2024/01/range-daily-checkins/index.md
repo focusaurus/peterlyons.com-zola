@@ -1,6 +1,5 @@
 +++
 title = "Range Daily Checkins"
-slug = "2024/01/range-daily-checkins/"
 date = 2024-01-16T00:31:48Z
 +++
 

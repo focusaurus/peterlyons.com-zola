@@ -1,6 +1,5 @@
 +++
 title = "Thoughts on Scrum"
-slug = "2009/04/thoughts-on-scrum/"
 date = 2009-04-17T08:15:07.000Z
 +++
 So I had a chance to work in the [Scrum](http://en.wikipedia.org/wiki/Scrum_(development)) methodology for about six months recently. I thought I'd write up some of my thoughts on the experience and the process. Please note that first, this is my first experience working in the Scrum process. I am sure as I use it more these opinions will change. Second, these are strictly my personal thoughts and opinions and in no way represent the experience of my team or anyone else. Third, my project had a specific set of tasks and particulars. On a different project, with more sprints or shorter tasks or other relevant variations, I might have drawn (and may well draw in the future) different conclusions.

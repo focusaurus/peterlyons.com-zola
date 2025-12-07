@@ -1,6 +1,5 @@
 +++
 title = "localstorage Analogy"
-slug = "2017/02/localstorage-analogy/"
 date = 2017-02-18T19:43:01.823Z
 +++
 I was working with a friend on her dev bootcamp project writing a little wish list management single page web application just backed by localstorage in the browser. This was her first time working with localstorage. As we gradually built features into the app, when it came time to interact with localstorage, I could see she was unclear on what needed to be done, in what order, and why. So I made this analogy and I think that gave her a good frame of reference.

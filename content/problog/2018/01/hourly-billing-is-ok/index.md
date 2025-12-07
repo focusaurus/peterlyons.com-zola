@@ -1,6 +1,5 @@
 +++
 title = "Hourly Billing Is OK"
-slug = "2018/01/hourly-billing-is-ok/"
 date = 2018-01-13T18:01:42.327Z
 +++
 ## TL;DR

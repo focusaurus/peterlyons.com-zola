@@ -1,6 +1,5 @@
 +++
 title = "Cuddle Up to KDL"
-slug = "2023/11/cuddle-up-to-kdl/"
 date = 2023-11-16T15:13:25Z
 +++
 

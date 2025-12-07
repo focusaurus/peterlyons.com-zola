@@ -1,6 +1,5 @@
 +++
 title = "GraphQL Pagination and Sorting"
-slug = "2020/04/graphql-pagination-and-sorting/"
 date = 2020-04-15T20:01:45Z
 +++
 

@@ -1,6 +1,5 @@
 +++
 title = "Recurse Center 12: AsRef"
-slug = "2017/11/recurse-center-12-asref/"
 date = 2017-11-27T23:10:25.729Z
 +++
 I spent a long time today trying to understand how the `AsRef` trait works. I failed.

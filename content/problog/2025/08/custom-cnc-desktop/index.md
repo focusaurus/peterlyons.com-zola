@@ -1,6 +1,5 @@
 +++
 title = "Custom CNC Desktop"
-slug = "2025/08/custom-cnc-desktop/"
 date = 2025-08-04T14:17:15Z
 [extra]
 image = "https://photos.peterlyons.com/2025/2025-08-03-01K1RSEKDGS47KZPZD1KXNQ8H3.2048.jpg"

@@ -1,6 +1,5 @@
 +++
 title = "Dev Logs Without the Noise"
-slug = "2024/08/dev-logs-without-the-noise/"
 date = 2024-08-24T20:12:16Z
 +++
 

@@ -1,6 +1,5 @@
 +++
 title = "Where I Get Tech News in 2024"
-slug = "2024/06/where-i-get-tech-news-in-2024/"
 date = 2024-06-29T15:12:07Z
 +++
 

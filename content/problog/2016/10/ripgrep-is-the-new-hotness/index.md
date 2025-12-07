@@ -1,6 +1,5 @@
 +++
 title = "ripgrep is the new hotness"
-slug = "2016/10/ripgrep-is-the-new-hotness/"
 date = 2016-10-21T21:11:04.775Z
 +++
 For any of you command line code searching nerds out there, just wanted to point out the newest addition to a long line of command line filesystem search utilities.

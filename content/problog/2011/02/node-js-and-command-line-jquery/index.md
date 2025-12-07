@@ -1,6 +1,5 @@
 +++
 title = "node.js and command line jQuery"
-slug = "2011/02/node-js-and-command-line-jquery/"
 date = 2011-02-09T03:41:10.000Z
 +++
 node.js combined with the [new query utility](https://github.com/visionmedia/query) which makes jQuery-like functionality available from the command line. This type of thing used to take a 30-line script. Brilliant!

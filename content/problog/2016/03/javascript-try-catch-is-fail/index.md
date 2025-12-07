@@ -1,6 +1,5 @@
 +++
 title = "javascript try catch is fail"
-slug = "2016/03/javascript-try-catch-is-fail/"
 date = 2016-03-23T14:32:56.405Z
 +++
 It is possible to write solid javascript code almost entirely without using try/catch. The only common standard library function that requires it is `JSON.parse`. Almost everything else will expose environmental/input errors with some other mechanism (usually a special value or surprising behavior).

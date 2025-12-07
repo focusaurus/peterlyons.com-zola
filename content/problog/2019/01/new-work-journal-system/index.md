@@ -1,6 +1,5 @@
 +++
 title = "New Work Journal System"
-slug = "2019/01/new-work-journal-system/"
 date = 2019-01-15T02:55:47Z
 +++
 I've updated my journaling tooling for my work journal. Here's how I do it.

@@ -1,6 +1,5 @@
 +++
 title = "VPN annoyances"
-slug = "2017/05/vpn-annoyances/"
 date = 2017-05-10T19:47:39.188Z
 +++
 I've recently started using a VPN all the time (at least as much as possible). My more tinfoily nerd friends all recommended [PIA](https://www.privateinternetaccess.com/) so I signed up for that. There are some issues and frustrations I wasn't expecting so here's what I've seen so far.

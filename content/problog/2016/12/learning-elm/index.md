@@ -1,6 +1,5 @@
 +++
 title = "Learning elm"
-slug = "2016/12/learning-elm/"
 date = 2016-12-10T22:19:10.383Z
 +++
 ## A Report from the weeds

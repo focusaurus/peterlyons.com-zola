@@ -1,6 +1,5 @@
 +++
 title = "Skeletyl Keyboard Build"
-slug = "2023/04/skeletyl-keyboard-build/"
 date = 2023-04-23T15:14:56Z
 [extra]
 image = "https://photos.peterlyons.com/2023/2023-04-23-01GYQQEW08EG7CWKM0G149XMNH.2048.jpg"

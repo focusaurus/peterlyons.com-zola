@@ -1,6 +1,5 @@
 +++
 title = "cargo doc and linux default browser"
-slug = "2019/10/cargo-doc-and-linux-default-browser/"
 date = 2019-10-02T14:34:39Z
 +++
 

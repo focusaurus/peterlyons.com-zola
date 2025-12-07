@@ -1,6 +1,5 @@
 +++
 title = "Atom Self-Update Script"
-slug = "2016/08/atom-self-update-script/"
 date = 2016-08-08T03:06:34.247Z
 +++
 My work setup requires a non-administrator account for normal login. I have sudo access set up for my normal user. For some reason, Atom's autoupdate feature can't seem to deal with this and gets stuck in a loop trying to install updates. So I just scripted it as below:

@@ -1,6 +1,5 @@
 +++
 title = "Home LAN Improvements"
-slug = "2021/01/home-lan-improvements/"
 date = 2021-01-24T19:55:20Z
 +++
 

@@ -1,6 +1,5 @@
 +++
 title = "dayJob.quit()"
-slug = "2011/01/dayjob-quit/"
 date = 2011-01-28T00:01:39.000Z
 +++
 I've quit my job writing data center automation software for HP. I'm striking out on my own doing independent web application development. I'll be building some information products and then hopefully a subscription based web application targeted at a small niche audience. I had been working on the same product for 6.5 years and I am ready to switch gears from the world of enterprise software to consumer-facing web applications.

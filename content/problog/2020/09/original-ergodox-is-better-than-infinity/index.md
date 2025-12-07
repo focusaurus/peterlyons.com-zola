@@ -1,6 +1,5 @@
 +++
 title = "Original ErgoDox is Better than Infinity"
-slug = "2020/09/original-ergodox-is-better-than-infinity/"
 date = 2020-09-17T13:37:26Z
 +++
 

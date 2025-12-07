@@ -1,6 +1,5 @@
 +++
 title = "Check for Pull Requests in All Your Repos"
-slug = "2016/06/check-for-pull-requests-in-all-your-repos/"
 date = 2016-06-09T15:11:35.099Z
 +++
 My current work involves many microservice (ish) node.js projects. Each has its own git repository hosted on github. My team follows a pull request workflow requiring all code to hit our main branch via pull request. We have slack chat integration so we can see when a new pull request is created, but even with that I found myself confused about whether or not there were any pending pull requests that I needed to review.

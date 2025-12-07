@@ -1,6 +1,5 @@
 +++
 title = "Squeezebox Scorecard"
-slug = "2022/12/squeezebox-scorecard/"
 date = 2022-12-03T16:03:27Z
 [extra]
 image = "https://photos.peterlyons.com/2022/2022-01-02-01FRDM8WYG13R9WRF9REBXNM67.2048.jpg"

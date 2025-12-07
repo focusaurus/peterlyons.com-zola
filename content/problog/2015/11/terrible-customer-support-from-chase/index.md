@@ -1,6 +1,5 @@
 +++
 title = "Terrible Customer Support from Chase"
-slug = "2015/11/terrible-customer-support-from-chase/"
 date = 2015-11-25T23:49:10.236Z
 +++
 So the Chase mobile banking app does not work properly on my new Google Nexus 5X phone. When taking a photo to deposit a check, the on-screen preview is rotated 180 degrees. This makes it really awkward to try to center the check because when you move the phone intuitively to fix alignment, it gets worse not better.

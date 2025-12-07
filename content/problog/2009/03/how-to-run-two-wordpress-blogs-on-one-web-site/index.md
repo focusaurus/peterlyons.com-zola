@@ -1,6 +1,5 @@
 +++
 title = "How to run two wordpress blogs on one web site"
-slug = "2009/03/how-to-run-two-wordpress-blogs-on-one-web-site/"
 date = 2009-03-15T02:57:53.000Z
 +++
 There is ample detailed information out there on installing wordpress. However, I wanted to just provide a small supplement about setting up two distinct wordpress blogs within a single apache2 web site. The system I am using is Ubuntu Linux 8.10, but other than the package installation, the configuration steps should be the same on other linux distributions.

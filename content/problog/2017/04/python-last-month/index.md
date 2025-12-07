@@ -1,6 +1,5 @@
 +++
 title = "Python Last Month"
-slug = "2017/04/python-last-month/"
 date = 2017-04-01T17:09:16.346Z
 +++
 I needed to compute timestamps representing the start and end of "last month" so I could build a URL needed to generate an invoicing report. Because the URL uses actual dates, I can't just bookmark it since it changes every month. Python has a lot of date and time management capabilities, but finding the one that is going to get the job done correctly and succinctly is actually harder than the code itself.

@@ -1,6 +1,5 @@
 +++
 title = "Custom CNC Desktop Mark II"
-slug = "2025/11/custom-cnc-desktop-mark-ii/"
 date = 2025-11-30T21:24:39Z
 [extra]
 image="https://photos.peterlyons.com/2025/2025-11-30-01KBADNCXG95ZAPEFMAG51WP0X.2048.jpg"

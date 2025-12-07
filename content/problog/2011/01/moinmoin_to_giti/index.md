@@ -1,6 +1,5 @@
 +++
 title = "Wiki migration from MoinMoin to gitit"
-slug = "2011/01/moinmoin_to_giti/"
 date = 2011-01-10T05:08:29.000Z
 +++
 So I've been hosting my own [MoinMoin](http://moinmo.in/) wiki for a while. I use it pretty heavily to manage my own little projects, packing lists, and whatnot. I used MoinMoin initially because it is written in python and we were using it at work. It has served me reasonably well, but I decide to shut it down and migrate all my data over to [gitit](http://gitit.johnmacfarlane.net/) instead.

@@ -1,6 +1,5 @@
 +++
 title = "Right tool for the job"
-slug = "2017/02/right-tool-for-the-job/"
 date = 2017-02-18T20:28:04.554Z
 +++
 "Use the right tool for the job" is an oft-repeated aphorism in the tech world. In my experience, I have found this aphorism to be said a lot but actually implemented rarely and to also omit the reality of how technology choices are made. So this post will be calling bullshit on this phrase. I hear "Use the right tool for the job", but what is see is more like:

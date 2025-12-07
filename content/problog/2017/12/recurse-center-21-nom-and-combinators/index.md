@@ -1,6 +1,5 @@
 +++
 title = "Recurse Center 21: nom and combinators"
-slug = "2017/12/recurse-center-21-nom-and-combinators/"
 date = 2017-12-09T01:37:35.630Z
 +++
 Last night I asked RC about whether `nom` or `untrusted` seemed like better crate choices for parsing mixed text and binary file formats. This morning I woke up super early for no reason and was ready to go so I watched RC alumnus Stefanie Schirmer's talk on parser combinators.

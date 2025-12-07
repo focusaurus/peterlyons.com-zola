@@ -1,6 +1,5 @@
 +++
 title = "Catalog of Custom 3D Prints"
-slug = "2025/10/catalog-of-custom-3d-prints/"
 date = 2025-10-10T18:27:36Z
 [extra]
 image = "https://photos.peterlyons.com/2024/2024-06-09-01HZYWN80GDVKR4FA9QYZEGCW7.2048.jpg"

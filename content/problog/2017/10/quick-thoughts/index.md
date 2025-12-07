@@ -1,6 +1,5 @@
 +++
 title = "Quick Thoughts"
-slug = "2017/10/quick-thoughts/"
 date = 2017-10-08T03:09:20.809Z
 +++
 ### Code Coverage

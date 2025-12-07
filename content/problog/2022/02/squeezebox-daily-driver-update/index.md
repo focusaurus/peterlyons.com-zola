@@ -1,6 +1,5 @@
 +++
 title = "Squeezebox Daily Driver Update"
-slug = "2022/02/squeezebox-daily-driver-update/"
 date = 2022-02-25T23:46:03Z
 +++
 

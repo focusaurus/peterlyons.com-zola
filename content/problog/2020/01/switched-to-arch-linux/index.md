@@ -1,6 +1,5 @@
 +++
 title = "Switched to Arch Linux"
-slug = "2020/01/switched-to-arch-linux/"
 date = 2020-01-12T16:38:33Z
 +++
 

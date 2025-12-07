@@ -1,6 +1,5 @@
 +++
 title = "Recurse Center 20: Parsing is hard. Let's go shopping."
-slug = "2017/12/recurse-center-20-parsing-is-hard-lets-go-shopping/"
 date = 2017-12-08T03:13:00.706Z
 +++
 So I've found that the `pem` crate I've been using doesn't parse headers, which are present in encrypted dsa private key files, and the `mailparse` crate doesn't parse properly with unix newlines, which seems to be what openssh generates even though in theory the RFCs involved require carriage return newline AFAIK.

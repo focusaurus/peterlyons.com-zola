@@ -1,6 +1,5 @@
 +++
 title = "Quick Thoughts: Machine Learning"
-slug = "2017/11/quick-thoughts-machine-learning/"
 date = 2017-11-12T14:33:55.773Z
 +++
 Things machine learning plus UX teams seemingly can't get right yet:

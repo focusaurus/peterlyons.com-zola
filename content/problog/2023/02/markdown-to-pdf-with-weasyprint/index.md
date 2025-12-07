@@ -1,6 +1,5 @@
 +++
 title = "Markdown to PDF with weasyprint"
-slug = "2023/02/markdown-to-pdf-with-weasyprint/"
 date = 2023-02-21T00:01:47Z
 +++
 

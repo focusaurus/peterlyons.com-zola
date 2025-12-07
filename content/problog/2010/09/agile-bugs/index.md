@@ -1,6 +1,5 @@
 +++
 title = "A response to \"Handling Bugs in an Agile Context\""
-slug = "2010/09/agile-bugs/"
 date = 2010-09-08T21:07:27.000Z
 +++
 [Handling Bugs in an Agile Context](http://testobsessed.com/2009/03/13/handling-bugs-in-an-agile-context/) is a blog post I came across via [Hacker News](http://news.ycombinator.com) this morning. As is often my experience when reading material on Agile from my perspective of an enterprise software developer, the experience was one of frustration and disbelief.

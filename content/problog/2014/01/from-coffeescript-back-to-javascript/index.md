@@ -1,6 +1,5 @@
 +++
 title = "From CoffeeScript Back to JavaScript"
-slug = "2014/01/from-coffeescript-back-to-javascript/"
 date = 2014-01-22T17:50:43.717Z
 +++
 So after about two years of preferring CoffeeScript for my application code, I'm switching back to JavaScript. Here are some thoughts on my experience.
