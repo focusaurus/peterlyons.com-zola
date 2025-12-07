@@ -8,19 +8,19 @@ image="https://photos.peterlyons.com/2025/2025-11-30-01KBADNCXG95ZAPEFMAG51WP0X.
 
 I made another custom desktop on the CNC with recesses for my split keyboard. I'm really happy with how it came out. I got the project finished up and installed over the Thanksgiving holiday break, and my wife painted two of the walls in my office - one has a logogram from the movie "Arrival", and the other is a geometric pattern. All this adds up to make my office looking and feeling so much nicer now!
 
-{{ figureflickr(url="https://photos.peterlyons.com/2025/2025-11-30-01KBADM7T0REAR0DFT1BX1GR1P.2048.jpg" caption="custom desktop mark II")}}
+{{ figureplop(url="https://photos.peterlyons.com/2025/2025-11-30-01KBADM7T0REAR0DFT1BX1GR1P.2048.jpg" caption="custom desktop mark II")}}
 
-{{ figureflickr(url="https://photos.peterlyons.com/2025/2025-11-30-01KBADQ1N0QXMREJR4KG4YMWVE.2048.jpg" caption="low angle shot showing the recess depth")}}
+{{ figureplop(url="https://photos.peterlyons.com/2025/2025-11-30-01KBADQ1N0QXMREJR4KG4YMWVE.2048.jpg" caption="low angle shot showing the recess depth")}}
 
-{{ figureflickr(url="https://photos.peterlyons.com/2025/2025-11-30-01KBADNCXG95ZAPEFMAG51WP0X.2048.jpg" caption="center view")}}
+{{ figureplop(url="https://photos.peterlyons.com/2025/2025-11-30-01KBADNCXG95ZAPEFMAG51WP0X.2048.jpg" caption="center view")}}
 
 ## Arrival Logogram Artwork
 
 The movie "Arrival" contains my all-time favorite visual effect. The alien writing system, referred to as logograms in the movie, are these strikingly beautiful circular smoke patterns. I thought it would be a great thing to put in my office and make an awesome background for video calls. My wife has done a few paintings directly on the walls using a projector to establish a baseline pencil sketch. So that's what she did and it came out great. On another wall I was inspired by a nearby commercial building with a geometric mountain pattern, and she did that on the adjacent wall.
 
-{{ figureflickr(url="https://photos.peterlyons.com/2025/2025-11-28-01KB5QRD0G8M9KWQ1K6NDJKJ29.2048.jpg" caption="Arrival logogram artwork: Louise has question")}}
+{{ figureplop(url="https://photos.peterlyons.com/2025/2025-11-28-01KB5QRD0G8M9KWQ1K6NDJKJ29.2048.jpg" caption="Arrival logogram artwork: Louise has question")}}
 
-{{ figureflickr(url="https://photos.peterlyons.com/2025/2025-11-30-01KBADSMN8R7AMA8NR7KYFHYNH.2048.jpg" caption="view of whole office with geometric wall pattern, Arrival art, and desktop setups for my work and personal workstations")}}
+{{ figureplop(url="https://photos.peterlyons.com/2025/2025-11-30-01KBADSMN8R7AMA8NR7KYFHYNH.2048.jpg" caption="view of whole office with geometric wall pattern, Arrival art, and desktop setups for my work and personal workstations")}}
 
 ## CNC Desktop Refinements
 
