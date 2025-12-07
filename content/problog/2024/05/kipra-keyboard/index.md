@@ -3,14 +3,14 @@ title = "Kipra Keyboard"
 slug = "2024/05/kipra-keyboard/"
 date = 2024-05-11T13:00:10Z
 [extra]
-image = "https://live.staticflickr.com/65535/53668493145_28c1af6216_k_d.jpg"
+image = "https://photos.peterlyons.com/2024/2024-04-20-01HVYMEVT8JTHAK7RZ5Y6F0MAM.2048.jpg"
 +++
 
 ## TL;DR (This post is over 4500 words. Sorry. Not sorry.)
 
 I made a split ergonomic keyboard called the kipra v1 using a generator tool called [ergogen](https://ergogen.cache.works).
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/53715068120_7b864e2188_k_d.jpg" caption="kipra. It's kinda pragmatic.") }}
+{{ figureplop(url="https://photos.peterlyons.com/2024/2024-05-11-01HXMRG0A0VZY2EDBCHBVVVGEF.2048.jpg" caption="kipra. It's kinda pragmatic.") }}
 
 ## Introduction
 
@@ -51,17 +51,17 @@ So in summary:
 I printed up some 1x4 columns of switch housings and a thumb arc so I could test my column stagger positions and figure out exactly where I wanted my thumb arc. This will give me some confidence before I get PCBs manufactured, but it's never a guarantee. Things feel different when your actually typing on a working keyboard (spoiler alert for later!). But since this is mostly small tweaks to my daily driver sofle choc, I feel pretty confident this will be at the very least as usable as that is.
 
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/52928062216_3c65272b6e_k_d.jpg" caption="Prototype rig with calipers measuring thumb arc offset") }}
+{{ figureplop(url="https://photos.peterlyons.com/2023/2023-05-26-01H1CABM8G1BRJTXY34XB3F2AY.2048.jpg" caption="Prototype rig with calipers measuring thumb arc offset") }}
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/52928213979_1d443cdc82_k_d.jpg" caption="Prototype rig showing housings where switches fit") }}
+{{ figureplop(url="https://photos.peterlyons.com/2023/2023-05-26-01H1CA1G1G1W4BZVT7Q8QND0FC.2048.jpg" caption="Prototype rig showing housings where switches fit") }}
 
 ## Designing with Ergogen
 
 I used [ergogen](https://ergogen.cache.works/) for this build. It's pretty easy to go from nothing to damn near a full keyboard in a single sitting. Here's where I was after the first session in ergogen.
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/52933622397_e23daae52c_b_d.jpg" caption="screenshot of ergogen for the kipra after the first day") }}
+{{ figureplop(url="https://photos.peterlyons.com/2023/2023-05-29-01H1JVRGZ8XJKABZ9Z9167PNE4.2048.png" caption="screenshot of ergogen for the kipra after the first day") }}
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/53713425006_bf23692508_o_d.png" caption="KiCAD 3D rendering of a very early version of kipra in ergogen") }}
+{{ figureplop(url="https://photos.peterlyons.com/2024/2024-05-11-01HXK5A46GEA6XH8ZR682ZEF9X.2048.png" caption="KiCAD 3D rendering of a very early version of kipra in ergogen") }}
 
 Oh yeah, this was like back in August 2023. Project was mostly squeezed into the margins of my life over the ensuing 8 months.
 
@@ -108,7 +108,7 @@ outlines:
 ```
 
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/53553541928_2418574028_k_d.jpg" caption="Many fit tests compliments of ergogen") }}
+{{ figureplop(url="https://photos.peterlyons.com/2024/2024-02-25-01HQGSS3DGG8WPZJ8Y6DE9SDNC.2048.jpg" caption="Many fit tests compliments of ergogen") }}
 
 This was in February 2024. I blame the holidays and traveling for that interval.
 
@@ -123,7 +123,7 @@ I've built a few keyboard kits with their own PCBs, and done hand wired builds w
 
 Ergogen sets up the electronics properly so your keyboard matrix is well-defined and the manual work you need to do in KiCAD to route the tracks is nearly foolproof because the Design Rules Checker will tell you if you forget anything, and KiCAD won't even let you wire something to the wrong place.
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/53713728374_a964728521_o_d.png" caption="KiCAD  highlighting the net for a single row") }}
+{{ figureplop(url="https://photos.peterlyons.com/2024/2024-05-11-01HXK418JRMD2X70G67JVWGNKH.2048.png" caption="KiCAD  highlighting the net for a single row") }}
 
 There's a tricky hand-off in the process where you've done all you can in ergogen and generated a KiCAD file which you then start to modify. If you discover any changes you want that require you to go back into ergogen, you'll need to re-do all the KiCAD work. So I put off routing traces for a while as I gradually ran out of tweaks to make in ergogen and started to get bored and keen to get on with the KiCAD bit.
 
@@ -133,15 +133,15 @@ I was super nervous about having a mistake in the KiCAD manual work that would r
 
 I got a lot of help and checking, but eventually the Design Rules Checker in KiCAD had no errors and it was time to generate some gerber files and upload them to PCBWay for fabrication.
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/53712773128_f59f7e6f1d_o_d.png" caption="screenshot of the kipra PCB open in the KiCAD PCB editor") }}
+{{ figureplop(url="https://photos.peterlyons.com/2024/2024-05-10-01HXHRWTR8GWN4W7AAMS15B6W6.2048.png" caption="screenshot of the kipra PCB open in the KiCAD PCB editor") }}
 
 ## Fabrication with PCBWay
 
 My friends at [PCBWay](https://www.pcbway.com/) offered to support this project so big thanks to them! I uploaded my gerber zip file, followed their documentation about using settings that would work properly, chose blue for my PCB color and white text set in Hack Nerd Font. Then I fired off an order for 10 reversible PCBs which can make 5 split keyboards. About 10 days later I had a package on my doorstep with a bundle of beautiful circuit boards!
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/53647091704_9df970e771_k_d.jpg" caption="PCBWay order arrived with 10 reversible circuit boards") }}
+{{ figureplop(url="https://photos.peterlyons.com/2024/2024-04-10-01HV4RXFGRA1SBT7KQPAENN7DA.2048.jpg" caption="PCBWay order arrived with 10 reversible circuit boards") }}
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/53667147539_9b0fabcde9_k_d.jpg" caption="a pair of kipra v1 PCBs in their resplendent glory") }}
+{{ figureplop(url="https://photos.peterlyons.com/2024/2024-04-20-01HVXZHPQGRWCME3JTHKJG1571.2048.jpg" caption="a pair of kipra v1 PCBs in their resplendent glory") }}
 
 ## Some custom text added in KiCAD
 
@@ -161,9 +161,9 @@ I went through a few rounds of "of fuck...whew" on the PCB jumpers, a few rounds
 
 Mounting the MCU revealed that my MCU had one extra through hole per side compared to the footprint on my PCB. So I had to figure out if the extra empty hole was supposed to be the one closest to the USB connector or the one furthest away. I also had to snip one of my pin headers off to make it match the PCB footprint. I studied the pinout a bunch and tried to reason that reset should map to reset, etc, but it's tricky because my MCU footprint is reversible and has jumpers so everything is like "this is reset, unless you soldered one of these jumper pads, in which case it is no longer reset", but exactly how all that cleverness works out is really tricky to keep track of. This was extra fun because the microscopic hole labels on the MCU are mostly between the through holes and it's not clear if the label applies to the hole above or below the label, and even studying the ends of the row don't really clear it up. But in the end I was pretty sure I needed my rows and columns starting on the holes farthest from USB, so I mounted it that way, and it ended up being correct.
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/53713640443_e8cdbe9efe_o_d.jpg" caption="Planing the details and getting confirmation before soldering the MCUs to the PCBs") }}
+{{ figureplop(url="https://photos.peterlyons.com/2024/2024-05-11-01HXK5DGK8HK3VND71MY7PNBCK.2048.jpg" caption="Planing the details and getting confirmation before soldering the MCUs to the PCBs") }}
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/53666092497_69f0429d11_k_d.jpg" caption="soldering jumper pads on the top side of the PCB (doing the opposite of what the silk screen says)") }}
+{{ figureplop(url="https://photos.peterlyons.com/2024/2024-04-20-01HVY1YDT06AE23W66VXR3TCY2.2048.jpg" caption="soldering jumper pads on the top side of the PCB (doing the opposite of what the silk screen says)") }}
 
 I also chose to **NOT** socket my MCU, flouting all the advice online. I've socketed a lot of MCUs and it's extra fiddly work and difficult to prevent the headers from bending. These days MCUs and PCBs are cheap, so I'm comfortable just using regular pin headers and not futzing with socketing.
 
@@ -171,9 +171,9 @@ I also chose to **NOT** socket my MCU, flouting all the advice online. I've sock
 
 **Whew!**
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/53668493145_28c1af6216_k_d.jpg" caption="first build done with switches and keycaps installed") }}
+{{ figureplop(url="https://photos.peterlyons.com/2024/2024-04-20-01HVYMEVT8JTHAK7RZ5Y6F0MAM.2048.jpg" caption="first build done with switches and keycaps installed") }}
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/53671442490_b2321fd711_k_d.jpg" caption="the closest thing you're going to get from me to a glamour shot") }}
+{{ figureplop(url="https://photos.peterlyons.com/2024/2024-04-21-01HW173XDG4AQA9DYAW1H5GVCJ.2048.jpg" caption="the closest thing you're going to get from me to a glamour shot") }}
 
 ## RP2040 MCUs are great
 
@@ -189,7 +189,7 @@ Even the stemcell MCUs I bought recently for the sofles were a giant confusing p
 
 In contrast, these RP2040s are amazing. Hold the bootloader button while plugging in USB then release it. They show up immediately in your OS as a mounted thumb drive. To flash them you copy a `.uf2` file to the root directory and that's it. The actual flashing requires zero special software, although compiling a firmware image still requires a working QMK toolset. They are fantastic.
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/53667316384_41a13b6f71_k_d.jpg" caption="soldering pin headers onto this promicro compatible RP2040 MCU") }}
+{{ figureplop(url="https://photos.peterlyons.com/2024/2024-04-20-01HVY24J38XYHXCV7J69ZEC684.2048.jpg" caption="soldering pin headers onto this promicro compatible RP2040 MCU") }}
 
 ## The struggle to TRRS split
 
@@ -202,13 +202,13 @@ I got some clutch help on discord from someone who actually understands what the
 While waiting for PCB fabrication, I got a head start on configuring QMK firmware and flashing my RP2040 MCUs. My goal was to have this board supported in [Vial](https://get.vial.today) which is a nice GUI that allows real-time changes to your keymap without reflashing. As per the Vial docs, I started by making sure I had a stock QMK firware compiling, flashing, and working as a keyboard. I confirmed this by just shorting a row hole to a column hole with a jumper wire and seeing a letter get typed. 
 
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/focusaurus/53627111813/" title="Typing on a raw MCU"><img src="https://live.staticflickr.com/31337/53627111813_b093305be0_b.jpg" width="1024" height="576" alt="Typing on a raw MCU"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+{{ figureplop(url="https://photos.peterlyons.com/2024/2024-04-02-01HTE3FKRRXZNF2ABCQ41NBAPK.2048.mov" caption="Typing on a raw MCU") }}
 
 Then I ported my keyboard into Vial. This is fairly straightforward using the online keyboard layout editor GUI to specify your switch positions and mapping the matrix is mostly trial and error that's clear enough when you have things reversed by mistake. This is an approach I actually recommend for newcomers to the custom keyboard hobby: as soon as your MCU arrives, try to get it flashed and working as a keyboard by just dangling it off a USB cable and shorting a row to a column pin with a jumper wire. Much better to have this part sorted early. If things become difficult, this can require a level of patience and perseverence that are easier to muster at the start of a project.
 
 So now I can change my keymap on the fly using the Vial WYSIWYG GUI which is great.
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/53712560101_7d5cc17385_h_d.jpg" caption="Vial GUI with a kipra connected for realtime key remapping and easy JSON export/import") }}
+{{ figureplop(url="https://photos.peterlyons.com/2024/2024-05-10-01HXHRWTR8AKXTB6TXPSQHSQ9C.2048.png" caption="Vial GUI with a kipra connected for realtime key remapping and easy JSON export/import") }}
 
 ## 3D modeling the case in janky mode
 
@@ -229,7 +229,7 @@ As I understand it presently, ergogen doesn't provide that much to help with cre
 
 The case is essentially exactly what I hoped for but it's a bit janky because I'm just eyeballing the MCU and TRRS positions since I have no reference geometry from ergogen available in this toolchain.
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/53687201385_15579d042d_k_d.jpg" caption="3D printed cases") }}
+{{ figureplop(url="https://photos.peterlyons.com/2024/2024-04-29-01HWMCD29R32Y79BK7X1WPHACZ.2048.jpg" caption="3D printed cases") }}
 
 I would also ideally model the support posts exactly underneath the mounting holes in the PCB. These will get m2 threaded inserts. But I don't have a good process for this from ergogen, so I have decided to model individual posts, print them individually as distinct objects, screw them to the PCB, then just glue them to the floor of the case. I've tried to 3D model these without exact positioning information before and there's no fudging it. If you're off by a fraction of a millimeter, the bolt won't thread into the insert.
 
@@ -237,7 +237,7 @@ I did several attempts using threaded inserts with no success. The 3mm thickness
 
 The next version I made little 3mmx7mm rectangles with a cutout to hold an m2 hex nut. So I just threaded the stack of bolt, PCB, printed standoff, and hex nut. Then I put a dab of superglue on each side of the bottom of the standoffs and set the keyboard in the case with some weight to hold it down while the glue cured. There's 5 standoffs and not much force so I think it'll be fine to keep the PCB in the case and also not have it resting on the hotswap sockets.
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/53693148235_6a351e83af_k_d.jpg" caption="Standoffs for 3mm height with a captured m2 hex nut") }}
+{{ figureplop(url="https://photos.peterlyons.com/2024/2024-05-01-01HWTW7XEGD5EP7NDRV9JDA9VS.2048.jpg" caption="Standoffs for 3mm height with a captured m2 hex nut") }}
 
 ## Adding Palm Rests
 
@@ -245,7 +245,7 @@ I have been using my sofle without palm rests comfortably, but the novelty of th
 
 I did 2 iterations so far and there's still more tweaking to do. The shape is still not quite ideal and I'd like to maybe add magnets, but these are workable for the moment.
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/53691841990_db5976a4bb_k_d.jpg" caption="palm rest clips to the case wall but can easily detach for travel") }}
+{{ figureplop(url="https://photos.peterlyons.com/2024/2024-05-01-01HWSKAYQGDYQABQ44QNFDBSNB.2048.jpg" caption="palm rest clips to the case wall but can easily detach for travel") }}
 
 ## Removing palm rests and going caseless
 
@@ -253,7 +253,7 @@ After a few days of trying some variations, I thought I might be able to get awa
 
 I love that this is very low profile, provides some shielding for the contacts on the PCB, and provides enough friction to keep the keyboard steady on the desktop. I'm still testing but I think this approach might be OK, or possibly with a fairly low palm rest.
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/53707561179_33950c2be8_k_d.jpg" caption="shelf liners glued to the bottom") }}
+{{ figureplop(url="https://photos.peterlyons.com/2024/2024-05-08-01HXBMV7W0KEP33YJGKMZ0P6VT.2048.jpg" caption="shelf liners glued to the bottom") }}
 
 I later covered the exposed contacts with some electrical tape. I'll still need to make a travel case but all I need to figure out is some kind of lid mechanism.
 
@@ -265,7 +265,7 @@ My sofle has some nuisances that I suspect are either firmware or MCU issues. Th
 
 For these builds I ordered mostly enough choc pro red linear 35g switches to build 5 split keyboards. This was on April 5, 2024. On April 23, a brand new flavor of choc switches engineered to be silent went on sale for the first time over at [lowprokb.ca](https://lowprokb.ca/products/ambients-silent-choc-switches?variant=44873446391972). Of course I found out about this project just a few days after placing my order. Sad trombone.
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/53650287177_1003cbfff0_k_d.jpg" caption="Oops a huge quantity of what very recently transitioned from my favorite switches to my 3rd favorite switches") }}
+{{ figureplop(url="https://photos.peterlyons.com/2024/2024-04-13-01HVBPTEZ0Q7PBAKQWRK3B69QQ.2048.jpg" caption="Oops a huge quantity of what very recently transitioned from my favorite switches to my 3rd favorite switches") }}
 
 But anyway, I ordered enough ambient nocturnal (20g linear silent) and ambient twilight (35g linear silent) for a keyboard each and they are **amazing**! Absolutely the nocturnals are my favorite switch by a wide margin. They are even quieter than my thinkpad or macbook laptop switches. I commented on `/r/ergomechkeyboards` that typing on them feels like whispering and like my brain thinks a word and my fingers create it automatically. With louder switches it feels like I have to strain to enunciate my typing "speech" to be heard. I love this intimate feeling they have and the silent operation feels almost magical.
 

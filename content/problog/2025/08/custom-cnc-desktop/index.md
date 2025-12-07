@@ -3,11 +3,11 @@ title = "Custom CNC Desktop"
 slug = "2025/08/custom-cnc-desktop/"
 date = 2025-08-04T14:17:15Z
 [extra]
-image = "https://live.staticflickr.com/65535/54698815413_58d5129ddf_b.jpg"
+image = "https://photos.peterlyons.com/2025/2025-08-03-01K1RSEKDGS47KZPZD1KXNQ8H3.2048.jpg"
 +++
 I built a custom desktop on a CNC router. It's a 3-layer stack of 1/2" MDF. It has recessed areas for my split keyboard and coffee mug. Cables can tunnel through the middle layer of the desk. No this is not a desktop PC, it's literally the top of a desk.
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/54698815413_58d5129ddf_b.jpg" caption="desktop view") }}
+{{ figureplop(url="https://photos.peterlyons.com/2025/2025-08-03-01K1RSEKDGS47KZPZD1KXNQ8H3.2048.jpg" caption="desktop view") }}
 
 ## Project Goals
 
@@ -31,16 +31,16 @@ I used basic rounded rectangles in the actual MDF with the idea of potentially w
 
 I also made a coffee holder for my favorite coffee mug. And before you point out how silly and limiting this is - don't you worry - I made an adapter so my second-favorite coffee mug fits too!
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/54699823864_096f4932bf_c.jpg" caption="Insert for my Mini coffee mug") }}
+{{ figureplop(url="https://photos.peterlyons.com/2025/2025-08-04-01K1T8KFK8ZD3J78HTXFESH6WB.2048.jpg" caption="Insert for my Mini coffee mug") }}
 
 
 ## Key Photos
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/54698815433_362719c826_b.jpg" caption="front view") }}
+{{ figureplop(url="https://photos.peterlyons.com/2025/2025-08-03-01K1RSE3SGDCDAXC1DB6YKR6Z3.2048.jpg" caption="front view") }}
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/54698815428_ee7372f801_b.jpg" caption="looking down toward the desktop") }}
+{{ figureplop(url="https://photos.peterlyons.com/2025/2025-08-03-01K1RSF228YCG1HG38XX11TMF2.2048.jpg" caption="looking down toward the desktop") }}
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/54697779857_a609fa0436_b.jpg" caption="my old setup with stock parts") }}
+{{ figureplop(url="https://photos.peterlyons.com/2025/2025-08-03-01K1RNH3SGEAF6T0X0BC4GMDH1.2048.jpg" caption="my old setup with stock parts") }}
 
 ## Social Media Posts
 

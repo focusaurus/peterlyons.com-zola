@@ -3,7 +3,7 @@ title = "Squeezebox Keyboard v2112"
 slug = "2022/01/squeezebox-keyboard-v2112/"
 date = 2022-01-02T16:42:04Z
 [extra]
-image = "https://live.staticflickr.com/65535/51793880727_0ea598d910_k_d.jpg"
+image = "https://photos.peterlyons.com/2022/2022-01-02-01FRDKZK38WS6FDSGM3HNCJ9Q8.2048.jpg"
 +++
 
 ## Overview
@@ -16,7 +16,7 @@ The Squeezebox Keyboard is a custom-designed ergonomic computer keyboard I have 
   - Each finger can rest on 2 keys and hit either without "moving" by using the fingertip and pad, respectively
 - Mechanical tailor fit without many rounds of long and perilous 3D prints
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/51793880727_0ea598d910_k_d.jpg" caption="Squeezebox keyboard v2112 right hand steeply tented") }}
+{{ figureplop(url="https://photos.peterlyons.com/2022/2022-01-02-01FRDKZK38WS6FDSGM3HNCJ9Q8.2048.jpg" caption="Squeezebox keyboard v2112 right hand steeply tented") }}
 
 ## Earlier Prototypes
 
@@ -47,7 +47,7 @@ Now the slots on the base plate afford columnar offset by sliding posts along th
 
 The standoffs/posts that afford the height variance across fingers are now hexagonal posts, so they don't roll around when loose and have heat-set threaded inserts in both the top and the bottom. They get bolted to the base plate and to the key column. I'm very happy with this mechanism. I have some tiny washers I 3D printed and when tightened down just a little snug on the bolts everything feels very mechanically stable and secure.
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/51794829066_d02e618bde_k_d.jpg" caption="Each finger is elevated by a hexagonal column with tailor fit ergonomic height") }}
+{{ figureplop(url="https://photos.peterlyons.com/2022/2022-01-02-01FRDKXMK8DEPDGWTSQ188JJRM.2048.jpg" caption="Each finger is elevated by a hexagonal column with tailor fit ergonomic height") }}
 
 ### New thumb cluster post
 
@@ -57,19 +57,19 @@ Same basic mechanism of slots and bolts is used to attach the thumb cluster, but
 
 The base plate has a housing where I've glued a standard 1/4-20 hex nut so I can mount this on my Neewer camera mounts and similar gear. There are 5 total positions to allow some experimentation with balance and stability but for me dead center seems to be OK.
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/51794953263_b2019979eb_k_d.jpg" caption="Mounting onto Neewer Z-fold stands via bolt") }}
+{{ figureplop(url="https://photos.peterlyons.com/2022/2022-01-02-01FRDM4YZ8HG9V597J849V7NYS.2048.jpg" caption="Mounting onto Neewer Z-fold stands via bolt") }}
 
 ### Base plate hex wrench holders
 
 The base plates have a little slot where I can store a hex wrench for adjusting things. I got tired of losing track of the only one I had so I ordered like 20 of them and 2 can just live on the keyboard now.
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/51794829056_606ccbbaf0_k_d.jpg" caption="Little slots to hold your hex wrenches") }}
+{{ figureplop(url="https://photos.peterlyons.com/2022/2022-01-02-01FRDM8WYG13R9WRF9REBXNM67.2048.jpg" caption="Little slots to hold your hex wrenches") }}
 
 ### New brain box
 
 The Elite-C microcontroller, reset button, and RJ9 connector are housed in a custom designed box. This has a 2-tone lid which attaches with my go-to heat-set threaded inserts and M3 bolts. The brain box mounts to the base plate again with a pair of M3 bolts. The brain box is much improved over all earlier versions, but that bar was set really low. "Case? What case? The microcontroller is perfectly happy just flapping around at the end of some soldered wires.". That said, I remain terrible at remembering at design time that wires actually occupy physical space, so both in the case and outside of the case the wiring is super crowded and a pain in the butt to work with. But it's workable and the lid does close and everything can reach where it needs to reach. But the idea of like easily swapping in a different column is not easy. It's a lot of tedious mucking with hex wrench, bolts, tiny connectors, and very cramped places where fingers can't reach, so it's a pain. Now that I have it all built, I'm probably going to do some very small adjustments to columnar stagger for exact tailor fit and symmetry across the hands and then tighten down the bolts and try to not mess with it again if possible.
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/51795197039_d2bd73776b_k_d.jpg" caption="brain box holds the microcontroller, reset button, and RJ9 connector") }}
+{{ figureplop(url="https://photos.peterlyons.com/2022/2022-01-02-01FRDM0AH8FCXK7Y0XF856JP05.2048.jpg" caption="brain box holds the microcontroller, reset button, and RJ9 connector") }}
 
 ### New wiring connectors
 

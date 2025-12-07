@@ -3,7 +3,7 @@ title = "Squeezebox Keyboard"
 slug = "2021/04/squeezebox-keyboard/"
 date = 2021-04-17T01:32:05Z
 [extra]
-image = "https://live.staticflickr.com/65535/51121273052_11074800d5_c.jpg"
+image = "https://photos.peterlyons.com/2021/2021-04-17-01F3G77AN0CB6SGVNNMVM65J4A.2048.jpg"
 +++
 
 I designed and built a split ergonomic keyboard with some ideas I've been wanting to try for over a year. Here are the main features of the keyboard:
@@ -14,32 +14,32 @@ I designed and built a split ergonomic keyboard with some ideas I've been wantin
 * tailor fit per-finger vertical offsets
 * thumb cluster with 6 keys
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/51121273052_11074800d5_c.jpg" caption="Squeezebox split keyboard") }}
+{{ figureplop(url="https://photos.peterlyons.com/2021/2021-04-17-01F3G77AN0CB6SGVNNMVM65J4A.2048.jpg" caption="Squeezebox split keyboard") }}
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/51122426945_962f7dd28b_c.jpg" caption="The Squeezebox Keyboard rev 21a left side top view") }}
+{{ figureplop(url="https://photos.peterlyons.com/2021/2021-04-17-01F3G07V98APTQBNACS0D1H4QP.2048.jpg" caption="The Squeezebox Keyboard rev 21a left side top view") }}
 
 ## The Home Corner
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/51122370815_e04f833575_c.jpg" caption="The home position resting in contact with the middle and bottom rows") }}
+{{ figureplop(url="https://photos.peterlyons.com/2021/2021-04-17-01F3FY4TR8KP1EWJN0B2Q52RPF.2048.jpg" caption="The home position resting in contact with the middle and bottom rows") }}
 
 I think the main design element that sets this apart for other similar keebs is the shape of the middle and bottom rows. They are arranged in a steep 100-degree corner and the home position for the finger rests simultaneously with the point of the finger resting on the middle row and the pad of the finger resting on the bottom row. You can type the middle row while maintaining contact with the bottom row, and vice versa. So there's 2 separate keys that can be typed without any reaching.
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/51122371825_de783521e1_c.jpg" caption="Pressing the middle row") }}
+{{ figureplop(url="https://photos.peterlyons.com/2021/2021-04-17-01F3FY50KRH8D6S1EYWRPC341P.2048.jpg" caption="Pressing the middle row") }}
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/51121009357_1c2a029e78_c.jpg" caption="Pressing the bottom row") }}
+{{ figureplop(url="https://photos.peterlyons.com/2021/2021-04-17-01F3FY4WPR0XQ5FHAD4NK01TNQ.2048.jpg" caption="Pressing the bottom row") }}
 
 
 Additionally, because the switches are in such a tight corner, it's possible to press both of them with a single finger by poking into the corner. Both keys press and release in perfect unison. So each finger has 3 separate characters it can type without any reaching when you add a QMK combo into the keymap.
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/51121581751_c2d10767b8_c.jpg" caption="1-finger chording the middle and bottom rows") }}
+{{ figureplop(url="https://photos.peterlyons.com/2021/2021-04-17-01F3FY53HGBS7XN9Q87F94MBX1.2048.jpg" caption="1-finger chording the middle and bottom rows") }}
 
 There is an upper row which is positioned and angled for very small reach so when you add that it's 4 keys per finger. The upper row is so tightly spaced that if you reach for it, you'll overshoot it. You don't need to reach. Just "think up" slightly and you hit it.
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/51121487553_72e96baf42_c.jpg" caption="Pressing the top row") }}
+{{ figureplop(url="https://photos.peterlyons.com/2021/2021-04-17-01F3FY55G0D3P2A718KV98KSR6.2048.jpg" caption="Pressing the top row") }}
 
 ## Physical layout of switches
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/51122426945_962f7dd28b_c.jpg" caption="Main finger grid and thumb cluster") }}
+{{ figureplop(url="https://photos.peterlyons.com/2021/2021-04-17-01F3G07V98APTQBNACS0D1H4QP.2048.jpg" caption="Main finger grid and thumb cluster") }}
 
 So we have a 3x5 grid for the fingers plus 6 thumb keys so it's 21 keys per hand for a total of 42 (nice!). The thumb cluster has pairs of keys in a "lounge chair" arrangement with one flat and one reclined at an angle making it easy to hit them separately or to chord them. One column is the home position for the thumb and then there's one you move your thumb inward to hit and another you move outward for.
 
@@ -52,7 +52,7 @@ The height of each column is controlled in parameterized CAD for the front/back 
 For near/far adjustment, each finger column is on slots that provide about 15mm of movement 
 for each finger independently. Tweak the positions with the bolts slightly loose until it fits perfectly then tighten the bolts and you're set.
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/51123733549_ae1db6b532_c.jpg" caption="Thumb cluster standoff for height and X/Y position") }}
+{{ figureplop(url="https://photos.peterlyons.com/2021/2021-04-18-01F3JJZ45RD6WFMB2VR6DF79T4.2048.jpg" caption="Thumb cluster standoff for height and X/Y position") }}
 
 The thumb cluster can be raised/lowered by printing different length standoff cylinder. It's placement left/right and near/far is adjusted by way of the grid of threaded insert holes. I've only tried 2 positions so far so I only bothered installing the threaded inserts in 2 of the holes, but in theory each of those little circular holes below the thumb cluster could house a threaded insert.
 
@@ -68,15 +68,15 @@ No keycaps! Choc switches have a perfectly fine flat-top stem. The tight geometr
 
 Some of my early prototypes were super exciting to me. Like this one that was a vertical stack and adjusted in 2 directions with a series of aligning slots.
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/50955233036_827d1c0f0e_c.jpg" caption="This prototype seemed great but soldering inside these housings would be a nightmare") }}
+{{ figureplop(url="https://photos.peterlyons.com/2021/2021-02-17-01EYRMM6Y09H14P24V5N7VX2CT.2048.jpg" caption="This prototype seemed great but soldering inside these housings would be a nightmare") }}
 
 That is until I realized there was no way to get in there with a soldering iron and actually wire them up. I had to discard several variations before landing on something that was actually possible to solder.
 
 The current design with the walls detachable from the finger columns also facilitates hand wiring while keeping the frustration level manageable. I did 3 solder operations on each switch with the switch completely out of the case, and only after that did I glue them into their positions. That helps a lot. Then, wiring can proceed with only one wall bolted on at a time so the other side has plenty of clearance for the soldering iron and manipulating the wires by hand.
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/51000919290_9770698fa3_c.jpg" caption="Pre-assembly solder operations") }}
+{{ figureplop(url="https://photos.peterlyons.com/2021/2021-03-21-01F1AEKCK86HCYH3Z9Z6PJT0KM.2048.jpg" caption="Pre-assembly solder operations") }}
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/51069403628_42055dc083_c.jpg" caption="Wiring up the finger columns with only 1 wall attached") }}
+{{ figureplop(url="https://photos.peterlyons.com/2021/2021-03-21-01F1AT7JR8MGPPC9TKYXGA0XS5.2048.jpg" caption="Wiring up the finger columns with only 1 wall attached") }}
 
 ## Keywells below wrist rest
 
@@ -86,7 +86,7 @@ For the most comfortable geometry given the need to do a trigger pull motion to 
 
 Somewhat accidentally while dealing with the clutter of 2 split keyboards on my desk, I set the squeezebox's tray across my lap to make room and in that process realized I could line up my chair's arm wrests with the wrist rests and get a very comfortable posture going. The chair arm wrests support my forearms and the wrist wrests are directly in front of them at the same height. The tray also affords a surface for the mouse in the middle. So for now I'm planning to use the lap tray as my primary posture. But it works well enough on the desk too. 
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/51121273052_11074800d5_c.jpg" caption="Lap tray and chair arm wrests") }}
+{{ figureplop(url="https://photos.peterlyons.com/2021/2021-04-17-01F3G77AN0CB6SGVNNMVM65J4A.2048.jpg" caption="Lap tray and chair arm wrests") }}
 
 ## 3D Printing
 
@@ -124,7 +124,7 @@ My [QMK fork](https://github.com/focusaurus/qmk_firmware/tree/focusaurus/keyboar
 
 This has been a super fun project. I've been wanting to do this since I first described the concept of the corner key to my fellow keeb/ergonomic tinkerer [Michael Sloan](https://mgsloan.com/posts/supine-computing/) back in January 2020. My CAD and 3D printing experience was very beginner level and I had never done proper parameterized CAD prior to this, just some TinkerCAD and SketchUp. Parameterization is absolutely required for this type of project so I studied the dactyl manuform software stack a bit (clojure, openscad) but ultimately modeled this in FreeCAD with good results.
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/51121916529_cfa8ca4d3c_c.jpg" caption="FreeCAD project showing spreadsheet setup and a model of the main wall") }}
+{{ figureplop(url="https://photos.peterlyons.com/2021/2021-04-17-01F3GGTZC8Z34E8N41E220HTSS.2048.png" caption="FreeCAD project showing spreadsheet setup and a model of the main wall") }}
 
 This project took at least 2 months of substantial night/weekend attention and a huge amount of prototyping (details on that below). I had soldered a few keyboard kits before but never done any hand wiring and never done a custom QMK firmware config. I struggled a lot trying to flash the microcontrollers and understanding how the wiring maps to the firmware. I'm grateful to many folks on discord forums and slack who answered questions for me and enabled me to overcome obstacles on a weekly basis.
 
@@ -144,7 +144,7 @@ I have a spool of black prusament PLA set aside for the next printing and I thin
 
 ## Weeks and weeks of prototyping
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/50945087723_3bcecfa213_c.jpg" caption="An early vertical prototype with 2 degrees of adjustment via slots and notches") }}
+{{ figureplop(url="https://photos.peterlyons.com/2021/2021-02-14-01EYGHW6007780K6SDP80R694N.2048.jpg" caption="An early vertical prototype with 2 degrees of adjustment via slots and notches") }}
 
 So my original conception was for this to be a vertical design used in joystick orientation similar to Victor Eikman's [Concertina](https://viktor.eikman.se/gallery/the-concertina/). After a **lot** of prototyping I decided to back off that requirement which added a lot of challenges and go for typical horizontal layout flat on the desk with optional tenting.
 
@@ -152,14 +152,14 @@ So the name "squeezebox" was originally because of the hand orientation and tigh
 
 I was also really interested in vertical orientation combined with more trigger-squeeze activation as I have a background in saxophone and I wanted to bring some of that motion to my typing.
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/50955233036_827d1c0f0e_c.jpg" caption="A vertical prototype adjustable with rows of slots and bolts") }}
+{{ figureplop(url="https://photos.peterlyons.com/2021/2021-02-17-01EYRMM6Y09H14P24V5N7VX2CT.2048.jpg" caption="A vertical prototype adjustable with rows of slots and bolts") }}
 
 Getting the main finger columns laid out right was really tricky. I was just learning parametric 3D modeling with FreeCAD too so I was struggling a bit with how to get my ideas into the software. The adjustable fit in 2 dimensions: forward and back as well as lower/higher went through a large number of prototypes and close to 2 full spools of 3D printer PLA filament. I had slotted designs, bolted designs, magnetic designs, glue designs, LEGO brick designs, etc. Some of these would have been difficult to wire up so making it feasible to hand wire became a major constraint once I got close to the positioning I wanted.
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/50990229383_bc8373381c_c.jpg" caption="2 joystick prototypes with magnetic bases") }}
+{{ figureplop(url="https://photos.peterlyons.com/2021/2021-02-28-01EZMDE5GGFSWT55NDV4C2MY63.2048.jpg" caption="2 joystick prototypes with magnetic bases") }}
 
 
-{{ figureflickr(url="https://live.staticflickr.com/65535/51122552460_d9d115ce99_c.jpg" caption="Garden of prototypes") }}
+{{ figureplop(url="https://photos.peterlyons.com/2021/2021-04-17-01F3G4JXFGED40K0AMYEDN2TD9.2048.jpg" caption="Garden of prototypes") }}
 
 
 ## Full album of build photos
