@@ -14,23 +14,23 @@ IFS="$(printf "\n\t")"
 # ---- End unofficial bash strict mode boilerplate
 
 cd "$(dirname "${BASH_SOURCE[0]}")/.."
-title="$*"
+title="$@"
 # read -r -p "Title: " title
 # We expect the slug CLI command to be the npm slug package
-name=$(npx slug "${title}")
-dest_dir="content/problog"
-mkdir -p "${dest_dir}"
+slug=$(npx slug "${title}")
 
 publish_date=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 # 2018-01-03T17:32:11Z
 year=$(echo "${publish_date}" | cut -d - -f 1)
 month=$(echo "${publish_date}" | cut -d - -f 2)
-dest_path="${dest_dir}/${year}-${month}-${name}.md"
+dest_dir="content/problog/${year}/${month}/${slug}"
+mkdir -p "${dest_dir}"
+dest_path="${dest_dir}/index.md"
 cat <<EOF >"${dest_path}"
 +++
 title = "${title}"
-slug = "${year}/${month}/${name}/"
 date = ${publish_date}
 +++
 EOF
+./mise-tasks/transparent.sh
 "${EDITOR}" "${dest_path}"
