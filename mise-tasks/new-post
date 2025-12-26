@@ -32,5 +32,5 @@ title = "${title}"
 date = ${publish_date}
 +++
 EOF
-./mise-tasks/transparent.sh
+./mise-tasks/transparent
 "${EDITOR}" "${dest_path}"
