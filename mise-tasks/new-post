@@ -30,6 +30,7 @@ cat <<EOF >"${dest_path}"
 +++
 title = "${title}"
 date = ${publish_date}
+transparent = true
 +++
 EOF
 ./mise-tasks/transparent
