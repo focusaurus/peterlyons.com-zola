@@ -1,8 +1,6 @@
 +++
 title = "Guitar Pedal PCB"
-slug = "2025/12/guitar-pedal-pcb/"
 date = 2025-12-26T01:00:24Z
-transparent = true
 [extra]
 image = "https://photos.peterlyons.com/2025/2025-09-24-01K5YG32J8A08MBCEHCYQ9511S.2048.jpg"
 +++
