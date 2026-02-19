@@ -64,7 +64,7 @@ My desktop interaction is based upon a leader key modal model. Tapping my leader
 
 I bound my leader key to locate the window which has gofi running inside ghostty, and if not present to start it. That all came together fairly easily although porting `~/bin/niri-focus` had a learning curve. But I've scripted both awesomewm and hammerspoon this way already so I had a very clear idea of how things should work.
 
-During niri experiment 2, I found [wlr-which-key][https://github.com/MaxVerevkin/wlr-which-key] which is essentially an exact functional equivalent of gofi, but written in rust as a true GUI app with a floating window. I had claude code port my gofi config to wlr-which-key and it worked perfectly the first time, so now I finally have a proper leader app.
+During niri experiment 2, I found [wlr-which-key](https://github.com/MaxVerevkin/wlr-which-key) which is essentially an exact functional equivalent of gofi, but written in rust as a true GUI app with a floating window. I had claude code port my gofi config to wlr-which-key and it worked perfectly the first time, so now I finally have a proper leader app.
 
 ## Menu Bar
 
